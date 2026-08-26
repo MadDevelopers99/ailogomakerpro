@@ -11,4 +11,4 @@ Disallow: /preview.html
 Disallow: /download.html
 Disallow: /signin.html
 
-Sitemap: https://logo-maker-app-12012.netlify.app/sitemap.xml
+Sitemap: https://ailogomakerpro.com/sitemap.xml
