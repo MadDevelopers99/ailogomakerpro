@@ -283,5 +283,20 @@
     "id": "letters",
     "name": "Letter Marks",
     "icon": "🔠"
+  },
+  {
+    "id": "esports",
+    "name": "Esports Logo Design",
+    "icon": "🏆"
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming Logo Designs",
+    "icon": "🎮"
+  },
+  {
+    "id": "ff-logo",
+    "name": "FF Logo Designs",
+    "icon": "🔥"
   }
 ]

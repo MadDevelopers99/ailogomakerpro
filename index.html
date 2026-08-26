@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Logo Maker — Create Stunning Logos in Minutes</title>
 <meta name="description" content="Design a professional logo in minutes with our free online logo maker. Browse 12,000+ templates across 57 industries, customize colors, fonts, icons and curved text, then download in high resolution — no design skills needed.">
-<meta name="keywords" content="logo maker, free logo maker, online logo maker, logo design, logo generator, logo creator, custom logo maker, business logo maker, logo maker for startups, logo maker for small business, create a logo online, design a logo free, logo templates, logo design software, DIY logo maker, brand logo design, company logo maker, logo maker no design skills, logo maker with curved text, logo maker with gradient text">
+<meta name="keywords" content="logo maker, free logo maker, online logo maker, logo design, logo generator, logo creator, custom logo maker, business logo maker, logo maker for startups, logo maker for small business, create a logo online, design a logo free, logo templates, logo design software, DIY logo maker, brand logo design, company logo maker, logo maker no design skills, logo maker with curved text, logo maker with gradient text, esports logo maker, esports logo design, gaming logo maker, gaming logo design, free fire logo maker, ff logo maker, ff logo design, gamer logo maker, esports team logo, gaming channel logo">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="/">
 <meta property="og:type" content="website">
@@ -121,6 +121,36 @@
         <a class="btn btn-primary" href="templates.html">Get Started for Free</a>
       </div>
     </div>
+  </section>
+
+  <section class="category-showcase">
+    <div>
+      <span class="badge">🏆 Esports</span>
+      <h2>Esports Logo Design</h2>
+      <p>Build a competitive, tournament-ready identity for your esports org or gaming team — badge marks, mascots, and bold lettering built to stand out on stream overlays and jerseys.</p>
+      <a class="btn btn-primary" href="templates.html?cat=esports">Browse Esports Logos</a>
+    </div>
+    <div class="hero-visual" id="esportsVisual"></div>
+  </section>
+
+  <section class="category-showcase alt">
+    <div>
+      <span class="badge">🎮 Gaming</span>
+      <h2>Gaming Logo Designs</h2>
+      <p>From YouTube gaming channels to Discord servers and clan tags, find a gaming logo template that fits your vibe and make it yours in minutes.</p>
+      <a class="btn btn-primary" href="templates.html?cat=gaming">Browse Gaming Logos</a>
+    </div>
+    <div class="hero-visual" id="gamingVisual"></div>
+  </section>
+
+  <section class="category-showcase">
+    <div>
+      <span class="badge">🔥 Free Fire</span>
+      <h2>FF Logo Designs</h2>
+      <p>Free Fire-style logos for your squad, guild, or content channel — flame marks, bold badges and gamer-ready wordmarks ready to customize with your name.</p>
+      <a class="btn btn-primary" href="templates.html?cat=ff-logo">Browse FF Logos</a>
+    </div>
+    <div class="hero-visual" id="ffVisual"></div>
   </section>
 
   <section class="content-section">
@@ -320,6 +350,9 @@
         <a href="blog/logo-file-format-guide.html">Logo File Formats</a>
         <a href="editor.html">Logo Editor Online</a>
         <a href="upgrade.html">Logo Maker Pricing</a>
+        <a href="templates.html?cat=esports">Esports Logo Maker</a>
+        <a href="templates.html?cat=gaming">Gaming Logo Maker</a>
+        <a href="templates.html?cat=ff-logo">FF Logo Maker</a>
       </div>
     </div>
   </div>
@@ -363,20 +396,37 @@
   </footer>
 
   <script>
-    // Populate hero preview tiles from a handful of real templates.
-    fetch("data/logos.json").then(r => r.json()).then(logos => {
-      const picks = [];
-      const seen = new Set();
-      for (const l of logos) {
-        if (!seen.has(l.categoryId) && picks.length < 6) { seen.add(l.categoryId); picks.push(l); }
-      }
-      const el = document.getElementById("heroVisual");
-      el.innerHTML = picks.map((l, i) => `
+    function renderTileGrid(elId, items) {
+      const el = document.getElementById(elId);
+      if (!el) return;
+      el.innerHTML = items.map((l, i) => `
         <div class="tile${i === 2 ? " center" : ""}">
-          <img src="${l.image}" alt="">
+          <img src="${l.image}" alt="${l.name}" loading="lazy">
           <div class="lbl">BRAND NAME</div>
           <div class="sub">SLOGAN HERE</div>
         </div>`).join("");
+    }
+
+    fetch("data/logos.json").then(r => r.json()).then(logos => {
+      // Hero: one pick per category for variety.
+      const heroPicks = [];
+      const seen = new Set();
+      for (const l of logos) {
+        if (!seen.has(l.categoryId) && heroPicks.length < 6) { seen.add(l.categoryId); heroPicks.push(l); }
+      }
+      renderTileGrid("heroVisual", heroPicks);
+
+      // Category showcases: 6 real logos from that specific category.
+      function pickFromCategory(catId, count) {
+        const list = logos.filter(l => l.categoryId === catId);
+        const step = Math.max(1, Math.floor(list.length / count));
+        const picks = [];
+        for (let i = 0; i < count && i * step < list.length; i++) picks.push(list[i * step]);
+        return picks;
+      }
+      renderTileGrid("esportsVisual", pickFromCategory("esports", 6));
+      renderTileGrid("gamingVisual", pickFromCategory("gaming", 6));
+      renderTileGrid("ffVisual", pickFromCategory("ff-logo", 6));
     });
 
     document.getElementById("heroForm").addEventListener("submit", (e) => {

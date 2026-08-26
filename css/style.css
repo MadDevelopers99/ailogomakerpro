@@ -209,6 +209,23 @@ img { max-width: 100%; display: block; }
 .cta-strip h3 { margin: 0 0 4px; font-size: 20px; }
 .cta-strip p { margin: 0; color: #9296ac; font-size: 13.5px; }
 
+/* ---------- Category showcase (hero-style, per category) ---------- */
+.category-showcase {
+  padding: 46px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.category-showcase.alt { background: #fafbff; }
+.category-showcase h2 { font-size: 30px; margin: 0 0 12px; line-height: 1.2; }
+.category-showcase p { color: var(--text-dim); font-size: 15px; max-width: 440px; margin: 0 0 22px; }
+.category-showcase .badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--primary-light); color: var(--primary);
+  font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 999px; margin-bottom: 14px;
+}
+
 /* ---------- Homepage SEO content sections ---------- */
 .content-section { padding: 56px 0; }
 .content-section.alt { background: var(--surface, #fff); background: #fafbff; }
