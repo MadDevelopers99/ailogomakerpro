@@ -1,0 +1,12 @@
+{
+  "name": "logo-maker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free browser-based logo maker with 12,000+ templates.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
