@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Logo Maker</title>
+<meta name="description" content="How Logo Maker handles your data — spoiler: it doesn't leave your browser.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/privacy.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="bar">
+      <a class="brand" href="index.html"><span class="brand-mark">M</span> LOGO MAKER</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="templates.html">Templates</a>
+        <a href="my-logos.html">My Logos</a>
+        <a href="upgrade.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="signin.html">Sign In</a>
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="container" style="max-width:720px;">
+      <h2 style="text-align:left;">Privacy Policy</h2>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Logo Maker is a demo project, not a commercial service, so this policy is short and literal rather than boilerplate legal text.</p>
+      <h3 style="margin-top:28px;">What we collect</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Nothing is sent to a server. There's no account system, no analytics, and no tracking scripts. The "Sign In" and "Contact" forms on this site are demos and don't transmit data anywhere.</p>
+      <h3 style="margin-top:22px;">What's stored locally</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Your saved logos, uploaded images, brand kit settings, favorites and homepage comments are stored using your browser's local storage (<code>localStorage</code>). This data stays on your device — we never see it — and you can clear it any time from Settings or by clearing your browser data.</p>
+      <h3 style="margin-top:22px;">Cookies</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">This site does not use cookies.</p>
+      <h3 style="margin-top:22px;">Third parties</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Fonts are loaded from Google Fonts, which may see your IP address as part of serving the font files, per Google's own policies. No other third-party services are used.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;padding-top:0;">
+        <div>© <span id="yearNow"></span> Logo Maker.</div>
+        <div><a href="index.html" style="color:#9296ac;">Back to Home</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById("yearNow").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="download-shell">
+    <div class="download-topbar">
+      <a href="editor.html" style="display:flex;align-items:center;gap:6px;color:var(--text-dim);"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></a>
+      Download Your Logo
+    </div>
+    <div class="download-body">
+      <div>
+        <div class="field"><label>Format</label></div>
+        <div class="format-grid" id="formatGrid">
+          <button class="format-card selected" data-format="png"><div class="fmt-name">PNG</div><div class="fmt-sub">High Quality</div></button>
+          <button class="format-card" data-format="jpg"><div class="fmt-name">JPG</div><div class="fmt-sub">High Quality</div></button>
+          <button class="format-card" data-format="svg" id="svgCard"><div class="fmt-name">SVG</div><div class="fmt-sub">Vector File</div></button>
+          <button class="format-card disabled" data-format="pdf" disabled><div class="fmt-name">PDF</div><div class="fmt-sub">Coming soon</div></button>
+          <button class="format-card disabled" data-format="print" disabled><div class="fmt-name">Print Ready</div><div class="fmt-sub">Coming soon</div></button>
+        </div>
+
+        <div class="field"><label>Logo Size</label>
+          <select id="sizeSelect">
+            <option value="500">500 x 500 px</option>
+            <option value="1000" selected>1000 x 1000 px</option>
+            <option value="2000">2000 x 2000 px</option>
+            <option value="4000">4000 x 4000 px</option>
+          </select>
+        </div>
+
+        <label class="check-row"><input type="checkbox" id="transparentChk"> Transparent Background</label>
+        <label class="check-row"><input type="checkbox" id="compressChk"> Compress File</label>
+
+        <button class="btn btn-primary" id="downloadNowBtn" style="width:100%;margin-top:10px;">⬇ Download</button>
+      </div>
+      <div class="download-preview"><img id="previewImg" alt="Logo preview"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { getCurrentProject, startProject } from "./js/project-store.js";
+    import { renderProjectToCanvas, canvasToDataUrl } from "./js/render-logo.js";
+
+    const project = getCurrentProject() || startProject(null);
+    let format = "png";
+
+    const isSvgSource = (project.image.src || "").toLowerCase().endsWith(".svg");
+    const svgCard = document.getElementById("svgCard");
+    if (!isSvgSource) {
+      svgCard.classList.add("disabled");
+      svgCard.disabled = true;
+      svgCard.querySelector(".fmt-sub").textContent = "Source isn't vector";
+    }
+
+    async function refreshPreview() {
+      const c = document.createElement("canvas");
+      await renderProjectToCanvas(c, project, { size: 600 });
+      document.getElementById("previewImg").src = canvasToDataUrl(c, "png");
+    }
+    refreshPreview();
+
+    document.getElementById("formatGrid").addEventListener("click", (e) => {
+      const btn = e.target.closest(".format-card");
+      if (!btn || btn.disabled) return;
+      format = btn.dataset.format;
+      document.querySelectorAll(".format-card").forEach((b) => b.classList.toggle("selected", b === btn));
+      document.getElementById("transparentChk").disabled = format !== "png" && format !== "svg";
+    });
+
+    document.getElementById("downloadNowBtn").addEventListener("click", async () => {
+      const size = Number(document.getElementById("sizeSelect").value);
+      const transparent = document.getElementById("transparentChk").checked;
+      const compress = document.getElementById("compressChk").checked;
+      const filename = (project.text.brand.content || "logo").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "logo";
+
+      if (format === "svg" && isSvgSource) {
+        const svgText = await fetch(project.image.src).then((r) => r.text());
+        const blob = new Blob([svgText], { type: "image/svg+xml" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url; a.download = `${filename}.svg`; a.click();
+        URL.revokeObjectURL(url);
+        return;
+      }
+
+      const c = document.createElement("canvas");
+      await renderProjectToCanvas(c, project, { size, transparentBackground: transparent });
+      const quality = compress ? 0.6 : 0.95;
+      const dataUrl = canvasToDataUrl(c, format === "jpg" ? "jpg" : "png", quality);
+      const a = document.createElement("a");
+      a.href = dataUrl;
+      a.download = `${filename}.${format === "jpg" ? "jpg" : "png"}`;
+      a.click();
+    });
+  </script>
+</body>
+</html>

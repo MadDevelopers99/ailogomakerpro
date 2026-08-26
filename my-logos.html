@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Logos — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="my-logos">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div><h1>My Logos</h1><p>Logos you've saved from the editor</p></div>
+        <button class="btn btn-primary" onclick="window.location.href='templates.html'">+ Create New</button>
+      </div>
+      <div class="mylogos-grid" id="grid"></div>
+    </main>
+  </div>
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { listSavedLogos, deleteSavedLogo } from "./js/project-store.js";
+
+    function render() {
+      const items = listSavedLogos();
+      const grid = document.getElementById("grid");
+      if (items.length === 0) {
+        grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">Abhi tak koi logo save nahi kiya. <a href="templates.html" style="color:var(--primary);font-weight:600;">Templates browse karein</a> aur editor mein Save dabayein.</div>`;
+        return;
+      }
+      grid.innerHTML = items.map((it) => `
+        <div class="card">
+          <a href="editor.html?project=${it.id}"><div class="thumb"><img src="${it.thumbnail}"></div></a>
+          <div class="card-body"><span class="name">${it.name}</span></div>
+          <div class="card-actions">
+            <a class="btn btn-outline btn-sm" href="editor.html?project=${it.id}" style="flex:1;text-align:center;">Edit</a>
+            <button class="btn btn-outline btn-sm" data-del="${it.id}">Delete</button>
+          </div>
+        </div>
+      `).join("");
+    }
+    render();
+
+    document.getElementById("grid").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-del]");
+      if (!btn) return;
+      deleteSavedLogo(btn.dataset.del);
+      render();
+    });
+  </script>
+</body>
+</html>

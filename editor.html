@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logo Editor — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="editor-shell">
+    <div class="editor-toolsidebar" id="toolSidebar">
+      <button class="tool-btn" data-tool="templates"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Templates</button>
+      <button class="tool-btn" data-tool="text"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Text</button>
+      <button class="tool-btn" data-tool="icons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.8L5.7 21l1.7-7-5.4-4.7 7.1-.6z"/></svg>Icons</button>
+      <button class="tool-btn" data-tool="shapes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="8" cy="8" r="5"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>Shapes</button>
+      <button class="tool-btn" data-tool="background"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 16l5-5 4 4 3-3 6 6"/></svg>Background</button>
+      <button class="tool-btn" data-tool="uploads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>Uploads</button>
+      <button class="tool-btn" data-tool="elements"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 12h16M4 6h10M4 18h6"/></svg>Elements</button>
+      <button class="tool-btn" data-tool="layers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg>Layers</button>
+    </div>
+
+    <div class="editor-rightpanel" id="rightPanel"></div>
+
+    <div class="editor-canvasarea">
+      <div class="editor-topbar">
+        <div class="left">
+          <a class="back" href="templates.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Back</a>
+          <button class="icon-btn" id="undoBtn" title="Undo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 010 10h-1"/></svg></button>
+          <button class="icon-btn" id="redoBtn" title="Redo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h1"/></svg></button>
+        </div>
+        <div id="editorTitle" style="font-weight:700;font-size:14px;">Untitled Logo</div>
+        <div class="right">
+          <button class="btn btn-outline btn-sm" id="saveBtn">Save</button>
+          <button class="btn btn-outline btn-sm" id="previewBtn">Preview</button>
+          <button class="btn btn-primary btn-sm" id="downloadBtn">⬇ Download</button>
+        </div>
+      </div>
+      <div class="editor-canvas-center">
+        <canvas id="logoCanvas"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/editor.js"></script>
+</body>
+</html>

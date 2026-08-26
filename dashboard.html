@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dashboard">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>Welcome back! 👋</h1>
+          <p>What would you like to design today?</p>
+        </div>
+        <div class="app-topbar-actions">
+          <button class="btn btn-primary" onclick="window.location.href='templates.html'">+ Create New</button>
+          <div class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></div>
+          <div class="avatar" id="avatarInitial">U</div>
+        </div>
+      </div>
+
+      <div class="search-bar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        <input type="text" id="searchInput" placeholder="Search templates...">
+      </div>
+
+      <div class="chip-row" id="chipRow"></div>
+
+      <div class="section-heading"><h3>Popular Templates</h3><a href="templates.html">View all</a></div>
+      <div class="tpl-grid" id="popularGrid"></div>
+
+      <div class="section-heading"><h3>My Recent Logos</h3><a href="my-logos.html">View all</a></div>
+      <div class="tpl-grid" id="recentGrid"></div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { listSavedLogos } from "./js/project-store.js";
+
+    const [categories, logos] = await Promise.all([
+      fetch("data/categories.json").then(r => r.json()),
+      fetch("data/logos.json").then(r => r.json()),
+    ]);
+
+    const chipRow = document.getElementById("chipRow");
+    chipRow.innerHTML = ["All", ...categories.map(c => c.name)]
+      .slice(0, 12)
+      .map((name, i) => `<button class="chip${i === 0 ? " active" : ""}" data-name="${name}">${name}</button>`)
+      .join("");
+    chipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      const cat = categories.find(c => c.name === btn.dataset.name);
+      window.location.href = "templates.html" + (cat ? "?cat=" + cat.id : "");
+    });
+
+    const popular = logos.filter((_, i) => i % 91 === 0).slice(0, 8);
+    document.getElementById("popularGrid").innerHTML = popular.map(l => `
+      <a class="tpl-card" href="editor.html?logo=${l.id}">
+        <div class="thumb"><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
+        <div class="meta">${l.name}</div>
+      </a>`).join("");
+
+    const recent = listSavedLogos().slice(0, 4);
+    const recentGrid = document.getElementById("recentGrid");
+    if (recent.length === 0) {
+      recentGrid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">Abhi tak koi saved logo nahi hai. <a href="templates.html" style="color:var(--primary);font-weight:600;">Ek template chunein</a> aur customize karke save karein.</div>`;
+    } else {
+      recentGrid.innerHTML = recent.map(r => `
+        <a class="tpl-card" href="editor.html?project=${r.id}">
+          <div class="thumb"><img src="${r.thumbnail}" loading="lazy" alt="${r.name}"></div>
+          <div class="meta">${r.name}</div>
+        </a>`).join("");
+    }
+  </script>
+</body>
+</html>

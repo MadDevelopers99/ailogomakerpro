@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>12,000+ Logo Templates by Industry — Logo Maker</title>
+<meta name="description" content="Browse 12,000+ free logo templates across 57 industries — business, technology, food, fashion, sports and more. Pick one and customize it instantly in the editor.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/templates.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="templates">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>All Templates</h1>
+          <p id="subheading">Choose from 12,000+ professional logo templates to get started.</p>
+        </div>
+      </div>
+
+      <div class="search-filter-row">
+        <div class="search-bar" style="margin-bottom:0;flex:1;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+          <input type="text" id="searchInput" placeholder="Search templates...">
+        </div>
+        <div style="position:relative;">
+          <button class="btn btn-outline" id="filtersBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+            Filters
+          </button>
+          <div class="filters-dropdown" id="filtersDropdown"></div>
+        </div>
+        <select id="sortSelect" class="sort-select">
+          <option value="popular">Sort by: Popular</option>
+          <option value="newest">Sort by: Newest</option>
+          <option value="name">Sort by: Name A-Z</option>
+        </select>
+      </div>
+
+      <div class="chip-scroll-row">
+        <div class="chip-row" id="chipRow"></div>
+        <button class="chip-more-btn" id="chipMoreBtn" title="More categories">›</button>
+      </div>
+
+      <div class="tpl-grid" id="tplGrid"></div>
+      <div class="pagination" id="pagination"></div>
+
+      <div class="ai-banner">
+        <div class="ai-banner-icon">✨</div>
+        <div style="flex:1;">
+          <h3>Can't find what you need?</h3>
+          <p>Browse all 57 categories to find a template that fits your brand.</p>
+        </div>
+        <button class="btn btn-primary" id="browseAllBtn">Browse All Categories</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { isFavorite, toggleFavorite } from "./js/project-store.js";
+
+    function qs(name) { return new URLSearchParams(window.location.search).get(name); }
+
+    const CARD_THEMES = [
+      null, null, null,
+      { bg: "#FBF3E7" },
+      null, null,
+      { bg: "#12162B" },
+      null, null, null,
+    ];
+
+    const [categories, logos] = await Promise.all([
+      fetch("data/categories.json").then((r) => r.json()),
+      fetch("data/logos.json").then((r) => r.json()),
+    ]);
+
+    let activeCat = qs("cat") || "all";
+    let sortMode = "popular";
+    let page = 1;
+    const PAGE_SIZE = 20;
+    const PRIMARY_CHIP_IDS = ["business", "abstract", "letters", "technology", "fashion-beauty", "food-restaurant", "sports-fitness", "spa-wellness", "nature-environment"];
+
+    const chipRow = document.getElementById("chipRow");
+    const chipMoreBtn = document.getElementById("chipMoreBtn");
+    const filtersDropdown = document.getElementById("filtersDropdown");
+    const tplGrid = document.getElementById("tplGrid");
+    const pagination = document.getElementById("pagination");
+    const searchInput = document.getElementById("searchInput");
+    const sortSelect = document.getElementById("sortSelect");
+
+    function renderChips() {
+      const primary = PRIMARY_CHIP_IDS.map((id) => categories.find((c) => c.id === id)).filter(Boolean);
+      chipRow.innerHTML = [{ id: "all", name: "All", icon: "" }, ...primary]
+        .map((c) => `<button class="chip${c.id === activeCat ? " active" : ""}" data-id="${c.id}">${c.icon ? c.icon + " " : ""}${c.name}</button>`)
+        .join("");
+    }
+
+    function renderFiltersDropdown() {
+      filtersDropdown.innerHTML = categories.map((c) => `
+        <button class="filters-dropdown-item${c.id === activeCat ? " active" : ""}" data-id="${c.id}">${c.icon} ${c.name}</button>
+      `).join("");
+    }
+
+    function currentList() {
+      const term = searchInput.value.trim().toLowerCase();
+      let list = logos;
+      if (activeCat !== "all") list = list.filter((l) => l.categoryId === activeCat);
+      if (term) list = list.filter((l) => l.name.toLowerCase().includes(term) || (l.tags || []).some((t) => t.includes(term)));
+
+      list = [...list];
+      if (sortMode === "newest") list.reverse();
+      else if (sortMode === "name") list.sort((a, b) => a.name.localeCompare(b.name));
+      return list;
+    }
+
+    function cardCaption(l, i) {
+      const catColors = ["#2563eb", "#16a34a", "#dc2626", "#ea580c", "#7c3aed", "#0891b2", "#db2777", "#1d1d1d"];
+      const color = catColors[i % catColors.length];
+      return `<div class="tpl-caption"><div class="tpl-brand" style="color:${color};">BRAND NAME</div><div class="tpl-slogan">SLOGAN HERE</div></div>`;
+    }
+
+    function renderGrid() {
+      const list = currentList();
+      const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+      page = Math.min(page, totalPages);
+      const pageItems = list.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+      if (pageItems.length === 0) {
+        tplGrid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">Koi template nahi mila.</div>`;
+        pagination.innerHTML = "";
+        return;
+      }
+
+      tplGrid.innerHTML = pageItems.map((l, i) => {
+        const theme = page === 1 ? CARD_THEMES[i % CARD_THEMES.length] : null;
+        const fav = isFavorite(l.id);
+        return `
+        <div class="tpl-card" style="position:relative;">
+          ${page === 1 && i === 0 ? `<span class="tpl-badge">✦ Popular</span>` : ""}
+          <button class="tpl-fav${fav ? " faved" : ""}" data-fav="${l.id}">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="${fav ? "#ef4444" : "none"}" stroke="${fav ? "#ef4444" : "currentColor"}" stroke-width="2"><path d="M12 21s-7.5-4.6-10-9.3C.6 8 2.4 4.5 6 4c2-.3 3.8.8 6 3.1C14.2 4.8 16 3.7 18 4c3.6.5 5.4 4 4 7.7C19.5 16.4 12 21 12 21z"/></svg>
+          </button>
+          <a href="editor.html?logo=${l.id}">
+            <div class="thumb"${theme ? ` style="background:${theme.bg};"` : ""}><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
+            ${cardCaption(l, i)}
+          </a>
+        </div>`;
+      }).join("");
+
+      renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+      if (totalPages <= 1) { pagination.innerHTML = ""; return; }
+      const pages = [];
+      const add = (p) => pages.push(p);
+      add(1);
+      for (let p = page - 1; p <= page + 1; p++) if (p > 1 && p < totalPages) add(p);
+      if (totalPages > 1) add(totalPages);
+      const unique = [...new Set(pages)].sort((a, b) => a - b);
+
+      let html = `<button class="page-btn" data-page="${page - 1}" ${page === 1 ? "disabled" : ""}>Prev</button>`;
+      let prev = 0;
+      for (const p of unique) {
+        if (p - prev > 1) html += `<span class="page-ellipsis">…</span>`;
+        html += `<button class="page-btn${p === page ? " active" : ""}" data-page="${p}">${p}</button>`;
+        prev = p;
+      }
+      html += `<button class="page-btn" data-page="${page + 1}" ${page === totalPages ? "disabled" : ""}>Next</button>`;
+      pagination.innerHTML = html;
+    }
+
+    renderChips();
+    renderFiltersDropdown();
+    renderGrid();
+
+    chipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      activeCat = btn.dataset.id;
+      page = 1;
+      renderChips();
+      renderFiltersDropdown();
+      renderGrid();
+    });
+
+    chipMoreBtn.addEventListener("click", () => {
+      filtersDropdown.classList.toggle("open");
+    });
+    document.getElementById("filtersBtn").addEventListener("click", () => {
+      filtersDropdown.classList.toggle("open");
+    });
+    filtersDropdown.addEventListener("click", (e) => {
+      const btn = e.target.closest(".filters-dropdown-item");
+      if (!btn) return;
+      activeCat = btn.dataset.id;
+      page = 1;
+      renderChips();
+      renderFiltersDropdown();
+      renderGrid();
+      filtersDropdown.classList.remove("open");
+    });
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".search-filter-row")) filtersDropdown.classList.remove("open");
+    });
+
+    searchInput.addEventListener("input", () => { page = 1; renderGrid(); });
+    sortSelect.addEventListener("change", () => { sortMode = sortSelect.value; page = 1; renderGrid(); });
+    document.getElementById("browseAllBtn").addEventListener("click", () => {
+      activeCat = "all";
+      searchInput.value = "";
+      page = 1;
+      renderChips();
+      renderGrid();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    tplGrid.addEventListener("click", (e) => {
+      const favBtn = e.target.closest("button[data-fav]");
+      if (favBtn) {
+        e.preventDefault();
+        toggleFavorite(favBtn.dataset.fav);
+        renderGrid();
+      }
+    });
+    pagination.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-page]");
+      if (!btn || btn.disabled) return;
+      page = Number(btn.dataset.page);
+      renderGrid();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>

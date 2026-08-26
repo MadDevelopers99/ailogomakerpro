@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /editor.html
+Disallow: /dashboard.html
+Disallow: /my-logos.html
+Disallow: /saved.html
+Disallow: /favorites.html
+Disallow: /brand-kit.html
+Disallow: /settings.html
+Disallow: /preview.html
+Disallow: /download.html
+Disallow: /signin.html
+
+Sitemap: https://logo-maker-app-12012.netlify.app/sitemap.xml

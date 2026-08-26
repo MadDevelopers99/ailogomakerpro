@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorites — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="favorites">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div><h1>Favorites</h1><p>Templates you've hearted while browsing</p></div>
+        <button class="btn btn-primary" onclick="window.location.href='templates.html'">+ Create New</button>
+      </div>
+      <div class="tpl-grid" id="grid"></div>
+    </main>
+  </div>
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { listFavorites, toggleFavorite } from "./js/project-store.js";
+
+    const logos = await fetch("data/logos.json").then((r) => r.json());
+
+    function render() {
+      const favIds = new Set(listFavorites());
+      const items = logos.filter((l) => favIds.has(l.id));
+      const grid = document.getElementById("grid");
+      if (items.length === 0) {
+        grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">Abhi tak koi template favorite nahi kiya. <a href="templates.html" style="color:var(--primary);font-weight:600;">Templates browse karein</a> aur heart icon par click karein.</div>`;
+        return;
+      }
+      grid.innerHTML = items.map((l) => `
+        <div class="tpl-card" style="position:relative;">
+          <button data-unfav="${l.id}" style="position:absolute;top:8px;right:8px;z-index:2;width:30px;height:30px;border-radius:50%;border:none;background:rgba(255,255,255,.92);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15);">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#ef4444" stroke="#ef4444"><path d="M12 21s-7.5-4.6-10-9.3C.6 8 2.4 4.5 6 4c2-.3 3.8.8 6 3.1C14.2 4.8 16 3.7 18 4c3.6.5 5.4 4 4 7.7C19.5 16.4 12 21 12 21z"/></svg>
+          </button>
+          <a href="editor.html?logo=${l.id}">
+            <div class="thumb"><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
+            <div class="meta">${l.name}</div>
+          </a>
+        </div>`).join("");
+    }
+    render();
+
+    document.getElementById("grid").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-unfav]");
+      if (!btn) return;
+      e.preventDefault();
+      toggleFavorite(btn.dataset.unfav);
+      render();
+    });
+  </script>
+</body>
+</html>

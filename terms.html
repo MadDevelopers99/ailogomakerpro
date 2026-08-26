@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Logo Maker</title>
+<meta name="description" content="Terms of use for the Logo Maker demo project.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/terms.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="bar">
+      <a class="brand" href="index.html"><span class="brand-mark">M</span> LOGO MAKER</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="templates.html">Templates</a>
+        <a href="my-logos.html">My Logos</a>
+        <a href="upgrade.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="signin.html">Sign In</a>
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="container" style="max-width:720px;">
+      <h2 style="text-align:left;">Terms of Service</h2>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Logo Maker is provided as a free, personal/demo project, "as is", with no warranty of any kind. It's offered for convenience and experimentation, not as a commercial product with guaranteed uptime or support.</p>
+      <h3 style="margin-top:28px;">Using the templates</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">You're free to customize and download logos for your own personal or business use. This site does not claim ownership over logos you create with it.</p>
+      <h3 style="margin-top:22px;">No accounts, no guarantees</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">There is no real account system — "Sign In" is a demo. Since all your data lives in your own browser's local storage, we can't back it up, recover it, or guarantee it will still be there after a browser update or a cleared cache.</p>
+      <h3 style="margin-top:22px;">Changes</h3>
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.75;">Since this is an evolving demo project, features, templates and pages may change or be removed at any time without notice.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;padding-top:0;">
+        <div>© <span id="yearNow"></span> Logo Maker.</div>
+        <div><a href="index.html" style="color:#9296ac;">Back to Home</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById("yearNow").textContent = new Date().getFullYear();</script>
+</body>
+</html>

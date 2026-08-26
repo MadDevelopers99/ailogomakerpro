@@ -1,0 +1,287 @@
+[
+  {
+    "id": "business",
+    "name": "Business & Consulting",
+    "icon": "💼"
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "icon": "💻"
+  },
+  {
+    "id": "food-restaurant",
+    "name": "Food & Restaurant",
+    "icon": "🍔"
+  },
+  {
+    "id": "fashion-beauty",
+    "name": "Fashion & Beauty",
+    "icon": "💄"
+  },
+  {
+    "id": "sports-fitness",
+    "name": "Sports & Fitness",
+    "icon": "🏋️"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "icon": "🎓"
+  },
+  {
+    "id": "real-estate",
+    "name": "Real Estate",
+    "icon": "🏠"
+  },
+  {
+    "id": "health-medical",
+    "name": "Health & Medical",
+    "icon": "⚕️"
+  },
+  {
+    "id": "animals-pets",
+    "name": "Animals & Pets",
+    "icon": "🐾"
+  },
+  {
+    "id": "art-entertainment",
+    "name": "Art & Entertainment",
+    "icon": "🎨"
+  },
+  {
+    "id": "travel-hotel",
+    "name": "Travel & Hotel",
+    "icon": "✈️"
+  },
+  {
+    "id": "automotive",
+    "name": "Automotive",
+    "icon": "🚗"
+  },
+  {
+    "id": "music-audio",
+    "name": "Music & Audio",
+    "icon": "🎵"
+  },
+  {
+    "id": "photography",
+    "name": "Photography",
+    "icon": "📷"
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "icon": "🏗️"
+  },
+  {
+    "id": "finance-legal",
+    "name": "Finance & Legal",
+    "icon": "⚖️"
+  },
+  {
+    "id": "agriculture-farming",
+    "name": "Agriculture & Farming",
+    "icon": "🌾"
+  },
+  {
+    "id": "kids-baby",
+    "name": "Kids & Baby",
+    "icon": "🧸"
+  },
+  {
+    "id": "wedding-events",
+    "name": "Wedding & Events",
+    "icon": "💍"
+  },
+  {
+    "id": "gaming-esports",
+    "name": "Gaming & Esports",
+    "icon": "🎮"
+  },
+  {
+    "id": "church-religion",
+    "name": "Church & Religion",
+    "icon": "⛪"
+  },
+  {
+    "id": "nature-environment",
+    "name": "Nature & Environment",
+    "icon": "🌿"
+  },
+  {
+    "id": "abstract",
+    "name": "Abstract",
+    "icon": "🌀"
+  },
+  {
+    "id": "advertising-marketing",
+    "name": "Advertising & Marketing",
+    "icon": "📢"
+  },
+  {
+    "id": "blue-logos",
+    "name": "Blue Logos",
+    "icon": "🔵"
+  },
+  {
+    "id": "cleaning-services",
+    "name": "Cleaning Services",
+    "icon": "🧹"
+  },
+  {
+    "id": "communication",
+    "name": "Communication & Media",
+    "icon": "💬"
+  },
+  {
+    "id": "community-nonprofit",
+    "name": "Community & Non-Profit",
+    "icon": "🤝"
+  },
+  {
+    "id": "dating",
+    "name": "Dating",
+    "icon": "❤️"
+  },
+  {
+    "id": "retail-shopping",
+    "name": "Retail & Shopping",
+    "icon": "🛍️"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "icon": "🔒"
+  },
+  {
+    "id": "spa-wellness",
+    "name": "Spa & Wellness",
+    "icon": "💆"
+  },
+  {
+    "id": "3d",
+    "name": "3D Logos",
+    "icon": "🧊"
+  },
+  {
+    "id": "arrows",
+    "name": "Arrow Elements",
+    "icon": "➡️"
+  },
+  {
+    "id": "avatars",
+    "name": "Avatars & Mascots",
+    "icon": "🙂"
+  },
+  {
+    "id": "badges-awards",
+    "name": "Badges & Awards",
+    "icon": "🏅"
+  },
+  {
+    "id": "bar-pub",
+    "name": "Bar & Pub",
+    "icon": "🍺"
+  },
+  {
+    "id": "casino",
+    "name": "Casino & Gaming",
+    "icon": "🎰"
+  },
+  {
+    "id": "city-elements",
+    "name": "City & Urban",
+    "icon": "🏙️"
+  },
+  {
+    "id": "retro",
+    "name": "Retro Vibes",
+    "icon": "📼"
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "icon": "⚙️"
+  },
+  {
+    "id": "esoteric",
+    "name": "Esoteric & Mystic",
+    "icon": "🔮"
+  },
+  {
+    "id": "hairdressing-barbershop",
+    "name": "Hairdressing & Barbershop",
+    "icon": "💈"
+  },
+  {
+    "id": "home-furnishings",
+    "name": "Home & Furnishings",
+    "icon": "🛋️"
+  },
+  {
+    "id": "miscellaneous",
+    "name": "Miscellaneous",
+    "icon": "🧩"
+  },
+  {
+    "id": "tattoo",
+    "name": "Tattoo Art",
+    "icon": "🖋️"
+  },
+  {
+    "id": "politics",
+    "name": "Politics",
+    "icon": "🏛️"
+  },
+  {
+    "id": "energy-power",
+    "name": "Energy & Power",
+    "icon": "⚡"
+  },
+  {
+    "id": "pirates",
+    "name": "Pirates",
+    "icon": "🏴‍☠️"
+  },
+  {
+    "id": "printing",
+    "name": "Printing",
+    "icon": "🖨️"
+  },
+  {
+    "id": "seasons-weather",
+    "name": "Seasons & Weather",
+    "icon": "🍂"
+  },
+  {
+    "id": "stationery-office",
+    "name": "Stationery & Office",
+    "icon": "🖇️"
+  },
+  {
+    "id": "text-symbols",
+    "name": "Text & Symbols",
+    "icon": "🔤"
+  },
+  {
+    "id": "time-clocks",
+    "name": "Time & Clocks",
+    "icon": "⏰"
+  },
+  {
+    "id": "transport-delivery",
+    "name": "Transport & Delivery",
+    "icon": "🚚"
+  },
+  {
+    "id": "space-universe",
+    "name": "Space & Universe",
+    "icon": "🌌"
+  },
+  {
+    "id": "letters",
+    "name": "Letter Marks",
+    "icon": "🔠"
+  }
+]
