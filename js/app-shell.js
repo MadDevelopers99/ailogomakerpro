@@ -52,7 +52,7 @@ export function mountAppShell() {
   const activePage = document.body.dataset.page || "";
   el.innerHTML = `
     <div class="app-sidebar">
-      <a class="brand" href="dashboard.html"><span class="brand-mark">M</span> LOGO MAKER</a>
+      <a class="brand" href="dashboard.html"><span class="brand-mark">LM</span> LOGO MAKER</a>
       <button class="btn-create" onclick="window.location.href='templates.html'">+ Create New</button>
       <nav class="sidebar-nav">
         ${NAV_ITEMS.map((i) => renderLink(i, activePage)).join("")}
