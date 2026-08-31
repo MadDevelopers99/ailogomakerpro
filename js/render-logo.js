@@ -29,25 +29,30 @@ async function ensureFont(family, weight) {
   }
 }
 
-function drawShape(ctx, shapeId, color, cx, cy, size) {
+// Drawn centered at the local origin, then the caller translates/scales into
+// place — this is what lets width and height be resized independently
+// (ctx.scale(scaleX, scaleY) stretches the whole shape along each axis).
+function drawShape(ctx, shapeId, color, cx, cy, size, scaleX = 1, scaleY = 1) {
   if (!shapeId || shapeId === "none") return;
   const r = size * 0.42;
   ctx.save();
+  ctx.translate(cx, cy);
+  ctx.scale(scaleX, scaleY);
   ctx.fillStyle = color;
   ctx.strokeStyle = color;
-  ctx.lineWidth = size * 0.02;
+  ctx.lineWidth = size * 0.02 / Math.max(Math.min(scaleX, scaleY), 0.001);
   if (shapeId === "circle") {
     ctx.beginPath();
-    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.arc(0, 0, r, 0, Math.PI * 2);
     ctx.fill();
   } else if (shapeId === "ring") {
     ctx.beginPath();
-    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.arc(0, 0, r, 0, Math.PI * 2);
     ctx.stroke();
   } else if (shapeId === "rounded-square") {
     const s = r * 1.7;
-    const x = cx - s / 2;
-    const y = cy - s / 2;
+    const x = -s / 2;
+    const y = -s / 2;
     const rad = s * 0.18;
     ctx.beginPath();
     ctx.moveTo(x + rad, y);
@@ -61,8 +66,8 @@ function drawShape(ctx, shapeId, color, cx, cy, size) {
     ctx.beginPath();
     for (let i = 0; i < 6; i++) {
       const angle = (Math.PI / 3) * i - Math.PI / 2;
-      const px = cx + r * Math.cos(angle);
-      const py = cy + r * Math.sin(angle);
+      const px = r * Math.cos(angle);
+      const py = r * Math.sin(angle);
       if (i === 0) ctx.moveTo(px, py);
       else ctx.lineTo(px, py);
     }
@@ -70,14 +75,33 @@ function drawShape(ctx, shapeId, color, cx, cy, size) {
     ctx.fill();
   } else if (shapeId === "triangle") {
     ctx.beginPath();
-    ctx.moveTo(cx, cy - r);
-    ctx.lineTo(cx + r * 0.95, cy + r * 0.8);
-    ctx.lineTo(cx - r * 0.95, cy + r * 0.8);
+    ctx.moveTo(0, -r);
+    ctx.lineTo(r * 0.95, r * 0.8);
+    ctx.lineTo(-r * 0.95, r * 0.8);
     ctx.closePath();
     ctx.fill();
   }
   ctx.restore();
 }
+
+// The 8 drag handles around a selected layer's box, used both to draw them
+// and (by the editor) to hit-test which one a pointerdown landed on.
+function computeHandles(box, canvasSize) {
+  const s = Math.max(14, canvasSize * 0.02);
+  const cx = box.x + box.w / 2;
+  const cy = box.y + box.h / 2;
+  return {
+    nw: { x: box.x, y: box.y, size: s, cursor: "nwse-resize" },
+    n: { x: cx, y: box.y, size: s, cursor: "ns-resize" },
+    ne: { x: box.x + box.w, y: box.y, size: s, cursor: "nesw-resize" },
+    e: { x: box.x + box.w, y: cy, size: s, cursor: "ew-resize" },
+    se: { x: box.x + box.w, y: box.y + box.h, size: s, cursor: "nwse-resize" },
+    s: { x: cx, y: box.y + box.h, size: s, cursor: "ns-resize" },
+    sw: { x: box.x, y: box.y + box.h, size: s, cursor: "nesw-resize" },
+    w: { x: box.x, y: cy, size: s, cursor: "ew-resize" },
+  };
+}
+const RESIZABLE_LAYERS = { image: true, icon: true, shape: true };
 
 function drawElement(ctx, elementId, size, textY) {
   if (!elementId || elementId === "none") return;
@@ -275,27 +299,36 @@ export async function renderProjectToCanvas(canvas, project, opts = {}) {
     if (layer.type === "shape") {
       if (project.shape.visible) {
         const cx = size / 2 + project.shape.x, cy = size / 2 + project.shape.y;
-        drawShape(ctx, project.shape.id, project.shape.color, cx, cy, size);
+        const sx = project.shape.scaleX ?? 1, sy = project.shape.scaleY ?? 1;
+        drawShape(ctx, project.shape.id, project.shape.color, cx, cy, size, sx, sy);
         const r = size * 0.42;
-        boxes.shape = { x: cx - r, y: cy - r, w: r * 2, h: r * 2 };
+        const rw = r * sx, rh = r * sy;
+        boxes.shape = { x: cx - rw, y: cy - rh, w: rw * 2, h: rh * 2 };
       }
     } else if (layer.type === "image") {
       if (project.image.visible && logoImg && layout !== "icon-only") {
-        const scale = Math.min(imgBox.w / logoImg.naturalWidth, imgBox.h / logoImg.naturalHeight);
-        const dw = logoImg.naturalWidth * scale;
-        const dh = logoImg.naturalHeight * scale;
-        const dx = imgBox.x + (imgBox.w - dw) / 2 + project.image.x;
-        const dy = imgBox.y + (imgBox.h - dh) / 2 + project.image.y;
+        const fitScale = Math.min(imgBox.w / logoImg.naturalWidth, imgBox.h / logoImg.naturalHeight);
+        const sx = project.image.scaleX ?? 1, sy = project.image.scaleY ?? 1;
+        const dw = logoImg.naturalWidth * fitScale * sx;
+        const dh = logoImg.naturalHeight * fitScale * sy;
+        const centerX = imgBox.x + imgBox.w / 2 + project.image.x;
+        const centerY = imgBox.y + imgBox.h / 2 + project.image.y;
+        const dx = centerX - dw / 2;
+        const dy = centerY - dh / 2;
         ctx.drawImage(logoImg, dx, dy, dw, dh);
         boxes.image = { x: dx, y: dy, w: dw, h: dh };
       }
     } else if (layer.type === "icon") {
       if (project.icon.visible && iconImg) {
-        const iw = size * 0.16;
-        const ix = size / 2 - iw / 2 + project.icon.x;
-        const iy = imgBox.y + imgBox.h * 0.15 + project.icon.y;
-        ctx.drawImage(iconImg, ix, iy, iw, iw);
-        boxes.icon = { x: ix, y: iy, w: iw, h: iw };
+        const baseIw = size * 0.16;
+        const sx = project.icon.scaleX ?? 1, sy = project.icon.scaleY ?? 1;
+        const iw = baseIw * sx, ih = baseIw * sy;
+        const centerX = size / 2 + project.icon.x;
+        const centerY = imgBox.y + imgBox.h * 0.15 + baseIw / 2 + project.icon.y;
+        const ix = centerX - iw / 2;
+        const iy = centerY - ih / 2;
+        ctx.drawImage(iconImg, ix, iy, iw, ih);
+        boxes.icon = { x: ix, y: iy, w: iw, h: ih };
       }
     } else if (layer.type === "element") {
       if (project.element.visible) drawElement(ctx, project.element.id, size, textY);
@@ -336,6 +369,7 @@ export async function renderProjectToCanvas(canvas, project, opts = {}) {
     }
   }
 
+  let handles = null;
   if (opts.selectedLayerId && boxes[opts.selectedLayerId]) {
     const b = boxes[opts.selectedLayerId];
     ctx.save();
@@ -343,10 +377,26 @@ export async function renderProjectToCanvas(canvas, project, opts = {}) {
     ctx.lineWidth = Math.max(2, size * 0.003);
     ctx.setLineDash([size * 0.012, size * 0.008]);
     ctx.strokeRect(b.x - 6, b.y - 6, b.w + 12, b.h + 12);
+    ctx.setLineDash([]);
     ctx.restore();
+
+    if (RESIZABLE_LAYERS[opts.selectedLayerId]) {
+      handles = computeHandles(b, size);
+      ctx.save();
+      ctx.fillStyle = "#ffffff";
+      ctx.strokeStyle = "#6C5CE7";
+      ctx.lineWidth = Math.max(1.5, size * 0.0025);
+      Object.values(handles).forEach((h) => {
+        ctx.beginPath();
+        ctx.rect(h.x - h.size / 2, h.y - h.size / 2, h.size, h.size);
+        ctx.fill();
+        ctx.stroke();
+      });
+      ctx.restore();
+    }
   }
 
-  return { ctx, boxes };
+  return { ctx, boxes, handles };
 }
 
 export function canvasToDataUrl(canvas, format = "png", quality = 0.92) {

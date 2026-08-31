@@ -33,9 +33,9 @@ export function defaultProject(sourceLogo) {
     sourceLogoId: sourceLogo ? sourceLogo.id : null,
     canvas: { size: 800, background: { type: "color", value: "#ffffff" } },
     layout: "below", // below | overlay | logo-only
-    image: { src: sourceLogo ? sourceLogo.image : null, visible: true, x: 0, y: 0 },
-    icon: { id: null, color: (kit && kit.primaryColor) || "#6C5CE7", visible: false, x: 0, y: 0 },
-    shape: { id: "none", color: "#F1EFFF", visible: false, x: 0, y: 0 },
+    image: { src: sourceLogo ? sourceLogo.image : null, visible: true, x: 0, y: 0, scaleX: 1, scaleY: 1 },
+    icon: { id: null, color: (kit && kit.primaryColor) || "#6C5CE7", visible: false, x: 0, y: 0, scaleX: 1, scaleY: 1 },
+    shape: { id: "none", color: "#F1EFFF", visible: false, x: 0, y: 0, scaleX: 1, scaleY: 1 },
     element: { id: "none", visible: false },
     text: {
       brand: {

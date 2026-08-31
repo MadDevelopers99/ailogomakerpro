@@ -20,7 +20,18 @@ let undoStack = [];
 let redoStack = [];
 let pendingSnapshot = null;
 let lastBoxes = {};
+let lastHandles = null;
 let selectedLayerId = null;
+
+const RESIZABLE = { image: true, icon: true, shape: true };
+// Which edges a given handle moves: [x-sign, y-sign], 0 meaning that axis is untouched.
+const HANDLE_SIGN = {
+  nw: [-1, -1], n: [0, -1], ne: [1, -1],
+  e: [1, 0], se: [1, 1], s: [0, 1],
+  sw: [-1, 1], w: [-1, 0],
+};
+const SCALE_MIN = 0.15, SCALE_MAX = 6;
+function clamp(v, min, max) { return Math.min(max, Math.max(min, v)); }
 
 // Which project field the given layer id's x/y live on.
 function movableTarget(layerId) {
@@ -63,8 +74,9 @@ function redo() {
 }
 
 async function draw() {
-  const { boxes } = await renderProjectToCanvas(canvas, project, { selectedLayerId });
+  const { boxes, handles } = await renderProjectToCanvas(canvas, project, { selectedLayerId });
   lastBoxes = boxes;
+  lastHandles = handles;
   editorTitle.textContent = project.text.brand.content || "Untitled Logo";
 }
 
@@ -98,6 +110,17 @@ document.addEventListener("keydown", (e) => {
   clearLayer(selectedLayerId);
 });
 
+// Delegated so it keeps working across panel re-renders (innerHTML swaps).
+rightPanel.addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-reset-transform]");
+  if (!btn) return;
+  const id = btn.dataset.resetTransform;
+  commitAction((p) => {
+    const t = p[id];
+    t.x = 0; t.y = 0; t.scaleX = 1; t.scaleY = 1;
+  });
+});
+
 /* ---------------- Canvas select & drag ---------------- */
 
 function canvasPointFromEvent(e) {
@@ -118,10 +141,40 @@ function hitTest(point) {
   }
   return null;
 }
+function hitTestHandle(point) {
+  if (!lastHandles || !selectedLayerId || !RESIZABLE[selectedLayerId]) return null;
+  for (const [key, h] of Object.entries(lastHandles)) {
+    const half = h.size / 2 + 4;
+    if (point.x >= h.x - half && point.x <= h.x + half && point.y >= h.y - half && point.y <= h.y + half) {
+      return key;
+    }
+  }
+  return null;
+}
 
 let dragState = null;
+let resizeState = null;
 canvas.addEventListener("pointerdown", (e) => {
   const point = canvasPointFromEvent(e);
+
+  const handleKey = hitTestHandle(point);
+  if (handleKey) {
+    const target = movableTarget(selectedLayerId);
+    beginEdit();
+    resizeState = {
+      id: selectedLayerId,
+      handle: handleKey,
+      startPointer: point,
+      box0: { ...lastBoxes[selectedLayerId] },
+      scaleX0: target.scaleX ?? 1,
+      scaleY0: target.scaleY ?? 1,
+      x0: target.x,
+      y0: target.y,
+    };
+    canvas.setPointerCapture(e.pointerId);
+    return;
+  }
+
   const hitId = hitTest(point);
   if (!hitId) { selectLayer(null); return; }
   const target = movableTarget(hitId);
@@ -132,8 +185,38 @@ canvas.addEventListener("pointerdown", (e) => {
   canvas.setPointerCapture(e.pointerId);
 });
 canvas.addEventListener("pointermove", (e) => {
-  if (!dragState) return;
   const point = canvasPointFromEvent(e);
+
+  if (resizeState) {
+    const { id, handle, startPointer, box0, scaleX0, scaleY0, x0, y0 } = resizeState;
+    const [sx, sy] = HANDLE_SIGN[handle];
+    const dx = point.x - startPointer.x;
+    const dy = point.y - startPointer.y;
+    const baseW = box0.w / scaleX0;
+    const baseH = box0.h / scaleY0;
+
+    const newScaleX = sx === 0 ? scaleX0 : clamp((box0.w + sx * dx) / baseW, SCALE_MIN, SCALE_MAX);
+    const newScaleY = sy === 0 ? scaleY0 : clamp((box0.h + sy * dy) / baseH, SCALE_MIN, SCALE_MAX);
+    const newW = newScaleX * baseW;
+    const newH = newScaleY * baseH;
+    const centerXDelta = sx * (newW - box0.w) / 2;
+    const centerYDelta = sy * (newH - box0.h) / 2;
+
+    liveUpdate(() => {
+      const target = movableTarget(id);
+      target.scaleX = newScaleX;
+      target.scaleY = newScaleY;
+      target.x = x0 + centerXDelta;
+      target.y = y0 + centerYDelta;
+    });
+    return;
+  }
+
+  if (!dragState) {
+    const handleKey = hitTestHandle(point);
+    canvas.style.cursor = handleKey ? lastHandles[handleKey].cursor : (hitTest(point) ? "move" : "default");
+    return;
+  }
   const dx = point.x - dragState.startX;
   const dy = point.y - dragState.startY;
   liveUpdate(() => {
@@ -143,9 +226,8 @@ canvas.addEventListener("pointermove", (e) => {
   });
 });
 function endDrag() {
-  if (!dragState) return;
-  dragState = null;
-  commitEdit();
+  if (dragState) { dragState = null; commitEdit(); }
+  if (resizeState) { resizeState = null; commitEdit(); }
 }
 canvas.addEventListener("pointerup", endDrag);
 canvas.addEventListener("pointercancel", endDrag);
@@ -168,10 +250,11 @@ function renderTemplatesPanel() {
         <button data-layout="logo-only" class="${project.layout === "logo-only" ? "active" : ""}">Logo Only</button>
       </div>
     </div>
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">
-      <span style="font-size:11.5px;color:var(--text-faint);">✥ Select then drag on canvas to move logo</span>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
+      <span style="font-size:11.5px;color:var(--text-faint);">✥ Drag to move · drag handles to resize</span>
       <button type="button" class="btn btn-outline btn-sm" id="selectImageBtn">${selectedLayerId === "image" ? "● Selected" : "Select"}</button>
     </div>
+    <button type="button" class="btn btn-outline btn-sm" data-reset-transform="image" style="width:100%;margin-bottom:14px;">Reset Position &amp; Size</button>
     <div class="field"><label>Category</label>
       <select id="tplCatSelect">${categories.map((c) => `<option value="${c.id}" ${cat && c.id === cat.id ? "selected" : ""}>${c.icon} ${c.name}</option>`).join("")}</select>
     </div>
@@ -376,9 +459,10 @@ function renderIconsPanel() {
     <div class="icon-grid" id="iconGrid"></div>
     ${project.icon.visible ? `
     <div style="display:flex;align-items:center;justify-content:space-between;margin-top:14px;">
-      <span style="font-size:11.5px;color:var(--text-faint);">✥ Select then drag on canvas to move</span>
+      <span style="font-size:11.5px;color:var(--text-faint);">✥ Drag to move · drag handles to resize</span>
       <button type="button" class="btn btn-outline btn-sm" id="selectIconBtn">${selectedLayerId === "icon" ? "● Selected" : "Select"}</button>
     </div>
+    <button type="button" class="btn btn-outline btn-sm" data-reset-transform="icon" style="width:100%;margin-top:8px;">Reset Position &amp; Size</button>
     <button type="button" class="btn btn-outline btn-sm" id="removeIconBtn" style="width:100%;margin-top:8px;color:#dc2626;border-color:#f3c9c9;">🗑 Remove Icon</button>` : ""}
   `);
 
@@ -418,9 +502,10 @@ function renderShapesPanel() {
     <div class="field"><label>Shape Color</label><input type="color" id="shapeColor" value="${project.shape.color}"></div>
     ${project.shape.visible ? `
     <div style="display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:11.5px;color:var(--text-faint);">✥ Select then drag on canvas to move</span>
+      <span style="font-size:11.5px;color:var(--text-faint);">✥ Drag to move · drag handles to resize</span>
       <button type="button" class="btn btn-outline btn-sm" id="selectShapeBtn">${selectedLayerId === "shape" ? "● Selected" : "Select"}</button>
     </div>
+    <button type="button" class="btn btn-outline btn-sm" data-reset-transform="shape" style="width:100%;margin-top:8px;">Reset Position &amp; Size</button>
     <button type="button" class="btn btn-outline btn-sm" id="removeShapeBtn" style="width:100%;margin-top:8px;color:#dc2626;border-color:#f3c9c9;">🗑 Remove Shape</button>` : ""}
   `);
 
