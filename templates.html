@@ -68,11 +68,16 @@
     function qs(name) { return new URLSearchParams(window.location.search).get(name); }
 
     const CARD_THEMES = [
-      null, null, null,
-      { bg: "#FBF3E7" },
-      null, null,
-      { bg: "#12162B" },
-      null, null, null,
+      { bg: "#FFFFFF", brand: "#2563eb", slogan: "#9296ac" },
+      { bg: "#F3EEFF", brand: "#7c3aed", slogan: "#a599c9" },
+      { bg: "#111214", brand: "#F4D58D", slogan: "#8b8d94" },
+      { bg: "#F1F2F5", brand: "#16181d", slogan: "#8b8f9c" },
+      { bg: "#FFF9EC", brand: "#c2790a", slogan: "#b5a688" },
+      { bg: "#FFF1E6", brand: "#ea580c", slogan: "#c2a493" },
+      { bg: "#FFFFFF", brand: "#16a34a", slogan: "#9296ac" },
+      { bg: "#0F1E1A", brand: "#7FE3B4", slogan: "#7c9490" },
+      { bg: "#FFFFFF", brand: "#db2777", slogan: "#9296ac" },
+      { bg: "#EAF1FF", brand: "#1d4ed8", slogan: "#96a7c9" },
     ];
 
     const [categories, logos] = await Promise.all([
@@ -119,10 +124,8 @@
       return list;
     }
 
-    function cardCaption(l, i) {
-      const catColors = ["#2563eb", "#16a34a", "#dc2626", "#ea580c", "#7c3aed", "#0891b2", "#db2777", "#1d1d1d"];
-      const color = catColors[i % catColors.length];
-      return `<div class="tpl-caption"><div class="tpl-brand" style="color:${color};">BRAND NAME</div><div class="tpl-slogan">SLOGAN HERE</div></div>`;
+    function cardCaption(theme) {
+      return `<div class="tpl-caption"><div class="tpl-brand" style="color:${theme.brand};">BRAND NAME</div><div class="tpl-slogan" style="color:${theme.slogan};">SLOGAN HERE</div></div>`;
     }
 
     function renderGrid() {
@@ -138,17 +141,17 @@
       }
 
       tplGrid.innerHTML = pageItems.map((l, i) => {
-        const theme = page === 1 ? CARD_THEMES[i % CARD_THEMES.length] : null;
+        const theme = CARD_THEMES[i % CARD_THEMES.length];
         const fav = isFavorite(l.id);
         return `
-        <div class="tpl-card" style="position:relative;">
+        <div class="tpl-card" style="position:relative;background:${theme.bg};">
           ${page === 1 && i === 0 ? `<span class="tpl-badge">✦ Popular</span>` : ""}
           <button class="tpl-fav${fav ? " faved" : ""}" data-fav="${l.id}">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="${fav ? "#ef4444" : "none"}" stroke="${fav ? "#ef4444" : "currentColor"}" stroke-width="2"><path d="M12 21s-7.5-4.6-10-9.3C.6 8 2.4 4.5 6 4c2-.3 3.8.8 6 3.1C14.2 4.8 16 3.7 18 4c3.6.5 5.4 4 4 7.7C19.5 16.4 12 21 12 21z"/></svg>
           </button>
           <a href="editor.html?logo=${l.id}">
-            <div class="thumb"${theme ? ` style="background:${theme.bg};"` : ""}><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
-            ${cardCaption(l, i)}
+            <div class="thumb"><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
+            ${cardCaption(theme)}
           </a>
         </div>`;
       }).join("");

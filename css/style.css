@@ -759,16 +759,15 @@ footer.site-footer {
 }
 .tpl-card {
   background: #fff;
-  border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 1px 3px rgba(16, 18, 30, .08);
   transition: transform .15s, box-shadow .15s;
 }
-.tpl-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.tpl-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(16, 18, 30, .14); }
 .tpl-card .thumb {
   aspect-ratio: 1/1;
-  background: #fafbff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -777,9 +776,9 @@ footer.site-footer {
 .tpl-card .thumb img { max-width: 100%; max-height: 100%; }
 .tpl-card .meta { padding: 10px 12px; border-top: 1px solid var(--border); font-size: 12.5px; font-weight: 600; color: var(--text-dim); }
 
-.tpl-caption { padding: 4px 14px 16px; text-align: center; }
+.tpl-caption { padding: 4px 16px 20px; text-align: center; }
 .tpl-brand { font-weight: 800; font-size: 15px; letter-spacing: .02em; }
-.tpl-slogan { font-size: 10.5px; letter-spacing: .06em; color: var(--text-faint); margin-top: 2px; }
+.tpl-slogan { font-size: 10.5px; letter-spacing: .06em; margin-top: 2px; }
 
 .tpl-badge {
   position: absolute;
