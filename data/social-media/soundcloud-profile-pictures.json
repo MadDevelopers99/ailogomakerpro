@@ -1,0 +1,1807 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "soundcloud-profile-pictures",
+  "category": "SoundCloud Profile Pictures",
+  "templates": [
+    {
+      "id": "social_soundcloud-profile-pictures_001",
+      "name": "SoundCloud Profile Pictures 001",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_002",
+      "name": "SoundCloud Profile Pictures 002",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_003",
+      "name": "SoundCloud Profile Pictures 003",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_004",
+      "name": "SoundCloud Profile Pictures 004",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_005",
+      "name": "SoundCloud Profile Pictures 005",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_006",
+      "name": "SoundCloud Profile Pictures 006",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_007",
+      "name": "SoundCloud Profile Pictures 007",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_008",
+      "name": "SoundCloud Profile Pictures 008",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_009",
+      "name": "SoundCloud Profile Pictures 009",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_010",
+      "name": "SoundCloud Profile Pictures 010",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_011",
+      "name": "SoundCloud Profile Pictures 011",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_012",
+      "name": "SoundCloud Profile Pictures 012",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_013",
+      "name": "SoundCloud Profile Pictures 013",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_014",
+      "name": "SoundCloud Profile Pictures 014",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_015",
+      "name": "SoundCloud Profile Pictures 015",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_016",
+      "name": "SoundCloud Profile Pictures 016",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_017",
+      "name": "SoundCloud Profile Pictures 017",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_018",
+      "name": "SoundCloud Profile Pictures 018",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_019",
+      "name": "SoundCloud Profile Pictures 019",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_020",
+      "name": "SoundCloud Profile Pictures 020",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_021",
+      "name": "SoundCloud Profile Pictures 021",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_022",
+      "name": "SoundCloud Profile Pictures 022",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_023",
+      "name": "SoundCloud Profile Pictures 023",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_024",
+      "name": "SoundCloud Profile Pictures 024",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

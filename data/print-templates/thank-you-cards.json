@@ -1,0 +1,1910 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Thank You Cards",
+  "templates": [
+    {
+      "id": "print_thank-you-cards_001",
+      "name": "Thank You Cards 001",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_002",
+      "name": "Thank You Cards 002",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_003",
+      "name": "Thank You Cards 003",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_004",
+      "name": "Thank You Cards 004",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_005",
+      "name": "Thank You Cards 005",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-3.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_006",
+      "name": "Thank You Cards 006",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-3.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_007",
+      "name": "Thank You Cards 007",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_008",
+      "name": "Thank You Cards 008",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_009",
+      "name": "Thank You Cards 009",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-5.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_010",
+      "name": "Thank You Cards 010",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-5.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_011",
+      "name": "Thank You Cards 011",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_012",
+      "name": "Thank You Cards 012",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_013",
+      "name": "Thank You Cards 013",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FDF6EC"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_014",
+      "name": "Thank You Cards 014",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FDF6EC"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_015",
+      "name": "Thank You Cards 015",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#F3F7F4"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_thank-you-cards_016",
+      "name": "Thank You Cards 016",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#F3F7F4"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

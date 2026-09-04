@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "twitch-banners",
+  "category": "Twitch Banners",
+  "templates": [
+    {
+      "id": "social_twitch-banners_001",
+      "name": "Twitch Banners 001",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_002",
+      "name": "Twitch Banners 002",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_003",
+      "name": "Twitch Banners 003",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_004",
+      "name": "Twitch Banners 004",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_005",
+      "name": "Twitch Banners 005",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_006",
+      "name": "Twitch Banners 006",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_007",
+      "name": "Twitch Banners 007",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_008",
+      "name": "Twitch Banners 008",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_009",
+      "name": "Twitch Banners 009",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_010",
+      "name": "Twitch Banners 010",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_011",
+      "name": "Twitch Banners 011",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_012",
+      "name": "Twitch Banners 012",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_013",
+      "name": "Twitch Banners 013",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_014",
+      "name": "Twitch Banners 014",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_015",
+      "name": "Twitch Banners 015",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_016",
+      "name": "Twitch Banners 016",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_017",
+      "name": "Twitch Banners 017",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_018",
+      "name": "Twitch Banners 018",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_019",
+      "name": "Twitch Banners 019",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_020",
+      "name": "Twitch Banners 020",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_021",
+      "name": "Twitch Banners 021",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_022",
+      "name": "Twitch Banners 022",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_023",
+      "name": "Twitch Banners 023",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_024",
+      "name": "Twitch Banners 024",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_025",
+      "name": "Twitch Banners 025",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_026",
+      "name": "Twitch Banners 026",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_027",
+      "name": "Twitch Banners 027",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_028",
+      "name": "Twitch Banners 028",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_029",
+      "name": "Twitch Banners 029",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_030",
+      "name": "Twitch Banners 030",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_031",
+      "name": "Twitch Banners 031",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-banners_032",
+      "name": "Twitch Banners 032",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 518.4,
+          "y": 67.2,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 172.8,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 297.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 345.6,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 422.4,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

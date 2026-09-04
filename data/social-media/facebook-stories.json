@@ -1,0 +1,4375 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "facebook-stories",
+  "category": "Facebook Stories",
+  "templates": [
+    {
+      "id": "social_facebook-stories_001",
+      "name": "Facebook Stories 001",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_002",
+      "name": "Facebook Stories 002",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_003",
+      "name": "Facebook Stories 003",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_004",
+      "name": "Facebook Stories 004",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_005",
+      "name": "Facebook Stories 005",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_006",
+      "name": "Facebook Stories 006",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_007",
+      "name": "Facebook Stories 007",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_008",
+      "name": "Facebook Stories 008",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_009",
+      "name": "Facebook Stories 009",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_010",
+      "name": "Facebook Stories 010",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_011",
+      "name": "Facebook Stories 011",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_012",
+      "name": "Facebook Stories 012",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_013",
+      "name": "Facebook Stories 013",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_014",
+      "name": "Facebook Stories 014",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_015",
+      "name": "Facebook Stories 015",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_016",
+      "name": "Facebook Stories 016",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_017",
+      "name": "Facebook Stories 017",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_018",
+      "name": "Facebook Stories 018",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_019",
+      "name": "Facebook Stories 019",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_020",
+      "name": "Facebook Stories 020",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_021",
+      "name": "Facebook Stories 021",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_022",
+      "name": "Facebook Stories 022",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_023",
+      "name": "Facebook Stories 023",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_024",
+      "name": "Facebook Stories 024",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_025",
+      "name": "Facebook Stories 025",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_026",
+      "name": "Facebook Stories 026",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_027",
+      "name": "Facebook Stories 027",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_028",
+      "name": "Facebook Stories 028",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_029",
+      "name": "Facebook Stories 029",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_030",
+      "name": "Facebook Stories 030",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_031",
+      "name": "Facebook Stories 031",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-stories_032",
+      "name": "Facebook Stories 032",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

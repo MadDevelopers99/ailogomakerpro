@@ -1,0 +1,4375 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "whatsapp-stories",
+  "category": "Whatsapp Stories",
+  "templates": [
+    {
+      "id": "social_whatsapp-stories_001",
+      "name": "Whatsapp Stories 001",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_002",
+      "name": "Whatsapp Stories 002",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_003",
+      "name": "Whatsapp Stories 003",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_004",
+      "name": "Whatsapp Stories 004",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_005",
+      "name": "Whatsapp Stories 005",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_006",
+      "name": "Whatsapp Stories 006",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_007",
+      "name": "Whatsapp Stories 007",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_008",
+      "name": "Whatsapp Stories 008",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_009",
+      "name": "Whatsapp Stories 009",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_010",
+      "name": "Whatsapp Stories 010",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_011",
+      "name": "Whatsapp Stories 011",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_012",
+      "name": "Whatsapp Stories 012",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_013",
+      "name": "Whatsapp Stories 013",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_014",
+      "name": "Whatsapp Stories 014",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_015",
+      "name": "Whatsapp Stories 015",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_016",
+      "name": "Whatsapp Stories 016",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_017",
+      "name": "Whatsapp Stories 017",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_018",
+      "name": "Whatsapp Stories 018",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_019",
+      "name": "Whatsapp Stories 019",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_020",
+      "name": "Whatsapp Stories 020",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_021",
+      "name": "Whatsapp Stories 021",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_022",
+      "name": "Whatsapp Stories 022",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_023",
+      "name": "Whatsapp Stories 023",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_024",
+      "name": "Whatsapp Stories 024",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_025",
+      "name": "Whatsapp Stories 025",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_026",
+      "name": "Whatsapp Stories 026",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_027",
+      "name": "Whatsapp Stories 027",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_028",
+      "name": "Whatsapp Stories 028",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_029",
+      "name": "Whatsapp Stories 029",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_030",
+      "name": "Whatsapp Stories 030",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_031",
+      "name": "Whatsapp Stories 031",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_whatsapp-stories_032",
+      "name": "Whatsapp Stories 032",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -192,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 115.2,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 244.8,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 960,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 1113.6,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 1766.4,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

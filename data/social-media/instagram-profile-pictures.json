@@ -1,0 +1,1807 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "instagram-profile-pictures",
+  "category": "Instagram Profile Pictures",
+  "templates": [
+    {
+      "id": "social_instagram-profile-pictures_001",
+      "name": "Instagram Profile Pictures 001",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_002",
+      "name": "Instagram Profile Pictures 002",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_003",
+      "name": "Instagram Profile Pictures 003",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_004",
+      "name": "Instagram Profile Pictures 004",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_005",
+      "name": "Instagram Profile Pictures 005",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_006",
+      "name": "Instagram Profile Pictures 006",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_007",
+      "name": "Instagram Profile Pictures 007",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_008",
+      "name": "Instagram Profile Pictures 008",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_009",
+      "name": "Instagram Profile Pictures 009",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_010",
+      "name": "Instagram Profile Pictures 010",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_011",
+      "name": "Instagram Profile Pictures 011",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_012",
+      "name": "Instagram Profile Pictures 012",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_013",
+      "name": "Instagram Profile Pictures 013",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_014",
+      "name": "Instagram Profile Pictures 014",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_015",
+      "name": "Instagram Profile Pictures 015",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_016",
+      "name": "Instagram Profile Pictures 016",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_017",
+      "name": "Instagram Profile Pictures 017",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_018",
+      "name": "Instagram Profile Pictures 018",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_019",
+      "name": "Instagram Profile Pictures 019",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_020",
+      "name": "Instagram Profile Pictures 020",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_021",
+      "name": "Instagram Profile Pictures 021",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_022",
+      "name": "Instagram Profile Pictures 022",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_023",
+      "name": "Instagram Profile Pictures 023",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-profile-pictures_024",
+      "name": "Instagram Profile Pictures 024",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

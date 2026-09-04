@@ -1,0 +1,50 @@
+{
+  "business": [
+    "assets/business-backgrounds/business/business-1.jpg",
+    "assets/business-backgrounds/business/business-2.jpg",
+    "assets/business-backgrounds/business/business-3.jpg",
+    "assets/business-backgrounds/business/business-4.jpg",
+    "assets/business-backgrounds/business/business-5.jpg",
+    "assets/business-backgrounds/business/business-6.jpg"
+  ],
+  "restaurant": [
+    "assets/business-backgrounds/restaurant/restaurant-1.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-2.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-3.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-4.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-5.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+  ],
+  "landing-page": [
+    "assets/social-backgrounds/abstract/abstract-1.jpg",
+    "assets/social-backgrounds/abstract/abstract-2.jpg",
+    "assets/social-backgrounds/abstract/abstract-3.jpg",
+    "assets/social-backgrounds/abstract/abstract-4.jpg",
+    "assets/social-backgrounds/abstract/abstract-5.jpg",
+    "assets/social-backgrounds/abstract/abstract-6.jpg"
+  ],
+  "portfolio": [
+    "assets/website-backgrounds/portfolio/portfolio-1.jpg",
+    "assets/website-backgrounds/portfolio/portfolio-2.jpg",
+    "assets/website-backgrounds/portfolio/portfolio-3.jpg",
+    "assets/website-backgrounds/portfolio/portfolio-4.jpg",
+    "assets/website-backgrounds/portfolio/portfolio-5.jpg",
+    "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+  ],
+  "online-store": [
+    "assets/website-backgrounds/online-store/online-store-1.jpg",
+    "assets/website-backgrounds/online-store/online-store-2.jpg",
+    "assets/website-backgrounds/online-store/online-store-3.jpg",
+    "assets/website-backgrounds/online-store/online-store-4.jpg",
+    "assets/website-backgrounds/online-store/online-store-5.jpg",
+    "assets/website-backgrounds/online-store/online-store-6.jpg"
+  ],
+  "personal": [
+    "assets/website-backgrounds/personal/personal-1.jpg",
+    "assets/website-backgrounds/personal/personal-2.jpg",
+    "assets/website-backgrounds/personal/personal-3.jpg",
+    "assets/website-backgrounds/personal/personal-4.jpg",
+    "assets/website-backgrounds/personal/personal-5.jpg",
+    "assets/website-backgrounds/personal/personal-6.jpg"
+  ]
+}

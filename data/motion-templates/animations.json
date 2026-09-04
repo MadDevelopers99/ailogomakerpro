@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Animations",
+  "templates": [
+    {
+      "id": "motion_animations_001",
+      "name": "Animations 001",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#0F0B29",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#6C5CE7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#6C5CE7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#6C5CE7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#0F0B29",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW POST",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Swipe up to see more",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#6C5CE7",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_animations_002",
+      "name": "Animations 002",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "F",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#0B2A5B",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FOLLOW US",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing community",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_animations_003",
+      "name": "Animations 003",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Something exciting is on the way",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_animations_004",
+      "name": "Animations 004",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#073B32",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SALE ENDS SOON",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Don't miss out — shop now",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_animations_005",
+      "name": "Animations 005",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-2.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUBSCRIBE NOW",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "New videos every week",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#F2C230",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourchannel",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_animations_006",
+      "name": "Animations 006",
+      "category": "Animations",
+      "categorySlug": "animations",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "durationMs": 2400,
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#0B1A2E",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 300
+          }
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -160,
+          "y": -130,
+          "width": 540,
+          "height": 540,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 0,
+            "duration": 500
+          }
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842,
+          "width": 486,
+          "height": 486,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 445,
+          "y": 110,
+          "width": 190,
+          "height": 190,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "J",
+          "x": 540,
+          "y": 240,
+          "fontSize": 96,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 350,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "JOIN THE JOURNEY",
+          "x": 540,
+          "y": 540,
+          "fontSize": 96,
+          "maxWidth": 928.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 550,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Follow along for more",
+          "x": 540,
+          "y": 610,
+          "fontSize": 42,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 950,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 960,
+          "fontSize": 36,
+          "maxWidth": 864,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1250,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "pinterest-board-covers",
+  "category": "Pinterest Board Covers",
+  "templates": [
+    {
+      "id": "social_pinterest-board-covers_001",
+      "name": "Pinterest Board Covers 001",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_002",
+      "name": "Pinterest Board Covers 002",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_003",
+      "name": "Pinterest Board Covers 003",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_004",
+      "name": "Pinterest Board Covers 004",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_005",
+      "name": "Pinterest Board Covers 005",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_006",
+      "name": "Pinterest Board Covers 006",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_007",
+      "name": "Pinterest Board Covers 007",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_008",
+      "name": "Pinterest Board Covers 008",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_009",
+      "name": "Pinterest Board Covers 009",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_010",
+      "name": "Pinterest Board Covers 010",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_011",
+      "name": "Pinterest Board Covers 011",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_012",
+      "name": "Pinterest Board Covers 012",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_013",
+      "name": "Pinterest Board Covers 013",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_014",
+      "name": "Pinterest Board Covers 014",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_015",
+      "name": "Pinterest Board Covers 015",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_016",
+      "name": "Pinterest Board Covers 016",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_017",
+      "name": "Pinterest Board Covers 017",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_018",
+      "name": "Pinterest Board Covers 018",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_019",
+      "name": "Pinterest Board Covers 019",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_020",
+      "name": "Pinterest Board Covers 020",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_021",
+      "name": "Pinterest Board Covers 021",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_022",
+      "name": "Pinterest Board Covers 022",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_023",
+      "name": "Pinterest Board Covers 023",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_024",
+      "name": "Pinterest Board Covers 024",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_025",
+      "name": "Pinterest Board Covers 025",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_026",
+      "name": "Pinterest Board Covers 026",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_027",
+      "name": "Pinterest Board Covers 027",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_028",
+      "name": "Pinterest Board Covers 028",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_029",
+      "name": "Pinterest Board Covers 029",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_030",
+      "name": "Pinterest Board Covers 030",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#071B33"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_031",
+      "name": "Pinterest Board Covers 031",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-board-covers_032",
+      "name": "Pinterest Board Covers 032",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 198,
+          "y": 84,
+          "width": 204,
+          "height": 204,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 300,
+          "y": 216,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 300,
+          "y": 372,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 300,
+          "y": 432,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 300,
+          "y": 528,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

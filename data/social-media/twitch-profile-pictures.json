@@ -1,0 +1,1807 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "twitch-profile-pictures",
+  "category": "Twitch Profile Pictures",
+  "templates": [
+    {
+      "id": "social_twitch-profile-pictures_001",
+      "name": "Twitch Profile Pictures 001",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_002",
+      "name": "Twitch Profile Pictures 002",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_003",
+      "name": "Twitch Profile Pictures 003",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_004",
+      "name": "Twitch Profile Pictures 004",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_005",
+      "name": "Twitch Profile Pictures 005",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_006",
+      "name": "Twitch Profile Pictures 006",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_007",
+      "name": "Twitch Profile Pictures 007",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_008",
+      "name": "Twitch Profile Pictures 008",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_009",
+      "name": "Twitch Profile Pictures 009",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_010",
+      "name": "Twitch Profile Pictures 010",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_011",
+      "name": "Twitch Profile Pictures 011",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_012",
+      "name": "Twitch Profile Pictures 012",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_013",
+      "name": "Twitch Profile Pictures 013",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_014",
+      "name": "Twitch Profile Pictures 014",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_015",
+      "name": "Twitch Profile Pictures 015",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_016",
+      "name": "Twitch Profile Pictures 016",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_017",
+      "name": "Twitch Profile Pictures 017",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_018",
+      "name": "Twitch Profile Pictures 018",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_019",
+      "name": "Twitch Profile Pictures 019",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_020",
+      "name": "Twitch Profile Pictures 020",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_021",
+      "name": "Twitch Profile Pictures 021",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_022",
+      "name": "Twitch Profile Pictures 022",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_023",
+      "name": "Twitch Profile Pictures 023",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitch-profile-pictures_024",
+      "name": "Twitch Profile Pictures 024",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

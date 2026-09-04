@@ -1,0 +1,3526 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Email Signatures",
+  "templates": [
+    {
+      "id": "print_email-signatures_001",
+      "name": "Email Signatures 001",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_002",
+      "name": "Email Signatures 002",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_003",
+      "name": "Email Signatures 003",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_004",
+      "name": "Email Signatures 004",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_005",
+      "name": "Email Signatures 005",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-3.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_006",
+      "name": "Email Signatures 006",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_007",
+      "name": "Email Signatures 007",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_008",
+      "name": "Email Signatures 008",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_009",
+      "name": "Email Signatures 009",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-5.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_010",
+      "name": "Email Signatures 010",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_011",
+      "name": "Email Signatures 011",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_012",
+      "name": "Email Signatures 012",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_013",
+      "name": "Email Signatures 013",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_014",
+      "name": "Email Signatures 014",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_015",
+      "name": "Email Signatures 015",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_email-signatures_016",
+      "name": "Email Signatures 016",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

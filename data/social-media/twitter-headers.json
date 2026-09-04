@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "twitter-headers",
+  "category": "Twitter Headers",
+  "templates": [
+    {
+      "id": "social_twitter-headers_001",
+      "name": "Twitter Headers 001",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_002",
+      "name": "Twitter Headers 002",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_003",
+      "name": "Twitter Headers 003",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_004",
+      "name": "Twitter Headers 004",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_005",
+      "name": "Twitter Headers 005",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_006",
+      "name": "Twitter Headers 006",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_007",
+      "name": "Twitter Headers 007",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_008",
+      "name": "Twitter Headers 008",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_009",
+      "name": "Twitter Headers 009",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_010",
+      "name": "Twitter Headers 010",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_011",
+      "name": "Twitter Headers 011",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_012",
+      "name": "Twitter Headers 012",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_013",
+      "name": "Twitter Headers 013",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_014",
+      "name": "Twitter Headers 014",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_015",
+      "name": "Twitter Headers 015",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_016",
+      "name": "Twitter Headers 016",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_017",
+      "name": "Twitter Headers 017",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_018",
+      "name": "Twitter Headers 018",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_019",
+      "name": "Twitter Headers 019",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_020",
+      "name": "Twitter Headers 020",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_021",
+      "name": "Twitter Headers 021",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_022",
+      "name": "Twitter Headers 022",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_023",
+      "name": "Twitter Headers 023",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_024",
+      "name": "Twitter Headers 024",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_025",
+      "name": "Twitter Headers 025",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_026",
+      "name": "Twitter Headers 026",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_027",
+      "name": "Twitter Headers 027",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_028",
+      "name": "Twitter Headers 028",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_029",
+      "name": "Twitter Headers 029",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_030",
+      "name": "Twitter Headers 030",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_031",
+      "name": "Twitter Headers 031",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_twitter-headers_032",
+      "name": "Twitter Headers 032",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 665,
+          "y": 70,
+          "width": 170,
+          "height": 170,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 750,
+          "y": 180,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 750,
+          "y": 310,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 750,
+          "y": 360,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 750,
+          "y": 440,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

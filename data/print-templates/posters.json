@@ -1,0 +1,2326 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Posters",
+  "templates": [
+    {
+      "id": "print_posters_001",
+      "name": "Posters 001",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_002",
+      "name": "Posters 002",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_003",
+      "name": "Posters 003",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_004",
+      "name": "Posters 004",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_005",
+      "name": "Posters 005",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_006",
+      "name": "Posters 006",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_007",
+      "name": "Posters 007",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_008",
+      "name": "Posters 008",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_009",
+      "name": "Posters 009",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_010",
+      "name": "Posters 010",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_011",
+      "name": "Posters 011",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_012",
+      "name": "Posters 012",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_013",
+      "name": "Posters 013",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#111111"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_014",
+      "name": "Posters 014",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#111111"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_015",
+      "name": "Posters 015",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_posters_016",
+      "name": "Posters 016",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

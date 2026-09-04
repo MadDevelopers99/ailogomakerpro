@@ -64,21 +64,9 @@
   <script src="js/app-shell.js" type="module"></script>
   <script type="module">
     import { isFavorite, toggleFavorite } from "./js/project-store.js";
+    import { themeForId } from "./js/card-theme.js";
 
     function qs(name) { return new URLSearchParams(window.location.search).get(name); }
-
-    const CARD_THEMES = [
-      { bg: "#FFFFFF", brand: "#2563eb", slogan: "#9296ac" },
-      { bg: "#F3EEFF", brand: "#7c3aed", slogan: "#a599c9" },
-      { bg: "#111214", brand: "#F4D58D", slogan: "#8b8d94" },
-      { bg: "#F1F2F5", brand: "#16181d", slogan: "#8b8f9c" },
-      { bg: "#FFF9EC", brand: "#c2790a", slogan: "#b5a688" },
-      { bg: "#FFF1E6", brand: "#ea580c", slogan: "#c2a493" },
-      { bg: "#FFFFFF", brand: "#16a34a", slogan: "#9296ac" },
-      { bg: "#0F1E1A", brand: "#7FE3B4", slogan: "#7c9490" },
-      { bg: "#FFFFFF", brand: "#db2777", slogan: "#9296ac" },
-      { bg: "#EAF1FF", brand: "#1d4ed8", slogan: "#96a7c9" },
-    ];
 
     const [categories, logos] = await Promise.all([
       fetch("data/categories.json").then((r) => r.json()),
@@ -141,7 +129,7 @@
       }
 
       tplGrid.innerHTML = pageItems.map((l, i) => {
-        const theme = CARD_THEMES[i % CARD_THEMES.length];
+        const theme = themeForId(l.id);
         const fav = isFavorite(l.id);
         return `
         <div class="tpl-card" style="position:relative;background:${theme.bg};">

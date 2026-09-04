@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "facebook-covers",
+  "category": "Facebook Covers",
+  "templates": [
+    {
+      "id": "social_facebook-covers_001",
+      "name": "Facebook Covers 001",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_002",
+      "name": "Facebook Covers 002",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_003",
+      "name": "Facebook Covers 003",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_004",
+      "name": "Facebook Covers 004",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_005",
+      "name": "Facebook Covers 005",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_006",
+      "name": "Facebook Covers 006",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_007",
+      "name": "Facebook Covers 007",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_008",
+      "name": "Facebook Covers 008",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_009",
+      "name": "Facebook Covers 009",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_010",
+      "name": "Facebook Covers 010",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_011",
+      "name": "Facebook Covers 011",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_012",
+      "name": "Facebook Covers 012",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_013",
+      "name": "Facebook Covers 013",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_014",
+      "name": "Facebook Covers 014",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_015",
+      "name": "Facebook Covers 015",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_016",
+      "name": "Facebook Covers 016",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_017",
+      "name": "Facebook Covers 017",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_018",
+      "name": "Facebook Covers 018",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_019",
+      "name": "Facebook Covers 019",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_020",
+      "name": "Facebook Covers 020",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_021",
+      "name": "Facebook Covers 021",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_022",
+      "name": "Facebook Covers 022",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_023",
+      "name": "Facebook Covers 023",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_024",
+      "name": "Facebook Covers 024",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_025",
+      "name": "Facebook Covers 025",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_026",
+      "name": "Facebook Covers 026",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_027",
+      "name": "Facebook Covers 027",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_028",
+      "name": "Facebook Covers 028",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_029",
+      "name": "Facebook Covers 029",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_030",
+      "name": "Facebook Covers 030",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_031",
+      "name": "Facebook Covers 031",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_facebook-covers_032",
+      "name": "Facebook Covers 032",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 356.96,
+          "y": 43.68,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 410,
+          "y": 112.32,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 410,
+          "y": 193.44,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 410,
+          "y": 224.64,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 410,
+          "y": 274.56,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

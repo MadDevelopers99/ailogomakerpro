@@ -1,0 +1,4375 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "youtube-videos",
+  "category": "YouTube Videos",
+  "templates": [
+    {
+      "id": "social_youtube-videos_001",
+      "name": "YouTube Videos 001",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_002",
+      "name": "YouTube Videos 002",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_003",
+      "name": "YouTube Videos 003",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_004",
+      "name": "YouTube Videos 004",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_005",
+      "name": "YouTube Videos 005",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_006",
+      "name": "YouTube Videos 006",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_007",
+      "name": "YouTube Videos 007",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_008",
+      "name": "YouTube Videos 008",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_009",
+      "name": "YouTube Videos 009",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_010",
+      "name": "YouTube Videos 010",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_011",
+      "name": "YouTube Videos 011",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_012",
+      "name": "YouTube Videos 012",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_013",
+      "name": "YouTube Videos 013",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_014",
+      "name": "YouTube Videos 014",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_015",
+      "name": "YouTube Videos 015",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_016",
+      "name": "YouTube Videos 016",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_017",
+      "name": "YouTube Videos 017",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_018",
+      "name": "YouTube Videos 018",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_019",
+      "name": "YouTube Videos 019",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_020",
+      "name": "YouTube Videos 020",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_021",
+      "name": "YouTube Videos 021",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_022",
+      "name": "YouTube Videos 022",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_023",
+      "name": "YouTube Videos 023",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_024",
+      "name": "YouTube Videos 024",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_025",
+      "name": "YouTube Videos 025",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_026",
+      "name": "YouTube Videos 026",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_027",
+      "name": "YouTube Videos 027",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_028",
+      "name": "YouTube Videos 028",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_029",
+      "name": "YouTube Videos 029",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_030",
+      "name": "YouTube Videos 030",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_031",
+      "name": "YouTube Videos 031",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_youtube-videos_032",
+      "name": "YouTube Videos 032",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 832,
+          "y": -72,
+          "width": 640,
+          "height": 640,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 102.4,
+          "y": 43.2,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 217.6,
+          "y": 196.8,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 102.4,
+          "y": 360,
+          "fontSize": 108.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 102.4,
+          "y": 417.6,
+          "fontSize": 48.64,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 102.4,
+          "y": 662.4,
+          "fontSize": 40.96,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "tumblr-banners",
+  "category": "Tumblr Banners",
+  "templates": [
+    {
+      "id": "social_tumblr-banners_001",
+      "name": "Tumblr Banners 001",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_002",
+      "name": "Tumblr Banners 002",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_003",
+      "name": "Tumblr Banners 003",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_004",
+      "name": "Tumblr Banners 004",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_005",
+      "name": "Tumblr Banners 005",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_006",
+      "name": "Tumblr Banners 006",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_007",
+      "name": "Tumblr Banners 007",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_008",
+      "name": "Tumblr Banners 008",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_009",
+      "name": "Tumblr Banners 009",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_010",
+      "name": "Tumblr Banners 010",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_011",
+      "name": "Tumblr Banners 011",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_012",
+      "name": "Tumblr Banners 012",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_013",
+      "name": "Tumblr Banners 013",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_014",
+      "name": "Tumblr Banners 014",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_015",
+      "name": "Tumblr Banners 015",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_016",
+      "name": "Tumblr Banners 016",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_017",
+      "name": "Tumblr Banners 017",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_018",
+      "name": "Tumblr Banners 018",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_019",
+      "name": "Tumblr Banners 019",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_020",
+      "name": "Tumblr Banners 020",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_021",
+      "name": "Tumblr Banners 021",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_022",
+      "name": "Tumblr Banners 022",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_023",
+      "name": "Tumblr Banners 023",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_024",
+      "name": "Tumblr Banners 024",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_025",
+      "name": "Tumblr Banners 025",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_026",
+      "name": "Tumblr Banners 026",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_027",
+      "name": "Tumblr Banners 027",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_028",
+      "name": "Tumblr Banners 028",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_029",
+      "name": "Tumblr Banners 029",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_030",
+      "name": "Tumblr Banners 030",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_031",
+      "name": "Tumblr Banners 031",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_tumblr-banners_032",
+      "name": "Tumblr Banners 032",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 517.6,
+          "y": 100.8,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 259.2,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 640,
+          "y": 446.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 640,
+          "y": 518.4,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 640,
+          "y": 633.6,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

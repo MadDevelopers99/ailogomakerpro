@@ -1,0 +1,13 @@
+[
+  { "slug": "email-signatures", "label": "Email Signatures", "width": 600, "height": 200, "bgSource": "social", "assetTheme": "minimal" },
+  { "slug": "letterheads", "label": "Letterheads", "width": 850, "height": 1100, "bgSource": "business", "assetTheme": "corporate" },
+  { "slug": "posters", "label": "Posters", "width": 900, "height": 1200, "bgSource": "social", "assetTheme": "gaming" },
+  { "slug": "flyers", "label": "Flyers", "width": 850, "height": 1100, "bgSource": "social", "assetTheme": "party" },
+  { "slug": "invoices", "label": "Invoices", "width": 850, "height": 1100, "bgSource": "business", "assetTheme": "corporate" },
+  { "slug": "menus", "label": "Menus", "width": 850, "height": 1100, "bgSource": "business", "assetTheme": "restaurant" },
+  { "slug": "postcards", "label": "Postcards", "width": 1200, "height": 800, "bgSource": "social", "assetTheme": "travel" },
+  { "slug": "gift-certificates", "label": "Gift Certificates", "width": 1100, "height": 850, "bgSource": "business", "assetTheme": "luxury" },
+  { "slug": "invitations", "label": "Invitations", "width": 1000, "height": 1400, "bgSource": "social", "assetTheme": "fashion" },
+  { "slug": "thank-you-cards", "label": "Thank You Cards", "width": 1000, "height": 1400, "bgSource": "social", "assetTheme": "minimal" },
+  { "slug": "t-shirts", "label": "T-Shirts", "width": 1200, "height": 1500, "bgSource": "social", "assetTheme": "abstract" }
+]

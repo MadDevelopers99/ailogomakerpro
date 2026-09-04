@@ -1,0 +1,4375 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "instagram-posts",
+  "category": "Instagram Posts",
+  "templates": [
+    {
+      "id": "social_instagram-posts_001",
+      "name": "Instagram Posts 001",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_002",
+      "name": "Instagram Posts 002",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_003",
+      "name": "Instagram Posts 003",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_004",
+      "name": "Instagram Posts 004",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_005",
+      "name": "Instagram Posts 005",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_006",
+      "name": "Instagram Posts 006",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_007",
+      "name": "Instagram Posts 007",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_008",
+      "name": "Instagram Posts 008",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_009",
+      "name": "Instagram Posts 009",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_010",
+      "name": "Instagram Posts 010",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_011",
+      "name": "Instagram Posts 011",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_012",
+      "name": "Instagram Posts 012",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_013",
+      "name": "Instagram Posts 013",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_014",
+      "name": "Instagram Posts 014",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_015",
+      "name": "Instagram Posts 015",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_016",
+      "name": "Instagram Posts 016",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_017",
+      "name": "Instagram Posts 017",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_018",
+      "name": "Instagram Posts 018",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_019",
+      "name": "Instagram Posts 019",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_020",
+      "name": "Instagram Posts 020",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_021",
+      "name": "Instagram Posts 021",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_022",
+      "name": "Instagram Posts 022",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_023",
+      "name": "Instagram Posts 023",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_024",
+      "name": "Instagram Posts 024",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_025",
+      "name": "Instagram Posts 025",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_026",
+      "name": "Instagram Posts 026",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_027",
+      "name": "Instagram Posts 027",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_028",
+      "name": "Instagram Posts 028",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_029",
+      "name": "Instagram Posts 029",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_030",
+      "name": "Instagram Posts 030",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#052E22"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_031",
+      "name": "Instagram Posts 031",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_instagram-posts_032",
+      "name": "Instagram Posts 032",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#2B0617"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 702,
+          "y": -108,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.4,
+          "y": 64.8,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 183.6,
+          "y": 194.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 86.4,
+          "y": 540,
+          "fontSize": 91.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 86.4,
+          "y": 626.4,
+          "fontSize": 41.04,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 86.4,
+          "y": 993.6,
+          "fontSize": 34.56,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

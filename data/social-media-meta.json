@@ -1,0 +1,4350 @@
+{
+  "groups": [
+    {
+      "id": "covers",
+      "label": "Social Media Covers"
+    },
+    {
+      "id": "posts",
+      "label": "Social Media Posts"
+    },
+    {
+      "id": "profile-pictures",
+      "label": "Social Media Profile Pictures"
+    }
+  ],
+  "platforms": [
+    {
+      "slug": "facebook-covers",
+      "label": "Facebook Covers",
+      "group": "covers",
+      "width": 820,
+      "height": 312,
+      "count": 32
+    },
+    {
+      "slug": "twitch-banners",
+      "label": "Twitch Banners",
+      "group": "covers",
+      "width": 1200,
+      "height": 480,
+      "count": 32
+    },
+    {
+      "slug": "facebook-event-covers",
+      "label": "Facebook Event Covers",
+      "group": "covers",
+      "width": 1920,
+      "height": 1005,
+      "count": 32
+    },
+    {
+      "slug": "twitter-headers",
+      "label": "Twitter Headers",
+      "group": "covers",
+      "width": 1500,
+      "height": 500,
+      "count": 32
+    },
+    {
+      "slug": "zoom-backgrounds",
+      "label": "Zoom Backgrounds",
+      "group": "covers",
+      "width": 1920,
+      "height": 1080,
+      "count": 32
+    },
+    {
+      "slug": "tumblr-banners",
+      "label": "Tumblr Banners",
+      "group": "covers",
+      "width": 1280,
+      "height": 720,
+      "count": 32
+    },
+    {
+      "slug": "youtube-banners",
+      "label": "YouTube Banners",
+      "group": "covers",
+      "width": 2560,
+      "height": 1440,
+      "count": 32
+    },
+    {
+      "slug": "linkedin-banners",
+      "label": "LinkedIn Banners",
+      "group": "covers",
+      "width": 1584,
+      "height": 396,
+      "count": 32
+    },
+    {
+      "slug": "soundcloud-banners",
+      "label": "SoundCloud Banners",
+      "group": "covers",
+      "width": 2480,
+      "height": 520,
+      "count": 32
+    },
+    {
+      "slug": "pinterest-board-covers",
+      "label": "Pinterest Board Covers",
+      "group": "covers",
+      "width": 600,
+      "height": 600,
+      "count": 32
+    },
+    {
+      "slug": "etsy-banners",
+      "label": "Etsy Banners",
+      "group": "covers",
+      "width": 1200,
+      "height": 300,
+      "count": 32
+    },
+    {
+      "slug": "instagram-posts",
+      "label": "Instagram Posts",
+      "group": "posts",
+      "width": 1080,
+      "height": 1080,
+      "count": 32
+    },
+    {
+      "slug": "facebook-posts",
+      "label": "Facebook Posts",
+      "group": "posts",
+      "width": 1200,
+      "height": 630,
+      "count": 32
+    },
+    {
+      "slug": "facebook-ads",
+      "label": "Facebook Ads",
+      "group": "posts",
+      "width": 1200,
+      "height": 628,
+      "count": 32
+    },
+    {
+      "slug": "linkedin-posts",
+      "label": "LinkedIn Posts",
+      "group": "posts",
+      "width": 1200,
+      "height": 1200,
+      "count": 32
+    },
+    {
+      "slug": "tiktok-videos",
+      "label": "TikTok Videos",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "youtube-shorts",
+      "label": "YouTube Shorts",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "whatsapp-stories",
+      "label": "Whatsapp Stories",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "instagram-stories",
+      "label": "Instagram Stories",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "facebook-stories",
+      "label": "Facebook Stories",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "twitter-posts",
+      "label": "Twitter Posts",
+      "group": "posts",
+      "width": 1200,
+      "height": 675,
+      "count": 32
+    },
+    {
+      "slug": "pinterest-pins",
+      "label": "Pinterest Pins",
+      "group": "posts",
+      "width": 1000,
+      "height": 1500,
+      "count": 32
+    },
+    {
+      "slug": "instagram-reels",
+      "label": "Instagram Reels",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "youtube-videos",
+      "label": "YouTube Videos",
+      "group": "posts",
+      "width": 1280,
+      "height": 720,
+      "count": 32
+    },
+    {
+      "slug": "snapchat-designs",
+      "label": "Snapchat Designs",
+      "group": "posts",
+      "width": 1080,
+      "height": 1920,
+      "count": 32
+    },
+    {
+      "slug": "facebook-profile-pictures",
+      "label": "Facebook Profile Pictures",
+      "group": "profile-pictures",
+      "width": 500,
+      "height": 500,
+      "count": 24
+    },
+    {
+      "slug": "linkedin-profile-pictures",
+      "label": "LinkedIn Profile Pictures",
+      "group": "profile-pictures",
+      "width": 400,
+      "height": 400,
+      "count": 24
+    },
+    {
+      "slug": "soundcloud-profile-pictures",
+      "label": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "width": 1000,
+      "height": 1000,
+      "count": 24
+    },
+    {
+      "slug": "twitch-profile-pictures",
+      "label": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "width": 800,
+      "height": 800,
+      "count": 24
+    },
+    {
+      "slug": "instagram-profile-pictures",
+      "label": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "width": 500,
+      "height": 500,
+      "count": 24
+    },
+    {
+      "slug": "pinterest-profile-pictures",
+      "label": "Pinterest Profile Pictures",
+      "group": "profile-pictures",
+      "width": 500,
+      "height": 500,
+      "count": 24
+    },
+    {
+      "slug": "tumblr-profile-pictures",
+      "label": "Tumblr Profile Pictures",
+      "group": "profile-pictures",
+      "width": 512,
+      "height": 512,
+      "count": 24
+    },
+    {
+      "slug": "youtube-channel-icons",
+      "label": "YouTube Channel Icons",
+      "group": "profile-pictures",
+      "width": 800,
+      "height": 800,
+      "count": 24
+    }
+  ],
+  "preview": [
+    {
+      "id": "social_facebook-covers_001",
+      "name": "Facebook Covers 001",
+      "platform": "facebook-covers",
+      "category": "Facebook Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 820,
+        "height": 312,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 312,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 7.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 28.7,
+          "y": 87.36,
+          "width": 106.08,
+          "height": 106.08,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 81.74,
+          "y": 156,
+          "fontSize": 43.68,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 159.38,
+          "y": 162.24,
+          "fontSize": 37.44,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 159.38,
+          "y": 199.68,
+          "fontSize": 15.6,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 159.38,
+          "y": 265.2,
+          "fontSize": 13.1,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-covers"
+    },
+    {
+      "id": "social_twitch-banners_001",
+      "name": "Twitch Banners 001",
+      "platform": "twitch-banners",
+      "category": "Twitch Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 480,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 480,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 12,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 134.4,
+          "width": 163.2,
+          "height": 163.2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123.6,
+          "y": 240,
+          "fontSize": 67.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 241.2,
+          "y": 249.6,
+          "fontSize": 57.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 241.2,
+          "y": 307.2,
+          "fontSize": 24,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 241.2,
+          "y": 408,
+          "fontSize": 20.16,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "twitch-banners"
+    },
+    {
+      "id": "social_facebook-event-covers_001",
+      "name": "Facebook Event Covers 001",
+      "platform": "facebook-event-covers",
+      "category": "Facebook Event Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1920,
+        "height": 1005,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1005,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 25.13,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 67.2,
+          "y": 281.4,
+          "width": 341.7,
+          "height": 341.7,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 238.05,
+          "y": 502.5,
+          "fontSize": 140.7,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 466.5,
+          "y": 522.6,
+          "fontSize": 120.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 466.5,
+          "y": 643.2,
+          "fontSize": 50.25,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 466.5,
+          "y": 854.25,
+          "fontSize": 42.21,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-event-covers"
+    },
+    {
+      "id": "social_twitter-headers_001",
+      "name": "Twitter Headers 001",
+      "platform": "twitter-headers",
+      "category": "Twitter Headers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 500,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1500,
+          "height": 12.5,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 52.5,
+          "y": 140,
+          "width": 170,
+          "height": 170,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 137.5,
+          "y": 250,
+          "fontSize": 70,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 267.5,
+          "y": 260,
+          "fontSize": 60,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 267.5,
+          "y": 320,
+          "fontSize": 25,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 267.5,
+          "y": 425,
+          "fontSize": 21,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "twitter-headers"
+    },
+    {
+      "id": "social_zoom-backgrounds_001",
+      "name": "Zoom Backgrounds 001",
+      "platform": "zoom-backgrounds",
+      "category": "Zoom Backgrounds",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1920,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 27,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 67.2,
+          "y": 302.4,
+          "width": 367.2,
+          "height": 367.2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250.8,
+          "y": 540,
+          "fontSize": 151.2,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 492,
+          "y": 561.6,
+          "fontSize": 129.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 492,
+          "y": 691.2,
+          "fontSize": 54,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 492,
+          "y": 918,
+          "fontSize": 45.36,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "zoom-backgrounds"
+    },
+    {
+      "id": "social_tumblr-banners_001",
+      "name": "Tumblr Banners 001",
+      "platform": "tumblr-banners",
+      "category": "Tumblr Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 18,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 44.8,
+          "y": 201.6,
+          "width": 244.8,
+          "height": 244.8,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 167.2,
+          "y": 360,
+          "fontSize": 100.8,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 328,
+          "y": 374.4,
+          "fontSize": 86.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 328,
+          "y": 460.8,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 328,
+          "y": 612,
+          "fontSize": 30.24,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "tumblr-banners"
+    },
+    {
+      "id": "social_youtube-banners_001",
+      "name": "YouTube Banners 001",
+      "platform": "youtube-banners",
+      "category": "YouTube Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 2560,
+        "height": 1440,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 2560,
+          "height": 1440,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 2560,
+          "height": 36,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 89.6,
+          "y": 403.2,
+          "width": 489.6,
+          "height": 489.6,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 334.4,
+          "y": 720,
+          "fontSize": 201.6,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 656,
+          "y": 748.8,
+          "fontSize": 172.8,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 656,
+          "y": 921.6,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 656,
+          "y": 1224,
+          "fontSize": 60.48,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "youtube-banners"
+    },
+    {
+      "id": "social_linkedin-banners_001",
+      "name": "LinkedIn Banners 001",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "linkedin-banners"
+    },
+    {
+      "id": "social_soundcloud-banners_001",
+      "name": "SoundCloud Banners 001",
+      "platform": "soundcloud-banners",
+      "category": "SoundCloud Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 2480,
+        "height": 520,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 2480,
+          "height": 520,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 2480,
+          "height": 13,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 86.8,
+          "y": 145.6,
+          "width": 176.8,
+          "height": 176.8,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 175.2,
+          "y": 260,
+          "fontSize": 72.8,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 338,
+          "y": 270.4,
+          "fontSize": 62.4,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 338,
+          "y": 332.8,
+          "fontSize": 26,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 338,
+          "y": 442,
+          "fontSize": 21.84,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "soundcloud-banners"
+    },
+    {
+      "id": "social_pinterest-board-covers_001",
+      "name": "Pinterest Board Covers 001",
+      "platform": "pinterest-board-covers",
+      "category": "Pinterest Board Covers",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 600,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 600,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 15,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 21,
+          "y": 168,
+          "width": 204,
+          "height": 204,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 123,
+          "y": 300,
+          "fontSize": 84,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 243,
+          "y": 312,
+          "fontSize": 72,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 243,
+          "y": 384,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 243,
+          "y": 510,
+          "fontSize": 25.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "pinterest-board-covers"
+    },
+    {
+      "id": "social_etsy-banners_001",
+      "name": "Etsy Banners 001",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "etsy-banners"
+    },
+    {
+      "id": "social_instagram-posts_001",
+      "name": "Instagram Posts 001",
+      "platform": "instagram-posts",
+      "category": "Instagram Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1080,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1080,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -129.6,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 842.4,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 86.4,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 216,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 518.4,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 594,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 972,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "instagram-posts"
+    },
+    {
+      "id": "social_facebook-posts_001",
+      "name": "Facebook Posts 001",
+      "platform": "facebook-posts",
+      "category": "Facebook Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 630,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 630,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -180,
+          "y": -75.6,
+          "width": 600,
+          "height": 600,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 840,
+          "y": 491.4,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 492,
+          "y": 50.4,
+          "width": 216,
+          "height": 216,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 194.4,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 302.4,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 346.5,
+          "fontSize": 48,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 567,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-posts"
+    },
+    {
+      "id": "social_facebook-ads_001",
+      "name": "Facebook Ads 001",
+      "platform": "facebook-ads",
+      "category": "Facebook Ads",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 628,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 628,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -180,
+          "y": -75.36,
+          "width": 600,
+          "height": 600,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 840,
+          "y": 489.84,
+          "width": 540,
+          "height": 540,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 492,
+          "y": 50.24,
+          "width": 216,
+          "height": 216,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 194.24,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 301.44,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 345.4,
+          "fontSize": 48,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 565.2,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-ads"
+    },
+    {
+      "id": "social_linkedin-posts_001",
+      "name": "LinkedIn Posts 001",
+      "platform": "linkedin-posts",
+      "category": "LinkedIn Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1200,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -180,
+          "y": -144,
+          "width": 600,
+          "height": 600,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 840,
+          "y": 936,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 492,
+          "y": 96,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 240,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 576,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 660,
+          "fontSize": 48,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 1080,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "linkedin-posts"
+    },
+    {
+      "id": "social_tiktok-videos_001",
+      "name": "TikTok Videos 001",
+      "platform": "tiktok-videos",
+      "category": "TikTok Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "tiktok-videos"
+    },
+    {
+      "id": "social_youtube-shorts_001",
+      "name": "YouTube Shorts 001",
+      "platform": "youtube-shorts",
+      "category": "YouTube Shorts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "youtube-shorts"
+    },
+    {
+      "id": "social_whatsapp-stories_001",
+      "name": "Whatsapp Stories 001",
+      "platform": "whatsapp-stories",
+      "category": "Whatsapp Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "whatsapp-stories"
+    },
+    {
+      "id": "social_instagram-stories_001",
+      "name": "Instagram Stories 001",
+      "platform": "instagram-stories",
+      "category": "Instagram Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "instagram-stories"
+    },
+    {
+      "id": "social_facebook-stories_001",
+      "name": "Facebook Stories 001",
+      "platform": "facebook-stories",
+      "category": "Facebook Stories",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-stories"
+    },
+    {
+      "id": "social_twitter-posts_001",
+      "name": "Twitter Posts 001",
+      "platform": "twitter-posts",
+      "category": "Twitter Posts",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 675,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 675,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -180,
+          "y": -81,
+          "width": 600,
+          "height": 600,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 840,
+          "y": 526.5,
+          "width": 540,
+          "height": 540,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 492,
+          "y": 54,
+          "width": 216,
+          "height": 216,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 198,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 324,
+          "fontSize": 108,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 371.25,
+          "fontSize": 48,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 607.5,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#F5A9B8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "twitter-posts"
+    },
+    {
+      "id": "social_pinterest-pins_001",
+      "name": "Pinterest Pins 001",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "pinterest-pins"
+    },
+    {
+      "id": "social_instagram-reels_001",
+      "name": "Instagram Reels 001",
+      "platform": "instagram-reels",
+      "category": "Instagram Reels",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "instagram-reels"
+    },
+    {
+      "id": "social_youtube-videos_001",
+      "name": "YouTube Videos 001",
+      "platform": "youtube-videos",
+      "category": "YouTube Videos",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -192,
+          "y": -86.4,
+          "width": 640,
+          "height": 640,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 896,
+          "y": 561.6,
+          "width": 576,
+          "height": 576,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 524.8,
+          "y": 57.6,
+          "width": 230.4,
+          "height": 230.4,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 640,
+          "y": 211.2,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 640,
+          "y": 345.6,
+          "fontSize": 115.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 640,
+          "y": 396,
+          "fontSize": 51.2,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 640,
+          "y": 648,
+          "fontSize": 44.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "youtube-videos"
+    },
+    {
+      "id": "social_snapchat-designs_001",
+      "name": "Snapchat Designs 001",
+      "platform": "snapchat-designs",
+      "category": "Snapchat Designs",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1080,
+        "height": 1920,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -162,
+          "y": -230.4,
+          "width": 540,
+          "height": 540,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 756,
+          "y": 1497.6,
+          "width": 486,
+          "height": 486,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 442.8,
+          "y": 153.6,
+          "width": 194.4,
+          "height": 194.4,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 540,
+          "y": 283.2,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 540,
+          "y": 921.6,
+          "fontSize": 97.2,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 43.2,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 540,
+          "y": 1728,
+          "fontSize": 37.8,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "snapchat-designs"
+    },
+    {
+      "id": "social_facebook-profile-pictures_001",
+      "name": "Facebook Profile Pictures 001",
+      "platform": "facebook-profile-pictures",
+      "category": "Facebook Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#071B33",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#071B33",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "facebook-profile-pictures"
+    },
+    {
+      "id": "social_linkedin-profile-pictures_001",
+      "name": "LinkedIn Profile Pictures 001",
+      "platform": "linkedin-profile-pictures",
+      "category": "LinkedIn Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 400,
+        "height": 400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 400,
+          "height": 400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 40,
+          "y": 40,
+          "width": 320,
+          "height": 320,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 200,
+          "y": 248,
+          "fontSize": 136,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "linkedin-profile-pictures"
+    },
+    {
+      "id": "social_soundcloud-profile-pictures_001",
+      "name": "SoundCloud Profile Pictures 001",
+      "platform": "soundcloud-profile-pictures",
+      "category": "SoundCloud Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1000,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#064E3B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1000,
+          "color": "#052E22",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 800,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 620,
+          "fontSize": 340,
+          "fontFamily": "Poppins",
+          "color": "#052E22",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "soundcloud-profile-pictures"
+    },
+    {
+      "id": "social_twitch-profile-pictures_001",
+      "name": "Twitch Profile Pictures 001",
+      "platform": "twitch-profile-pictures",
+      "category": "Twitch Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#7A3B52"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "twitch-profile-pictures"
+    },
+    {
+      "id": "social_instagram-profile-pictures_001",
+      "name": "Instagram Profile Pictures 001",
+      "platform": "instagram-profile-pictures",
+      "category": "Instagram Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "instagram-profile-pictures"
+    },
+    {
+      "id": "social_pinterest-profile-pictures_001",
+      "name": "Pinterest Profile Pictures 001",
+      "platform": "pinterest-profile-pictures",
+      "category": "Pinterest Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 500,
+        "height": 500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#6B0F3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 500,
+          "height": 500,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 50,
+          "width": 400,
+          "height": 400,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 250,
+          "y": 310,
+          "fontSize": 170,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "pinterest-profile-pictures"
+    },
+    {
+      "id": "social_tumblr-profile-pictures_001",
+      "name": "Tumblr Profile Pictures 001",
+      "platform": "tumblr-profile-pictures",
+      "category": "Tumblr Profile Pictures",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 512,
+        "height": 512,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 512,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 51.2,
+          "y": 51.2,
+          "width": 409.6,
+          "height": 409.6,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 256,
+          "y": 317.44,
+          "fontSize": 174.08,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "tumblr-profile-pictures"
+    },
+    {
+      "id": "social_youtube-channel-icons_001",
+      "name": "YouTube Channel Icons 001",
+      "platform": "youtube-channel-icons",
+      "category": "YouTube Channel Icons",
+      "group": "profile-pictures",
+      "premium": false,
+      "canvas": {
+        "width": 800,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 80,
+          "width": 640,
+          "height": 640,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 400,
+          "y": 496,
+          "fontSize": 272,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "youtube-channel-icons"
+    }
+  ],
+  "totalTemplates": 992
+}

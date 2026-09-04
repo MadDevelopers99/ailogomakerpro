@@ -1,0 +1,3046 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Flyers",
+  "templates": [
+    {
+      "id": "print_flyers_001",
+      "name": "Flyers 001",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_002",
+      "name": "Flyers 002",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_003",
+      "name": "Flyers 003",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_004",
+      "name": "Flyers 004",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_005",
+      "name": "Flyers 005",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_006",
+      "name": "Flyers 006",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_007",
+      "name": "Flyers 007",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_008",
+      "name": "Flyers 008",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_009",
+      "name": "Flyers 009",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_010",
+      "name": "Flyers 010",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_011",
+      "name": "Flyers 011",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_012",
+      "name": "Flyers 012",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_013",
+      "name": "Flyers 013",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_014",
+      "name": "Flyers 014",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_015",
+      "name": "Flyers 015",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_flyers_016",
+      "name": "Flyers 016",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

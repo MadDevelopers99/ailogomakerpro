@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "linkedin-banners",
+  "category": "LinkedIn Banners",
+  "templates": [
+    {
+      "id": "social_linkedin-banners_001",
+      "name": "LinkedIn Banners 001",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_002",
+      "name": "LinkedIn Banners 002",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_003",
+      "name": "LinkedIn Banners 003",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_004",
+      "name": "LinkedIn Banners 004",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_005",
+      "name": "LinkedIn Banners 005",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_006",
+      "name": "LinkedIn Banners 006",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_007",
+      "name": "LinkedIn Banners 007",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_008",
+      "name": "LinkedIn Banners 008",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_009",
+      "name": "LinkedIn Banners 009",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_010",
+      "name": "LinkedIn Banners 010",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_011",
+      "name": "LinkedIn Banners 011",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_012",
+      "name": "LinkedIn Banners 012",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_013",
+      "name": "LinkedIn Banners 013",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_014",
+      "name": "LinkedIn Banners 014",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_015",
+      "name": "LinkedIn Banners 015",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_016",
+      "name": "LinkedIn Banners 016",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 55.44,
+          "y": 110.88,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 122.76,
+          "y": 198,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 237.6,
+          "y": 205.92,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 237.6,
+          "y": 253.44,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 237.6,
+          "y": 336.6,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_017",
+      "name": "LinkedIn Banners 017",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_018",
+      "name": "LinkedIn Banners 018",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/nature/nature-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_019",
+      "name": "LinkedIn Banners 019",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_020",
+      "name": "LinkedIn Banners 020",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_021",
+      "name": "LinkedIn Banners 021",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_022",
+      "name": "LinkedIn Banners 022",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_023",
+      "name": "LinkedIn Banners 023",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_024",
+      "name": "LinkedIn Banners 024",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_025",
+      "name": "LinkedIn Banners 025",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_026",
+      "name": "LinkedIn Banners 026",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_027",
+      "name": "LinkedIn Banners 027",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_028",
+      "name": "LinkedIn Banners 028",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_029",
+      "name": "LinkedIn Banners 029",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_030",
+      "name": "LinkedIn Banners 030",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#041F1F"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_031",
+      "name": "LinkedIn Banners 031",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#0A3A3A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_linkedin-banners_032",
+      "name": "LinkedIn Banners 032",
+      "platform": "linkedin-banners",
+      "category": "LinkedIn Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 396,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1584,
+          "height": 9.9,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 724.68,
+          "y": 55.44,
+          "width": 134.64,
+          "height": 134.64,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 792,
+          "y": 142.56,
+          "fontSize": 55.44,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 792,
+          "y": 245.52,
+          "fontSize": 47.52,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 792,
+          "y": 285.12,
+          "fontSize": 19.8,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 792,
+          "y": 348.48,
+          "fontSize": 16.63,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

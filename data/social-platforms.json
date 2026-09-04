@@ -1,0 +1,44 @@
+{
+  "groups": [
+    { "id": "covers", "label": "Social Media Covers" },
+    { "id": "posts", "label": "Social Media Posts" },
+    { "id": "profile-pictures", "label": "Social Media Profile Pictures" }
+  ],
+  "platforms": [
+    { "slug": "facebook-covers", "label": "Facebook Covers", "group": "covers", "width": 820, "height": 312 },
+    { "slug": "twitch-banners", "label": "Twitch Banners", "group": "covers", "width": 1200, "height": 480 },
+    { "slug": "facebook-event-covers", "label": "Facebook Event Covers", "group": "covers", "width": 1920, "height": 1005 },
+    { "slug": "twitter-headers", "label": "Twitter Headers", "group": "covers", "width": 1500, "height": 500 },
+    { "slug": "zoom-backgrounds", "label": "Zoom Backgrounds", "group": "covers", "width": 1920, "height": 1080 },
+    { "slug": "tumblr-banners", "label": "Tumblr Banners", "group": "covers", "width": 1280, "height": 720 },
+    { "slug": "youtube-banners", "label": "YouTube Banners", "group": "covers", "width": 2560, "height": 1440 },
+    { "slug": "linkedin-banners", "label": "LinkedIn Banners", "group": "covers", "width": 1584, "height": 396 },
+    { "slug": "soundcloud-banners", "label": "SoundCloud Banners", "group": "covers", "width": 2480, "height": 520 },
+    { "slug": "pinterest-board-covers", "label": "Pinterest Board Covers", "group": "covers", "width": 600, "height": 600 },
+    { "slug": "etsy-banners", "label": "Etsy Banners", "group": "covers", "width": 1200, "height": 300 },
+
+    { "slug": "instagram-posts", "label": "Instagram Posts", "group": "posts", "width": 1080, "height": 1080 },
+    { "slug": "facebook-posts", "label": "Facebook Posts", "group": "posts", "width": 1200, "height": 630 },
+    { "slug": "facebook-ads", "label": "Facebook Ads", "group": "posts", "width": 1200, "height": 628 },
+    { "slug": "linkedin-posts", "label": "LinkedIn Posts", "group": "posts", "width": 1200, "height": 1200 },
+    { "slug": "tiktok-videos", "label": "TikTok Videos", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "youtube-shorts", "label": "YouTube Shorts", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "whatsapp-stories", "label": "Whatsapp Stories", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "instagram-stories", "label": "Instagram Stories", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "facebook-stories", "label": "Facebook Stories", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "twitter-posts", "label": "Twitter Posts", "group": "posts", "width": 1200, "height": 675 },
+    { "slug": "pinterest-pins", "label": "Pinterest Pins", "group": "posts", "width": 1000, "height": 1500 },
+    { "slug": "instagram-reels", "label": "Instagram Reels", "group": "posts", "width": 1080, "height": 1920 },
+    { "slug": "youtube-videos", "label": "YouTube Videos", "group": "posts", "width": 1280, "height": 720 },
+    { "slug": "snapchat-designs", "label": "Snapchat Designs", "group": "posts", "width": 1080, "height": 1920 },
+
+    { "slug": "facebook-profile-pictures", "label": "Facebook Profile Pictures", "group": "profile-pictures", "width": 500, "height": 500 },
+    { "slug": "linkedin-profile-pictures", "label": "LinkedIn Profile Pictures", "group": "profile-pictures", "width": 400, "height": 400 },
+    { "slug": "soundcloud-profile-pictures", "label": "SoundCloud Profile Pictures", "group": "profile-pictures", "width": 1000, "height": 1000 },
+    { "slug": "twitch-profile-pictures", "label": "Twitch Profile Pictures", "group": "profile-pictures", "width": 800, "height": 800 },
+    { "slug": "instagram-profile-pictures", "label": "Instagram Profile Pictures", "group": "profile-pictures", "width": 500, "height": 500 },
+    { "slug": "pinterest-profile-pictures", "label": "Pinterest Profile Pictures", "group": "profile-pictures", "width": 500, "height": 500 },
+    { "slug": "tumblr-profile-pictures", "label": "Tumblr Profile Pictures", "group": "profile-pictures", "width": 512, "height": 512 },
+    { "slug": "youtube-channel-icons", "label": "YouTube Channel Icons", "group": "profile-pictures", "width": 800, "height": 800 }
+  ]
+}

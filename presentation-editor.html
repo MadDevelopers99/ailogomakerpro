@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presentation Editor — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .pres-shell { display:flex; height:100vh; overflow:hidden; }
+  .pres-filmstrip { width:190px; flex-shrink:0; background:#f3f3f7; border-right:1px solid var(--border); overflow-y:auto; padding:14px 10px; }
+  .pres-filmstrip-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; padding:0 2px; }
+  .pres-filmstrip-header h4 { margin:0; font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-faint); }
+  .pres-slide-thumb { position:relative; border-radius:8px; overflow:hidden; border:2px solid transparent; margin-bottom:10px; cursor:pointer; background:#fff; }
+  .pres-slide-thumb.active { border-color:var(--primary); }
+  .pres-slide-thumb canvas { width:100%; aspect-ratio:1280/720; display:block; }
+  .pres-slide-num { position:absolute; top:4px; left:6px; background:rgba(0,0,0,.6); color:#fff; font-size:10px; padding:1px 6px; border-radius:999px; }
+  .pres-slide-actions { display:flex; gap:4px; justify-content:flex-end; padding:3px 3px 0; }
+  .pres-slide-actions button { border:none; background:transparent; cursor:pointer; font-size:12px; padding:2px 4px; color:var(--text-faint); }
+  .pres-slide-actions button:hover { color:var(--primary); }
+  .pres-main { flex:1; display:flex; flex-direction:column; min-width:0; }
+</style>
+</head>
+<body>
+  <div class="pres-shell">
+    <div class="pres-filmstrip" id="filmstrip">
+      <div class="pres-filmstrip-header"><h4>Slides</h4><button type="button" class="btn btn-outline btn-sm" id="addSlideBtn">+ Add</button></div>
+      <div id="slideList"></div>
+    </div>
+
+    <div class="pres-main">
+      <div class="editor-topbar">
+        <div class="left">
+          <a class="back" href="presentation-gallery.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Back</a>
+          <button class="icon-btn" id="undoBtn" title="Undo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 010 10h-1"/></svg></button>
+          <button class="icon-btn" id="redoBtn" title="Redo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h1"/></svg></button>
+        </div>
+        <div id="editorTitle" style="font-weight:700;font-size:14px;">Presentation</div>
+        <div class="right">
+          <button class="btn btn-outline btn-sm" id="saveBtn">Save</button>
+          <button class="btn btn-outline btn-sm" id="downloadPngBtn">⬇ PNG</button>
+          <button class="btn btn-primary btn-sm" id="exportPdfBtn">⬇ Export PDF</button>
+        </div>
+      </div>
+      <div class="editor-canvas-center">
+        <canvas id="slideCanvas" style="max-width:min(85vh,1100px);width:100%;height:auto;border-radius:10px;box-shadow:0 12px 40px rgba(20,20,60,.16);background:#fff;"></canvas>
+      </div>
+    </div>
+
+    <div class="editor-rightpanel" id="rightPanel"></div>
+  </div>
+
+  <script type="module" src="js/presentation-editor.js"></script>
+</body>
+</html>

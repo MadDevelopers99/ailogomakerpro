@@ -1,0 +1,4375 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "pinterest-pins",
+  "category": "Pinterest Pins",
+  "templates": [
+    {
+      "id": "social_pinterest-pins_001",
+      "name": "Pinterest Pins 001",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_002",
+      "name": "Pinterest Pins 002",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_003",
+      "name": "Pinterest Pins 003",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_004",
+      "name": "Pinterest Pins 004",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_005",
+      "name": "Pinterest Pins 005",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_006",
+      "name": "Pinterest Pins 006",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_007",
+      "name": "Pinterest Pins 007",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_008",
+      "name": "Pinterest Pins 008",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_009",
+      "name": "Pinterest Pins 009",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_010",
+      "name": "Pinterest Pins 010",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_011",
+      "name": "Pinterest Pins 011",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_012",
+      "name": "Pinterest Pins 012",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_013",
+      "name": "Pinterest Pins 013",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_014",
+      "name": "Pinterest Pins 014",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_015",
+      "name": "Pinterest Pins 015",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_016",
+      "name": "Pinterest Pins 016",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": -150,
+          "y": -180,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "deco_circle_2",
+          "type": "shape",
+          "shape": "circle",
+          "x": 700,
+          "y": 1170,
+          "width": 450,
+          "height": 450,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.13,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 410,
+          "y": 120,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 500,
+          "y": 240,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 500,
+          "y": 720,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 500,
+          "y": 825,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 500,
+          "y": 1350,
+          "fontSize": 35,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_017",
+      "name": "Pinterest Pins 017",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_018",
+      "name": "Pinterest Pins 018",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_019",
+      "name": "Pinterest Pins 019",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_020",
+      "name": "Pinterest Pins 020",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_021",
+      "name": "Pinterest Pins 021",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_022",
+      "name": "Pinterest Pins 022",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-3.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_023",
+      "name": "Pinterest Pins 023",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_024",
+      "name": "Pinterest Pins 024",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-4.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_025",
+      "name": "Pinterest Pins 025",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_026",
+      "name": "Pinterest Pins 026",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-5.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_027",
+      "name": "Pinterest Pins 027",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_028",
+      "name": "Pinterest Pins 028",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-6.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_029",
+      "name": "Pinterest Pins 029",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_030",
+      "name": "Pinterest Pins 030",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_031",
+      "name": "Pinterest Pins 031",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_pinterest-pins_032",
+      "name": "Pinterest Pins 032",
+      "platform": "pinterest-pins",
+      "category": "Pinterest Pins",
+      "group": "posts",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#7A2E00"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1500,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "deco_circle_1",
+          "type": "shape",
+          "shape": "circle",
+          "x": 650,
+          "y": -150,
+          "width": 500,
+          "height": 500,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 0.16,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 80,
+          "y": 90,
+          "width": 180,
+          "height": 180,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 170,
+          "y": 210,
+          "fontSize": 90,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 80,
+          "y": 750,
+          "fontSize": 85,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 80,
+          "y": 870,
+          "fontSize": 38,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 80,
+          "y": 1380,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

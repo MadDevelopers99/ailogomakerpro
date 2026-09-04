@@ -1,0 +1,82 @@
+{
+  "abstract": [
+    "assets/social-backgrounds/abstract/abstract-1.jpg",
+    "assets/social-backgrounds/abstract/abstract-2.jpg",
+    "assets/social-backgrounds/abstract/abstract-3.jpg",
+    "assets/social-backgrounds/abstract/abstract-4.jpg",
+    "assets/social-backgrounds/abstract/abstract-5.jpg",
+    "assets/social-backgrounds/abstract/abstract-6.jpg"
+  ],
+  "business": [
+    "assets/social-backgrounds/business/business-1.jpg",
+    "assets/social-backgrounds/business/business-2.jpg",
+    "assets/social-backgrounds/business/business-3.jpg",
+    "assets/social-backgrounds/business/business-4.jpg",
+    "assets/social-backgrounds/business/business-5.jpg",
+    "assets/social-backgrounds/business/business-6.jpg"
+  ],
+  "fashion": [
+    "assets/social-backgrounds/fashion/fashion-1.jpg",
+    "assets/social-backgrounds/fashion/fashion-2.jpg",
+    "assets/social-backgrounds/fashion/fashion-3.jpg",
+    "assets/social-backgrounds/fashion/fashion-4.jpg",
+    "assets/social-backgrounds/fashion/fashion-5.jpg",
+    "assets/social-backgrounds/fashion/fashion-6.jpg"
+  ],
+  "fitness": [
+    "assets/social-backgrounds/fitness/fitness-1.jpg",
+    "assets/social-backgrounds/fitness/fitness-2.jpg",
+    "assets/social-backgrounds/fitness/fitness-3.jpg",
+    "assets/social-backgrounds/fitness/fitness-4.jpg",
+    "assets/social-backgrounds/fitness/fitness-5.jpg",
+    "assets/social-backgrounds/fitness/fitness-6.jpg"
+  ],
+  "food": [
+    "assets/social-backgrounds/food/food-1.jpg",
+    "assets/social-backgrounds/food/food-2.jpg",
+    "assets/social-backgrounds/food/food-3.jpg",
+    "assets/social-backgrounds/food/food-4.jpg",
+    "assets/social-backgrounds/food/food-5.jpg",
+    "assets/social-backgrounds/food/food-6.jpg"
+  ],
+  "gaming": [
+    "assets/social-backgrounds/gaming/gaming-1.jpg",
+    "assets/social-backgrounds/gaming/gaming-2.jpg",
+    "assets/social-backgrounds/gaming/gaming-3.jpg",
+    "assets/social-backgrounds/gaming/gaming-4.jpg",
+    "assets/social-backgrounds/gaming/gaming-5.jpg",
+    "assets/social-backgrounds/gaming/gaming-6.jpg"
+  ],
+  "minimal": [
+    "assets/social-backgrounds/minimal/minimal-1.jpg",
+    "assets/social-backgrounds/minimal/minimal-2.jpg",
+    "assets/social-backgrounds/minimal/minimal-3.jpg",
+    "assets/social-backgrounds/minimal/minimal-4.jpg",
+    "assets/social-backgrounds/minimal/minimal-5.jpg",
+    "assets/social-backgrounds/minimal/minimal-6.jpg"
+  ],
+  "nature": [
+    "assets/social-backgrounds/nature/nature-1.jpg",
+    "assets/social-backgrounds/nature/nature-2.jpg",
+    "assets/social-backgrounds/nature/nature-3.jpg",
+    "assets/social-backgrounds/nature/nature-4.jpg",
+    "assets/social-backgrounds/nature/nature-5.jpg",
+    "assets/social-backgrounds/nature/nature-6.jpg"
+  ],
+  "party": [
+    "assets/social-backgrounds/party/party-1.jpg",
+    "assets/social-backgrounds/party/party-2.jpg",
+    "assets/social-backgrounds/party/party-3.jpg",
+    "assets/social-backgrounds/party/party-4.jpg",
+    "assets/social-backgrounds/party/party-5.jpg",
+    "assets/social-backgrounds/party/party-6.jpg"
+  ],
+  "travel": [
+    "assets/social-backgrounds/travel/travel-1.jpg",
+    "assets/social-backgrounds/travel/travel-2.jpg",
+    "assets/social-backgrounds/travel/travel-3.jpg",
+    "assets/social-backgrounds/travel/travel-4.jpg",
+    "assets/social-backgrounds/travel/travel-5.jpg",
+    "assets/social-backgrounds/travel/travel-6.jpg"
+  ]
+}

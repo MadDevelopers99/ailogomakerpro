@@ -1,0 +1,4167 @@
+{
+  "schemaVersion": "1.0",
+  "platform": "etsy-banners",
+  "category": "Etsy Banners",
+  "templates": [
+    {
+      "id": "social_etsy-banners_001",
+      "name": "Etsy Banners 001",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_002",
+      "name": "Etsy Banners 002",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_003",
+      "name": "Etsy Banners 003",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_004",
+      "name": "Etsy Banners 004",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_005",
+      "name": "Etsy Banners 005",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_006",
+      "name": "Etsy Banners 006",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_007",
+      "name": "Etsy Banners 007",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_008",
+      "name": "Etsy Banners 008",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_009",
+      "name": "Etsy Banners 009",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_010",
+      "name": "Etsy Banners 010",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_011",
+      "name": "Etsy Banners 011",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_012",
+      "name": "Etsy Banners 012",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_013",
+      "name": "Etsy Banners 013",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_014",
+      "name": "Etsy Banners 014",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_015",
+      "name": "Etsy Banners 015",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_016",
+      "name": "Etsy Banners 016",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 42,
+          "y": 84,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 93,
+          "y": 150,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 180,
+          "y": 156,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 180,
+          "y": 192,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 180,
+          "y": 255,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_017",
+      "name": "Etsy Banners 017",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_018",
+      "name": "Etsy Banners 018",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_019",
+      "name": "Etsy Banners 019",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_020",
+      "name": "Etsy Banners 020",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/business/business-2.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_021",
+      "name": "Etsy Banners 021",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_022",
+      "name": "Etsy Banners 022",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_023",
+      "name": "Etsy Banners 023",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_024",
+      "name": "Etsy Banners 024",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fitness/fitness-4.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_025",
+      "name": "Etsy Banners 025",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_026",
+      "name": "Etsy Banners 026",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/food/food-5.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_027",
+      "name": "Etsy Banners 027",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "W",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WE ARE HIRING",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join our growing team",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourcompany",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_028",
+      "name": "Etsy Banners 028",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-6.jpg"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SPECIAL OFFER",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Limited time only",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_029",
+      "name": "Etsy Banners 029",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "C",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMING SOON",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stay tuned for updates",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_030",
+      "name": "Etsy Banners 030",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "T",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THANK YOU",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "For following our journey",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_031",
+      "name": "Etsy Banners 031",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#3B0764"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "Y",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "YOUR BRAND NAME",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Tagline goes here",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@yourhandle",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "social_etsy-banners_032",
+      "name": "Etsy Banners 032",
+      "platform": "etsy-banners",
+      "category": "Etsy Banners",
+      "group": "covers",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 300,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0A0A0A"
+      },
+      "theme": {
+        "primary": "#E5E5E5",
+        "secondary": "#FFFFFF",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 300,
+          "color": "#0A0A0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 7.5,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 549,
+          "y": 42,
+          "width": 102,
+          "height": 102,
+          "color": "#E5E5E5",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 600,
+          "y": 108,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#0A0A0A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "NEW ARRIVAL",
+          "x": 600,
+          "y": 186,
+          "fontSize": 36,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Shop the latest collection",
+          "x": 600,
+          "y": 216,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.yoursite.com",
+          "x": 600,
+          "y": 264,
+          "fontSize": 12.6,
+          "fontFamily": "Poppins",
+          "color": "#E5E5E5",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

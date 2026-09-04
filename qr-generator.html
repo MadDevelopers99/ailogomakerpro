@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free QR Code Generator — Logo Maker</title>
+<meta name="description" content="Create a free QR code for any link, text, email or phone number. Customize the colors, add your logo, and download instantly.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/qr-generator.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .qr-layout { display:grid; grid-template-columns: 360px 1fr; gap: 32px; align-items:start; }
+  .qr-panel { background:#fff; border:1px solid var(--border); border-radius:14px; padding:20px; }
+  .qr-type-row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; }
+  .qr-type-row button { border:1px solid var(--border); background:var(--bg); border-radius:999px; padding:7px 14px; font-size:12.5px; cursor:pointer; }
+  .qr-type-row button.active { background:var(--primary); border-color:var(--primary); color:#fff; }
+  .qr-preview-wrap { background:#fff; border:1px solid var(--border); border-radius:14px; padding:36px; display:flex; flex-direction:column; align-items:center; gap:18px; position:sticky; top:20px; }
+  #qrCanvas { max-width:340px; width:100%; height:auto; border-radius:8px; }
+  .qr-color-row { display:flex; gap:8px; align-items:center; }
+  .qr-color-row input[type="color"] { width:40px; height:36px; padding:2px; border:1px solid var(--border); border-radius:8px; }
+  .qr-error { color:#dc2626; font-size:12.5px; margin-top:8px; min-height:16px; }
+  @media (max-width: 880px) { .qr-layout { grid-template-columns: 1fr; } .qr-preview-wrap { position:static; } }
+</style>
+</head>
+<body data-page="qr-generator">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>QR Code Generator</h1>
+          <p>Create a free, scannable QR code for a link, text, email, phone number or WiFi network — customize the colors and download.</p>
+        </div>
+      </div>
+
+      <div class="qr-layout">
+        <div class="qr-panel">
+          <div class="qr-type-row" id="typeRow">
+            <button type="button" data-type="url" class="active">Website</button>
+            <button type="button" data-type="text">Text</button>
+            <button type="button" data-type="email">Email</button>
+            <button type="button" data-type="phone">Phone</button>
+            <button type="button" data-type="sms">SMS</button>
+            <button type="button" data-type="wifi">WiFi</button>
+          </div>
+
+          <div id="fieldsHost"></div>
+
+          <div class="field" style="margin-top:16px;">
+            <label>Foreground / Background</label>
+            <div class="qr-color-row">
+              <input type="color" id="fgColor" value="#000000">
+              <input type="color" id="bgColor" value="#ffffff">
+              <label style="display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:400;margin-left:8px;">
+                <input type="checkbox" id="transparentBg" style="width:auto;"> Transparent background
+              </label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Error Correction</label>
+            <select id="ecLevel">
+              <option value="L">Low (fastest scan, least resilient)</option>
+              <option value="M" selected>Medium (recommended)</option>
+              <option value="Q">Quartile</option>
+              <option value="H">High (best if adding a logo)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Logo (optional, center overlay)</label>
+            <div style="display:flex;gap:8px;">
+              <button type="button" class="btn btn-outline btn-sm" id="chooseLogoBtn" style="flex:1;">🖼 Choose Logo</button>
+              <button type="button" class="btn btn-outline btn-sm" id="removeLogoBtn" style="display:none;color:#dc2626;">Remove</button>
+            </div>
+            <div id="logoPicker" style="display:none;margin-top:10px;background:var(--bg);border-radius:10px;padding:10px;">
+              <select id="logoPickerCat" style="width:100%;margin-bottom:8px;background:#fff;border:1px solid var(--border);border-radius:8px;padding:7px;font-size:12.5px;"></select>
+              <div id="logoPickerGrid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;max-height:200px;overflow-y:auto;"></div>
+            </div>
+          </div>
+
+          <div class="qr-error" id="qrError"></div>
+        </div>
+
+        <div class="qr-preview-wrap">
+          <canvas id="qrCanvas" width="600" height="600"></canvas>
+          <div style="display:flex;gap:10px;">
+            <button type="button" class="btn btn-primary" id="downloadPngBtn">⬇ Download PNG</button>
+            <button type="button" class="btn btn-outline" id="downloadSvgBtn">⬇ Download SVG</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module" src="js/qr-generator.js"></script>
+</body>
+</html>

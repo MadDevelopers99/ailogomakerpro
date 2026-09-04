@@ -1,0 +1,2706 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Portfolio Website",
+  "templates": [
+    {
+      "id": "website_portfolio_001",
+      "name": "Portfolio Website 001",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_002",
+      "name": "Portfolio Website 002",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_003",
+      "name": "Portfolio Website 003",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_004",
+      "name": "Portfolio Website 004",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_005",
+      "name": "Portfolio Website 005",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_006",
+      "name": "Portfolio Website 006",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_007",
+      "name": "Portfolio Website 007",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_008",
+      "name": "Portfolio Website 008",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_009",
+      "name": "Portfolio Website 009",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_010",
+      "name": "Portfolio Website 010",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_011",
+      "name": "Portfolio Website 011",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_012",
+      "name": "Portfolio Website 012",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111",
+        "bg": "#111111",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_013",
+      "name": "Portfolio Website 013",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_014",
+      "name": "Portfolio Website 014",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_015",
+      "name": "Portfolio Website 015",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_016",
+      "name": "Portfolio Website 016",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "M",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "MAYA CROSS",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Visual Designer",
+          "heading": "I Design Brands People Remember",
+          "subheading": "Freelance graphic & brand designer based in Austin, working with startups worldwide.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "Hi, I'm Maya",
+          "body": "I'm a brand and visual designer with 8 years of experience helping startups tell their story through design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Skills",
+          "heading": "What I Do",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Brand Identity",
+              "text": "Logos, color systems and visual guidelines."
+            },
+            {
+              "icon": "🖼️",
+              "title": "Print & Packaging",
+              "text": "Beautiful, tactile design for physical products."
+            },
+            {
+              "icon": "📱",
+              "title": "Digital Design",
+              "text": "Websites and app interfaces that feel effortless."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Selected Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Fernweh Coffee Rebrand",
+              "subtitle": "Brand identity & packaging",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Lumen App",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            },
+            {
+              "title": "Solstice Festival",
+              "subtitle": "Event branding",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Maya nailed our brand on the first try.",
+              "name": "Alex Rivera",
+              "role": "Founder, Fernweh"
+            },
+            {
+              "quote": "A joy to work with, incredibly talented.",
+              "name": "Jenna Cole",
+              "role": "PM, Lumen"
+            },
+            {
+              "quote": "Elevated our entire event.",
+              "name": "Sam Okafor",
+              "role": "Director, Solstice"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0132",
+          "email": "hello@mayacross.design"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "MAYA CROSS",
+          "text": "© 2026 MAYA CROSS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_017",
+      "name": "Portfolio Website 017",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STUDIO NINE",
+          "links": [
+            "Home",
+            "Portfolio",
+            "Services",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Creative Studio",
+          "heading": "Design That Moves People",
+          "subheading": "An independent creative studio crafting brands, campaigns and digital experiences.",
+          "ctaText": "See Our Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "The Studio",
+          "heading": "Small Team, Big Ideas",
+          "body": "We're a tight-knit studio of designers and strategists who believe great work comes from real collaboration.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Services",
+          "heading": "What We Offer",
+          "items": [
+            {
+              "icon": "✏️",
+              "title": "Brand Strategy",
+              "text": "Positioning that sets you apart from day one."
+            },
+            {
+              "icon": "🎬",
+              "title": "Art Direction",
+              "text": "Cohesive visual direction across every touchpoint."
+            },
+            {
+              "icon": "💻",
+              "title": "Web Design",
+              "text": "Sites built to convert and built to last."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Featured Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Nomad Coffee Co.",
+              "subtitle": "Full brand identity",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Aster Skincare",
+              "subtitle": "Packaging & campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            },
+            {
+              "title": "Verve Fitness",
+              "subtitle": "App & brand design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Studio Nine exceeded every expectation.",
+              "name": "Nina Patel",
+              "role": "CMO, Aster"
+            },
+            {
+              "quote": "True creative partners.",
+              "name": "Leo Grant",
+              "role": "Founder, Nomad Coffee"
+            },
+            {
+              "quote": "Fast, sharp, and original.",
+              "name": "Dana Cruz",
+              "role": "Marketing Lead, Verve"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Brooklyn, NY",
+          "phone": "+1 718 555 0176",
+          "email": "studio@studionine.co"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STUDIO NINE",
+          "text": "© 2026 STUDIO NINE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_portfolio_018",
+      "name": "Portfolio Website 018",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "premium": false,
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38",
+        "bg": "#1E0A38",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "E",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ETHAN BLAKE",
+          "links": [
+            "Home",
+            "Work",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Photographer & Director",
+          "heading": "Stories Told Through Light",
+          "subheading": "Commercial and editorial photographer working with brands across fashion and lifestyle.",
+          "ctaText": "Explore Portfolio",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "Behind the Lens",
+          "body": "For over a decade I've captured campaigns for brands who want their work to feel honest and alive.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Specialties",
+          "heading": "What I Shoot",
+          "items": [
+            {
+              "icon": "📷",
+              "title": "Editorial",
+              "text": "Story-driven imagery for magazines and campaigns."
+            },
+            {
+              "icon": "🛍️",
+              "title": "Product & Lifestyle",
+              "text": "Clean, compelling visuals for brands and e-commerce."
+            },
+            {
+              "icon": "🎞️",
+              "title": "Motion",
+              "text": "Short-form video and brand films."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Recent Work",
+          "heading": "Selected Shoots",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildflower Editorial",
+              "subtitle": "Fashion campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Ember Coffee",
+              "subtitle": "Product photography",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            },
+            {
+              "title": "Coastal Living",
+              "subtitle": "Lifestyle series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/portfolio/portfolio-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Ethan has an incredible eye.",
+              "name": "Chloe Reyes",
+              "role": "Creative Director, Wildflower"
+            },
+            {
+              "quote": "Every shoot exceeds the brief.",
+              "name": "Marcus Lee",
+              "role": "Founder, Ember Coffee"
+            },
+            {
+              "quote": "Simply the best in the business.",
+              "name": "Isla Moore",
+              "role": "Editor, Coastal Living"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Los Angeles, CA",
+          "phone": "+1 310 555 0184",
+          "email": "ethan@ethanblake.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ETHAN BLAKE",
+          "text": "© 2026 ETHAN BLAKE. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

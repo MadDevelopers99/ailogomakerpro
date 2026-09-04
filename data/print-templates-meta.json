@@ -1,0 +1,4064 @@
+{
+  "categories": [
+    {
+      "slug": "email-signatures",
+      "label": "Email Signatures",
+      "width": 600,
+      "height": 200,
+      "count": 16
+    },
+    {
+      "slug": "letterheads",
+      "label": "Letterheads",
+      "width": 850,
+      "height": 1100,
+      "count": 6
+    },
+    {
+      "slug": "posters",
+      "label": "Posters",
+      "width": 900,
+      "height": 1200,
+      "count": 16
+    },
+    {
+      "slug": "flyers",
+      "label": "Flyers",
+      "width": 850,
+      "height": 1100,
+      "count": 16
+    },
+    {
+      "slug": "invoices",
+      "label": "Invoices",
+      "width": 850,
+      "height": 1100,
+      "count": 6
+    },
+    {
+      "slug": "menus",
+      "label": "Menus",
+      "width": 850,
+      "height": 1100,
+      "count": 16
+    },
+    {
+      "slug": "postcards",
+      "label": "Postcards",
+      "width": 1200,
+      "height": 800,
+      "count": 16
+    },
+    {
+      "slug": "gift-certificates",
+      "label": "Gift Certificates",
+      "width": 1100,
+      "height": 850,
+      "count": 16
+    },
+    {
+      "slug": "invitations",
+      "label": "Invitations",
+      "width": 1000,
+      "height": 1400,
+      "count": 16
+    },
+    {
+      "slug": "thank-you-cards",
+      "label": "Thank You Cards",
+      "width": 1000,
+      "height": 1400,
+      "count": 16
+    },
+    {
+      "slug": "t-shirts",
+      "label": "T-Shirts",
+      "width": 1200,
+      "height": 1500,
+      "count": 16
+    }
+  ],
+  "preview": [
+    {
+      "id": "print_email-signatures_001",
+      "name": "Email Signatures 001",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Michael Johnson",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Business Consultant",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "michael@apexconsulting.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#2EA8FF",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "email-signatures"
+    },
+    {
+      "id": "print_email-signatures_002",
+      "name": "Email Signatures 002",
+      "category": "Email Signatures",
+      "categorySlug": "email-signatures",
+      "premium": false,
+      "canvas": {
+        "width": 600,
+        "height": 200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 200,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 6,
+          "height": 200,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 18,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 58,
+          "y": 111.2,
+          "fontSize": 32,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "text": "Sarah Klein",
+          "x": 114,
+          "y": 68,
+          "fontSize": 26,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "job_title",
+          "type": "text",
+          "text": "Marketing Director",
+          "x": 114,
+          "y": 100,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 114,
+          "y": 128,
+          "fontSize": 15,
+          "maxWidth": 206,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 330,
+          "y": 32,
+          "width": 2,
+          "height": 136,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "phone_icon",
+          "type": "icon",
+          "icon": "phone",
+          "x": 354,
+          "y": 38,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 380,
+          "y": 56,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email_icon",
+          "type": "icon",
+          "icon": "email",
+          "x": 354,
+          "y": 84,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "sarah@northgate.com",
+          "x": 380,
+          "y": 102,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "web_icon",
+          "type": "icon",
+          "icon": "globe",
+          "x": 354,
+          "y": 130,
+          "size": 20,
+          "color": "#34D399",
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.northgate.com",
+          "x": 380,
+          "y": 148,
+          "fontSize": 15,
+          "maxWidth": 204,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "name",
+        "job_title",
+        "company",
+        "phone",
+        "email",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "email-signatures"
+    },
+    {
+      "id": "print_letterheads_001",
+      "name": "Letterheads 001",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "APEX CONSULTING",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Strategic Business Advisory",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "123 Business Ave, Suite 400",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "hello@apexconsulting.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "letterheads"
+    },
+    {
+      "id": "print_letterheads_002",
+      "name": "Letterheads 002",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "STERLING PARTNERS",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Management Consulting",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "88 Market Street, Floor 12",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "contact@sterlingpartners.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.sterlingpartners.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "letterheads"
+    },
+    {
+      "id": "print_posters_001",
+      "name": "Posters 001",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#FF4D8D",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "SUMMER MUSIC FESTIVAL",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Three days of live music under the stars",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "July 12–14 · Riverside Park",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "posters"
+    },
+    {
+      "id": "print_posters_002",
+      "name": "Posters 002",
+      "category": "Posters",
+      "categorySlug": "posters",
+      "premium": false,
+      "canvas": {
+        "width": 900,
+        "height": 1200,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/gaming/gaming-1.jpg"
+      },
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 900,
+          "height": 1200,
+          "color": "#041F1F",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "corner_1",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "corner_2",
+          "type": "shape",
+          "shape": "triangle",
+          "x": 684,
+          "y": 984,
+          "width": 216,
+          "height": 216,
+          "color": "#14D6D6",
+          "rotation": 180,
+          "opacity": 0.9,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GRAND OPENING",
+          "x": 450,
+          "y": 504,
+          "fontSize": 90,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Join us for a night to remember",
+          "x": 450,
+          "y": 600,
+          "fontSize": 38.4,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#14D6D6",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_location",
+          "type": "text",
+          "text": "Saturday, June 6 · 7 PM",
+          "x": 450,
+          "y": 1020,
+          "fontSize": 33.6,
+          "maxWidth": 774,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 408,
+          "y": 1080,
+          "width": 84,
+          "height": 84,
+          "color": "#14D6D6",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 450,
+          "y": 1140,
+          "fontSize": 42,
+          "fontFamily": "Poppins",
+          "color": "#041F1F",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "date_location",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "posters"
+    },
+    {
+      "id": "print_flyers_001",
+      "name": "Flyers 001",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "COMMUNITY YARD SALE",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Everything must go — furniture, clothes & more",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Saturday, May 10",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "8 AM – 2 PM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "45 Maple Street",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "See You There!",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#FF7A45",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#FF7A45",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#331100",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "flyers"
+    },
+    {
+      "id": "print_flyers_002",
+      "name": "Flyers 002",
+      "category": "Flyers",
+      "categorySlug": "flyers",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/party/party-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "FREE YOGA CLASS",
+          "x": 425,
+          "y": 220,
+          "fontSize": 60.5,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "All levels welcome, mats provided",
+          "x": 425,
+          "y": 297,
+          "fontSize": 33,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 363,
+          "width": 340,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "detail_1",
+          "type": "text",
+          "text": "Every Sunday",
+          "x": 425,
+          "y": 462,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_2",
+          "type": "text",
+          "text": "9 AM – 10 AM",
+          "x": 425,
+          "y": 528,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "detail_3",
+          "type": "text",
+          "text": "Riverside Park Pavilion",
+          "x": 425,
+          "y": 594,
+          "fontSize": 35.2,
+          "maxWidth": 680,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "cta_text",
+          "type": "text",
+          "text": "Register Today",
+          "x": 425,
+          "y": 858,
+          "fontSize": 41.8,
+          "maxWidth": 595,
+          "fontFamily": "Poppins",
+          "color": "#A855F7",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 392,
+          "y": 957,
+          "width": 66,
+          "height": 66,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 425,
+          "y": 1003.2,
+          "fontSize": 33,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "headline",
+        "subheadline",
+        "detail_1",
+        "detail_2",
+        "detail_3",
+        "cta_text",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "flyers"
+    },
+    {
+      "id": "print_invoices_001",
+      "name": "Invoices 001",
+      "category": "Invoices",
+      "categorySlug": "invoices",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#0B1A2E",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 100,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 25,
+          "width": 50,
+          "height": 50,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 75,
+          "y": 58,
+          "fontSize": 22,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Consulting",
+          "x": 115,
+          "y": 58,
+          "fontSize": 19,
+          "maxWidth": 340,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "invoice_label",
+          "type": "text",
+          "text": "INVOICE",
+          "x": 800,
+          "y": 45,
+          "fontSize": 26,
+          "maxWidth": 255,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "invoice_number",
+          "type": "text",
+          "text": "Invoice #INV-1042",
+          "x": 800,
+          "y": 68,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "invoice_date",
+          "type": "text",
+          "text": "Date: June 4, 2026",
+          "x": 800,
+          "y": 86,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bill_to_label",
+          "type": "text",
+          "text": "BILL TO",
+          "x": 50,
+          "y": 155,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "bill_to_name",
+          "type": "text",
+          "text": "Northgate Retail",
+          "x": 50,
+          "y": 178,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "bill_to_address",
+          "type": "text",
+          "text": "123 Business Ave, Suite 400",
+          "x": 50,
+          "y": 198,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "table_header",
+          "type": "text",
+          "text": "DESCRIPTION",
+          "x": 50,
+          "y": 396,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "amount_header",
+          "type": "text",
+          "text": "AMOUNT",
+          "x": 800,
+          "y": 396,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "right",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "table_divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 50,
+          "y": 418,
+          "width": 750,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "item_1",
+          "type": "text",
+          "text": "Strategy Consulting — 20 hrs",
+          "x": 50,
+          "y": 462,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_1_price",
+          "type": "text",
+          "text": "$3,000.00",
+          "x": 800,
+          "y": 462,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2",
+          "type": "text",
+          "text": "Market Research Report",
+          "x": 50,
+          "y": 511.5,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2_price",
+          "type": "text",
+          "text": "$850.00",
+          "x": 800,
+          "y": 511.5,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3",
+          "type": "text",
+          "text": "Follow-up Workshop",
+          "x": 50,
+          "y": 561,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3_price",
+          "type": "text",
+          "text": "$450.00",
+          "x": 800,
+          "y": 561,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "total_divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 50,
+          "y": 625.35,
+          "width": 750,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "total_label",
+          "type": "text",
+          "text": "TOTAL",
+          "x": 630,
+          "y": 674.85,
+          "fontSize": 18,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "total_value",
+          "type": "text",
+          "text": "$4,300.00",
+          "x": 800,
+          "y": 674.85,
+          "fontSize": 18,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "right",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "footer_note",
+          "type": "text",
+          "text": "Thank you for your business. Payment due within 30 days.",
+          "x": 425,
+          "y": 1050,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "invoice_label",
+        "invoice_number",
+        "invoice_date",
+        "bill_to_name",
+        "bill_to_address",
+        "item_1",
+        "item_1_price",
+        "item_2",
+        "item_2_price",
+        "item_3",
+        "item_3_price",
+        "total_label",
+        "total_value",
+        "footer_note"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "invoices"
+    },
+    {
+      "id": "print_invoices_002",
+      "name": "Invoices 002",
+      "category": "Invoices",
+      "categorySlug": "invoices",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#0B1A2E",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 100,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 50,
+          "y": 25,
+          "width": 50,
+          "height": 50,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 75,
+          "y": 58,
+          "fontSize": 22,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Studio Nine",
+          "x": 115,
+          "y": 58,
+          "fontSize": 19,
+          "maxWidth": 340,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "invoice_label",
+          "type": "text",
+          "text": "INVOICE",
+          "x": 800,
+          "y": 45,
+          "fontSize": 26,
+          "maxWidth": 255,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "invoice_number",
+          "type": "text",
+          "text": "Invoice #INV-2091",
+          "x": 800,
+          "y": 68,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "invoice_date",
+          "type": "text",
+          "text": "Date: June 12, 2026",
+          "x": 800,
+          "y": 86,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bill_to_label",
+          "type": "text",
+          "text": "BILL TO",
+          "x": 50,
+          "y": 155,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "bill_to_name",
+          "type": "text",
+          "text": "Fernweh Coffee Co.",
+          "x": 50,
+          "y": 178,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "bill_to_address",
+          "type": "text",
+          "text": "77 Harvest Lane",
+          "x": 50,
+          "y": 198,
+          "fontSize": 13,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "table_header",
+          "type": "text",
+          "text": "DESCRIPTION",
+          "x": 50,
+          "y": 396,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "amount_header",
+          "type": "text",
+          "text": "AMOUNT",
+          "x": 800,
+          "y": 396,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "right",
+          "bold": true,
+          "editable": false
+        },
+        {
+          "id": "table_divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 50,
+          "y": 418,
+          "width": 750,
+          "height": 2,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "item_1",
+          "type": "text",
+          "text": "Brand Identity Design",
+          "x": 50,
+          "y": 462,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_1_price",
+          "type": "text",
+          "text": "$2,400.00",
+          "x": 800,
+          "y": 462,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2",
+          "type": "text",
+          "text": "Packaging Design",
+          "x": 50,
+          "y": 511.5,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2_price",
+          "type": "text",
+          "text": "$1,100.00",
+          "x": 800,
+          "y": 511.5,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3",
+          "type": "text",
+          "text": "Print Production Support",
+          "x": 50,
+          "y": 561,
+          "fontSize": 14,
+          "maxWidth": 590,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3_price",
+          "type": "text",
+          "text": "$300.00",
+          "x": 800,
+          "y": 561,
+          "fontSize": 14,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "total_divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 50,
+          "y": 625.35,
+          "width": 750,
+          "height": 2,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "total_label",
+          "type": "text",
+          "text": "TOTAL",
+          "x": 630,
+          "y": 674.85,
+          "fontSize": 18,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "total_value",
+          "type": "text",
+          "text": "$3,800.00",
+          "x": 800,
+          "y": 674.85,
+          "fontSize": 18,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "right",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "footer_note",
+          "type": "text",
+          "text": "Thank you for your business. Payment due within 30 days.",
+          "x": 425,
+          "y": 1050,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "invoice_label",
+        "invoice_number",
+        "invoice_date",
+        "bill_to_name",
+        "bill_to_address",
+        "item_1",
+        "item_1_price",
+        "item_2",
+        "item_2_price",
+        "item_3",
+        "item_3_price",
+        "total_label",
+        "total_value",
+        "footer_note"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "invoices"
+    },
+    {
+      "id": "print_menus_001",
+      "name": "Menus 001",
+      "category": "Menus",
+      "categorySlug": "menus",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+      },
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#2A1810",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "restaurant_name",
+          "type": "text",
+          "text": "The Oak Table",
+          "x": 425,
+          "y": 110,
+          "fontSize": 49.5,
+          "maxWidth": 731,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Seasonal Cooking, Warm Hospitality",
+          "x": 425,
+          "y": 148.5,
+          "fontSize": 14,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#E8A33D",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 187,
+          "width": 340,
+          "height": 2,
+          "color": "#E8A33D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "category_1_title",
+          "type": "text",
+          "text": "STARTERS",
+          "x": 425,
+          "y": 330,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_1_1",
+          "type": "text",
+          "text": "Bruschetta — $8",
+          "x": 60,
+          "y": 370,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_1_2",
+          "type": "text",
+          "text": "Soup of the Day — $7",
+          "x": 60,
+          "y": 398,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "category_2_title",
+          "type": "text",
+          "text": "MAINS",
+          "x": 425,
+          "y": 550,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_2_1",
+          "type": "text",
+          "text": "Roasted Chicken — $28",
+          "x": 60,
+          "y": 590,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2_2",
+          "type": "text",
+          "text": "Pan-Seared Salmon — $32",
+          "x": 60,
+          "y": 618,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "category_3_title",
+          "type": "text",
+          "text": "DESSERTS",
+          "x": 425,
+          "y": 770,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_3_1",
+          "type": "text",
+          "text": "Chocolate Tart — $9",
+          "x": 60,
+          "y": 810,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "214 Maple Street · +1 555 234 8890",
+          "x": 425,
+          "y": 1060,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "restaurant_name",
+        "tagline",
+        "category_1_title",
+        "item_1_1",
+        "item_1_2",
+        "category_2_title",
+        "item_2_1",
+        "item_2_2",
+        "category_3_title",
+        "item_3_1",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "menus"
+    },
+    {
+      "id": "print_menus_002",
+      "name": "Menus 002",
+      "category": "Menus",
+      "categorySlug": "menus",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+      },
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#1A0E0A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "restaurant_name",
+          "type": "text",
+          "text": "Harvest Kitchen",
+          "x": 425,
+          "y": 110,
+          "fontSize": 49.5,
+          "maxWidth": 731,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Farm To Table, Every Season",
+          "x": 425,
+          "y": 148.5,
+          "fontSize": 14,
+          "maxWidth": 731,
+          "fontFamily": "Poppins",
+          "color": "#E64545",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 255,
+          "y": 187,
+          "width": 340,
+          "height": 2,
+          "color": "#E64545",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "category_1_title",
+          "type": "text",
+          "text": "STARTERS",
+          "x": 425,
+          "y": 330,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_1_1",
+          "type": "text",
+          "text": "Heirloom Tomato Salad — $10",
+          "x": 60,
+          "y": 370,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_1_2",
+          "type": "text",
+          "text": "Grilled Flatbread — $9",
+          "x": 60,
+          "y": 398,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "category_2_title",
+          "type": "text",
+          "text": "MAINS",
+          "x": 425,
+          "y": 550,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_2_1",
+          "type": "text",
+          "text": "Grilled Ribeye — $38",
+          "x": 60,
+          "y": 590,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2_2",
+          "type": "text",
+          "text": "Butternut Squash Tart — $18",
+          "x": 60,
+          "y": 618,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "category_3_title",
+          "type": "text",
+          "text": "DESSERTS",
+          "x": 425,
+          "y": 770,
+          "fontSize": 20,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_3_1",
+          "type": "text",
+          "text": "Apple Crumble — $8",
+          "x": 60,
+          "y": 810,
+          "fontSize": 15,
+          "maxWidth": 730,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "77 Harvest Lane · +1 555 349 7712",
+          "x": 425,
+          "y": 1060,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "restaurant_name",
+        "tagline",
+        "category_1_title",
+        "item_1_1",
+        "item_1_2",
+        "category_2_title",
+        "item_2_1",
+        "item_2_2",
+        "category_3_title",
+        "item_3_1",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "menus"
+    },
+    {
+      "id": "print_postcards_001",
+      "name": "Postcards 001",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "postcards"
+    },
+    {
+      "id": "print_postcards_002",
+      "name": "Postcards 002",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "postcards"
+    },
+    {
+      "id": "print_gift-certificates_001",
+      "name": "Gift Certificates 001",
+      "category": "Gift Certificates",
+      "categorySlug": "gift-certificates",
+      "premium": false,
+      "canvas": {
+        "width": 1100,
+        "height": 850,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/luxury/luxury-1.jpg"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#7A1F35"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1100,
+          "height": 850,
+          "color": "#3B0D18",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "border_outer",
+          "type": "shape",
+          "shape": "rect",
+          "x": 22,
+          "y": 22,
+          "width": 1056,
+          "height": 806,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "border_inner",
+          "type": "shape",
+          "shape": "rect",
+          "x": 30,
+          "y": 30,
+          "width": 1040,
+          "height": 790,
+          "color": "#3B0D18",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "GIFT CERTIFICATE",
+          "x": 550,
+          "y": 238,
+          "fontSize": 63.75,
+          "maxWidth": 880,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "This certificate entitles the bearer to",
+          "x": 550,
+          "y": 357,
+          "fontSize": 32.3,
+          "maxWidth": 880,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "amount",
+          "type": "text",
+          "text": "$50",
+          "x": 550,
+          "y": 527,
+          "fontSize": 110.5,
+          "maxWidth": 660,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "Apex Spa & Wellness",
+          "x": 550,
+          "y": 663,
+          "fontSize": 29.75,
+          "maxWidth": 880,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "signature_label",
+          "type": "text",
+          "text": "Signature",
+          "x": 242,
+          "y": 765,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_label",
+          "type": "text",
+          "text": "Date",
+          "x": 858,
+          "y": 765,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "subtext",
+        "amount",
+        "company",
+        "signature_label",
+        "date_label"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "gift-certificates"
+    },
+    {
+      "id": "print_gift-certificates_002",
+      "name": "Gift Certificates 002",
+      "category": "Gift Certificates",
+      "categorySlug": "gift-certificates",
+      "premium": false,
+      "canvas": {
+        "width": 1100,
+        "height": 850,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/luxury/luxury-1.jpg"
+      },
+      "theme": {
+        "primary": "#C9A961",
+        "secondary": "#F5F1E8",
+        "accent": "#1A1A1A"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1100,
+          "height": 850,
+          "color": "#0D0D0D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "border_outer",
+          "type": "shape",
+          "shape": "rect",
+          "x": 22,
+          "y": 22,
+          "width": 1056,
+          "height": 806,
+          "color": "#C9A961",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "border_inner",
+          "type": "shape",
+          "shape": "rect",
+          "x": 30,
+          "y": 30,
+          "width": 1040,
+          "height": 790,
+          "color": "#0D0D0D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "GIFT CERTIFICATE",
+          "x": 550,
+          "y": 238,
+          "fontSize": 63.75,
+          "maxWidth": 880,
+          "fontFamily": "Playfair Display",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "This certificate entitles the bearer to",
+          "x": 550,
+          "y": 357,
+          "fontSize": 32.3,
+          "maxWidth": 880,
+          "fontFamily": "Poppins",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "amount",
+          "type": "text",
+          "text": "$100",
+          "x": 550,
+          "y": 527,
+          "fontSize": 110.5,
+          "maxWidth": 660,
+          "fontFamily": "Playfair Display",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "The Oak Table Restaurant",
+          "x": 550,
+          "y": 663,
+          "fontSize": 29.75,
+          "maxWidth": 880,
+          "fontFamily": "Poppins",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "signature_label",
+          "type": "text",
+          "text": "Signature",
+          "x": 242,
+          "y": 765,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "date_label",
+          "type": "text",
+          "text": "Date",
+          "x": 858,
+          "y": 765,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#F5F1E8",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "subtext",
+        "amount",
+        "company",
+        "signature_label",
+        "date_label"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "gift-certificates"
+    },
+    {
+      "id": "print_invitations_001",
+      "name": "Invitations 001",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "invitations"
+    },
+    {
+      "id": "print_invitations_002",
+      "name": "Invitations 002",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "invitations"
+    },
+    {
+      "id": "print_thank-you-cards_001",
+      "name": "Thank You Cards 001",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#3a2a1a",
+        "accent": "#3a2a1a"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#FDF6EC",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#C97B3D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#FDF6EC",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "For your kindness, generosity and support — thank you from the bottom of our hearts.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "With gratitude, Maya",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#3a2a1a",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "thank-you-cards"
+    },
+    {
+      "id": "print_thank-you-cards_002",
+      "name": "Thank You Cards 002",
+      "category": "Thank You Cards",
+      "categorySlug": "thank-you-cards",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/minimal/minimal-1.jpg"
+      },
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#16241c",
+        "accent": "#16241c"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#F3F7F4",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 196,
+          "width": 98,
+          "height": 98,
+          "color": "#6FAE8C",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 266,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#F3F7F4",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 500,
+          "y": 560,
+          "fontSize": 105,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "message",
+          "type": "text",
+          "text": "Thank you for being part of our journey. We couldn't have done it without you.",
+          "x": 500,
+          "y": 700,
+          "fontSize": 28,
+          "maxWidth": 720,
+          "fontFamily": "Poppins",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "signature",
+          "type": "text",
+          "text": "Warmly, The Team",
+          "x": 500,
+          "y": 868,
+          "fontSize": 42,
+          "maxWidth": 800,
+          "fontFamily": "Playfair Display",
+          "color": "#16241c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "message",
+        "signature"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "thank-you-cards"
+    },
+    {
+      "id": "print_t-shirts_001",
+      "name": "T-Shirts 001",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "t-shirts"
+    },
+    {
+      "id": "print_t-shirts_002",
+      "name": "T-Shirts 002",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      },
+      "__slug": "t-shirts"
+    }
+  ],
+  "totalTemplates": 156
+}

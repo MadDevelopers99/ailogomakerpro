@@ -1,0 +1,1670 @@
+{
+  "schemaVersion": "1.0",
+  "category": "T-Shirts",
+  "templates": [
+    {
+      "id": "print_t-shirts_001",
+      "name": "T-Shirts 001",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_002",
+      "name": "T-Shirts 002",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_003",
+      "name": "T-Shirts 003",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_004",
+      "name": "T-Shirts 004",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_005",
+      "name": "T-Shirts 005",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_006",
+      "name": "T-Shirts 006",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_007",
+      "name": "T-Shirts 007",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_008",
+      "name": "T-Shirts 008",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_009",
+      "name": "T-Shirts 009",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_010",
+      "name": "T-Shirts 010",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_011",
+      "name": "T-Shirts 011",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_012",
+      "name": "T-Shirts 012",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_013",
+      "name": "T-Shirts 013",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#111111"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_014",
+      "name": "T-Shirts 014",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#111111"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_015",
+      "name": "T-Shirts 015",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1A1A1A"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#F2C230"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "GOOD VIBES",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "ONLY",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_t-shirts_016",
+      "name": "T-Shirts 016",
+      "category": "T-Shirts",
+      "categorySlug": "t-shirts",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 1500,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1A1A1A"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#111111",
+        "accent": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 1500,
+          "color": "#1A1A1A",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "line_1",
+          "type": "text",
+          "text": "STAY WILD",
+          "x": 600,
+          "y": 660,
+          "fontSize": 135,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "line_2",
+          "type": "text",
+          "text": "STAY FREE",
+          "x": 600,
+          "y": 780,
+          "fontSize": 60,
+          "maxWidth": 1032,
+          "fontFamily": "Montserrat",
+          "color": "#111111",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 547.5,
+          "y": 870,
+          "width": 105,
+          "height": 105,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 600,
+          "y": 945,
+          "fontSize": 52.5,
+          "fontFamily": "Poppins",
+          "color": "#1A1A1A",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "line_1",
+        "line_2",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

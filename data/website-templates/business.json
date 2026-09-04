@@ -1,0 +1,2724 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Business Website",
+  "templates": [
+    {
+      "id": "website_business_001",
+      "name": "Business Website 001",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_002",
+      "name": "Business Website 002",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_003",
+      "name": "Business Website 003",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_004",
+      "name": "Business Website 004",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_005",
+      "name": "Business Website 005",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_006",
+      "name": "Business Website 006",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_007",
+      "name": "Business Website 007",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_008",
+      "name": "Business Website 008",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_009",
+      "name": "Business Website 009",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_010",
+      "name": "Business Website 010",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_011",
+      "name": "Business Website 011",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_012",
+      "name": "Business Website 012",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_013",
+      "name": "Business Website 013",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_014",
+      "name": "Business Website 014",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_015",
+      "name": "Business Website 015",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_016",
+      "name": "Business Website 016",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "APEX CONSULTING",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Business Consulting",
+          "heading": "Grow Your Business With Confidence",
+          "subheading": "Strategic consulting and hands-on support to help your company scale sustainably.",
+          "ctaText": "Book a Consultation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Who We Are",
+          "heading": "15 Years of Helping Businesses Succeed",
+          "body": "We partner with founders and leadership teams to solve their toughest operational and growth challenges.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What We Do",
+          "heading": "Our Services",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Growth Strategy",
+              "text": "Data-driven plans to scale revenue and market share."
+            },
+            {
+              "icon": "🤝",
+              "title": "Operations Consulting",
+              "text": "Streamline workflows and reduce operational costs."
+            },
+            {
+              "icon": "💡",
+              "title": "Business Advisory",
+              "text": "Expert guidance for critical business decisions."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Our Work",
+          "heading": "Recent Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Retail Expansion",
+              "subtitle": "Helped a regional retailer expand to 12 new markets.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Process Overhaul",
+              "subtitle": "Cut operational costs by 30% for a logistics firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            },
+            {
+              "title": "Brand Relaunch",
+              "subtitle": "Repositioned a legacy brand for a new generation.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "They transformed how we operate.",
+              "name": "Sarah Klein",
+              "role": "CEO, Northgate Retail"
+            },
+            {
+              "quote": "Incredible strategic insight.",
+              "name": "James Wu",
+              "role": "Founder, Wu Logistics"
+            },
+            {
+              "quote": "Worth every dollar.",
+              "name": "Maria Torres",
+              "role": "COO, Torres Group"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "123 Business Ave, Suite 400",
+          "phone": "+1 123 456 7890",
+          "email": "hello@yourcompany.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "APEX CONSULTING",
+          "text": "© 2026 APEX CONSULTING. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_017",
+      "name": "Business Website 017",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "S",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "STERLING PARTNERS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Clients",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Management Consulting",
+          "heading": "Smarter Decisions. Stronger Growth.",
+          "subheading": "We help ambitious companies navigate change and build lasting competitive advantage.",
+          "ctaText": "Start a Project",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Built By Operators, For Operators",
+          "body": "Our team has run and scaled companies ourselves — we bring real operating experience, not just frameworks.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "How We Help",
+          "items": [
+            {
+              "icon": "🎯",
+              "title": "Strategy & Planning",
+              "text": "Clear roadmaps built around your goals and market."
+            },
+            {
+              "icon": "⚙️",
+              "title": "Execution Support",
+              "text": "Hands-on help turning plans into measurable results."
+            },
+            {
+              "icon": "📊",
+              "title": "Performance Analytics",
+              "text": "Track what matters and course-correct fast."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Case Studies",
+          "heading": "Client Results",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Series B Readiness",
+              "subtitle": "Prepared a SaaS company for a $40M raise.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Market Entry",
+              "subtitle": "Launched a new product line in 3 new regions.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            },
+            {
+              "title": "Turnaround",
+              "subtitle": "Returned a struggling division to profitability.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Sterling gave us clarity when we needed it most.",
+              "name": "David Chen",
+              "role": "CEO, Northbridge"
+            },
+            {
+              "quote": "A true extension of our team.",
+              "name": "Priya Anand",
+              "role": "VP Ops, Fieldstone"
+            },
+            {
+              "quote": "Results-focused from day one.",
+              "name": "Tom Reilly",
+              "role": "Founder, Reilly & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "88 Market Street, Floor 12",
+          "phone": "+1 212 555 0148",
+          "email": "contact@sterlingpartners.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "STERLING PARTNERS",
+          "text": "© 2026 STERLING PARTNERS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_business_018",
+      "name": "Business Website 018",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "premium": false,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "N",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "NORTHGATE ADVISORS",
+          "links": [
+            "Home",
+            "About",
+            "Services",
+            "Insights",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Corporate Advisory",
+          "heading": "Your Partner In Sustainable Growth",
+          "subheading": "From strategy to execution, we help businesses build for the long term.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Why Northgate",
+          "heading": "Experience Across Every Stage of Growth",
+          "body": "We've guided startups through Series A and helped enterprises modernize decades-old operations.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/business/business-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Our Focus",
+          "heading": "Where We Add Value",
+          "items": [
+            {
+              "icon": "🧭",
+              "title": "Strategic Direction",
+              "text": "Align your team around a clear, actionable vision."
+            },
+            {
+              "icon": "🔧",
+              "title": "Operational Excellence",
+              "text": "Remove friction and improve efficiency at scale."
+            },
+            {
+              "icon": "💬",
+              "title": "Leadership Coaching",
+              "text": "Develop the leaders your growth demands."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Track Record",
+          "heading": "Featured Engagements",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Supply Chain Redesign",
+              "subtitle": "Reduced delivery times by 40% for a manufacturer.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Merger Integration",
+              "subtitle": "Unified two companies into one operating model.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            },
+            {
+              "title": "Digital Transformation",
+              "subtitle": "Modernized legacy systems for a 200-person firm.",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/business/business-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Northgate consistently delivers.",
+              "name": "Elena Marsh",
+              "role": "COO, Bright Manufacturing"
+            },
+            {
+              "quote": "Strategic partners in every sense.",
+              "name": "Ravi Shah",
+              "role": "CEO, Shah Holdings"
+            },
+            {
+              "quote": "They just get it done.",
+              "name": "Lucy Bennett",
+              "role": "Founder, Bennett & Co."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "500 Corporate Drive",
+          "phone": "+1 415 555 0199",
+          "email": "info@northgateadvisors.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "NORTHGATE ADVISORS",
+          "text": "© 2026 NORTHGATE ADVISORS. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

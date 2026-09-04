@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon — Logo Maker</title>
+<meta name="description" content="This tool is coming soon to Logo Maker.">
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="bar">
+      <a class="brand" href="index.html"><span class="brand-mark">LM</span> LOGO MAKER</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="templates.html">Templates</a>
+        <a href="my-logos.html">My Logos</a>
+        <a href="upgrade.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+        <a href="developer.html" target="_blank" rel="noopener">Developer</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="signin.html">Sign In</a>
+    </div>
+  </header>
+
+  <section class="content-section" style="min-height:56vh;display:flex;align-items:center;">
+    <div class="container" style="max-width:560px;text-align:center;">
+      <div style="font-size:40px;margin-bottom:10px;">🚧</div>
+      <h2 id="toolTitle" style="margin-bottom:10px;">This tool is coming soon</h2>
+      <p style="color:var(--text-dim);font-size:14.5px;line-height:1.7;margin-bottom:24px;">We're still building this one. In the meantime, our free logo maker is ready to go — browse 17,000+ templates and create your logo right now.</p>
+      <a class="btn btn-primary" href="templates.html">Browse Logo Templates</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;padding-top:0;">
+        <div>© <span id="yearNow"></span> Logo Maker.</div>
+        <div><a href="index.html" style="color:#9296ac;">Back to Home</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("yearNow").textContent = new Date().getFullYear();
+    const tool = new URLSearchParams(window.location.search).get("tool");
+    if (tool) {
+      document.getElementById("toolTitle").textContent = tool + " — coming soon";
+      document.title = tool + " (Coming Soon) — Logo Maker";
+    }
+  </script>
+</body>
+</html>

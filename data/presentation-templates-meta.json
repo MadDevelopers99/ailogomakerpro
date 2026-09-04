@@ -1,0 +1,84 @@
+{
+  "decks": [
+    {
+      "slug": "startup-pitch",
+      "name": "Startup Pitch Deck",
+      "category": "Startup Pitch",
+      "slideCount": 7,
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E"
+      },
+      "coverBg": {
+        "type": "image",
+        "src": "assets/business-backgrounds/business/business-1.jpg"
+      }
+    },
+    {
+      "slug": "portfolio-deck",
+      "name": "Portfolio Deck",
+      "category": "Portfolio",
+      "slideCount": 7,
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942"
+      },
+      "coverBg": {
+        "type": "image",
+        "src": "assets/business-backgrounds/creative/creative-1.jpg"
+      }
+    },
+    {
+      "slug": "sales-deck",
+      "name": "Sales Deck",
+      "category": "Sales",
+      "slideCount": 7,
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B",
+        "bg": "#0B2A5B"
+      },
+      "coverBg": {
+        "type": "image",
+        "src": "assets/business-backgrounds/corporate/corporate-1.jpg"
+      }
+    },
+    {
+      "slug": "marketing-plan",
+      "name": "Marketing Plan",
+      "category": "Marketing",
+      "slideCount": 7,
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32",
+        "bg": "#073B32"
+      },
+      "coverBg": {
+        "type": "image",
+        "src": "assets/business-backgrounds/modern/modern-1.jpg"
+      }
+    },
+    {
+      "slug": "company-overview",
+      "name": "Company Overview",
+      "category": "Company Overview",
+      "slideCount": 7,
+      "theme": {
+        "primary": "#C9A961",
+        "secondary": "#F5F1E8",
+        "accent": "#1A1A1A",
+        "bg": "#0D0D0D"
+      },
+      "coverBg": {
+        "type": "image",
+        "src": "assets/business-backgrounds/luxury/luxury-1.jpg"
+      }
+    }
+  ]
+}

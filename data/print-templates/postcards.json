@@ -1,0 +1,1462 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Postcards",
+  "templates": [
+    {
+      "id": "print_postcards_001",
+      "name": "Postcards 001",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_002",
+      "name": "Postcards 002",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-1.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_003",
+      "name": "Postcards 003",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-2.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_004",
+      "name": "Postcards 004",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-2.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_005",
+      "name": "Postcards 005",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_006",
+      "name": "Postcards 006",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-3.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_007",
+      "name": "Postcards 007",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-4.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_008",
+      "name": "Postcards 008",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-4.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_009",
+      "name": "Postcards 009",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_010",
+      "name": "Postcards 010",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-5.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_011",
+      "name": "Postcards 011",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-6.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_012",
+      "name": "Postcards 012",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/travel/travel-6.jpg"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_013",
+      "name": "Postcards 013",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0B2A5B"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_014",
+      "name": "Postcards 014",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0B2A5B"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_015",
+      "name": "Postcards 015",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Greetings",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Wish you were here",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_postcards_016",
+      "name": "Postcards 016",
+      "category": "Postcards",
+      "categorySlug": "postcards",
+      "premium": false,
+      "canvas": {
+        "width": 1200,
+        "height": 800,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#331100"
+      },
+      "theme": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFFFFF",
+        "accent": "#331100"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 800,
+          "color": "#331100",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "greeting",
+          "type": "text",
+          "text": "Hello From Paradise",
+          "x": 600,
+          "y": 360,
+          "fontSize": 104,
+          "maxWidth": 1032,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subtext",
+          "type": "text",
+          "text": "Sun, sand, and endless blue skies",
+          "x": 600,
+          "y": 448,
+          "fontSize": 36,
+          "maxWidth": 1032,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "website",
+          "type": "text",
+          "text": "www.yourbrand.com",
+          "x": 600,
+          "y": 720,
+          "fontSize": 25.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "greeting",
+        "subtext",
+        "website"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

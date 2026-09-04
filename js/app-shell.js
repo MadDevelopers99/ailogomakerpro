@@ -4,6 +4,13 @@
 const NAV_ICONS = {
   dashboard: '<path d="M3 11l9-8 9 8M5 10v10h14V10"/>',
   templates: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  "business-cards": '<rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="7.5" cy="12" r="1.7"/><path d="M12.5 10h6M12.5 14h4"/>',
+  "social-media": '<rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="9" cy="9" r="1.6"/><path d="M3 16l5-5 4 4 3-3 6 6"/>',
+  "website-builder": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 8h18M7 5.5v0M10 5.5v0"/>',
+  "print-shop": '<path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/>',
+  "motion-gallery": '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 9l5 3-5 3z"/>',
+  "presentation-gallery": '<rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/>',
+  "qr-generator": '<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>',
   "my-logos": '<rect x="3" y="4" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-4-4 3-3-2-5 4"/>',
   "brand-kit": '<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 019 9M12 3v9l6 6"/>',
   saved: '<path d="M6 3h12v18l-6-4-6 4z"/>',
@@ -19,6 +26,12 @@ const NAV_ICONS = {
 const NAV_ITEMS = [
   { id: "dashboard", label: "Dashboard", href: "dashboard.html" },
   { id: "templates", label: "Templates", href: "templates.html" },
+  { id: "business-cards", label: "Business Cards", href: "business-cards.html" },
+  { id: "social-media", label: "Social Media", href: "social-media.html" },
+  { id: "website-builder", label: "Website Builder", href: "website-builder.html" },
+  { id: "print-shop", label: "Print & Marketing", href: "print-shop.html" },
+  { id: "presentation-gallery", label: "Presentations", href: "presentation-gallery.html" },
+  { id: "motion-gallery", label: "Animations & Video", href: "motion-gallery.html" },
   { id: "my-logos", label: "My Logos", href: "my-logos.html" },
   { id: "brand-kit", label: "Brand Kit", href: "brand-kit.html" },
   { id: "saved", label: "Saved", href: "saved.html" },
@@ -30,6 +43,7 @@ const TOOL_ITEMS = [
   { id: "icon-library", label: "Icon Library", href: "editor.html?tool=icons" },
   { id: "backgrounds", label: "Backgrounds", href: "editor.html?tool=background" },
   { id: "mockups", label: "Mockups", href: "preview.html" },
+  { id: "qr-generator", label: "QR Generator", href: "qr-generator.html" },
 ];
 
 const BOTTOM_ITEMS = [

@@ -1,0 +1,98 @@
+{
+  "bakery": [
+    "assets/business-backgrounds/bakery/bakery-1.jpg",
+    "assets/business-backgrounds/bakery/bakery-2.jpg",
+    "assets/business-backgrounds/bakery/bakery-3.jpg",
+    "assets/business-backgrounds/bakery/bakery-4.jpg",
+    "assets/business-backgrounds/bakery/bakery-5.jpg",
+    "assets/business-backgrounds/bakery/bakery-6.jpg"
+  ],
+  "beauty": [
+    "assets/business-backgrounds/beauty/beauty-1.jpg",
+    "assets/business-backgrounds/beauty/beauty-2.jpg",
+    "assets/business-backgrounds/beauty/beauty-3.jpg",
+    "assets/business-backgrounds/beauty/beauty-4.jpg",
+    "assets/business-backgrounds/beauty/beauty-5.jpg",
+    "assets/business-backgrounds/beauty/beauty-6.jpg"
+  ],
+  "business": [
+    "assets/business-backgrounds/business/business-1.jpg",
+    "assets/business-backgrounds/business/business-2.jpg",
+    "assets/business-backgrounds/business/business-3.jpg",
+    "assets/business-backgrounds/business/business-4.jpg",
+    "assets/business-backgrounds/business/business-5.jpg",
+    "assets/business-backgrounds/business/business-6.jpg"
+  ],
+  "construction": [
+    "assets/business-backgrounds/construction/construction-1.jpg",
+    "assets/business-backgrounds/construction/construction-2.jpg",
+    "assets/business-backgrounds/construction/construction-3.jpg",
+    "assets/business-backgrounds/construction/construction-4.jpg",
+    "assets/business-backgrounds/construction/construction-5.jpg",
+    "assets/business-backgrounds/construction/construction-6.jpg"
+  ],
+  "corporate": [
+    "assets/business-backgrounds/corporate/corporate-1.jpg",
+    "assets/business-backgrounds/corporate/corporate-2.jpg",
+    "assets/business-backgrounds/corporate/corporate-3.jpg",
+    "assets/business-backgrounds/corporate/corporate-4.jpg",
+    "assets/business-backgrounds/corporate/corporate-5.jpg",
+    "assets/business-backgrounds/corporate/corporate-6.jpg"
+  ],
+  "creative": [
+    "assets/business-backgrounds/creative/creative-1.jpg",
+    "assets/business-backgrounds/creative/creative-2.jpg",
+    "assets/business-backgrounds/creative/creative-3.jpg",
+    "assets/business-backgrounds/creative/creative-4.jpg",
+    "assets/business-backgrounds/creative/creative-5.jpg",
+    "assets/business-backgrounds/creative/creative-6.jpg"
+  ],
+  "lawyer": [
+    "assets/business-backgrounds/lawyer/lawyer-1.jpg",
+    "assets/business-backgrounds/lawyer/lawyer-2.jpg",
+    "assets/business-backgrounds/lawyer/lawyer-3.jpg",
+    "assets/business-backgrounds/lawyer/lawyer-4.jpg",
+    "assets/business-backgrounds/lawyer/lawyer-5.jpg",
+    "assets/business-backgrounds/lawyer/lawyer-6.jpg"
+  ],
+  "luxury": [
+    "assets/business-backgrounds/luxury/luxury-1.jpg",
+    "assets/business-backgrounds/luxury/luxury-2.jpg",
+    "assets/business-backgrounds/luxury/luxury-3.jpg",
+    "assets/business-backgrounds/luxury/luxury-4.jpg",
+    "assets/business-backgrounds/luxury/luxury-5.jpg",
+    "assets/business-backgrounds/luxury/luxury-6.jpg"
+  ],
+  "modern": [
+    "assets/business-backgrounds/modern/modern-1.jpg",
+    "assets/business-backgrounds/modern/modern-2.jpg",
+    "assets/business-backgrounds/modern/modern-3.jpg",
+    "assets/business-backgrounds/modern/modern-4.jpg",
+    "assets/business-backgrounds/modern/modern-5.jpg",
+    "assets/business-backgrounds/modern/modern-6.jpg"
+  ],
+  "photography": [
+    "assets/business-backgrounds/photography/photography-1.jpg",
+    "assets/business-backgrounds/photography/photography-2.jpg",
+    "assets/business-backgrounds/photography/photography-3.jpg",
+    "assets/business-backgrounds/photography/photography-4.jpg",
+    "assets/business-backgrounds/photography/photography-5.jpg",
+    "assets/business-backgrounds/photography/photography-6.jpg"
+  ],
+  "real-estate": [
+    "assets/business-backgrounds/real-estate/real-estate-1.jpg",
+    "assets/business-backgrounds/real-estate/real-estate-2.jpg",
+    "assets/business-backgrounds/real-estate/real-estate-3.jpg",
+    "assets/business-backgrounds/real-estate/real-estate-4.jpg",
+    "assets/business-backgrounds/real-estate/real-estate-5.jpg",
+    "assets/business-backgrounds/real-estate/real-estate-6.jpg"
+  ],
+  "restaurant": [
+    "assets/business-backgrounds/restaurant/restaurant-1.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-2.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-3.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-4.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-5.jpg",
+    "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+  ]
+}

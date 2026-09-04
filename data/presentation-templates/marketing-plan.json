@@ -1,0 +1,671 @@
+{
+  "id": "deck_marketing-plan",
+  "name": "Marketing Plan",
+  "category": "Marketing",
+  "categorySlug": "marketing-plan",
+  "premium": false,
+  "theme": {
+    "primary": "#34D399",
+    "secondary": "#FFFFFF",
+    "accent": "#073B32",
+    "bg": "#073B32"
+  },
+  "slides": [
+    {
+      "id": "slide_title",
+      "name": "Title",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/modern/modern-1.jpg"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#073B32",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 595,
+          "y": 90,
+          "width": 90,
+          "height": 90,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 640,
+          "y": 151,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Bloom & Co.",
+          "x": 640,
+          "y": 340,
+          "fontSize": 60,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheading",
+          "type": "text",
+          "text": "2026 Marketing Plan",
+          "x": 640,
+          "y": 390,
+          "fontSize": 24,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "presenter_line",
+          "type": "text",
+          "text": "Marketing Team · Q1 Planning",
+          "x": 640,
+          "y": 620,
+          "fontSize": 18,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "subheading",
+        "presenter_line"
+      ]
+    },
+    {
+      "id": "slide_agenda",
+      "name": "Agenda",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 10,
+          "height": 720,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Agenda",
+          "x": 90,
+          "y": 130,
+          "fontSize": 46,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_1",
+          "type": "text",
+          "text": "01   2025 Recap",
+          "x": 90,
+          "y": 250,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2",
+          "type": "text",
+          "text": "02   2026 Goals",
+          "x": 90,
+          "y": 316,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3",
+          "type": "text",
+          "text": "03   Channel Strategy",
+          "x": 90,
+          "y": 382,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_4",
+          "type": "text",
+          "text": "04   Budget Allocation",
+          "x": 90,
+          "y": 448,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_5",
+          "type": "text",
+          "text": "05   Key Milestones",
+          "x": 90,
+          "y": 514,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5"
+      ]
+    },
+    {
+      "id": "slide_content",
+      "name": "Content",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "text": "2026 Goals",
+          "x": 90,
+          "y": 100,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Three priorities for the year ahead",
+          "x": 90,
+          "y": 150,
+          "fontSize": 40,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "bullet_1",
+          "type": "text",
+          "text": "●  Grow email list from 40K to 100K subscribers",
+          "x": 90,
+          "y": 260,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_2",
+          "type": "text",
+          "text": "●  Launch a referral program by Q2",
+          "x": 90,
+          "y": 334,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_3",
+          "type": "text",
+          "text": "●  Increase organic search traffic by 60%",
+          "x": 90,
+          "y": 408,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_4",
+          "type": "text",
+          "text": "●  Expand into two new paid channels",
+          "x": 90,
+          "y": 482,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "eyebrow",
+        "bullet_1",
+        "bullet_2",
+        "bullet_3",
+        "bullet_4"
+      ]
+    },
+    {
+      "id": "slide_image_text",
+      "name": "Image + Text",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "media",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "width": 563.2,
+          "height": 720,
+          "rotation": 0,
+          "opacity": 1,
+          "src": "assets/business-backgrounds/modern/modern-2.jpg",
+          "editable": false
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "text": "Channel Strategy",
+          "x": 643.2,
+          "y": 260,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Doubling down on what's working",
+          "x": 643.2,
+          "y": 310,
+          "fontSize": 36,
+          "maxWidth": 640,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "body",
+          "type": "text",
+          "text": "Email and organic search drove 70% of last year's revenue. We're increasing investment there while testing two new paid channels.",
+          "x": 643.2,
+          "y": 370,
+          "fontSize": 20,
+          "maxWidth": 614.4,
+          "fontFamily": "Poppins",
+          "color": "#3a3a44",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "eyebrow",
+        "heading",
+        "body"
+      ]
+    },
+    {
+      "id": "slide_stat",
+      "name": "Stat",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#073B32",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "stat_number",
+          "type": "text",
+          "text": "2.4x",
+          "x": 640,
+          "y": 350,
+          "fontSize": 130,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "stat_label",
+          "type": "text",
+          "text": "Return on ad spend across current channels",
+          "x": 640,
+          "y": 410,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "stat_number",
+        "stat_label"
+      ]
+    },
+    {
+      "id": "slide_contact",
+      "name": "Contact",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Key Milestones",
+          "x": 640,
+          "y": 170,
+          "fontSize": 40,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "row_1",
+          "type": "text",
+          "text": "Referral program launch — April",
+          "x": 640,
+          "y": 300,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "row_2",
+          "type": "text",
+          "text": "Website relaunch — June",
+          "x": 640,
+          "y": 360,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "row_3",
+          "type": "text",
+          "text": "Holiday campaign — November",
+          "x": 640,
+          "y": 420,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "row_1",
+        "row_2",
+        "row_3"
+      ]
+    },
+    {
+      "id": "slide_thanks",
+      "name": "Thank You",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/modern/modern-3.jpg"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#073B32",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 640,
+          "y": 340,
+          "fontSize": 64,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "contact_line",
+          "type": "text",
+          "text": "marketing@bloomandco.com",
+          "x": 640,
+          "y": 400,
+          "fontSize": 22,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "contact_line"
+      ]
+    }
+  ],
+  "export": {
+    "formats": [
+      "PNG",
+      "PDF"
+    ],
+    "defaultDpi": 150
+  }
+}

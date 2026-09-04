@@ -1,0 +1,894 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Videos",
+  "templates": [
+    {
+      "id": "motion_videos_001",
+      "name": "Videos 001",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/business/business-1.jpg"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0B1A2E",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "A",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "WELCOME TO APEX CONSULTING",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Strategic growth for ambitious businesses",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_videos_002",
+      "name": "Videos 002",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/corporate/corporate-2.jpg"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0B2A5B",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "S",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#0B2A5B",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "STERLING PARTNERS",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Management consulting you can trust",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.sterlingpartners.com",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_videos_003",
+      "name": "Videos 003",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+      },
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#2B0617",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#FF4D8D",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "O",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#2B0617",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "THE OAK TABLE",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Seasonal cooking, warm hospitality",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#FF4D8D",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "214 Maple Street",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_videos_004",
+      "name": "Videos 004",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/luxury/luxury-2.jpg"
+      },
+      "theme": {
+        "primary": "#F2C230",
+        "secondary": "#FFFFFF",
+        "accent": "#111111"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#111111",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#F2C230",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "G",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#111111",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "GILDED HOUSE",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Timeless elegance, modern craft",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#F2C230",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.gildedhouse.com",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_videos_005",
+      "name": "Videos 005",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/photography/photography-1.jpg"
+      },
+      "theme": {
+        "primary": "#34D399",
+        "secondary": "#FFFFFF",
+        "accent": "#073B32"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#073B32",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#34D399",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "L",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#073B32",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "LENS & LIGHT STUDIO",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Stories told through light",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#34D399",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "@lensandlight",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "motion_videos_006",
+      "name": "Videos 006",
+      "category": "Videos",
+      "categorySlug": "videos",
+      "premium": false,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "durationMs": 4200,
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/real-estate/real-estate-2.jpg"
+      },
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0F0B29",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false,
+          "animation": {
+            "type": "fade",
+            "delay": 0,
+            "duration": 400
+          }
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 580,
+          "y": 90,
+          "width": 120,
+          "height": 120,
+          "color": "#6C5CE7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "animation": {
+            "type": "zoom",
+            "delay": 150,
+            "duration": 500
+          }
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "P",
+          "x": 640,
+          "y": 172,
+          "fontSize": 56,
+          "fontFamily": "Poppins",
+          "color": "#0F0B29",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 400,
+            "duration": 350
+          }
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "text": "PRIME REALTY GROUP",
+          "x": 640,
+          "y": 380,
+          "fontSize": 72,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true,
+          "animation": {
+            "type": "slide-up",
+            "delay": 750,
+            "duration": 550
+          }
+        },
+        {
+          "id": "subheadline",
+          "type": "text",
+          "text": "Finding you home",
+          "x": 640,
+          "y": 440,
+          "fontSize": 30,
+          "maxWidth": 972.8,
+          "fontFamily": "Poppins",
+          "color": "#6C5CE7",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1300,
+            "duration": 450
+          }
+        },
+        {
+          "id": "handle",
+          "type": "text",
+          "text": "www.primerealty.com",
+          "x": 640,
+          "y": 640,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true,
+          "animation": {
+            "type": "fade",
+            "delay": 1750,
+            "duration": 450
+          }
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "headline",
+        "subheadline",
+        "handle"
+      ],
+      "export": {
+        "formats": [
+          "WEBM"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

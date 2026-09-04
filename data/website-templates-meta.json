@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "slug": "business",
+      "label": "Business Website",
+      "count": 18
+    },
+    {
+      "slug": "portfolio",
+      "label": "Portfolio Website",
+      "count": 18
+    },
+    {
+      "slug": "online-store",
+      "label": "Online Store",
+      "count": 18
+    },
+    {
+      "slug": "personal",
+      "label": "Personal Website",
+      "count": 18
+    },
+    {
+      "slug": "landing-page",
+      "label": "Landing Page",
+      "count": 18
+    },
+    {
+      "slug": "restaurant",
+      "label": "Restaurant Website",
+      "count": 18
+    }
+  ],
+  "preview": [
+    {
+      "id": "website_business_001",
+      "name": "Business Website 001",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_business_002",
+      "name": "Business Website 002",
+      "category": "Business Website",
+      "categorySlug": "business",
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E",
+        "bg": "#0B1A2E",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_portfolio_001",
+      "name": "Portfolio Website 001",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      }
+    },
+    {
+      "id": "website_portfolio_002",
+      "name": "Portfolio Website 002",
+      "category": "Portfolio Website",
+      "categorySlug": "portfolio",
+      "theme": {
+        "primary": "#FF6FA5",
+        "secondary": "#FFFFFF",
+        "accent": "#1B0942",
+        "bg": "#1B0942",
+        "font": "Playfair Display"
+      }
+    },
+    {
+      "id": "website_online-store_001",
+      "name": "Online Store 001",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_online-store_002",
+      "name": "Online Store 002",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_personal_001",
+      "name": "Personal Website 001",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      }
+    },
+    {
+      "id": "website_personal_002",
+      "name": "Personal Website 002",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      }
+    },
+    {
+      "id": "website_landing-page_001",
+      "name": "Landing Page 001",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_landing-page_002",
+      "name": "Landing Page 002",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      }
+    },
+    {
+      "id": "website_restaurant_001",
+      "name": "Restaurant Website 001",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      }
+    },
+    {
+      "id": "website_restaurant_002",
+      "name": "Restaurant Website 002",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      }
+    }
+  ],
+  "totalTemplates": 108
+}

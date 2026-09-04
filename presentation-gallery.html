@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Presentation Templates — Logo Maker</title>
+<meta name="description" content="Browse free, ready-made presentation decks — pitch decks, portfolios, sales decks and more. Edit every slide and export to PDF.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/presentation-gallery.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="presentation-gallery">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>Presentation Templates</h1>
+          <p>Ready-made multi-slide decks — pick one, edit every slide, then export to PDF.</p>
+        </div>
+      </div>
+
+      <div class="card-grid" id="cardGrid"></div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { renderCardToCanvas } from "./js/render-card.js";
+
+    const meta = await fetch("data/presentation-templates-meta.json").then((r) => r.json());
+    const cardGrid = document.getElementById("cardGrid");
+
+    cardGrid.innerHTML = meta.decks.map((d) => `
+      <a class="bc-card" data-slug="${d.slug}" href="presentation-editor.html?id=${d.slug}" style="display:block;color:inherit;">
+        <canvas style="aspect-ratio:1280/720;"></canvas>
+        <div class="bc-meta">
+          <div class="bc-name">${d.name}</div>
+          <div class="bc-cat">${d.category} · ${d.slideCount} slides</div>
+        </div>
+      </a>`).join("");
+
+    const cards = [...cardGrid.querySelectorAll(".bc-card")];
+    await Promise.all(cards.map(async (card) => {
+      const deck = await fetch(`data/presentation-templates/${card.dataset.slug}.json`).then((r) => r.json());
+      const cover = deck.slides[0];
+      const c = card.querySelector("canvas");
+      c.width = cover.canvas.width;
+      c.height = cover.canvas.height;
+      return renderCardToCanvas(c, cover);
+    }));
+  </script>
+</body>
+</html>

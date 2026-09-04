@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Social Media Templates — Logo Maker</title>
+<meta name="description" content="Browse free, ready-made social media templates — covers, posts and profile pictures for Facebook, Instagram, YouTube, LinkedIn, TikTok and more.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/social-media.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="social-media">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>Social Media Templates</h1>
+          <p id="subheading">Ready-made covers, posts and profile pictures — pick a platform to preview.</p>
+        </div>
+      </div>
+
+      <div class="chip-scroll-row">
+        <div class="chip-row" id="groupChipRow"></div>
+      </div>
+      <div class="chip-scroll-row" id="platformChipRow-wrap" style="display:none;">
+        <div class="chip-row" id="platformChipRow"></div>
+      </div>
+
+      <div class="card-grid" id="cardGrid"></div>
+
+      <div class="ai-banner">
+        <div class="ai-banner-icon">✨</div>
+        <div style="flex:1;">
+          <h3>More designs coming soon</h3>
+          <p>Click any card above to open it in the editor — change the text, colors, background and logo, then download. More styles are being added regularly.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { renderCardToCanvas } from "./js/render-card.js";
+
+    const meta = await fetch("data/social-media-meta.json").then((r) => r.json());
+    const fileCache = new Map(); // slug -> Promise<templates[]>
+    const PAGE_SIZE = 30;
+
+    function qs(name) { return new URLSearchParams(window.location.search).get(name); }
+    const platformParam = qs("platform");
+    const platformInfo = platformParam ? meta.platforms.find((p) => p.slug === platformParam) : null;
+
+    let activeGroup = qs("group") || (platformInfo ? platformInfo.group : "all");
+    let activePlatform = platformInfo ? platformInfo.slug : null;
+    let visibleCount = PAGE_SIZE;
+
+    const groupChipRow = document.getElementById("groupChipRow");
+    const platformChipRowWrap = document.getElementById("platformChipRow-wrap");
+    const platformChipRow = document.getElementById("platformChipRow");
+    const cardGrid = document.getElementById("cardGrid");
+    const subheading = document.getElementById("subheading");
+
+    function shortGroupLabel(label) { return label.replace(/^Social Media\s*/, "") || "All"; }
+
+    function loadPlatform(slug) {
+      if (!fileCache.has(slug)) {
+        fileCache.set(slug, fetch(`data/social-media/${slug}.json`).then((r) => r.json()).then((d) => d.templates));
+      }
+      return fileCache.get(slug);
+    }
+
+    function renderGroupChips() {
+      groupChipRow.innerHTML = [`<button class="chip${activeGroup === "all" ? " active" : ""}" data-group="all">All</button>`]
+        .concat(meta.groups.map((g) => `<button class="chip${g.id === activeGroup ? " active" : ""}" data-group="${g.id}">${shortGroupLabel(g.label)}</button>`))
+        .join("");
+    }
+
+    function renderPlatformChips() {
+      if (activeGroup === "all") { platformChipRowWrap.style.display = "none"; platformChipRow.innerHTML = ""; return; }
+      platformChipRowWrap.style.display = "";
+      const list = meta.platforms.filter((p) => p.group === activeGroup);
+      platformChipRow.innerHTML = list.map((p) => `<button class="chip${p.slug === activePlatform ? " active" : ""}" data-platform="${p.slug}">${p.label} (${p.count})</button>`).join("");
+    }
+
+    function cardHtml(t, aspect) {
+      return `
+        <a class="bc-card" data-id="${t.id}" href="social-editor.html?id=${t.id}&platform=${t.platform}" style="display:block;color:inherit;">
+          ${t.premium ? `<span class="bc-premium-badge">💎 Premium</span>` : ""}
+          <canvas style="aspect-ratio:${aspect};"></canvas>
+          <div class="bc-meta">
+            <div class="bc-name">${t.name}</div>
+            <div class="bc-cat">${t.category}</div>
+          </div>
+        </a>`;
+    }
+
+    async function paintCards(entries) {
+      const cards = [...cardGrid.querySelectorAll(".bc-card")];
+      await Promise.all(cards.map((card) => {
+        const entry = entries.find((e) => e.t.id === card.dataset.id);
+        if (!entry) return null;
+        const c = card.querySelector("canvas");
+        c.width = entry.t.canvas.width;
+        c.height = entry.t.canvas.height;
+        return renderCardToCanvas(c, entry.t);
+      }));
+    }
+
+    async function renderGrid() {
+      if (activePlatform) {
+        const info = meta.platforms.find((p) => p.slug === activePlatform);
+        subheading.textContent = info ? `${info.count} ready-made ${info.label.toLowerCase()} designs — pick a style to preview.` : "";
+        const list = await loadPlatform(activePlatform);
+        const shown = list.slice(0, visibleCount);
+        const entries = shown.map((t) => ({ t }));
+        cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, `${info.width}/${info.height}`)).join("");
+        if (visibleCount < list.length) {
+          cardGrid.innerHTML += `<button id="loadMoreBtn" class="btn btn-outline" style="grid-column:1/-1;justify-self:center;margin-top:12px;">Load more (${list.length - visibleCount} remaining)</button>`;
+        }
+        await paintCards(entries);
+        document.getElementById("loadMoreBtn")?.addEventListener("click", () => { visibleCount += PAGE_SIZE; renderGrid(); });
+        return;
+      }
+
+      subheading.textContent = `A preview from all ${meta.totalTemplates.toLocaleString()} designs across ${meta.platforms.length} platforms — pick a category or platform above to see the full set.`;
+      const list = activeGroup === "all" ? meta.preview : meta.preview.filter((t) => t.group === activeGroup);
+      const entries = list.map((t) => ({ t }));
+      cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, `${e.t.canvas.width}/${e.t.canvas.height}`)).join("");
+      await paintCards(entries);
+    }
+
+    function renderAll() {
+      renderGroupChips();
+      renderPlatformChips();
+      renderGrid();
+    }
+
+    renderAll();
+
+    groupChipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      activeGroup = btn.dataset.group;
+      activePlatform = null;
+      visibleCount = PAGE_SIZE;
+      renderAll();
+    });
+
+    platformChipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      activePlatform = btn.dataset.platform;
+      visibleCount = PAGE_SIZE;
+      renderPlatformChips();
+      renderGrid();
+    });
+  </script>
+</body>
+</html>

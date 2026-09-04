@@ -1,0 +1,8 @@
+[
+  { "slug": "business", "label": "Business Website", "assetTheme": "business" },
+  { "slug": "portfolio", "label": "Portfolio Website", "assetTheme": "portfolio" },
+  { "slug": "online-store", "label": "Online Store", "assetTheme": "online-store" },
+  { "slug": "personal", "label": "Personal Website", "assetTheme": "personal" },
+  { "slug": "landing-page", "label": "Landing Page", "assetTheme": "landing-page" },
+  { "slug": "restaurant", "label": "Restaurant Website", "assetTheme": "restaurant" }
+]

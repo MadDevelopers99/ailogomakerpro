@@ -1,0 +1,2688 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Landing Page",
+  "templates": [
+    {
+      "id": "website_landing-page_001",
+      "name": "Landing Page 001",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_002",
+      "name": "Landing Page 002",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_003",
+      "name": "Landing Page 003",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_004",
+      "name": "Landing Page 004",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_005",
+      "name": "Landing Page 005",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_006",
+      "name": "Landing Page 006",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#6C5CE7",
+        "secondary": "#FFFFFF",
+        "accent": "#0F0B29",
+        "bg": "#0F0B29",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_007",
+      "name": "Landing Page 007",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_008",
+      "name": "Landing Page 008",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_009",
+      "name": "Landing Page 009",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_010",
+      "name": "Landing Page 010",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_011",
+      "name": "Landing Page 011",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_012",
+      "name": "Landing Page 012",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#00C2CB",
+        "secondary": "#FFFFFF",
+        "accent": "#062B2D",
+        "bg": "#062B2D",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_013",
+      "name": "Landing Page 013",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_014",
+      "name": "Landing Page 014",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_015",
+      "name": "Landing Page 015",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_016",
+      "name": "Landing Page 016",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FLOWSTATE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Flowstate",
+          "heading": "Focus Deeper. Ship Faster.",
+          "subheading": "The productivity app that helps teams cut through noise and get real work done.",
+          "ctaText": "Start Free Trial",
+          "secondaryCtaText": "Watch Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Features",
+          "heading": "Everything You Need To Focus",
+          "items": [
+            {
+              "icon": "⚡",
+              "title": "Instant Setup",
+              "text": "Get your team running in under 5 minutes."
+            },
+            {
+              "icon": "🔒",
+              "title": "Private By Design",
+              "text": "Your data stays yours, always encrypted."
+            },
+            {
+              "icon": "📊",
+              "title": "Real Insights",
+              "text": "See exactly where your time goes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Loved By Teams",
+          "heading": "Why Teams Switch",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "3x Faster Delivery",
+              "subtitle": "Average across customer teams",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "40% Fewer Meetings",
+              "subtitle": "Reported by active users",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            },
+            {
+              "title": "98% Retention",
+              "subtitle": "Teams that stick with Flowstate",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Flowstate changed how our team works.",
+              "name": "Priya Nair",
+              "role": "Head of Product, Vela"
+            },
+            {
+              "quote": "We shipped 2x faster in month one.",
+              "name": "Marcus Bell",
+              "role": "CTO, Ridgeline"
+            },
+            {
+              "quote": "Simple, fast, and it just works.",
+              "name": "Tara Kim",
+              "role": "Founder, Northlight"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Ready To Get Started?",
+          "subheading": "Join thousands of teams already using Flowstate.",
+          "ctaText": "Start Free Trial",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "San Francisco, CA",
+          "phone": "+1 415 555 0190",
+          "email": "hello@flowstate.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FLOWSTATE",
+          "text": "© 2026 FLOWSTATE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_017",
+      "name": "Landing Page 017",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "O",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "ORBIT",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Meet Orbit",
+          "heading": "One Platform For Your Whole Team",
+          "subheading": "Plan, track and ship your best work — all in one beautifully simple tool.",
+          "ctaText": "Get Started Free",
+          "secondaryCtaText": "See How It Works",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Orbit",
+          "heading": "Built For Modern Teams",
+          "items": [
+            {
+              "icon": "🚀",
+              "title": "Fast By Default",
+              "text": "Built for speed, from day one."
+            },
+            {
+              "icon": "🧩",
+              "title": "Fits Your Workflow",
+              "text": "Flexible enough for any team, any process."
+            },
+            {
+              "icon": "🔔",
+              "title": "Smart Notifications",
+              "text": "Only get pinged when it actually matters."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Results",
+          "heading": "What Teams See",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "50% Less Busywork",
+              "subtitle": "Reported by customers",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "10,000+ Teams",
+              "subtitle": "Using Orbit daily",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            },
+            {
+              "title": "4.9/5 Rating",
+              "subtitle": "Average customer review",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Orbit is the tool we didn't know we needed.",
+              "name": "Hannah Fox",
+              "role": "Ops Lead, Brightline"
+            },
+            {
+              "quote": "Our whole team adopted it in a week.",
+              "name": "Carlos Diaz",
+              "role": "Founder, Vantage"
+            },
+            {
+              "quote": "Genuinely delightful to use.",
+              "name": "Noah Park",
+              "role": "PM, Fieldnote"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Bring Your Team Into Orbit",
+          "subheading": "Free for teams up to 10 — no credit card required.",
+          "ctaText": "Get Started Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "New York, NY",
+          "phone": "+1 212 555 0166",
+          "email": "hello@orbit.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "ORBIT",
+          "text": "© 2026 ORBIT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_landing-page_018",
+      "name": "Landing Page 018",
+      "category": "Landing Page",
+      "categorySlug": "landing-page",
+      "premium": false,
+      "theme": {
+        "primary": "#FF4D8D",
+        "secondary": "#FFFFFF",
+        "accent": "#2B0617",
+        "bg": "#2B0617",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "P",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "PULSE",
+          "links": [
+            "Features",
+            "Pricing",
+            "About"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Introducing Pulse",
+          "heading": "Know Your Metrics. Grow Faster.",
+          "subheading": "Real-time analytics built for founders who want answers, not dashboards to decode.",
+          "ctaText": "Try Pulse Free",
+          "secondaryCtaText": "Book a Demo",
+          "background": {
+            "type": "image",
+            "src": "assets/social-backgrounds/abstract/abstract-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Capabilities",
+          "heading": "See What Matters",
+          "items": [
+            {
+              "icon": "📈",
+              "title": "Live Dashboards",
+              "text": "Every metric updated in real time."
+            },
+            {
+              "icon": "🎯",
+              "title": "Goal Tracking",
+              "text": "Set targets and track progress automatically."
+            },
+            {
+              "icon": "🤖",
+              "title": "Smart Alerts",
+              "text": "Get notified the moment something changes."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Impact",
+          "heading": "By The Numbers",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "5 Min Setup",
+              "subtitle": "From signup to first dashboard",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "2,000+ Companies",
+              "subtitle": "Trust Pulse with their data",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            },
+            {
+              "title": "99.9% Uptime",
+              "subtitle": "Enterprise-grade reliability",
+              "image": {
+                "type": "image",
+                "src": "assets/social-backgrounds/abstract/abstract-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Pulse gave us clarity overnight.",
+              "name": "Zoe Bennett",
+              "role": "CEO, Lightwell"
+            },
+            {
+              "quote": "The only dashboard our team actually uses.",
+              "name": "Ibrahim Khan",
+              "role": "Head of Growth, Metric"
+            },
+            {
+              "quote": "Setup took five minutes, seriously.",
+              "name": "Claire Dubois",
+              "role": "Founder, Parallel"
+            }
+          ]
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "heading": "Start Tracking What Matters",
+          "subheading": "Free 14-day trial, no credit card needed.",
+          "ctaText": "Try Pulse Free",
+          "background": {
+            "type": "solid"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Austin, TX",
+          "phone": "+1 512 555 0188",
+          "email": "hello@pulse.app"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "PULSE",
+          "text": "© 2026 PULSE. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2760 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Online Store",
+  "templates": [
+    {
+      "id": "website_online-store_001",
+      "name": "Online Store 001",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_002",
+      "name": "Online Store 002",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_003",
+      "name": "Online Store 003",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_004",
+      "name": "Online Store 004",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_005",
+      "name": "Online Store 005",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_006",
+      "name": "Online Store 006",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826",
+        "bg": "#3A1826",
+        "font": "Poppins"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_007",
+      "name": "Online Store 007",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_008",
+      "name": "Online Store 008",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_009",
+      "name": "Online Store 009",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_010",
+      "name": "Online Store 010",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_011",
+      "name": "Online Store 011",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_012",
+      "name": "Online Store 012",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#14D6D6",
+        "secondary": "#FFFFFF",
+        "accent": "#041F1F",
+        "bg": "#041F1F",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_013",
+      "name": "Online Store 013",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_014",
+      "name": "Online Store 014",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_015",
+      "name": "Online Store 015",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_016",
+      "name": "Online Store 016",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "L",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "LUNAR GOODS",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Season",
+          "heading": "Everyday Essentials, Elevated",
+          "subheading": "Thoughtfully designed goods for a simpler, more beautiful everyday.",
+          "ctaText": "Shop Now",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "Made With Intention",
+          "body": "Lunar Goods creates timeless essentials using sustainable materials and honest craftsmanship.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Shop With Us",
+          "heading": "The Lunar Difference",
+          "items": [
+            {
+              "icon": "🌿",
+              "title": "Sustainably Made",
+              "text": "Responsibly sourced materials, always."
+            },
+            {
+              "icon": "🚚",
+              "title": "Free Shipping",
+              "text": "On every order over $50, no exceptions."
+            },
+            {
+              "icon": "↩️",
+              "title": "Easy Returns",
+              "text": "30-day hassle-free returns."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Best Sellers",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Ceramic Mug Set",
+              "subtitle": "Set of 2",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Linen Throw",
+              "subtitle": "Natural",
+              "price": "$64",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            },
+            {
+              "title": "Woven Basket",
+              "subtitle": "Medium",
+              "price": "$45",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every piece feels special.",
+              "name": "Grace Kim",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Shipping was fast, quality is amazing.",
+              "name": "Owen Clarke",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My whole home is Lunar Goods now.",
+              "name": "Ana Silva",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0122",
+          "email": "support@lunargoods.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "LUNAR GOODS",
+          "text": "© 2026 LUNAR GOODS. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_017",
+      "name": "Online Store 017",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "B",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "BLOOM & CO",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Spring Collection",
+          "heading": "Beauty, Simplified",
+          "subheading": "Clean, effective skincare made from ingredients you can actually pronounce.",
+          "ctaText": "Shop the Collection",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Mission",
+          "heading": "Skincare You Can Trust",
+          "body": "We formulate every product with dermatologists to be gentle, effective, and genuinely good for your skin.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Bloom",
+          "heading": "Clean By Design",
+          "items": [
+            {
+              "icon": "🧴",
+              "title": "Clean Formulas",
+              "text": "No parabens, sulfates or synthetic fragrance."
+            },
+            {
+              "icon": "🐰",
+              "title": "Cruelty-Free",
+              "text": "Never tested on animals, ever."
+            },
+            {
+              "icon": "♻️",
+              "title": "Recyclable Packaging",
+              "text": "Every bottle designed to be reused or recycled."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Customer Favorites",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Hydrating Serum",
+              "subtitle": "30ml",
+              "price": "$42",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Gentle Cleanser",
+              "subtitle": "150ml",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            },
+            {
+              "title": "Daily Moisturizer",
+              "subtitle": "50ml",
+              "price": "$36",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "My skin has never looked better.",
+              "name": "Ruby Adams",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Finally a brand that delivers.",
+              "name": "Mia Torres",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Worth every penny.",
+              "name": "Sofia Reyes",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0147",
+          "email": "hello@bloomandco.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "BLOOM & CO",
+          "text": "© 2026 BLOOM & CO. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_online-store_018",
+      "name": "Online Store 018",
+      "category": "Online Store",
+      "categorySlug": "online-store",
+      "premium": false,
+      "theme": {
+        "primary": "#FF7A45",
+        "secondary": "#FFFFFF",
+        "accent": "#331100",
+        "bg": "#331100",
+        "font": "Montserrat"
+      },
+      "logo": {
+        "text": "F",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "FIELDCRAFT",
+          "links": [
+            "Home",
+            "Shop",
+            "About",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "New Arrivals",
+          "heading": "Gear Built To Last",
+          "subheading": "Durable outdoor essentials designed for everyday adventure.",
+          "ctaText": "Shop New Arrivals",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Craft",
+          "heading": "Built By People Who Use It",
+          "body": "Every product is tested by our own team on real trails before it ever reaches the shop.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Fieldcraft",
+          "heading": "Made To Last",
+          "items": [
+            {
+              "icon": "🏔️",
+              "title": "Field Tested",
+              "text": "Every product tested in real conditions."
+            },
+            {
+              "icon": "🛡️",
+              "title": "Lifetime Warranty",
+              "text": "We stand behind everything we make."
+            },
+            {
+              "icon": "🚚",
+              "title": "Fast Shipping",
+              "text": "Orders ship within 24 hours."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Shop",
+          "heading": "Top Picks",
+          "variant": "products",
+          "items": [
+            {
+              "title": "Trail Backpack",
+              "subtitle": "28L",
+              "price": "$120",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Insulated Bottle",
+              "subtitle": "750ml",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            },
+            {
+              "title": "Camp Blanket",
+              "subtitle": "Wool blend",
+              "price": "$58",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/online-store/online-store-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "This gear just works.",
+              "name": "Jack Turner",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "Quality is unmatched.",
+              "name": "Wyatt Ross",
+              "role": "Verified Buyer"
+            },
+            {
+              "quote": "My go-to for every trip.",
+              "name": "Ella Brooks",
+              "role": "Verified Buyer"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Ships worldwide",
+          "phone": "+1 800 555 0165",
+          "email": "support@fieldcraft.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "FIELDCRAFT",
+          "text": "© 2026 FIELDCRAFT. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

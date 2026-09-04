@@ -1,0 +1,671 @@
+{
+  "id": "deck_startup-pitch",
+  "name": "Startup Pitch Deck",
+  "category": "Startup Pitch",
+  "categorySlug": "startup-pitch",
+  "premium": false,
+  "theme": {
+    "primary": "#D9A441",
+    "secondary": "#FFFFFF",
+    "accent": "#0B1A2E",
+    "bg": "#0B1A2E"
+  },
+  "slides": [
+    {
+      "id": "slide_title",
+      "name": "Title",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/business/business-1.jpg"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0B1A2E",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 595,
+          "y": 90,
+          "width": 90,
+          "height": 90,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "N",
+          "x": 640,
+          "y": 151,
+          "fontSize": 40,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Northlight",
+          "x": 640,
+          "y": 340,
+          "fontSize": 60,
+          "maxWidth": 1049.6,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "subheading",
+          "type": "text",
+          "text": "Reimagining how small teams manage projects",
+          "x": 640,
+          "y": 390,
+          "fontSize": 24,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "presenter_line",
+          "type": "text",
+          "text": "Presented by Alex Rivera, Founder & CEO",
+          "x": 640,
+          "y": 620,
+          "fontSize": 18,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "heading",
+        "subheading",
+        "presenter_line"
+      ]
+    },
+    {
+      "id": "slide_agenda",
+      "name": "Agenda",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 10,
+          "height": 720,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Agenda",
+          "x": 90,
+          "y": 130,
+          "fontSize": 46,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "item_1",
+          "type": "text",
+          "text": "01   The Problem",
+          "x": 90,
+          "y": 250,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_2",
+          "type": "text",
+          "text": "02   Our Solution",
+          "x": 90,
+          "y": 316,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_3",
+          "type": "text",
+          "text": "03   Market Opportunity",
+          "x": 90,
+          "y": 382,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_4",
+          "type": "text",
+          "text": "04   Business Model",
+          "x": 90,
+          "y": 448,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "item_5",
+          "type": "text",
+          "text": "05   The Team",
+          "x": 90,
+          "y": 514,
+          "fontSize": 26,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5"
+      ]
+    },
+    {
+      "id": "slide_content",
+      "name": "Content",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "text": "The Problem",
+          "x": 90,
+          "y": 100,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Small teams are drowning in tool sprawl",
+          "x": 90,
+          "y": 150,
+          "fontSize": 40,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "bullet_1",
+          "type": "text",
+          "text": "●  The average team uses 6+ disconnected tools",
+          "x": 90,
+          "y": 260,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_2",
+          "type": "text",
+          "text": "●  Context switching costs 2+ hours per day",
+          "x": 90,
+          "y": 334,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_3",
+          "type": "text",
+          "text": "●  Critical information gets lost between apps",
+          "x": 90,
+          "y": 408,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "bullet_4",
+          "type": "text",
+          "text": "●  Existing solutions are built for enterprises, not small teams",
+          "x": 90,
+          "y": 482,
+          "fontSize": 22,
+          "maxWidth": 1100,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "eyebrow",
+        "bullet_1",
+        "bullet_2",
+        "bullet_3",
+        "bullet_4"
+      ]
+    },
+    {
+      "id": "slide_image_text",
+      "name": "Image + Text",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "media",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "width": 563.2,
+          "height": 720,
+          "rotation": 0,
+          "opacity": 1,
+          "src": "assets/business-backgrounds/business/business-2.jpg",
+          "editable": false
+        },
+        {
+          "id": "eyebrow",
+          "type": "text",
+          "text": "Our Solution",
+          "x": 643.2,
+          "y": 260,
+          "fontSize": 15,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "One workspace for your whole team",
+          "x": 643.2,
+          "y": 310,
+          "fontSize": 36,
+          "maxWidth": 640,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "body",
+          "type": "text",
+          "text": "Northlight brings planning, communication and files into a single, fast workspace — built specifically for teams under 20 people.",
+          "x": 643.2,
+          "y": 370,
+          "fontSize": 20,
+          "maxWidth": 614.4,
+          "fontFamily": "Poppins",
+          "color": "#3a3a44",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "eyebrow",
+        "heading",
+        "body"
+      ]
+    },
+    {
+      "id": "slide_stat",
+      "name": "Stat",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0B1A2E",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "stat_number",
+          "type": "text",
+          "text": "3.2x",
+          "x": 640,
+          "y": 350,
+          "fontSize": 130,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "stat_label",
+          "type": "text",
+          "text": "Faster project delivery reported by early customers",
+          "x": 640,
+          "y": 410,
+          "fontSize": 26,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "stat_number",
+        "stat_label"
+      ]
+    },
+    {
+      "id": "slide_contact",
+      "name": "Contact",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "The Team",
+          "x": 640,
+          "y": 170,
+          "fontSize": 40,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#0B1A2E",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "row_1",
+          "type": "text",
+          "text": "Alex Rivera — Founder & CEO",
+          "x": 640,
+          "y": 300,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "row_2",
+          "type": "text",
+          "text": "Priya Nair — Co-Founder & CTO",
+          "x": 640,
+          "y": 360,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "row_3",
+          "type": "text",
+          "text": "Marcus Bell — Head of Design",
+          "x": 640,
+          "y": 420,
+          "fontSize": 22,
+          "maxWidth": 1024,
+          "fontFamily": "Poppins",
+          "color": "#22222c",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "row_1",
+        "row_2",
+        "row_3"
+      ]
+    },
+    {
+      "id": "slide_thanks",
+      "name": "Thank You",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/business-backgrounds/business/business-3.jpg"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "color": "#0B1A2E",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "Thank You",
+          "x": 640,
+          "y": 340,
+          "fontSize": 64,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "contact_line",
+          "type": "text",
+          "text": "alex@northlight.app · www.northlight.app",
+          "x": 640,
+          "y": 400,
+          "fontSize": 22,
+          "maxWidth": 896,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "contact_line"
+      ]
+    }
+  ],
+  "export": {
+    "formats": [
+      "PNG",
+      "PDF"
+    ],
+    "defaultDpi": 150
+  }
+}

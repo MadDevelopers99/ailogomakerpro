@@ -1,0 +1,2760 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Restaurant Website",
+  "templates": [
+    {
+      "id": "website_restaurant_001",
+      "name": "Restaurant Website 001",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_002",
+      "name": "Restaurant Website 002",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_003",
+      "name": "Restaurant Website 003",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_004",
+      "name": "Restaurant Website 004",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_005",
+      "name": "Restaurant Website 005",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_006",
+      "name": "Restaurant Website 006",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E8A33D",
+        "secondary": "#FFFFFF",
+        "accent": "#2A1810",
+        "bg": "#2A1810",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_007",
+      "name": "Restaurant Website 007",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_008",
+      "name": "Restaurant Website 008",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_009",
+      "name": "Restaurant Website 009",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_010",
+      "name": "Restaurant Website 010",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_011",
+      "name": "Restaurant Website 011",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_012",
+      "name": "Restaurant Website 012",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FDF6EC",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_013",
+      "name": "Restaurant Website 013",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_014",
+      "name": "Restaurant Website 014",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_015",
+      "name": "Restaurant Website 015",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_016",
+      "name": "Restaurant Website 016",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "T",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "THE OAK TABLE",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Est. 2012",
+          "heading": "Seasonal Cooking, Warm Hospitality",
+          "subheading": "A neighborhood restaurant serving thoughtful, seasonal dishes in the heart of the city.",
+          "ctaText": "Reserve a Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Story",
+          "heading": "A Table Worth Gathering Around",
+          "body": "The Oak Table was built on one idea: honest food, sourced locally, served with genuine warmth.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Why Visit",
+          "heading": "The Oak Table Experience",
+          "items": [
+            {
+              "icon": "🌾",
+              "title": "Local Sourcing",
+              "text": "Ingredients from farms within 50 miles."
+            },
+            {
+              "icon": "🍷",
+              "title": "Curated Wine List",
+              "text": "Small-batch wines chosen to match the menu."
+            },
+            {
+              "icon": "🕯️",
+              "title": "Warm Atmosphere",
+              "text": "A cozy dining room built for slow evenings."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Chef's Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Roasted Chicken",
+              "subtitle": "Herb butter, root vegetables",
+              "price": "$28",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Pan-Seared Salmon",
+              "subtitle": "Lemon, asparagus, farro",
+              "price": "$32",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            },
+            {
+              "title": "Wild Mushroom Risotto",
+              "subtitle": "Parmesan, truffle oil",
+              "price": "$24",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Best meal we've had all year.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "Cozy, delicious, unforgettable.",
+              "name": "Food Critic",
+              "role": "City Weekly"
+            },
+            {
+              "quote": "Our go-to for every celebration.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "214 Maple Street",
+          "phone": "+1 555 234 8890",
+          "email": "reservations@theoaktable.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "THE OAK TABLE",
+          "text": "© 2026 THE OAK TABLE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_017",
+      "name": "Restaurant Website 017",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "H",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "HARVEST KITCHEN",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Farm To Table",
+          "heading": "Fresh Ingredients, Honest Flavor",
+          "subheading": "A farm-to-table kitchen celebrating the best of every season.",
+          "ctaText": "Book Your Table",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "Our Philosophy",
+          "heading": "From Field To Fork",
+          "body": "We work directly with local farmers to bring the freshest seasonal ingredients straight to your plate.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What Sets Us Apart",
+          "heading": "The Harvest Difference",
+          "items": [
+            {
+              "icon": "🥕",
+              "title": "Farm Partnerships",
+              "text": "Direct relationships with 12 local farms."
+            },
+            {
+              "icon": "👨‍🍳",
+              "title": "Chef-Driven Menu",
+              "text": "A menu that changes with the seasons."
+            },
+            {
+              "icon": "🌱",
+              "title": "Sustainable Practice",
+              "text": "Zero-waste kitchen, composted daily."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Seasonal Highlights",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Heirloom Tomato Salad",
+              "subtitle": "Burrata, basil oil",
+              "price": "$16",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Grilled Ribeye",
+              "subtitle": "Roasted potatoes, chimichurri",
+              "price": "$38",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            },
+            {
+              "title": "Butternut Squash Tart",
+              "subtitle": "Goat cheese, sage",
+              "price": "$18",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Every dish tastes like it was picked that morning.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "A true farm-to-table experience.",
+              "name": "Food Critic",
+              "role": "Dining Monthly"
+            },
+            {
+              "quote": "Our favorite spot for date night.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "77 Harvest Lane",
+          "phone": "+1 555 349 7712",
+          "email": "hello@harvestkitchen.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "HARVEST KITCHEN",
+          "text": "© 2026 HARVEST KITCHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_restaurant_018",
+      "name": "Restaurant Website 018",
+      "category": "Restaurant Website",
+      "categorySlug": "restaurant",
+      "premium": false,
+      "theme": {
+        "primary": "#E64545",
+        "secondary": "#FFFFFF",
+        "accent": "#1A0E0A",
+        "bg": "#1A0E0A",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "C",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "COPPER SPOON",
+          "links": [
+            "Home",
+            "Menu",
+            "About",
+            "Reservations"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Modern Bistro",
+          "heading": "Comfort Food, Elevated",
+          "subheading": "A modern bistro reimagining classic comfort food with a chef's touch.",
+          "ctaText": "Make a Reservation",
+          "background": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Us",
+          "heading": "Classic Dishes, Modern Craft",
+          "body": "Copper Spoon takes the comfort food you grew up with and elevates it with technique and top ingredients.",
+          "image": {
+            "type": "image",
+            "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Highlights",
+          "heading": "Why Guests Return",
+          "items": [
+            {
+              "icon": "🔥",
+              "title": "Wood-Fired Kitchen",
+              "text": "Every dish touched by real fire."
+            },
+            {
+              "icon": "🍸",
+              "title": "Craft Cocktails",
+              "text": "Original cocktails made with house-made syrups."
+            },
+            {
+              "icon": "🎶",
+              "title": "Live Music Nights",
+              "text": "Local musicians every Friday evening."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Menu",
+          "heading": "Guest Favorites",
+          "variant": "menu",
+          "items": [
+            {
+              "title": "Short Rib",
+              "subtitle": "Wood-fired, red wine jus",
+              "price": "$34",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Truffle Mac & Cheese",
+              "subtitle": "Four cheese blend",
+              "price": "$19",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            },
+            {
+              "title": "Charred Octopus",
+              "subtitle": "Smoked paprika, lemon",
+              "price": "$26",
+              "image": {
+                "type": "image",
+                "src": "assets/business-backgrounds/restaurant/restaurant-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Comfort food done right.",
+              "name": "Local Guide",
+              "role": "Regular Guest"
+            },
+            {
+              "quote": "The short rib alone is worth the visit.",
+              "name": "Food Critic",
+              "role": "Taste & Table"
+            },
+            {
+              "quote": "Best cocktails in the neighborhood.",
+              "name": "Regular Guest",
+              "role": "Neighborhood Local"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "9 Copper Row",
+          "phone": "+1 555 402 6631",
+          "email": "reservations@copperspoon.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "COPPER SPOON",
+          "text": "© 2026 COPPER SPOON. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

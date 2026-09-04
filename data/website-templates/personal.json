@@ -1,0 +1,2706 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Personal Website",
+  "templates": [
+    {
+      "id": "website_personal_001",
+      "name": "Personal Website 001",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_002",
+      "name": "Personal Website 002",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_003",
+      "name": "Personal Website 003",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_004",
+      "name": "Personal Website 004",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_005",
+      "name": "Personal Website 005",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_006",
+      "name": "Personal Website 006",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#C97B3D",
+        "secondary": "#FFFFFF",
+        "accent": "#241209",
+        "bg": "#241209",
+        "font": "Playfair Display"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_007",
+      "name": "Personal Website 007",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_008",
+      "name": "Personal Website 008",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_009",
+      "name": "Personal Website 009",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_010",
+      "name": "Personal Website 010",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_011",
+      "name": "Personal Website 011",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_012",
+      "name": "Personal Website 012",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#6FAE8C",
+        "secondary": "#FFFFFF",
+        "accent": "#122019",
+        "bg": "#122019",
+        "font": "Roboto Slab"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_013",
+      "name": "Personal Website 013",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-4.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_014",
+      "name": "Personal Website 014",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_015",
+      "name": "Personal Website 015",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-6.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_016",
+      "name": "Personal Website 016",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "J",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "JORDAN LEE",
+          "links": [
+            "Home",
+            "About",
+            "Blog",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Writer & Consultant",
+          "heading": "Hi, I'm Jordan.",
+          "subheading": "I write about design, technology and building a thoughtful career.",
+          "ctaText": "Get In Touch",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-4.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About Me",
+          "heading": "A Little About Me",
+          "body": "I'm a product consultant and writer based in Seattle, sharing what I learn along the way.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-1.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Do",
+          "heading": "Where I Spend My Time",
+          "items": [
+            {
+              "icon": "✍️",
+              "title": "Writing",
+              "text": "Essays on design, work and life."
+            },
+            {
+              "icon": "🎤",
+              "title": "Speaking",
+              "text": "Talks on product thinking and creative process."
+            },
+            {
+              "icon": "💼",
+              "title": "Consulting",
+              "text": "Helping teams build better products."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Latest",
+          "heading": "Recent Posts",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "On Making Better Decisions",
+              "subtitle": "5 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "The Case for Slow Work",
+              "subtitle": "7 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            },
+            {
+              "title": "What I Learned This Year",
+              "subtitle": "4 min read",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-1.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Jordan's writing always makes me think.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "Genuinely useful perspective.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            },
+            {
+              "quote": "One of my favorite follows.",
+              "name": "Reader",
+              "role": "Newsletter Subscriber"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Seattle, WA",
+          "phone": "+1 206 555 0113",
+          "email": "hi@jordanlee.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "JORDAN LEE",
+          "text": "© 2026 JORDAN LEE. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_017",
+      "name": "Personal Website 017",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "A",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "AVERY MORGAN",
+          "links": [
+            "Home",
+            "About",
+            "Work",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Product Designer",
+          "heading": "I'm Avery — Nice To Meet You",
+          "subheading": "Product designer focused on thoughtful, human-centered digital experiences.",
+          "ctaText": "Say Hello",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-5.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "About",
+          "heading": "A Bit About Me",
+          "body": "I've spent the last 7 years designing products at startups, always chasing simple, honest design.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-2.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "Focus Areas",
+          "heading": "What I Care About",
+          "items": [
+            {
+              "icon": "🎨",
+              "title": "Product Design",
+              "text": "End-to-end design for web and mobile apps."
+            },
+            {
+              "icon": "🧩",
+              "title": "Design Systems",
+              "text": "Scalable systems that keep teams moving fast."
+            },
+            {
+              "icon": "🗣️",
+              "title": "Mentorship",
+              "text": "Helping early-career designers grow."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Work",
+          "heading": "Selected Projects",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Health App Redesign",
+              "subtitle": "Product design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Fintech Onboarding",
+              "subtitle": "UX research & design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            },
+            {
+              "title": "Design System v2",
+              "subtitle": "Systems design",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-2.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Avery brings clarity to complex problems.",
+              "name": "Colleague",
+              "role": "Product Manager"
+            },
+            {
+              "quote": "One of the best designers I've worked with.",
+              "name": "Colleague",
+              "role": "Engineering Lead"
+            },
+            {
+              "quote": "A true craftsperson.",
+              "name": "Colleague",
+              "role": "Design Director"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Portland, OR",
+          "phone": "+1 503 555 0159",
+          "email": "avery@averymorgan.com"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "AVERY MORGAN",
+          "text": "© 2026 AVERY MORGAN. All rights reserved."
+        }
+      ]
+    },
+    {
+      "id": "website_personal_018",
+      "name": "Personal Website 018",
+      "category": "Personal Website",
+      "categorySlug": "personal",
+      "premium": false,
+      "theme": {
+        "primary": "#B0B8C1",
+        "secondary": "#FFFFFF",
+        "accent": "#10151C",
+        "bg": "#10151C",
+        "font": "Inter"
+      },
+      "logo": {
+        "text": "R",
+        "image": null
+      },
+      "sections": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "brand": "RILEY CHEN",
+          "links": [
+            "Home",
+            "About",
+            "Portfolio",
+            "Contact"
+          ],
+          "ctaText": "Contact",
+          "ctaTarget": "contact"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Freelance Illustrator",
+          "heading": "Hello, I'm Riley",
+          "subheading": "Illustrator creating warm, playful artwork for brands and publications.",
+          "ctaText": "View My Work",
+          "background": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-6.jpg"
+          }
+        },
+        {
+          "id": "about",
+          "type": "about",
+          "eyebrow": "My Story",
+          "heading": "About Me",
+          "body": "I've been drawing since I could hold a pencil — now I get to do it for a living, working with clients worldwide.",
+          "image": {
+            "type": "image",
+            "src": "assets/website-backgrounds/personal/personal-3.jpg"
+          }
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "eyebrow": "What I Offer",
+          "heading": "Services",
+          "items": [
+            {
+              "icon": "🖊️",
+              "title": "Editorial Illustration",
+              "text": "Artwork for magazines, books and articles."
+            },
+            {
+              "icon": "🎁",
+              "title": "Brand Illustration",
+              "text": "Custom illustration for brand campaigns."
+            },
+            {
+              "icon": "🐾",
+              "title": "Pet Portraits",
+              "text": "Custom hand-drawn portraits of your pet."
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "eyebrow": "Portfolio",
+          "heading": "Recent Work",
+          "variant": "gallery",
+          "items": [
+            {
+              "title": "Wildwood Magazine",
+              "subtitle": "Editorial series",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Home & Hearth Brand",
+              "subtitle": "Illustration campaign",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            },
+            {
+              "title": "Custom Portrait Series",
+              "subtitle": "Client commissions",
+              "image": {
+                "type": "image",
+                "src": "assets/website-backgrounds/personal/personal-3.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "Testimonials",
+          "heading": "What People Say",
+          "items": [
+            {
+              "quote": "Riley captured exactly what I imagined.",
+              "name": "Client",
+              "role": "Wildwood Magazine"
+            },
+            {
+              "quote": "So talented and easy to work with.",
+              "name": "Client",
+              "role": "Home & Hearth"
+            },
+            {
+              "quote": "I cried when I saw my portrait.",
+              "name": "Client",
+              "role": "Commission"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "eyebrow": "Get In Touch",
+          "heading": "Contact Us",
+          "address": "Chicago, IL",
+          "phone": "+1 312 555 0171",
+          "email": "riley@rileychen.art"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "brand": "RILEY CHEN",
+          "text": "© 2026 RILEY CHEN. All rights reserved."
+        }
+      ]
+    }
+  ]
+}

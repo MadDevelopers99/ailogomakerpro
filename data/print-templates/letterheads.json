@@ -1,0 +1,1200 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Letterheads",
+  "templates": [
+    {
+      "id": "print_letterheads_001",
+      "name": "Letterheads 001",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "APEX CONSULTING",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Strategic Business Advisory",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "123 Business Ave, Suite 400",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "hello@apexconsulting.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_letterheads_002",
+      "name": "Letterheads 002",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FFFFFF"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "STERLING PARTNERS",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Management Consulting",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "88 Market Street, Floor 12",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "contact@sterlingpartners.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.sterlingpartners.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_letterheads_003",
+      "name": "Letterheads 003",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#F8F8F6"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "APEX CONSULTING",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Strategic Business Advisory",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "123 Business Ave, Suite 400",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "hello@apexconsulting.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_letterheads_004",
+      "name": "Letterheads 004",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#F8F8F6"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "STERLING PARTNERS",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Management Consulting",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "88 Market Street, Floor 12",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "contact@sterlingpartners.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.sterlingpartners.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_letterheads_005",
+      "name": "Letterheads 005",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FBF9F3"
+      },
+      "theme": {
+        "primary": "#D9A441",
+        "secondary": "#FFFFFF",
+        "accent": "#0B1A2E"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "APEX CONSULTING",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Strategic Business Advisory",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#D9A441",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "123 Business Ave, Suite 400",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 123 456 7890",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "hello@apexconsulting.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#D9A441",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.apexconsulting.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_letterheads_006",
+      "name": "Letterheads 006",
+      "category": "Letterheads",
+      "categorySlug": "letterheads",
+      "premium": false,
+      "canvas": {
+        "width": 850,
+        "height": 1100,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#FBF9F3"
+      },
+      "theme": {
+        "primary": "#2EA8FF",
+        "secondary": "#FFFFFF",
+        "accent": "#0B2A5B"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 1100,
+          "color": "#FFFFFF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "accent_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 60,
+          "y": 50,
+          "width": 70,
+          "height": 70,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 95,
+          "y": 96,
+          "fontSize": 30,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "company",
+          "type": "text",
+          "text": "STERLING PARTNERS",
+          "x": 150,
+          "y": 88,
+          "fontSize": 24,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "left",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "tagline",
+          "type": "text",
+          "text": "Management Consulting",
+          "x": 150,
+          "y": 112,
+          "fontSize": 13,
+          "maxWidth": 382.5,
+          "fontFamily": "Poppins",
+          "color": "#2EA8FF",
+          "align": "left",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "text": "88 Market Street, Floor 12",
+          "x": 790,
+          "y": 60,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "phone",
+          "type": "text",
+          "text": "+1 212 555 0148",
+          "x": 790,
+          "y": 80,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "text": "contact@sterlingpartners.com",
+          "x": 790,
+          "y": 100,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "right",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 60,
+          "y": 150,
+          "width": 730,
+          "height": 2,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_bar",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 1086,
+          "width": 850,
+          "height": 14,
+          "color": "#2EA8FF",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "footer_text",
+          "type": "text",
+          "text": "www.sterlingpartners.com",
+          "x": 425,
+          "y": 1066,
+          "fontSize": 12,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "logo_mark",
+        "company",
+        "tagline",
+        "address",
+        "phone",
+        "email",
+        "footer_text"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

@@ -1,0 +1,2598 @@
+{
+  "schemaVersion": "1.0",
+  "category": "Invitations",
+  "templates": [
+    {
+      "id": "print_invitations_001",
+      "name": "Invitations 001",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_002",
+      "name": "Invitations 002",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-1.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_003",
+      "name": "Invitations 003",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_004",
+      "name": "Invitations 004",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-2.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_005",
+      "name": "Invitations 005",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_006",
+      "name": "Invitations 006",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-3.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_007",
+      "name": "Invitations 007",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_008",
+      "name": "Invitations 008",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-4.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_009",
+      "name": "Invitations 009",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-5.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_010",
+      "name": "Invitations 010",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-5.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_011",
+      "name": "Invitations 011",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_012",
+      "name": "Invitations 012",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "image",
+        "src": "assets/social-backgrounds/fashion/fashion-6.jpg"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": false
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_013",
+      "name": "Invitations 013",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_014",
+      "name": "Invitations 014",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#3A1826"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_015",
+      "name": "Invitations 015",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#F5A9B8",
+        "secondary": "#FFFFFF",
+        "accent": "#3A1826"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#3A1826",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "YOU'RE INVITED TO",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "Sarah's Bridal Shower",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Saturday, June 20 · 2:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "The Garden Terrace, 45 Rose Ave",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 10 to hello@yourname.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#F5A9B8",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#3A1826",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    },
+    {
+      "id": "print_invitations_016",
+      "name": "Invitations 016",
+      "category": "Invitations",
+      "categorySlug": "invitations",
+      "premium": false,
+      "canvas": {
+        "width": 1000,
+        "height": 1400,
+        "unit": "px"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#1E0A38"
+      },
+      "theme": {
+        "primary": "#A855F7",
+        "secondary": "#FFFFFF",
+        "accent": "#1E0A38"
+      },
+      "elements": [
+        {
+          "id": "bg_shape_1",
+          "type": "shape",
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 1000,
+          "height": 1400,
+          "color": "#1E0A38",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true,
+          "visible": true
+        },
+        {
+          "id": "heading",
+          "type": "text",
+          "text": "JOIN US FOR",
+          "x": 500,
+          "y": 308,
+          "fontSize": 44.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "event_name",
+          "type": "text",
+          "text": "An Evening of Celebration",
+          "x": 500,
+          "y": 448,
+          "fontSize": 84,
+          "maxWidth": 860,
+          "fontFamily": "Playfair Display",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        },
+        {
+          "id": "divider",
+          "type": "shape",
+          "shape": "line",
+          "x": 350,
+          "y": 532,
+          "width": 300,
+          "height": 2,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "date_time",
+          "type": "text",
+          "text": "Friday, July 3 · 7:00 PM",
+          "x": 500,
+          "y": 868,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "location",
+          "type": "text",
+          "text": "Riverside Hall, 12 Bay Street",
+          "x": 500,
+          "y": 938,
+          "fontSize": 36.4,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "rsvp",
+          "type": "text",
+          "text": "RSVP by June 25 to events@yourbrand.com",
+          "x": 500,
+          "y": 1092,
+          "fontSize": 30.8,
+          "maxWidth": 860,
+          "fontFamily": "Poppins",
+          "color": "#FFFFFF",
+          "align": "center",
+          "bold": false,
+          "editable": true
+        },
+        {
+          "id": "logo_circle",
+          "type": "shape",
+          "shape": "circle",
+          "x": 451,
+          "y": 112,
+          "width": 98,
+          "height": 98,
+          "color": "#A855F7",
+          "rotation": 0,
+          "opacity": 1,
+          "editable": true
+        },
+        {
+          "id": "logo_mark",
+          "type": "text",
+          "text": "B",
+          "x": 500,
+          "y": 182,
+          "fontSize": 49,
+          "fontFamily": "Poppins",
+          "color": "#1E0A38",
+          "align": "center",
+          "bold": true,
+          "editable": true
+        }
+      ],
+      "editableFields": [
+        "heading",
+        "event_name",
+        "date_time",
+        "location",
+        "rsvp",
+        "logo_mark"
+      ],
+      "export": {
+        "formats": [
+          "PNG",
+          "JPG",
+          "PDF"
+        ],
+        "defaultDpi": 300
+      }
+    }
+  ]
+}

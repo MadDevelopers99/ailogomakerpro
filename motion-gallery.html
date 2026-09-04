@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Animation & Video Templates — Logo Maker</title>
+<meta name="description" content="Browse free, ready-made animated templates and short intro videos — customize text, colors and images, then record and download.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/motion-gallery.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .bc-card .play-badge { position:absolute; top:10px; right:10px; background:rgba(0,0,0,.55); color:#fff; font-size:11px; font-weight:700; padding:4px 9px; border-radius:999px; z-index:2; }
+  .bc-card { position:relative; }
+</style>
+</head>
+<body data-page="motion-gallery">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>Animations &amp; Videos</h1>
+          <p id="subheading">Ready-made animated designs — pick a category to preview.</p>
+        </div>
+      </div>
+
+      <div class="chip-scroll-row">
+        <div class="chip-row" id="chipRow"></div>
+      </div>
+
+      <div class="card-grid" id="cardGrid"></div>
+
+      <div class="ai-banner">
+        <div class="ai-banner-icon">✨</div>
+        <div style="flex:1;">
+          <h3>Motion, right in your browser</h3>
+          <p>Click any design to open it in the editor — edit the text, colors, fonts and background, then hit Record to download a real .webm clip. No plugins, no uploads.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { renderCardToCanvas } from "./js/render-card.js";
+
+    const meta = await fetch("data/motion-templates-meta.json").then((r) => r.json());
+    const fileCache = new Map();
+
+    function qs(name) { return new URLSearchParams(window.location.search).get(name); }
+    let activeCat = qs("cat") || "all";
+    const chipRow = document.getElementById("chipRow");
+    const cardGrid = document.getElementById("cardGrid");
+    const subheading = document.getElementById("subheading");
+
+    function loadCategory(slug) {
+      if (!fileCache.has(slug)) {
+        fileCache.set(slug, fetch(`data/motion-templates/${slug}.json`).then((r) => r.json()).then((d) => d.templates));
+      }
+      return fileCache.get(slug);
+    }
+
+    function renderChips() {
+      chipRow.innerHTML = [`<button class="chip${activeCat === "all" ? " active" : ""}" data-cat="all">All</button>`]
+        .concat(meta.categories.map((c) => `<button class="chip${c.slug === activeCat ? " active" : ""}" data-cat="${c.slug}">${c.label} (${c.count})</button>`))
+        .join("");
+    }
+
+    function cardHtml(t, slug, aspect) {
+      return `
+        <a class="bc-card" data-id="${t.id}" href="motion-editor.html?id=${t.id}&cat=${slug}" style="display:block;color:inherit;">
+          <span class="play-badge">${slug === "videos" ? "▶ Video" : "▶ Animation"}</span>
+          <canvas style="aspect-ratio:${aspect};"></canvas>
+          <div class="bc-meta">
+            <div class="bc-name">${t.name}</div>
+            <div class="bc-cat">${t.category}</div>
+          </div>
+        </a>`;
+    }
+
+    async function paintCards(entries) {
+      const cards = [...cardGrid.querySelectorAll(".bc-card")];
+      await Promise.all(cards.map((card) => {
+        const entry = entries.find((e) => e.t.id === card.dataset.id);
+        if (!entry) return null;
+        const c = card.querySelector("canvas");
+        c.width = entry.t.canvas.width;
+        c.height = entry.t.canvas.height;
+        // Settled (fully-visible) frame for the static gallery preview.
+        return renderCardToCanvas(c, entry.t, { time: entry.t.durationMs });
+      }));
+    }
+
+    async function renderGrid() {
+      if (activeCat === "all") {
+        subheading.textContent = `A preview from all ${meta.totalTemplates} designs — pick a category above to see the full set.`;
+        const entries = meta.preview.map((t) => ({ t, slug: t.__slug }));
+        cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, e.slug, `${e.t.canvas.width}/${e.t.canvas.height}`)).join("");
+        await paintCards(entries);
+        return;
+      }
+
+      const cat = meta.categories.find((c) => c.slug === activeCat);
+      subheading.textContent = cat ? `${cat.count} ready-made ${cat.label.toLowerCase()} designs — pick a style to preview.` : "";
+      const list = await loadCategory(activeCat);
+      const entries = list.map((t) => ({ t, slug: activeCat }));
+      cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, e.slug, `${cat.canvas.width}/${cat.canvas.height}`)).join("");
+      await paintCards(entries);
+    }
+
+    renderChips();
+    renderGrid();
+
+    chipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      renderChips();
+      renderGrid();
+    });
+  </script>
+</body>
+</html>

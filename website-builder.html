@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Website Templates — Logo Maker</title>
+<meta name="description" content="Browse free, ready-made website templates — Business, Portfolio, Online Store, Personal, Landing Page and Restaurant designs you can edit and download.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/website-builder.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .site-card { display:block; color:inherit; border-radius:14px; overflow:hidden; border:1px solid var(--border); background:#fff; transition:transform .15s, box-shadow .15s; }
+  .site-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(16,18,30,.14); }
+  .site-card-frame-wrap { position:relative; width:100%; aspect-ratio:400/260; overflow:hidden; background:#f1f2f5; }
+  .site-card-frame { position:absolute; top:0; left:0; width:1280px; height:832px; border:0; pointer-events:none; transform-origin:top left; transform:scale(0.3125); }
+  .site-card .bc-meta { padding:10px 14px 14px; }
+  .site-card .bc-name { font-size:13.5px; font-weight:700; }
+  .site-card .bc-cat { font-size:11.5px; color:var(--text-faint); margin-top:2px; }
+</style>
+</head>
+<body data-page="website-builder">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>Website Templates</h1>
+          <p id="subheading">Ready-made page designs — pick a category to preview.</p>
+        </div>
+      </div>
+
+      <div class="chip-scroll-row">
+        <div class="chip-row" id="chipRow"></div>
+      </div>
+
+      <div class="card-grid" id="cardGrid"></div>
+
+      <div class="ai-banner">
+        <div class="ai-banner-icon">✨</div>
+        <div style="flex:1;">
+          <h3>More designs coming soon</h3>
+          <p>Click any page above to open it in the editor — edit the text right on the page, change colors, fonts, images and download. More styles are being added regularly.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { renderWebsiteHTML } from "./js/render-website.js";
+
+    const meta = await fetch("data/website-templates-meta.json").then((r) => r.json());
+    const fileCache = new Map();
+    const PAGE_SIZE = 18;
+
+    function qs(name) { return new URLSearchParams(window.location.search).get(name); }
+    let activeCat = qs("cat") || "all";
+    let visibleCount = PAGE_SIZE;
+    const chipRow = document.getElementById("chipRow");
+    const cardGrid = document.getElementById("cardGrid");
+    const subheading = document.getElementById("subheading");
+
+    function loadCategory(slug) {
+      if (!fileCache.has(slug)) {
+        fileCache.set(slug, fetch(`data/website-templates/${slug}.json`).then((r) => r.json()).then((d) => d.templates));
+      }
+      return fileCache.get(slug);
+    }
+
+    function renderChips() {
+      chipRow.innerHTML = [`<button class="chip${activeCat === "all" ? " active" : ""}" data-cat="all">All</button>`]
+        .concat(meta.categories.map((c) => `<button class="chip${c.slug === activeCat ? " active" : ""}" data-cat="${c.slug}">${c.label} (${c.count})</button>`))
+        .join("");
+    }
+
+    function cardHtml(t, slug) {
+      return `
+        <a class="site-card" data-id="${t.id}" href="website-editor.html?id=${t.id}&cat=${slug}">
+          <div class="site-card-frame-wrap"><iframe class="site-card-frame" scrolling="no" tabindex="-1"></iframe></div>
+          <div class="bc-meta">
+            <div class="bc-name">${t.name}</div>
+            <div class="bc-cat">${t.category}</div>
+          </div>
+        </a>`;
+    }
+
+    function paintFrames(entries) {
+      const cards = [...cardGrid.querySelectorAll(".site-card")];
+      cards.forEach((card) => {
+        const entry = entries.find((e) => e.t.id === card.dataset.id);
+        if (!entry) return;
+        const iframe = card.querySelector("iframe");
+        const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"><style>body{margin:0;}</style></head><body>${renderWebsiteHTML(entry.t, { editable: false })}</body></html>`;
+        iframe.srcdoc = html;
+      });
+    }
+
+    async function renderGrid() {
+      if (activeCat === "all") {
+        subheading.textContent = `A preview from all ${meta.totalTemplates.toLocaleString()} designs — pick a category above to see the full set.`;
+        const perCat = await Promise.all(meta.categories.map(async (c) => {
+          const list = await loadCategory(c.slug);
+          return list.slice(0, 3).map((t) => ({ t, slug: c.slug }));
+        }));
+        const entries = perCat.flat();
+        cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, e.slug)).join("");
+        paintFrames(entries);
+        return;
+      }
+
+      const cat = meta.categories.find((c) => c.slug === activeCat);
+      subheading.textContent = cat ? `${cat.count} ready-made ${cat.label.toLowerCase()} designs — pick a style to preview.` : "";
+      const list = await loadCategory(activeCat);
+      const shown = list.slice(0, visibleCount);
+      const entries = shown.map((t) => ({ t, slug: activeCat }));
+      cardGrid.innerHTML = entries.map((e) => cardHtml(e.t, e.slug)).join("");
+      if (visibleCount < list.length) {
+        cardGrid.innerHTML += `<button id="loadMoreBtn" class="btn btn-outline" style="grid-column:1/-1;justify-self:center;margin-top:12px;">Load more (${list.length - visibleCount} remaining)</button>`;
+      }
+      paintFrames(entries);
+      document.getElementById("loadMoreBtn")?.addEventListener("click", () => {
+        visibleCount += PAGE_SIZE;
+        renderGrid();
+      });
+    }
+
+    renderChips();
+    renderGrid();
+
+    chipRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      visibleCount = PAGE_SIZE;
+      renderChips();
+      renderGrid();
+    });
+  </script>
+</body>
+</html>

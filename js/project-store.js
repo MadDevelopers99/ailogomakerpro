@@ -1,5 +1,7 @@
 // Client-side persistence for the editor. Everything lives in localStorage —
 // there is no backend, so "cloud save" / "sign in" are simulated locally.
+import { themeForId } from "./card-theme.js";
+
 const CURRENT_KEY = "lm_current_project";
 const SAVED_KEY = "lm_saved_logos";
 const UPLOADS_KEY = "lm_uploads";
@@ -27,11 +29,12 @@ export function setBrandKit(kit) {
 
 export function defaultProject(sourceLogo) {
   const kit = getBrandKit();
+  const theme = sourceLogo ? themeForId(sourceLogo.id) : null;
   return {
     id: "proj_" + Date.now(),
     createdAt: Date.now(),
     sourceLogoId: sourceLogo ? sourceLogo.id : null,
-    canvas: { size: 800, background: { type: "color", value: "#ffffff" } },
+    canvas: { size: 800, background: { type: "color", value: theme ? theme.bg : "#ffffff" } },
     layout: "below", // below | overlay | logo-only
     image: { src: sourceLogo ? sourceLogo.image : null, visible: true, x: 0, y: 0, scaleX: 1, scaleY: 1 },
     icon: { id: null, color: (kit && kit.primaryColor) || "#6C5CE7", visible: false, x: 0, y: 0, scaleX: 1, scaleY: 1 },
@@ -45,7 +48,7 @@ export function defaultProject(sourceLogo) {
         weight: 700,
         italic: false,
         align: "center",
-        color: (kit && kit.primaryColor) || "#16181d",
+        color: (kit && kit.primaryColor) || (theme ? theme.brand : "#16181d"),
         fillType: "solid", // solid | gradient
         gradient: ["#6C5CE7", "#00CEC9"],
         shadow: { enabled: false, color: "#000000", blur: 6, x: 2, y: 2 },
@@ -61,7 +64,7 @@ export function defaultProject(sourceLogo) {
         weight: 400,
         italic: false,
         align: "center",
-        color: (kit && kit.secondaryColor) || "#6b7280",
+        color: (kit && kit.secondaryColor) || (theme ? theme.slogan : "#6b7280"),
         fillType: "solid",
         gradient: ["#6C5CE7", "#00CEC9"],
         shadow: { enabled: false, color: "#000000", blur: 6, x: 2, y: 2 },

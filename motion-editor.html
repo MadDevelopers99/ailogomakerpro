@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animation & Video Editor — Logo Maker</title>
+<meta name="robots" content="noindex, follow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .motion-transport { display:flex; align-items:center; gap:10px; padding:12px 20px; border-top:1px solid var(--border); background:#fff; }
+  .motion-transport input[type="range"] { flex:1; }
+  .motion-time { font-size:11.5px; color:var(--text-faint); min-width:76px; text-align:right; }
+</style>
+</head>
+<body>
+  <div class="editor-shell" style="flex-direction:column;">
+  <div style="display:flex;flex:1;min-height:0;">
+    <div class="editor-rightpanel" id="rightPanel"></div>
+
+    <div class="editor-canvasarea">
+      <div class="editor-topbar">
+        <div class="left">
+          <a class="back" href="motion-gallery.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Back</a>
+          <button class="icon-btn" id="undoBtn" title="Undo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 010 10h-1"/></svg></button>
+          <button class="icon-btn" id="redoBtn" title="Redo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h1"/></svg></button>
+        </div>
+        <div id="editorTitle" style="font-weight:700;font-size:14px;">Animation</div>
+        <div class="right">
+          <button class="btn btn-outline btn-sm" id="saveBtn">Save</button>
+          <button class="btn btn-primary btn-sm" id="recordBtn">⬤ Record &amp; Download</button>
+        </div>
+      </div>
+      <div class="editor-canvas-center">
+        <canvas id="socialCanvas"></canvas>
+      </div>
+      <div class="motion-transport">
+        <button type="button" class="btn btn-outline btn-sm" id="playBtn">▶ Preview</button>
+        <input type="range" id="scrubber" min="0" max="1000" value="1000">
+        <span class="motion-time" id="timeLabel">0.0s / 0.0s</span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script type="module" src="js/motion-editor.js"></script>
+</body>
+</html>
