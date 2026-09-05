@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<script src="https://quge5.com/88/tag.min.js" data-zone="276705" async data-cfasync="false"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Business Name Generator — Logo Maker</title>
+<meta name="description" content="Generate brandable business name ideas with matching taglines for free using AI. Describe your business and get instant suggestions.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/ai-name-generator.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .ai-gen-layout { max-width: 640px; margin: 0 auto; }
+  .ai-gen-form { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+  .ai-gen-results { margin-top: 24px; display: grid; gap: 10px; }
+  .ai-gen-result-card {
+    background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  }
+  .ai-gen-result-card h3 { margin: 0 0 3px; font-size: 16px; }
+  .ai-gen-result-card p { margin: 0; font-size: 13px; color: var(--text-dim); }
+  .ai-gen-error { color: #dc2626; font-size: 13.5px; margin-top: 12px; text-align: center; }
+  .ai-gen-loading { text-align: center; color: var(--text-dim); font-size: 14px; margin-top: 20px; }
+</style>
+</head>
+<body data-page="ai-name-generator">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>AI Business Name Generator</h1>
+          <p>Describe your business and get AI-generated name ideas with a matching tagline, free.</p>
+        </div>
+      </div>
+
+      <div class="ai-gen-layout">
+        <form class="ai-gen-form" id="genForm">
+          <div class="field">
+            <label>What does your business do?</label>
+            <input type="text" id="description" placeholder="e.g. a specialty coffee roaster that ships subscription boxes" required>
+          </div>
+          <div class="field">
+            <label>Industry (optional)</label>
+            <input type="text" id="industry" placeholder="e.g. food & beverage">
+          </div>
+          <button type="submit" class="btn btn-primary" id="generateBtn" style="width:100%;">✨ Generate Names</button>
+        </form>
+
+        <div class="ai-gen-loading" id="loadingText" style="display:none;">Thinking of names…</div>
+        <div class="ai-gen-error" id="errorText"></div>
+        <div class="ai-gen-results" id="resultsArea"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { aiGenerate } from "./js/ai-client.js";
+
+    function esc(s) { return (s ?? "").toString().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+    const form = document.getElementById("genForm");
+    const generateBtn = document.getElementById("generateBtn");
+    const loadingText = document.getElementById("loadingText");
+    const errorText = document.getElementById("errorText");
+    const resultsArea = document.getElementById("resultsArea");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const description = document.getElementById("description").value.trim();
+      const industry = document.getElementById("industry").value.trim();
+      if (!description) return;
+
+      generateBtn.disabled = true;
+      loadingText.style.display = "block";
+      errorText.textContent = "";
+      resultsArea.innerHTML = "";
+
+      try {
+        const data = await aiGenerate("business-names", { description, industry });
+        const names = data.names || [];
+        if (!names.length) throw new Error("No names were generated — try again.");
+        resultsArea.innerHTML = names.map((n) => `
+          <div class="ai-gen-result-card">
+            <div>
+              <h3>${esc(n.name)}</h3>
+              <p>${esc(n.tagline || "")}</p>
+            </div>
+            <a class="btn btn-outline btn-sm" href="templates.html?brand=${encodeURIComponent(n.name)}">Use in Logo Maker →</a>
+          </div>`).join("");
+      } catch (err) {
+        errorText.textContent = err.message;
+      } finally {
+        generateBtn.disabled = false;
+        loadingText.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

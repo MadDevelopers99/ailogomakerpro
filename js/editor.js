@@ -727,6 +727,8 @@ async function init() {
   } else if (logoId) {
     const logo = logos.find((l) => l.id === logoId) || logos[0];
     project = startProject(logo);
+    const brandParam = (qs("brand") || "").trim();
+    if (brandParam) project.text.brand.content = brandParam.toUpperCase().slice(0, 40);
   } else {
     project = getCurrentProject() || startProject(logos[0]);
   }

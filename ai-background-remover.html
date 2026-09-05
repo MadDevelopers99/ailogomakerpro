@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<script src="https://quge5.com/88/tag.min.js" data-zone="276705" async data-cfasync="false"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Background Remover — Logo Maker</title>
+<meta name="description" content="Remove the background from any image for free, instantly, right in your browser. No upload to a server, no sign-up, unlimited use.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/ai-background-remover.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .bgr-layout { display:grid; grid-template-columns: 1fr; gap:24px; max-width:760px; margin:0 auto; }
+  .bgr-drop {
+    border:2px dashed var(--border); border-radius:16px; background:#fff; padding:48px 24px;
+    text-align:center; cursor:pointer; transition:border-color .15s, background .15s;
+  }
+  .bgr-drop:hover, .bgr-drop.drag-over { border-color:var(--primary); background:var(--primary-light); }
+  .bgr-drop input { display:none; }
+  .bgr-drop .icon { font-size:38px; margin-bottom:10px; }
+  .bgr-drop p { margin:4px 0; color:var(--text-dim); font-size:14px; }
+  .bgr-compare {
+    display:grid; grid-template-columns:1fr 1fr; gap:16px;
+  }
+  .bgr-panel { background:#fff; border:1px solid var(--border); border-radius:14px; padding:14px; text-align:center; }
+  .bgr-panel h4 { margin:0 0 10px; font-size:12.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-faint); }
+  .bgr-checkerboard {
+    background-image: linear-gradient(45deg,#e6e8f0 25%,transparent 25%), linear-gradient(-45deg,#e6e8f0 25%,transparent 25%),
+      linear-gradient(45deg,transparent 75%,#e6e8f0 75%), linear-gradient(-45deg,transparent 75%,#e6e8f0 75%);
+    background-size:16px 16px; background-position:0 0,0 8px,8px -8px,-8px 0px;
+    border-radius:8px; min-height:220px; display:flex; align-items:center; justify-content:center;
+  }
+  .bgr-panel img { max-width:100%; max-height:340px; border-radius:8px; }
+  .bgr-status { text-align:center; font-size:13.5px; color:var(--text-dim); margin-top:14px; }
+  .bgr-progress { width:100%; height:6px; background:var(--border); border-radius:99px; overflow:hidden; margin-top:10px; }
+  .bgr-progress-bar { height:100%; background:var(--primary); width:0%; transition:width .2s; }
+  .bgr-actions { display:flex; gap:10px; justify-content:center; margin-top:16px; }
+  .bgr-error { color:#dc2626; font-size:13.5px; text-align:center; margin-top:10px; }
+  @media (max-width:640px) { .bgr-compare { grid-template-columns:1fr; } }
+</style>
+</head>
+<body data-page="ai-background-remover">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>AI Background Remover</h1>
+          <p>Remove the background from any photo for free — runs entirely in your browser, nothing is uploaded to a server, unlimited use.</p>
+        </div>
+      </div>
+
+      <div class="bgr-layout">
+        <label class="bgr-drop" id="dropZone">
+          <div class="icon">🖼️</div>
+          <p><strong>Click to upload</strong> or drag and drop an image</p>
+          <p>PNG, JPG or WEBP</p>
+          <input type="file" id="fileInput" accept="image/png,image/jpeg,image/webp">
+        </label>
+
+        <div id="statusArea" style="display:none;">
+          <div class="bgr-status" id="statusText">Loading AI model…</div>
+          <div class="bgr-progress"><div class="bgr-progress-bar" id="progressBar"></div></div>
+          <div class="bgr-error" id="errorText"></div>
+        </div>
+
+        <div class="bgr-compare" id="compareArea" style="display:none;">
+          <div class="bgr-panel">
+            <h4>Original</h4>
+            <div class="bgr-checkerboard"><img id="originalImg" alt="Original"></div>
+          </div>
+          <div class="bgr-panel">
+            <h4>Background Removed</h4>
+            <div class="bgr-checkerboard"><img id="resultImg" alt="Background removed"></div>
+          </div>
+        </div>
+
+        <div class="bgr-actions" id="actionsArea" style="display:none;">
+          <button type="button" class="btn btn-outline" id="tryAnotherBtn">Try Another Image</button>
+          <button type="button" class="btn btn-primary" id="downloadBtn">⬇ Download PNG</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module" src="js/ai-background-remover.js"></script>
+</body>
+</html>

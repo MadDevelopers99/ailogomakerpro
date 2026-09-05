@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<script src="https://quge5.com/88/tag.min.js" data-zone="276705" async data-cfasync="false"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Domain Name Generator — Logo Maker</title>
+<meta name="description" content="Generate available-style domain name ideas with AI for free. Describe your business and get instant .com-style suggestions.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/ai-domain-generator.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .ai-gen-layout { max-width: 640px; margin: 0 auto; }
+  .ai-gen-form { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+  .ai-gen-results { margin-top: 24px; display: grid; gap: 10px; }
+  .ai-gen-result-card {
+    background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  }
+  .ai-gen-result-card .domain { font-size: 16px; font-weight: 700; font-family: monospace; }
+  .ai-gen-error { color: #dc2626; font-size: 13.5px; margin-top: 12px; text-align: center; }
+  .ai-gen-loading { text-align: center; color: var(--text-dim); font-size: 14px; margin-top: 20px; }
+  .ai-gen-note { font-size: 12.5px; color: var(--text-faint); text-align: center; margin-top: 14px; }
+</style>
+</head>
+<body data-page="ai-domain-generator">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>AI Domain Name Generator</h1>
+          <p>Describe your business and get AI-generated domain name ideas, free.</p>
+        </div>
+      </div>
+
+      <div class="ai-gen-layout">
+        <form class="ai-gen-form" id="genForm">
+          <div class="field">
+            <label>What does your business do?</label>
+            <input type="text" id="description" placeholder="e.g. an online bakery that sells custom cakes" required>
+          </div>
+          <div class="field">
+            <label>Keywords to include (optional)</label>
+            <input type="text" id="keywords" placeholder="e.g. cake, sweet, artisan">
+          </div>
+          <button type="submit" class="btn btn-primary" id="generateBtn" style="width:100%;">✨ Generate Domains</button>
+        </form>
+
+        <div class="ai-gen-loading" id="loadingText" style="display:none;">Thinking of domains…</div>
+        <div class="ai-gen-error" id="errorText"></div>
+        <div class="ai-gen-results" id="resultsArea"></div>
+        <p class="ai-gen-note" id="noteText" style="display:none;">Ideas only — availability isn't checked. Verify with a domain registrar before use.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module">
+    import { aiGenerate } from "./js/ai-client.js";
+
+    function esc(s) { return (s ?? "").toString().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+    const form = document.getElementById("genForm");
+    const generateBtn = document.getElementById("generateBtn");
+    const loadingText = document.getElementById("loadingText");
+    const errorText = document.getElementById("errorText");
+    const resultsArea = document.getElementById("resultsArea");
+    const noteText = document.getElementById("noteText");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const description = document.getElementById("description").value.trim();
+      const keywords = document.getElementById("keywords").value.trim();
+      if (!description) return;
+
+      generateBtn.disabled = true;
+      loadingText.style.display = "block";
+      errorText.textContent = "";
+      resultsArea.innerHTML = "";
+      noteText.style.display = "none";
+
+      try {
+        const data = await aiGenerate("domain-names", { description, keywords });
+        const domains = data.domains || [];
+        if (!domains.length) throw new Error("No domains were generated — try again.");
+        resultsArea.innerHTML = domains.map((d) => `
+          <div class="ai-gen-result-card">
+            <span class="domain">${esc(d)}</span>
+            <a class="btn btn-outline btn-sm" href="https://www.namecheap.com/domains/registration/results/?domain=${encodeURIComponent(d)}" target="_blank" rel="noopener">Check availability →</a>
+          </div>`).join("");
+        noteText.style.display = "block";
+      } catch (err) {
+        errorText.textContent = err.message;
+      } finally {
+        generateBtn.disabled = false;
+        loadingText.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

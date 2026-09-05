@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<script src="https://quge5.com/88/tag.min.js" data-zone="276705" async data-cfasync="false"></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Design Assistant — Logo Maker</title>
+<meta name="description" content="Describe your business and let AI pick a matching template and write the copy for your logo, business card, social post, flyer, poster, presentation or website — free.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/ai-assistant.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .aia-layout { max-width: 680px; margin: 0 auto; }
+  .aia-form { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+  .aia-types { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 18px; }
+  .aia-type-btn {
+    border: 1.5px solid var(--border); background: #fff; border-radius: 10px; padding: 12px 6px;
+    text-align: center; cursor: pointer; font-size: 12.5px; color: var(--text-dim); line-height: 1.3;
+  }
+  .aia-type-btn .ico { font-size: 20px; display: block; margin-bottom: 4px; }
+  .aia-type-btn.active { border-color: var(--primary); background: var(--primary-light); color: var(--primary); font-weight: 600; }
+  .aia-loading { text-align: center; color: var(--text-dim); font-size: 14px; margin-top: 22px; }
+  .aia-error { color: #dc2626; font-size: 13.5px; margin-top: 12px; text-align: center; }
+  .aia-note { font-size: 12.5px; color: var(--text-faint); text-align: center; margin-top: 16px; }
+  @media (max-width: 560px) { .aia-types { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body data-page="ai-assistant">
+  <div class="app-layout">
+    <div id="appSidebar"></div>
+    <main class="app-main">
+      <div class="app-topbar">
+        <div>
+          <h1>AI Design Assistant</h1>
+          <p>Describe your business — AI picks a matching template and writes the copy, then opens it in the editor to fine-tune.</p>
+        </div>
+      </div>
+
+      <div class="aia-layout">
+        <form class="aia-form" id="genForm">
+          <div class="aia-types" id="typeGrid">
+            <button type="button" class="aia-type-btn active" data-type="logo"><span class="ico">✨</span>Logo</button>
+            <button type="button" class="aia-type-btn" data-type="card"><span class="ico">🪪</span>Business Card</button>
+            <button type="button" class="aia-type-btn" data-type="social"><span class="ico">📱</span>Social Post</button>
+            <button type="button" class="aia-type-btn" data-type="flyers"><span class="ico">📄</span>Flyer</button>
+            <button type="button" class="aia-type-btn" data-type="posters"><span class="ico">🖼️</span>Poster</button>
+            <button type="button" class="aia-type-btn" data-type="presentation"><span class="ico">📊</span>Presentation</button>
+            <button type="button" class="aia-type-btn" data-type="website"><span class="ico">🌐</span>Website</button>
+          </div>
+
+          <div class="field">
+            <label>What does your business do?</label>
+            <input type="text" id="description" placeholder="e.g. a boutique fitness studio offering yoga and strength classes" required>
+          </div>
+          <div class="field">
+            <label>Industry (optional)</label>
+            <input type="text" id="industry" placeholder="e.g. health & fitness">
+          </div>
+          <div class="field" id="platformField" style="display:none;">
+            <label>Platform</label>
+            <select id="platform">
+              <option value="instagram-posts">Instagram Post</option>
+              <option value="facebook-posts">Facebook Post</option>
+              <option value="linkedin-posts">LinkedIn Post</option>
+              <option value="twitter-posts">Twitter / X Post</option>
+              <option value="pinterest-pins">Pinterest Pin</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="generateBtn" style="width:100%;">✨ Generate & Open in Editor</button>
+        </form>
+
+        <div class="aia-loading" id="loadingText" style="display:none;">AI is picking a template and writing your copy…</div>
+        <div class="aia-error" id="errorText"></div>
+        <p class="aia-note">AI writes a starting point — every field stays fully editable once you're in the editor.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app-shell.js" type="module"></script>
+  <script type="module" src="js/ai-assistant.js"></script>
+</body>
+</html>

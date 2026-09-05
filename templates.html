@@ -68,12 +68,14 @@
     import { themeForId } from "./js/card-theme.js";
 
     function qs(name) { return new URLSearchParams(window.location.search).get(name); }
+    function esc(s) { return (s ?? "").toString().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
 
     const [categories, logos] = await Promise.all([
       fetch("data/categories.json").then((r) => r.json()),
       fetch("data/logos.json").then((r) => r.json()),
     ]);
 
+    const brandParam = (qs("brand") || "").trim();
     let activeCat = qs("cat") || "all";
     let sortMode = "popular";
     let page = 1;
@@ -114,7 +116,8 @@
     }
 
     function cardCaption(theme) {
-      return `<div class="tpl-caption"><div class="tpl-brand" style="color:${theme.brand};">BRAND NAME</div><div class="tpl-slogan" style="color:${theme.slogan};">SLOGAN HERE</div></div>`;
+      const brandText = brandParam ? esc(brandParam.toUpperCase()) : "BRAND NAME";
+      return `<div class="tpl-caption"><div class="tpl-brand" style="color:${theme.brand};">${brandText}</div><div class="tpl-slogan" style="color:${theme.slogan};">SLOGAN HERE</div></div>`;
     }
 
     function renderGrid() {
@@ -138,7 +141,7 @@
           <button class="tpl-fav${fav ? " faved" : ""}" data-fav="${l.id}">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="${fav ? "#ef4444" : "none"}" stroke="${fav ? "#ef4444" : "currentColor"}" stroke-width="2"><path d="M12 21s-7.5-4.6-10-9.3C.6 8 2.4 4.5 6 4c2-.3 3.8.8 6 3.1C14.2 4.8 16 3.7 18 4c3.6.5 5.4 4 4 7.7C19.5 16.4 12 21 12 21z"/></svg>
           </button>
-          <a href="editor.html?logo=${l.id}">
+          <a href="editor.html?logo=${l.id}${brandParam ? "&brand=" + encodeURIComponent(brandParam) : ""}">
             <div class="thumb"><img src="${l.image}" loading="lazy" alt="${l.name}"></div>
             ${cardCaption(theme)}
           </a>
