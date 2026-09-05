@@ -1,0 +1,26 @@
+# Logo Maker
+
+> Logo Maker (ailogomakerpro.com) is a free, browser-based design tool for creating logos, business cards, social media graphics, websites, print materials, presentations, animations and QR codes. It is template-based (no AI generation) — users pick a ready-made design and customize colors, fonts, text, icons and images in a visual editor, then download the result. No account or design experience is required for the free tier.
+
+## Core tools
+
+- [Logo Maker](https://ailogomakerpro.com/templates.html): 17,000+ logo templates across 60 industries, with a full editor (colors, fonts, icons, curved text, layout).
+- [Business Cards](https://ailogomakerpro.com/business-cards.html): 1,000+ ready-made business card designs across 12 categories.
+- [Social Media Graphics](https://ailogomakerpro.com/social-media.html): Templates for covers, posts and profile pictures across major platforms (Instagram, Facebook, YouTube, LinkedIn, TikTok, etc).
+- [Website Builder](https://ailogomakerpro.com/website-builder.html): Editable multi-section website templates (business, portfolio, online store, personal, landing page, restaurant).
+- [Print & Marketing](https://ailogomakerpro.com/print-shop.html): Flyers, posters, invoices, letterheads, invitations, menus, postcards and more.
+- [Presentations](https://ailogomakerpro.com/presentation-gallery.html): Multi-slide presentation decks with PDF export.
+- [Animations & Video](https://ailogomakerpro.com/motion-gallery.html): Short animated graphics and video clips exported as downloadable files.
+- [QR Code Generator](https://ailogomakerpro.com/qr-generator.html): Free QR code generator for URLs, text, email, phone, SMS and WiFi, with logo overlay and color customization.
+
+## Key facts
+
+- All template browsing, editing and PNG/JPG downloads are free. No design experience is required.
+- Users can reposition, resize and restyle every text, icon, image and shape element directly on the canvas.
+- Templates cover 60+ industries including business, real estate, restaurant, beauty, construction, gaming and esports.
+- The site does not use AI image generation; templates are professionally pre-designed and customized by the user.
+
+## Other
+
+- [Blog](https://ailogomakerpro.com/blog.html): Guides on logo design, branding, typography and color psychology.
+- [Frequently Asked Questions](https://ailogomakerpro.com/#faq): Common questions about pricing, file formats, licensing and the editor.

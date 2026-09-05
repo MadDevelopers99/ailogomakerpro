@@ -29,24 +29,28 @@
   </header>
 
   <section class="content-section">
-    <div class="container" style="max-width:520px;">
-      <h2 style="text-align:left;">Contact Us</h2>
-      <p style="color:var(--text-dim);font-size:14px;line-height:1.6;margin-bottom:24px;">Questions, feedback or bug reports — send us a message below.</p>
-      <form id="contactForm" style="background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:24px;">
+    <div class="container contact-container">
+      <h2 class="contact-heading">Contact Us</h2>
+      <p class="contact-lead">Questions, feedback or bug reports — reach us directly or send a message below.</p>
+      <div class="contact-direct">
+        <a href="mailto:qraza512@gmail.com">✉️ qraza512@gmail.com</a>
+        <a href="tel:+923467796603">📞 +92 346 7796603</a>
+      </div>
+      <form id="contactForm" class="contact-form-card">
         <div class="field"><label>Name</label><input type="text" id="cName" required></div>
         <div class="field"><label>Email</label><input type="text" id="cEmail" required></div>
-        <div class="field"><label>Message</label><textarea id="cMessage" required style="width:100%;min-height:110px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-family:inherit;font-size:13.5px;resize:vertical;"></textarea></div>
-        <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
-        <p id="contactNote" style="font-size:12px;color:var(--text-faint);margin-top:14px;text-align:center;">This is a demo form — messages aren't sent anywhere, they just confirm here.</p>
+        <div class="field"><label>Message</label><textarea id="cMessage" required class="contact-textarea"></textarea></div>
+        <button type="submit" class="btn btn-primary contact-submit">Send Message</button>
+        <p id="contactNote" class="contact-note">This is a demo form — messages aren't sent anywhere, they just confirm here.</p>
       </form>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-bottom" style="border-top:none;padding-top:0;">
+      <div class="footer-bottom footer-bottom--flush">
         <div>© <span id="yearNow"></span> Logo Maker.</div>
-        <div><a href="index.html" style="color:#9296ac;">Back to Home</a></div>
+        <div><a href="index.html" class="footer-back-link">Back to Home</a></div>
       </div>
     </div>
   </footer>
@@ -54,8 +58,9 @@
     document.getElementById("yearNow").textContent = new Date().getFullYear();
     document.getElementById("contactForm").addEventListener("submit", (e) => {
       e.preventDefault();
-      document.getElementById("contactNote").textContent = "Thanks — your message was received (demo only, not actually sent).";
-      document.getElementById("contactNote").style.color = "#16a34a";
+      const note = document.getElementById("contactNote");
+      note.textContent = "Thanks — your message was received (demo only, not actually sent).";
+      note.classList.add("contact-note--success");
       e.target.reset();
     });
   </script>
