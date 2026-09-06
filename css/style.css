@@ -480,8 +480,10 @@ footer.site-footer {
   border-top: 1px solid rgba(255,255,255,.1);
   padding: 18px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   font-size: 12.5px;
 }
 .footer-social { display: flex; gap: 10px; }
