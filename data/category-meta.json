@@ -1,0 +1,1548 @@
+{
+  "business": {
+    "style": "Corporate",
+    "keywords": [
+      "business consulting",
+      "strategy",
+      "management",
+      "professional services",
+      "advisory",
+      "corporate branding",
+      "consultancy",
+      "enterprise",
+      "growth",
+      "leadership"
+    ],
+    "description": "Professional corporate logos for business consulting firms, conveying trust and expertise.",
+    "previewTone": "neutral",
+    "brandNameExamples": [
+      {
+        "name": "Strategix",
+        "tagline": "Guiding your growth forward"
+      },
+      {
+        "name": "Apex Advisory",
+        "tagline": "Elevate your business strategy"
+      },
+      {
+        "name": "Pivot Partners",
+        "tagline": "Turning insight into action"
+      },
+      {
+        "name": "NexGen Consulting",
+        "tagline": "Future‑focused solutions today"
+      },
+      {
+        "name": "Summit Strategies",
+        "tagline": "Peak performance consulting"
+      }
+    ]
+  },
+  "sports-fitness": {
+    "style": "Mascot",
+    "keywords": [
+      "sports",
+      "fitness",
+      "gym",
+      "training",
+      "active",
+      "health",
+      "athletics",
+      "workout",
+      "team",
+      "performance"
+    ],
+    "description": "Dynamic sports and fitness logo templates that capture energy, movement, and brand strength.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "FitPulse",
+        "tagline": "Power your performance daily"
+      }
+    ]
+  },
+  "real-estate": {
+    "style": "Modern",
+    "keywords": [
+      "real estate",
+      "property",
+      "homes",
+      "housing",
+      "realtor",
+      "agency",
+      "building",
+      "architecture",
+      "investment",
+      "commercial"
+    ],
+    "description": "Modern real estate logo templates combine sleek icons and clean typography for agencies, agents, and property developers.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "NestEdge",
+        "tagline": "Find your perfect home"
+      }
+    ]
+  },
+  "technology": {
+    "style": "Modern",
+    "keywords": [
+      "technology",
+      "tech",
+      "software",
+      "digital",
+      "ai",
+      "innovation",
+      "startup",
+      "app",
+      "cloud",
+      "circuit"
+    ],
+    "description": "Sleek tech‑focused logos that convey innovation, digital expertise, and modern simplicity for startups and software firms.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "ByteForge",
+        "tagline": "Crafting tomorrow's digital solutions"
+      },
+      {
+        "name": "CircuitHive",
+        "tagline": "Empowering innovation through smart tech"
+      },
+      {
+        "name": "NeuroPulse",
+        "tagline": "Connecting minds with AI brilliance"
+      },
+      {
+        "name": "QuantumNest",
+        "tagline": "Simplifying cloud for modern businesses"
+      },
+      {
+        "name": "PixelShift",
+        "tagline": "Designing seamless app experiences"
+      }
+    ]
+  },
+  "food-restaurant": {
+    "style": "Badge",
+    "keywords": [
+      "restaurant logo",
+      "food branding",
+      "cafe design",
+      "menu logo",
+      "dining logo",
+      "culinary branding",
+      "gourmet logo",
+      "kitchen emblem",
+      "food truck logo",
+      "bakery branding"
+    ],
+    "description": "Discover eye-catching Food & Restaurant logos that serve fresh brand identity for cafés, diners, and culinary businesses.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "BiteBox",
+        "tagline": "Savor every moment together"
+      }
+    ]
+  },
+  "education": {
+    "style": "Modern",
+    "keywords": [
+      "education",
+      "learning",
+      "school",
+      "academy",
+      "tutoring",
+      "online",
+      "courses",
+      "scholarship",
+      "knowledge",
+      "students"
+    ],
+    "description": "Modern education logos blend clean lines and vibrant icons to inspire learning and trust.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "EduPulse",
+        "tagline": "Empowering minds every day"
+      },
+      {
+        "name": "LearnSphere",
+        "tagline": "Explore knowledge achieve greatness"
+      }
+    ]
+  },
+  "art-entertainment": {
+    "style": "Mascot",
+    "keywords": [
+      "art logo",
+      "entertainment branding",
+      "creative mascot",
+      "music logo",
+      "theatre emblem",
+      "film studio icon",
+      "festival badge",
+      "performance brand",
+      "visual arts logo",
+      "media identity"
+    ],
+    "description": "Vibrant mascot and illustrative logos that capture the spirit of art and entertainment brands.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "Artify",
+        "tagline": "Unleash your creative spark"
+      }
+    ]
+  },
+  "travel-hotel": {
+    "style": "Luxury",
+    "keywords": [
+      "travel",
+      "hotel",
+      "tourism",
+      "lodging",
+      "vacation",
+      "resort",
+      "booking",
+      "hospitality",
+      "tourist",
+      "accommodation"
+    ],
+    "description": "Elegant travel and hotel logos that convey luxury, comfort, and adventure.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "VoyageNest",
+        "tagline": "Your journey begins here"
+      },
+      {
+        "name": "StaySphere",
+        "tagline": "Comfortable stays, unforgettable experiences"
+      },
+      {
+        "name": "GlobeLuxe",
+        "tagline": "Luxury travel for discerning explorers"
+      },
+      {
+        "name": "HotelHaven",
+        "tagline": "Relax, recharge, repeat in style"
+      },
+      {
+        "name": "TripMosaic",
+        "tagline": "Crafting memories across the globe"
+      }
+    ]
+  },
+  "automotive": {
+    "style": "Badge",
+    "keywords": [
+      "car",
+      "auto",
+      "vehicle",
+      "speed",
+      "performance",
+      "automotive",
+      "driving",
+      "engine",
+      "motor",
+      "road"
+    ],
+    "description": "Sleek automotive badge logos capture speed, power, and precision for car brands and services.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "TurboDrive",
+        "tagline": "Accelerate your journey today"
+      }
+    ]
+  },
+  "music-audio": {
+    "style": "Modern",
+    "keywords": [
+      "music",
+      "audio",
+      "sound",
+      "streaming",
+      "headphones",
+      "speakers",
+      "podcast",
+      "band",
+      "studio",
+      "rhythm"
+    ],
+    "description": "Modern music and audio logos blend sleek symbols and vibrant typography for studios, streaming services, and artists.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "BeatPulse",
+        "tagline": "Feel the rhythm daily"
+      },
+      {
+        "name": "SoundNest",
+        "tagline": "Your audio home base"
+      },
+      {
+        "name": "EchoWave",
+        "tagline": "Ride the sound wave"
+      }
+    ]
+  },
+  "fashion-beauty": {
+    "style": "Elegant",
+    "keywords": [
+      "fashion",
+      "beauty",
+      "makeup",
+      "clothing",
+      "style",
+      "glamour",
+      "trend",
+      "designer",
+      "cosmetics",
+      "apparel"
+    ],
+    "description": "Elegant logos that capture fashion and beauty trends with sleek, stylish flair.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "VogueAura",
+        "tagline": "Radiate style every day"
+      },
+      {
+        "name": "GlamNest",
+        "tagline": "Your beauty, our design"
+      },
+      {
+        "name": "ChicPulse",
+        "tagline": "Feel the fashion rhythm"
+      },
+      {
+        "name": "SilkMuse",
+        "tagline": "Graceful looks, timeless appeal"
+      },
+      {
+        "name": "LuxeBloom",
+        "tagline": "Bloom with luxurious charm"
+      }
+    ]
+  },
+  "health-medical": {
+    "style": "Minimal",
+    "keywords": [
+      "health",
+      "medical",
+      "clinic",
+      "wellness",
+      "hospital",
+      "pharmacy",
+      "doctor",
+      "care",
+      "patient",
+      "healthcare"
+    ],
+    "description": "Clean, minimal logos that convey trust and care for health and medical brands.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "MediPulse",
+        "tagline": "Your health, our priority"
+      },
+      {
+        "name": "Healix",
+        "tagline": "Innovative care for everyone"
+      },
+      {
+        "name": "WellNest",
+        "tagline": "Nurturing health, everyday life"
+      },
+      {
+        "name": "CuraCore",
+        "tagline": "Core solutions for wellness"
+      },
+      {
+        "name": "VitalBridge",
+        "tagline": "Connecting you to health"
+      }
+    ]
+  },
+  "animals-pets": {
+    "style": "Mascot",
+    "keywords": [
+      "pet care",
+      "animal clinic",
+      "dog grooming",
+      "cat food",
+      "wildlife",
+      "veterinary",
+      "pet store",
+      "animal rescue",
+      "pet services",
+      "pet brand"
+    ],
+    "description": "Explore vibrant animal and pet logo templates featuring mascots, icons, and playful designs for businesses in the pet industry.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "PawPulse",
+        "tagline": "Your pet's health, our priority"
+      },
+      {
+        "name": "FurNest",
+        "tagline": "Cozy homes for happy pets"
+      },
+      {
+        "name": "WhiskerWave",
+        "tagline": "Gentle grooming for sleek cats"
+      },
+      {
+        "name": "TailTrail",
+        "tagline": "Adventure gear for active dogs"
+      },
+      {
+        "name": "BarkBuddy",
+        "tagline": "Trusted supplies for loyal companions"
+      }
+    ]
+  },
+  "photography": {
+    "style": "Modern",
+    "keywords": [
+      "photography",
+      "camera",
+      "portrait",
+      "lens",
+      "studio",
+      "photo",
+      "shutter",
+      "image",
+      "visual",
+      "creative"
+    ],
+    "description": "Modern photography logos blend sleek lines and bold icons to capture the art of visual storytelling.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "Snapify",
+        "tagline": "Capture moments, create memories"
+      },
+      {
+        "name": "LensCraft",
+        "tagline": "Crafting perfect visual experiences"
+      },
+      {
+        "name": "ShutterBee",
+        "tagline": "Buzzing with vibrant photo art"
+      },
+      {
+        "name": "PixelVista",
+        "tagline": "Seeing the world in pixels"
+      },
+      {
+        "name": "FocusNest",
+        "tagline": "Your hub for sharp imagery"
+      }
+    ]
+  },
+  "construction": {
+    "style": "Badge",
+    "keywords": [
+      "construction",
+      "builder",
+      "contractor",
+      "architecture",
+      "hardhat",
+      "blueprint",
+      "structural",
+      "engineering",
+      "site",
+      "renovation"
+    ],
+    "description": "Bold badge logos for construction firms, highlighting strength and reliability in a compact design.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "BuildForge",
+        "tagline": "Crafting structures with precision"
+      },
+      {
+        "name": "StoneRise",
+        "tagline": "Elevating foundations, building futures"
+      },
+      {
+        "name": "IronArc",
+        "tagline": "Strong designs, lasting impressions"
+      },
+      {
+        "name": "CoreConstruct",
+        "tagline": "Your vision, solidly realized"
+      },
+      {
+        "name": "TitanBuild",
+        "tagline": "Powerful projects, dependable results"
+      }
+    ]
+  },
+  "wedding-events": {
+    "style": "Elegant",
+    "keywords": [
+      "wedding logo",
+      "event branding",
+      "bridal",
+      "ceremony",
+      "reception",
+      "floral",
+      "romantic",
+      "luxury",
+      "invitation",
+      "celebration"
+    ],
+    "description": "Elegant wedding and event logo templates that capture romance and sophistication for any celebration.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "EverAfter Studios",
+        "tagline": "Crafting timeless wedding moments"
+      },
+      {
+        "name": "Blissful Vows",
+        "tagline": "Designs that celebrate love"
+      },
+      {
+        "name": "Radiant Events",
+        "tagline": "Shine on your special day"
+      },
+      {
+        "name": "Petal & Promise",
+        "tagline": "Elegant designs for forever"
+      }
+    ]
+  },
+  "gaming-esports": {
+    "style": "Mascot",
+    "keywords": [
+      "gaming logo",
+      "esports branding",
+      "video game mascot",
+      "tournament emblem",
+      "gamer tag design",
+      "streamer logo",
+      "digital gaming identity",
+      "competitive gaming logo",
+      "e-sports team crest",
+      "gaming icon"
+    ],
+    "description": "Dynamic mascot and badge logos perfect for gaming and esports brands.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "PixelPulse",
+        "tagline": "Power your gaming passion"
+      },
+      {
+        "name": "ArcadeApex",
+        "tagline": "Rise to the top"
+      },
+      {
+        "name": "VortexVanguard",
+        "tagline": "Lead the battle arena"
+      },
+      {
+        "name": "NeonNexus",
+        "tagline": "Connect, compete, conquer, win"
+      },
+      {
+        "name": "QuantumQuake",
+        "tagline": "Shake up the game"
+      }
+    ]
+  },
+  "church-religion": {
+    "style": "Badge",
+    "keywords": [
+      "church",
+      "religion",
+      "faith",
+      "worship",
+      "spiritual",
+      "cross",
+      "prayer",
+      "community",
+      "sacred",
+      "temple"
+    ],
+    "description": "Explore inspiring church and religion logo templates that convey faith, community, and spiritual values.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "GracePath",
+        "tagline": "Guiding souls with love"
+      },
+      {
+        "name": "FaithBridge",
+        "tagline": "Connecting hearts through worship"
+      },
+      {
+        "name": "SacredEcho",
+        "tagline": "Resonating divine inspiration daily"
+      },
+      {
+        "name": "HolyHarbor",
+        "tagline": "Safe haven for spiritual growth"
+      },
+      {
+        "name": "SpiritRise",
+        "tagline": "Elevate your faith journey"
+      }
+    ]
+  },
+  "nature-environment": {
+    "style": "Minimal",
+    "keywords": [
+      "green",
+      "eco",
+      "sustainability",
+      "nature",
+      "forest",
+      "earth",
+      "renewable",
+      "organic",
+      "wildlife",
+      "environment"
+    ],
+    "description": "Eco-friendly logo templates featuring green, earth tones and nature-inspired symbols for sustainable brands.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "LeafyCo",
+        "tagline": "Sustainable solutions for daily life"
+      },
+      {
+        "name": "EcoPulse",
+        "tagline": "Heartbeat of environmental innovation"
+      }
+    ]
+  },
+  "abstract": {
+    "style": "Abstract",
+    "keywords": [
+      "abstract",
+      "geometric",
+      "modern",
+      "minimalist",
+      "artistic",
+      "symbolic",
+      "fluid",
+      "dynamic",
+      "creative",
+      "versatile"
+    ],
+    "description": "Explore bold abstract logo templates that blend modern art with versatile branding.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "NebulaWave",
+        "tagline": "Ride the creative current"
+      },
+      {
+        "name": "PixelFlux",
+        "tagline": "Flowing design, endless possibilities"
+      },
+      {
+        "name": "AetherMark",
+        "tagline": "Elevate your brand identity"
+      },
+      {
+        "name": "VividOrbit",
+        "tagline": "Circle of vivid imagination"
+      },
+      {
+        "name": "QuantumPulse",
+        "tagline": "Pulse of futuristic design"
+      }
+    ]
+  },
+  "advertising-marketing": {
+    "style": "Modern",
+    "keywords": [
+      "advertising",
+      "marketing",
+      "digital agency",
+      "branding",
+      "media",
+      "creative",
+      "campaign",
+      "promotion",
+      "strategy",
+      "growth"
+    ],
+    "description": "Sleek modern logos that capture the energy of advertising and marketing agencies.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "AdPulse",
+        "tagline": "Ignite your brand's momentum"
+      },
+      {
+        "name": "MarketMingle",
+        "tagline": "Connecting ideas to audiences"
+      },
+      {
+        "name": "PromoSphere",
+        "tagline": "Your campaign, amplified worldwide"
+      },
+      {
+        "name": "BrandForge",
+        "tagline": "Crafting impact, driving results"
+      },
+      {
+        "name": "AdVanta",
+        "tagline": "Strategic design for growth"
+      }
+    ]
+  },
+  "cleaning-services": {
+    "style": "Minimal",
+    "keywords": [
+      "cleaning",
+      "janitorial",
+      "housekeeping",
+      "maid service",
+      "office cleaning",
+      "green cleaning",
+      "deep cleaning",
+      "sparkle",
+      "sanitizing",
+      "hygiene"
+    ],
+    "description": "Sleek, minimal logos that convey fresh, spotless cleaning services.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "PureShine",
+        "tagline": "Spotless spaces, every day"
+      },
+      {
+        "name": "FreshNest",
+        "tagline": "Clean homes, happy lives"
+      },
+      {
+        "name": "EcoGlint",
+        "tagline": "Green cleaning, bright results"
+      }
+    ]
+  },
+  "communication": {
+    "style": "Modern",
+    "keywords": [
+      "communication",
+      "media",
+      "branding",
+      "broadcasting",
+      "digital",
+      "podcast",
+      "journalism",
+      "advertising",
+      "marketing",
+      "content"
+    ],
+    "description": "Sleek, modern logos for communication and media brands that capture clarity and connectivity.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "WaveCast",
+        "tagline": "Amplify your voice worldwide"
+      },
+      {
+        "name": "PulseMedia",
+        "tagline": "Connecting audiences instantly worldwide"
+      },
+      {
+        "name": "EchoStream",
+        "tagline": "Broadcast brilliance daily for you"
+      },
+      {
+        "name": "NimbusNews",
+        "tagline": "Fresh stories fast delivery"
+      },
+      {
+        "name": "PixelSpeak",
+        "tagline": "Visual storytelling redefined for brands"
+      }
+    ]
+  },
+  "community-nonprofit": {
+    "style": "Badge",
+    "keywords": [
+      "nonprofit",
+      "charity",
+      "community",
+      "donation",
+      "volunteer",
+      "fundraising",
+      "social impact",
+      "cause",
+      "mission",
+      "grant"
+    ],
+    "description": "Impactful badge and emblem logos that inspire trust, unity, and support for community and nonprofit causes.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "HopeBridge",
+        "tagline": "Connecting hearts, building futures"
+      },
+      {
+        "name": "KindRoot",
+        "tagline": "Growing community, nurturing hope"
+      },
+      {
+        "name": "UnityPulse",
+        "tagline": "Driving change, empowering volunteers"
+      },
+      {
+        "name": "CharityNest",
+        "tagline": "Safe haven for giving"
+      },
+      {
+        "name": "CauseWave",
+        "tagline": "Riding momentum for impact"
+      }
+    ]
+  },
+  "retail-shopping": {
+    "style": "Modern",
+    "keywords": [
+      "retail logo",
+      "shopping brand",
+      "store identity",
+      "ecommerce logo",
+      "fashion boutique",
+      "grocery logo",
+      "mall branding",
+      "market logo",
+      "consumer goods"
+    ],
+    "description": "Modern retail and shopping logos blend sleek typography and bold icons to attract customers and boost brand visibility.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "Shoply",
+        "tagline": "Your style, our shelves"
+      },
+      {
+        "name": "Cartify",
+        "tagline": "Simplify your shopping experience"
+      },
+      {
+        "name": "BoutiqueBee",
+        "tagline": "Buzzing fashion for you"
+      },
+      {
+        "name": "MarketMates",
+        "tagline": "Connecting shoppers with deals"
+      },
+      {
+        "name": "RetailRise",
+        "tagline": "Elevate your store presence"
+      }
+    ]
+  },
+  "security": {
+    "style": "Modern",
+    "keywords": [
+      "security",
+      "cybersecurity",
+      "protection",
+      "shield",
+      "lock",
+      "safe",
+      "defense",
+      "privacy",
+      "network security"
+    ],
+    "description": "Sleek modern logos for security firms, featuring shields, locks, and digital motifs.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "SecureGuard",
+        "tagline": "Protecting your digital frontier"
+      },
+      {
+        "name": "LockSphere",
+        "tagline": "Secure solutions, trusted performance"
+      },
+      {
+        "name": "Shieldify",
+        "tagline": "Your shield in cyberspace"
+      },
+      {
+        "name": "VaultEdge",
+        "tagline": "Fortify data, empower growth"
+      },
+      {
+        "name": "CipherCore",
+        "tagline": "Decoding safety, delivering peace"
+      }
+    ]
+  },
+  "avatars": {
+    "style": "Mascot",
+    "keywords": [
+      "mascot logo",
+      "character branding",
+      "avatar design",
+      "illustrated logo",
+      "fun logo",
+      "team mascot",
+      "sports logo",
+      "gaming icon",
+      "cartoon emblem"
+    ],
+    "description": "Vibrant mascot and avatar logos bring brands to life with playful character designs.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "PixelPup",
+        "tagline": "Playful mascot for digital brands"
+      },
+      {
+        "name": "FrolicFox",
+        "tagline": "Your brand's lively character"
+      }
+    ]
+  },
+  "badges-awards": {
+    "style": "Badge",
+    "keywords": [
+      "badge",
+      "award",
+      "emblem",
+      "trophy",
+      "medal",
+      "recognition",
+      "achievement",
+      "honor",
+      "insignia",
+      "crest"
+    ],
+    "description": "Professional badge and award logos that showcase achievement and honor.",
+    "previewTone": "neutral",
+    "brandNameExamples": [
+      {
+        "name": "HonorMark",
+        "tagline": "Celebrate excellence with distinction"
+      },
+      {
+        "name": "BadgeForge",
+        "tagline": "Crafting custom symbols of pride"
+      },
+      {
+        "name": "AwardCraft",
+        "tagline": "Design awards that inspire winners"
+      },
+      {
+        "name": "Crestify",
+        "tagline": "Your brand's emblem of honor"
+      },
+      {
+        "name": "MedalMint",
+        "tagline": "Fresh designs for lasting accolades"
+      }
+    ]
+  },
+  "casino": {
+    "style": "Luxury",
+    "keywords": [
+      "casino",
+      "gaming",
+      "slot",
+      "betting",
+      "luck",
+      "jackpot",
+      "card",
+      "roulette",
+      "gambling"
+    ],
+    "description": "Explore premium casino and gaming logo templates that blend elegance, excitement, and high‑stakes flair.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "LuckyAce",
+        "tagline": "Your chance, your win"
+      },
+      {
+        "name": "SpinFortune",
+        "tagline": "Spin today, win tomorrow"
+      },
+      {
+        "name": "RoyalBet",
+        "tagline": "Bet like royalty today"
+      },
+      {
+        "name": "GoldReel",
+        "tagline": "Reel in golden victories"
+      }
+    ]
+  },
+  "retro": {
+    "style": "Vintage",
+    "keywords": [
+      "retro",
+      "vintage",
+      "nostalgic",
+      "classic",
+      "old-school",
+      "hand-drawn",
+      "retro fonts",
+      "retro colors",
+      "vintage design"
+    ],
+    "description": "Retro Vibes logos blend nostalgic fonts and classic colors for a timeless, old-school brand look.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "PixelPop",
+        "tagline": "Bringing retro fun alive"
+      },
+      {
+        "name": "Arcade Brew",
+        "tagline": "Sip nostalgia in every glass"
+      },
+      {
+        "name": "RetroWave",
+        "tagline": "Ride the classic sound"
+      },
+      {
+        "name": "Vintage Vinyl",
+        "tagline": "Spin timeless tunes today"
+      },
+      {
+        "name": "Nostalgia Snacks",
+        "tagline": "Taste the past again"
+      }
+    ]
+  },
+  "engineering": {
+    "style": "Modern",
+    "keywords": [
+      "engineering",
+      "technology",
+      "mechanical",
+      "industrial",
+      "innovation",
+      "precision",
+      "robotics",
+      "infrastructure",
+      "design",
+      "tech"
+    ],
+    "description": "Sleek, modern engineering logos that convey precision, innovation, and technical expertise.",
+    "previewTone": "cool",
+    "brandNameExamples": [
+      {
+        "name": "GearShift",
+        "tagline": "Precision engineering for tomorrow"
+      },
+      {
+        "name": "TechForge",
+        "tagline": "Innovating the future of industry"
+      },
+      {
+        "name": "BuildPulse",
+        "tagline": "Powering smart infrastructure design"
+      },
+      {
+        "name": "CircuitFlow",
+        "tagline": "Seamless tech solutions, engineered"
+      },
+      {
+        "name": "Structura",
+        "tagline": "Strong foundations, modern engineering"
+      }
+    ]
+  },
+  "esoteric": {
+    "style": "Abstract",
+    "keywords": [
+      "esoteric",
+      "mystic",
+      "spiritual",
+      "tarot",
+      "occult",
+      "celestial",
+      "rune",
+      "aura",
+      "metaphysical",
+      "crystal"
+    ],
+    "description": "Mystic and esoteric logo templates blend symbolic icons and ethereal designs for spiritual brands.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "ArcaneAura",
+        "tagline": "Unlock hidden cosmic energies"
+      },
+      {
+        "name": "CelestiaRune",
+        "tagline": "Guiding souls through starlight paths"
+      },
+      {
+        "name": "MysticMoor",
+        "tagline": "Reveal truths beyond the veil"
+      },
+      {
+        "name": "LunaSigil",
+        "tagline": "Channel ancient wisdom daily"
+      },
+      {
+        "name": "EtherealEcho",
+        "tagline": "Illuminate your inner universe"
+      }
+    ]
+  },
+  "home-furnishings": {
+    "style": "Modern",
+    "keywords": [
+      "home decor",
+      "furniture",
+      "interior design",
+      "living room",
+      "bedroom",
+      "kitchen",
+      "home accessories",
+      "soft furnishings"
+    ],
+    "description": "Stylish, modern logo templates perfect for home décor, furniture and interior design brands.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "CozyNest",
+        "tagline": "Comfort meets modern design"
+      },
+      {
+        "name": "LuxeLoom",
+        "tagline": "Elevate your everyday spaces"
+      }
+    ]
+  },
+  "miscellaneous": {
+    "style": "Modern",
+    "keywords": [
+      "logo",
+      "design",
+      "template",
+      "misc",
+      "creative",
+      "versatile",
+      "branding",
+      "graphic",
+      "vector",
+      "customizable"
+    ],
+    "description": "Versatile modern logo templates for any business, offering clean, adaptable designs.",
+    "previewTone": "neutral",
+    "brandNameExamples": [
+      {
+        "name": "Nexora",
+        "tagline": "Innovate your brand today"
+      },
+      {
+        "name": "Fluxify",
+        "tagline": "Dynamic designs for growth"
+      },
+      {
+        "name": "Quanta",
+        "tagline": "Precision in every pixel"
+      },
+      {
+        "name": "Vividly",
+        "tagline": "Bold visuals, bright future"
+      },
+      {
+        "name": "Zentro",
+        "tagline": "Centering your brand identity"
+      }
+    ]
+  },
+  "tattoo": {
+    "style": "Mascot",
+    "keywords": [
+      "tattoo",
+      "ink",
+      "body art",
+      "tattoo studio",
+      "tattoo design",
+      "tattoo shop",
+      "tattoo artist",
+      "tattoo branding",
+      "tattoo logo",
+      "tattoo illustration"
+    ],
+    "description": "Bold, edgy tattoo studio logos that capture ink culture with striking symbols and vivid style.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "InkPulse",
+        "tagline": "Where art meets skin"
+      },
+      {
+        "name": "SkinCanvas",
+        "tagline": "Bold designs, lasting impressions"
+      },
+      {
+        "name": "BladeInk",
+        "tagline": "Sharp style, permanent impact"
+      },
+      {
+        "name": "TattooForge",
+        "tagline": "Crafting inked identity daily"
+      },
+      {
+        "name": "InkRebel",
+        "tagline": "Defy ordinary, embrace ink"
+      }
+    ]
+  },
+  "energy-power": {
+    "style": "Modern",
+    "keywords": [
+      "energy",
+      "power",
+      "electric",
+      "renewable",
+      "solar",
+      "wind",
+      "grid",
+      "utility",
+      "clean",
+      "technology"
+    ],
+    "description": "Sleek, modern logos that capture the dynamic power and sustainability of the energy sector.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "Voltix",
+        "tagline": "Powering tomorrow's clean future"
+      },
+      {
+        "name": "Energen",
+        "tagline": "Energy solutions for modern world"
+      },
+      {
+        "name": "GridPulse",
+        "tagline": "Connecting power, delivering reliability"
+      },
+      {
+        "name": "Solaris",
+        "tagline": "Bright solar solutions for all"
+      },
+      {
+        "name": "Windara",
+        "tagline": "Harnessing wind, empowering communities"
+      }
+    ]
+  },
+  "pirates": {
+    "style": "Mascot",
+    "keywords": [
+      "pirate logo",
+      "nautical emblem",
+      "skull and crossbones",
+      "pirate flag",
+      "sea adventure",
+      "maritime",
+      "pirate ship",
+      "buccaneer",
+      "treasure"
+    ],
+    "description": "Bold pirate-themed logos featuring skulls, ships, and treasure icons perfect for adventure brands and nautical ventures.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "BlackJolly",
+        "tagline": "Sail beyond the ordinary"
+      }
+    ]
+  },
+  "printing": {
+    "style": "Modern",
+    "keywords": [
+      "printing",
+      "print shop",
+      "business cards",
+      "flyers",
+      "brochures",
+      "digital printing",
+      "offset printing",
+      "custom printing",
+      "graphic design",
+      "print services"
+    ],
+    "description": "Modern printing logos blend clean lines with bold colors to showcase professional print services.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "PrintPulse",
+        "tagline": "Your brand, printed perfectly"
+      },
+      {
+        "name": "InkForge",
+        "tagline": "Crafting vivid print solutions"
+      },
+      {
+        "name": "PaperWave",
+        "tagline": "Ride the wave of quality"
+      },
+      {
+        "name": "CopyCraft",
+        "tagline": "Design, print, and impress"
+      },
+      {
+        "name": "SharpPrint",
+        "tagline": "Sharp images, lasting impressions"
+      }
+    ]
+  },
+  "transport-delivery": {
+    "style": "Modern",
+    "keywords": [
+      "transport",
+      "delivery",
+      "logistics",
+      "shipping",
+      "courier",
+      "freight",
+      "parcel",
+      "moving",
+      "supply chain",
+      "route"
+    ],
+    "description": "Sleek, modern logos for transport and delivery companies that convey speed, reliability, and forward motion.",
+    "previewTone": "cool",
+    "brandNameExamples": [
+      {
+        "name": "SwiftFreight",
+        "tagline": "Speedy shipping, dependable service"
+      },
+      {
+        "name": "CargoPulse",
+        "tagline": "Heartbeat of global logistics"
+      }
+    ]
+  },
+  "letters": {
+    "style": "Lettermark",
+    "keywords": [
+      "lettermark",
+      "logo",
+      "monogram",
+      "typography",
+      "branding",
+      "initial",
+      "corporate",
+      "minimalist",
+      "modern",
+      "vector"
+    ],
+    "description": "Letter mark logos use stylized initials to create memorable, concise brand identities.",
+    "previewTone": "neutral",
+    "brandNameExamples": [
+      {
+        "name": "Inkify",
+        "tagline": "Crafting bold brand initials"
+      },
+      {
+        "name": "PulseTech",
+        "tagline": "Your tech your letter"
+      },
+      {
+        "name": "EcoLeaf",
+        "tagline": "Sustainable solutions simple symbols"
+      },
+      {
+        "name": "Finova",
+        "tagline": "Finance reimagined in initials"
+      },
+      {
+        "name": "HealthHive",
+        "tagline": "Wellness brand one letter"
+      }
+    ]
+  },
+  "gaming": {
+    "style": "Mascot",
+    "keywords": [
+      "gaming",
+      "esports",
+      "video games",
+      "controller",
+      "joystick",
+      "pixel",
+      "retro",
+      "competitive",
+      "tournament",
+      "streamer"
+    ],
+    "description": "Dynamic gaming logos featuring bold mascots, icons, and vibrant designs perfect for esports teams and game studios.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "PixelPulse",
+        "tagline": "Power up your gaming brand"
+      },
+      {
+        "name": "ArcadeForge",
+        "tagline": "Crafting iconic game identities"
+      },
+      {
+        "name": "VictoryVault",
+        "tagline": "Secure your esports triumph"
+      }
+    ]
+  },
+  "ff-logo": {
+    "style": "Modern",
+    "keywords": [
+      "logo",
+      "branding",
+      "design",
+      "modern",
+      "creative",
+      "vector",
+      "identity",
+      "business",
+      "template",
+      "graphic"
+    ],
+    "description": "Explore sleek, modern FF logo templates perfect for fresh branding and standout visual identity.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "FluxForm",
+        "tagline": "Dynamic designs for modern brands"
+      },
+      {
+        "name": "PixelPulse",
+        "tagline": "Vibrant logos that energize"
+      },
+      {
+        "name": "BrandForge",
+        "tagline": "Crafting identity with precision"
+      },
+      {
+        "name": "VividMark",
+        "tagline": "Bold visuals for bold ideas"
+      },
+      {
+        "name": "LogoLoom",
+        "tagline": "Weaving memorable brand symbols"
+      }
+    ]
+  },
+  "agriculture-farming": {
+    "style": "Badge",
+    "keywords": [
+      "farm",
+      "agriculture",
+      "crop",
+      "harvest",
+      "tractor",
+      "barn",
+      "organic",
+      "rural",
+      "sustainable",
+      "livestock"
+    ],
+    "description": "Explore modern badge-style logos that capture the essence of farming, agriculture and sustainable harvest branding.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "GreenFields",
+        "tagline": "Harvesting tomorrow's sustainable crops"
+      },
+      {
+        "name": "FarmForge",
+        "tagline": "Building stronger farm futures"
+      },
+      {
+        "name": "CropNest",
+        "tagline": "Nurturing growth, cultivating success"
+      },
+      {
+        "name": "AgriPulse",
+        "tagline": "Your heartbeat of agriculture"
+      },
+      {
+        "name": "RuralRoot",
+        "tagline": "Rooted in tradition, growing forward"
+      }
+    ]
+  },
+  "kids-baby": {
+    "style": "Mascot",
+    "keywords": [
+      "baby",
+      "kids",
+      "nursery",
+      "playful",
+      "cuddly",
+      "soft",
+      "toddler",
+      "children",
+      "family",
+      "cute"
+    ],
+    "description": "Playful mascot logos perfect for baby and kids brands, featuring soft colors and friendly characters.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "SnuggleBuds",
+        "tagline": "Comfort for tiny explorers"
+      },
+      {
+        "name": "LittleSprout",
+        "tagline": "Growing joy every day"
+      },
+      {
+        "name": "CuddleNest",
+        "tagline": "Safe hugs for newborns"
+      },
+      {
+        "name": "PlayfulPals",
+        "tagline": "Fun friends for every child"
+      },
+      {
+        "name": "TinyTrek",
+        "tagline": "Adventure starts with us"
+      }
+    ]
+  },
+  "blue-logos": {
+    "style": "Minimal",
+    "keywords": [
+      "blue logo",
+      "minimal logo",
+      "modern design",
+      "corporate branding",
+      "cool tones",
+      "clean design",
+      "professional logo",
+      "brand identity",
+      "vector logo"
+    ],
+    "description": "Explore sleek blue logo templates that convey trust, professionalism, and modern simplicity for any brand.",
+    "previewTone": "cool",
+    "brandNameExamples": [
+      {
+        "name": "AzurePeak",
+        "tagline": "Reach new heights today"
+      },
+      {
+        "name": "BlueWave",
+        "tagline": "Ride the future of tech"
+      }
+    ]
+  }
+}

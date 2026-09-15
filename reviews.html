@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8548717208623024" crossorigin="anonymous"></script>
+<!-- Monetag temporarily disabled: <script src="https://quge5.com/88/tag.min.js" data-zone="276705" async data-cfasync="false"></script> -->
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Reviews — Logo Maker</title>
+<meta name="description" content="Read what people are saying about our free logo maker, and share your own experience.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="/reviews.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Logo Maker",
+  "applicationCategory": "DesignApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "Free online logo maker with 17,000+ templates across 60 industries."<!--AGGREGATE_RATING-->
+}
+</script>
+<style>
+  .reviews-page-container { max-width: 720px; margin: 0 auto; }
+  .reviews-pagination { display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 22px; font-size: 13.5px; }
+</style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="bar">
+      <a class="brand" href="index.html"><span class="brand-mark">LM</span> LOGO MAKER</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="templates.html">Templates</a>
+        <a href="my-logos.html">My Logos</a>
+        <a href="upgrade.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+        <a href="developer.html" target="_blank" rel="noopener">Developer</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="signin.html">Sign In</a>
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="container reviews-page-container">
+      <h1 class="contact-heading">Customer Reviews</h1>
+      <p class="contact-lead">Every review here is real, submitted by an actual visitor — share yours below.</p>
+
+      <form class="review-form" id="reviewForm">
+        <div class="row-2">
+          <div class="field field-flush"><input type="text" id="reviewName" placeholder="Your name" maxlength="60" required></div>
+          <div class="review-stars-input" id="reviewStars" role="radiogroup" aria-label="Rating">
+            <button type="button" data-value="1" aria-label="1 star">★</button>
+            <button type="button" data-value="2" aria-label="2 stars">★</button>
+            <button type="button" data-value="3" aria-label="3 stars">★</button>
+            <button type="button" data-value="4" aria-label="4 stars">★</button>
+            <button type="button" data-value="5" aria-label="5 stars">★</button>
+          </div>
+        </div>
+        <textarea id="reviewText" placeholder="Share your experience with the logo maker..." maxlength="600" required></textarea>
+        <input type="text" id="reviewWebsite" class="hp-field" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn btn-primary" id="reviewSubmitBtn">Post Review</button>
+        <div class="review-form-msg" id="reviewFormMsg"></div>
+      </form>
+
+      <div id="reviewList" class="review-list"></div>
+      <div class="reviews-pagination" id="reviewsPagination"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom footer-bottom--flush">
+        <div>© <span id="yearNow"></span> Logo Maker.</div>
+        <div><a href="index.html" class="footer-back-link">Back to Home</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { fetchReviews, submitReview, reviewCardHtml } from "./js/reviews-client.js";
+
+    document.getElementById("yearNow").textContent = new Date().getFullYear();
+
+    const reviewList = document.getElementById("reviewList");
+    const pagination = document.getElementById("reviewsPagination");
+    const reviewForm = document.getElementById("reviewForm");
+    const reviewFormMsg = document.getElementById("reviewFormMsg");
+    const reviewSubmitBtn = document.getElementById("reviewSubmitBtn");
+    const starsInput = document.getElementById("reviewStars");
+    let selectedRating = 0;
+    let currentPage = 1;
+
+    starsInput.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-value]");
+      if (!btn) return;
+      selectedRating = Number(btn.dataset.value);
+      [...starsInput.children].forEach((b) => b.classList.toggle("filled", Number(b.dataset.value) <= selectedRating));
+    });
+
+    async function loadReviews(page) {
+      try {
+        const { reviews, totalPages, total } = await fetchReviews(page, 20);
+        currentPage = page;
+        reviewList.innerHTML = reviews.length
+          ? reviews.map(reviewCardHtml).join("")
+          : `<p class="reviews-empty">No reviews yet — be the first to share your experience!</p>`;
+        pagination.innerHTML = totalPages > 1
+          ? `<button class="btn btn-outline btn-sm" id="prevPageBtn" ${page <= 1 ? "disabled" : ""}>← Prev</button>
+             <span>Page ${page} of ${totalPages} (${total} reviews)</span>
+             <button class="btn btn-outline btn-sm" id="nextPageBtn" ${page >= totalPages ? "disabled" : ""}>Next →</button>`
+          : total ? `<span>${total} review${total === 1 ? "" : "s"}</span>` : "";
+        document.getElementById("prevPageBtn")?.addEventListener("click", () => loadReviews(page - 1));
+        document.getElementById("nextPageBtn")?.addEventListener("click", () => loadReviews(page + 1));
+      } catch {
+        reviewList.innerHTML = `<p class="reviews-empty">Couldn't load reviews right now.</p>`;
+      }
+    }
+    loadReviews(1);
+
+    reviewForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      reviewFormMsg.textContent = "";
+      const name = document.getElementById("reviewName").value.trim();
+      const text = document.getElementById("reviewText").value.trim();
+      const website = document.getElementById("reviewWebsite").value;
+      if (!selectedRating) { reviewFormMsg.textContent = "Please select a star rating."; return; }
+
+      reviewSubmitBtn.disabled = true;
+      try {
+        await submitReview({ name, rating: selectedRating, text, website });
+        reviewForm.reset();
+        selectedRating = 0;
+        [...starsInput.children].forEach((b) => b.classList.remove("filled"));
+        reviewFormMsg.textContent = "Thanks for your review!";
+        reviewFormMsg.classList.add("success");
+        loadReviews(1);
+      } catch (err) {
+        reviewFormMsg.textContent = err.message;
+        reviewFormMsg.classList.remove("success");
+      } finally {
+        reviewSubmitBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

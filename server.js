@@ -40,6 +40,110 @@ function isRateLimited(ip) {
   return arr.length > RATE_LIMIT;
 }
 
+// ---- Reviews: stored as a JSON file on disk. NOTE: on Railway this needs a
+// persistent Volume mounted over the data/ directory, otherwise the file
+// resets to empty on every redeploy since the container filesystem is
+// ephemeral. ----
+const REVIEWS_FILE = path.join(ROOT, "data", "reviews.json");
+const REVIEW_RATE_LIMIT = 3; // posts
+const REVIEW_RATE_WINDOW_MS = 60 * 60_000; // per hour
+const reviewHits = new Map();
+function isReviewRateLimited(ip) {
+  const now = Date.now();
+  const arr = (reviewHits.get(ip) || []).filter((t) => now - t < REVIEW_RATE_WINDOW_MS);
+  arr.push(now);
+  reviewHits.set(ip, arr);
+  return arr.length > REVIEW_RATE_LIMIT;
+}
+function readReviews() {
+  try {
+    return JSON.parse(fs.readFileSync(REVIEWS_FILE, "utf8"));
+  } catch {
+    return [];
+  }
+}
+function writeReviews(list) {
+  fs.mkdirSync(path.dirname(REVIEWS_FILE), { recursive: true });
+  fs.writeFileSync(REVIEWS_FILE, JSON.stringify(list, null, 2));
+}
+
+// ---- SEO: injects real AggregateRating (+ individual Review) structured
+// data into index.html / reviews.html at request time, computed from actual
+// submitted reviews. Omitted entirely when there are zero reviews, since a
+// fabricated or zero-count rating is invalid per schema.org/Google guidance. ----
+function aggregateRatingBlock(reviews) {
+  if (!reviews.length) return "";
+  const sum = reviews.reduce((s, r) => s + r.rating, 0);
+  const ratingValue = Math.round((sum / reviews.length) * 10) / 10;
+  return `,"aggregateRating":${JSON.stringify({ "@type": "AggregateRating", ratingValue, reviewCount: reviews.length, bestRating: 5, worstRating: 1 })}`;
+}
+function reviewListBlock(reviews, limit) {
+  if (!reviews.length) return "";
+  const items = reviews.slice(0, limit).map((r) => ({
+    "@type": "Review",
+    author: { "@type": "Person", name: r.name },
+    reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+    reviewBody: r.text,
+    datePublished: new Date(r.createdAt).toISOString().slice(0, 10),
+  }));
+  return `,"review":${JSON.stringify(items)}`;
+}
+function injectReviewSchema(html, urlPath) {
+  const reviews = readReviews().sort((a, b) => b.createdAt - a.createdAt);
+  const block = urlPath === "/reviews.html"
+    ? aggregateRatingBlock(reviews) + reviewListBlock(reviews, 20)
+    : aggregateRatingBlock(reviews);
+  return html.replace("<!--AGGREGATE_RATING-->", block);
+}
+
+function handleReviewsGet(req, res, query) {
+  const page = Math.max(1, parseInt(query.get("page"), 10) || 1);
+  const limit = Math.min(50, Math.max(1, parseInt(query.get("limit"), 10) || 20));
+  const all = readReviews().sort((a, b) => b.createdAt - a.createdAt);
+  const totalPages = Math.max(1, Math.ceil(all.length / limit));
+  const pageItems = all.slice((page - 1) * limit, page * limit);
+  res.writeHead(200, { "Content-Type": "application/json" });
+  res.end(JSON.stringify({ reviews: pageItems, total: all.length, page, totalPages }));
+}
+
+function handleReviewsPost(req, res) {
+  const ip = req.socket.remoteAddress || "unknown";
+  if (isReviewRateLimited(ip)) {
+    res.writeHead(429, { "Content-Type": "application/json" });
+    return res.end(JSON.stringify({ error: "Too many reviews submitted — please try again later." }));
+  }
+  let body = "";
+  req.on("data", (c) => { body += c; if (body.length > 5_000) req.destroy(); });
+  req.on("end", () => {
+    try {
+      const data = JSON.parse(body || "{}");
+      if (String(data.website || "").trim()) throw new Error("Invalid submission."); // honeypot
+      const name = String(data.name || "").trim().slice(0, 60);
+      const text = String(data.text || "").trim().slice(0, 600);
+      const rating = Math.round(Number(data.rating));
+      if (name.length < 2) throw new Error("Please enter your name.");
+      if (text.length < 10) throw new Error("Please write a bit more detail in your review.");
+      if (!(rating >= 1 && rating <= 5)) throw new Error("Please select a rating from 1 to 5.");
+
+      const review = {
+        id: "rev_" + Date.now() + "_" + Math.random().toString(36).slice(2, 8),
+        name,
+        text,
+        rating,
+        createdAt: Date.now(),
+      };
+      const all = readReviews();
+      all.push(review);
+      writeReviews(all);
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ review }));
+    } catch (err) {
+      res.writeHead(400, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: err.message }));
+    }
+  });
+}
+
 // ---- Task -> prompt builder. Keeps prompt construction server-side so the
 // client only ever sends a task name + short user input, never a raw prompt. ----
 function buildPrompt(task, input) {
@@ -144,10 +248,17 @@ function handleAiGenerate(req, res) {
 
 http
   .createServer((req, res) => {
-    const urlPath = decodeURIComponent(req.url.split("?")[0]);
+    const [rawPath, rawQuery] = req.url.split("?");
+    const urlPath = decodeURIComponent(rawPath);
 
     if (req.method === "POST" && urlPath === "/api/ai-generate") {
       return handleAiGenerate(req, res);
+    }
+    if (req.method === "GET" && urlPath === "/api/reviews") {
+      return handleReviewsGet(req, res, new URLSearchParams(rawQuery || ""));
+    }
+    if (req.method === "POST" && urlPath === "/api/reviews") {
+      return handleReviewsPost(req, res);
     }
 
     let filePath = path.join(ROOT, urlPath === "/" ? "/index.html" : urlPath);
@@ -165,6 +276,9 @@ http
       res.writeHead(200, {
         "Content-Type": TYPES[path.extname(filePath)] || "application/octet-stream",
       });
+      if (urlPath === "/" || urlPath === "/index.html" || urlPath === "/reviews.html") {
+        return res.end(injectReviewSchema(data.toString("utf8"), urlPath === "/" ? "/index.html" : urlPath));
+      }
       res.end(data);
     });
   })

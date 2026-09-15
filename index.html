@@ -55,7 +55,7 @@
   "applicationCategory": "DesignApplication",
   "operatingSystem": "Web",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "description": "Free online logo maker with 17,000+ templates across 60 industries, a full customization editor, curved text, and instant download."
+  "description": "Free online logo maker with 17,000+ templates across 60 industries, a full customization editor, curved text, and instant download."<!--AGGREGATE_RATING-->
 }
 </script>
 <script type="application/ld+json">
@@ -268,58 +268,77 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <div>
-        <h1>Create Stunning Logos<br>in <span>Minutes</span></h1>
-        <p>Design a professional logo for your business with our free logo maker. No design skills needed!</p>
-        <form class="hero-form" id="heroForm">
-          <input type="text" id="heroBrandInput" placeholder="Enter your brand name...">
-          <button type="submit" class="btn btn-primary">Get Started</button>
-        </form>
-        <div class="hero-stats">
-          <div><span>1M+</span> Businesses</div>
-          <div><span>17,000+</span> Templates</div>
-          <div><span>4.8★</span> Rating</div>
+  <section class="hero-slider-outer">
+    <div class="hero-slider-nav">
+      <button type="button" class="cat-slider-arrow" id="heroSlidePrev" aria-label="Previous">‹</button>
+      <div class="hero-slider" id="heroSlider">
+        <div class="hero-slide">
+          <div class="container hero-slide-inner">
+            <div>
+              <h1>Create Stunning Logos<br>in <span>Minutes</span></h1>
+              <p>Design a professional logo for your business with our free logo maker. No design skills needed!</p>
+              <form class="hero-form" id="heroForm">
+                <input type="text" id="heroBrandInput" placeholder="Enter your brand name...">
+                <button type="submit" class="btn btn-primary">Get Started</button>
+              </form>
+              <div class="hero-stats">
+                <div><span>1M+</span> Businesses</div>
+                <div><span>17,000+</span> Templates</div>
+                <div><span>4.8★</span> Rating</div>
+              </div>
+            </div>
+            <div class="hero-visual" id="heroVisual"></div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="container hero-slide-inner">
+            <div>
+              <span class="badge">🏆 Esports</span>
+              <h2>Esports Logo Design</h2>
+              <p>Build a competitive, tournament-ready identity for your esports org or gaming team — badge marks, mascots, and bold lettering built to stand out on stream overlays and jerseys.</p>
+              <a class="btn btn-primary" href="templates.html?cat=esports">Browse Esports Logos</a>
+            </div>
+            <div class="hero-visual" id="esportsVisual"></div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="container hero-slide-inner">
+            <div>
+              <span class="badge">🎮 Gaming</span>
+              <h2>Gaming Logo Designs</h2>
+              <p>From YouTube gaming channels to Discord servers and clan tags, find a gaming logo template that fits your vibe and make it yours in minutes.</p>
+              <a class="btn btn-primary" href="templates.html?cat=gaming">Browse Gaming Logos</a>
+            </div>
+            <div class="hero-visual" id="gamingVisual"></div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="container hero-slide-inner">
+            <div>
+              <span class="badge">🔥 Free Fire</span>
+              <h2>FF Logo Designs</h2>
+              <p>Free Fire-style logos for your squad, guild, or content channel — flame marks, bold badges and gamer-ready wordmarks ready to customize with your name.</p>
+              <a class="btn btn-primary" href="templates.html?cat=ff-logo">Browse FF Logos</a>
+            </div>
+            <div class="hero-visual" id="ffVisual"></div>
+          </div>
         </div>
       </div>
-      <div class="hero-visual" id="heroVisual"></div>
-    </section>
-  </main>
-
-  <section class="category-showcase alt">
-    <div class="container">
-      <div data-reveal>
-        <span class="badge">🏆 Esports</span>
-        <h2>Esports Logo Design</h2>
-        <p>Build a competitive, tournament-ready identity for your esports org or gaming team — badge marks, mascots, and bold lettering built to stand out on stream overlays and jerseys.</p>
-        <a class="btn btn-primary" href="templates.html?cat=esports">Browse Esports Logos</a>
-      </div>
-      <div class="hero-visual" id="esportsVisual" data-reveal-stagger></div>
+      <button type="button" class="cat-slider-arrow" id="heroSlideNext" aria-label="Next">›</button>
     </div>
+    <div class="cat-slider-dots" id="heroSlideDots"></div>
   </section>
 
-  <section class="category-showcase alt reverse">
+  <section class="content-section" id="trendingTemplates" data-reveal>
     <div class="container">
-      <div data-reveal>
-        <span class="badge">🎮 Gaming</span>
-        <h2>Gaming Logo Designs</h2>
-        <p>From YouTube gaming channels to Discord servers and clan tags, find a gaming logo template that fits your vibe and make it yours in minutes.</p>
-        <a class="btn btn-primary" href="templates.html?cat=gaming">Browse Gaming Logos</a>
+      <h2>Trending Logo Templates</h2>
+      <p class="lead">Get inspired by professionally designed logos for every industry.</p>
+      <div class="tpl-grid" id="trendingGrid"></div>
+      <div class="text-center" style="margin-top:22px;">
+        <a class="btn btn-outline" href="templates.html">View All Templates →</a>
       </div>
-      <div class="hero-visual" id="gamingVisual" data-reveal-stagger></div>
-    </div>
-  </section>
-
-  <section class="category-showcase alt">
-    <div class="container">
-      <div data-reveal>
-        <span class="badge">🔥 Free Fire</span>
-        <h2>FF Logo Designs</h2>
-        <p>Free Fire-style logos for your squad, guild, or content channel — flame marks, bold badges and gamer-ready wordmarks ready to customize with your name.</p>
-        <a class="btn btn-primary" href="templates.html?cat=ff-logo">Browse FF Logos</a>
-      </div>
-      <div class="hero-visual" id="ffVisual" data-reveal-stagger></div>
+      <h3 class="industry-chip-heading">Popular by Industry</h3>
+      <div class="industry-chip-row" id="industryChipRow"></div>
     </div>
   </section>
 
@@ -547,19 +566,32 @@
     </div>
   </section>
 
-  <section class="content-section alt" id="comments" data-reveal>
-    <div class="container comments-section">
-      <h2>Leave a Comment</h2>
-      <p class="comment-note">Comments are stored locally in your browser for this demo — they aren't posted publicly.</p>
-      <form class="comment-form" id="commentForm">
+  <section class="content-section alt" id="reviews" data-reveal>
+    <div class="container reviews-section">
+      <h2>What Our Users Say</h2>
+      <p class="reviews-lead">Real feedback from people who've built a logo with us.</p>
+
+      <form class="review-form" id="reviewForm">
         <div class="row-2">
-          <div class="field field-flush"><input type="text" id="commentName" placeholder="Your name" required></div>
-          <div class="field field-flush"><input type="text" id="commentRole" placeholder="Business / role (optional)"></div>
+          <div class="field field-flush"><input type="text" id="reviewName" placeholder="Your name" maxlength="60" required></div>
+          <div class="review-stars-input" id="reviewStars" role="radiogroup" aria-label="Rating">
+            <button type="button" data-value="1" aria-label="1 star">★</button>
+            <button type="button" data-value="2" aria-label="2 stars">★</button>
+            <button type="button" data-value="3" aria-label="3 stars">★</button>
+            <button type="button" data-value="4" aria-label="4 stars">★</button>
+            <button type="button" data-value="5" aria-label="5 stars">★</button>
+          </div>
         </div>
-        <textarea id="commentText" placeholder="Share your experience with the logo maker..." required></textarea>
-        <button type="submit" class="btn btn-primary">Post Comment</button>
+        <textarea id="reviewText" placeholder="Share your experience with the logo maker..." maxlength="600" required></textarea>
+        <input type="text" id="reviewWebsite" class="hp-field" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn btn-primary" id="reviewSubmitBtn">Post Review</button>
+        <div class="review-form-msg" id="reviewFormMsg"></div>
       </form>
-      <div id="commentList"></div>
+
+      <div id="reviewList" class="review-list"></div>
+      <div class="reviews-viewmore">
+        <a href="reviews.html" class="btn btn-outline">View All Reviews →</a>
+      </div>
     </div>
   </section>
 
@@ -616,6 +648,7 @@
           <h5>Company</h5>
           <a href="about.html">About Us</a>
           <a href="blog.html">Blog</a>
+          <a href="reviews.html">Reviews</a>
           <a href="contact.html">Contact</a>
           <a href="help.html">Help &amp; Support</a>
         </div>
@@ -643,15 +676,18 @@
   </footer>
 
   <script>
-    function renderTileGrid(elId, items) {
+    function renderTileGrid(elId, items, themeForId) {
       const el = document.getElementById(elId);
       if (!el) return;
-      el.innerHTML = items.map((l, i) => `
-        <div class="tile${i === 2 ? " center" : ""}">
+      el.innerHTML = items.map((l, i) => {
+        const theme = themeForId ? themeForId(l.id) : null;
+        return `
+        <div class="tile${i === 2 ? " center" : ""}" style="background:${theme ? theme.bg : "#fff"};">
           <img src="${l.image}" alt="${l.name}" loading="lazy" onload="this.classList.add('img-loaded')" onerror="this.classList.add('img-loaded')">
-          <div class="lbl">${l.name}</div>
-          <div class="sub">${(l.categoryId || "").replace(/-/g, " ")}</div>
-        </div>`).join("");
+          <div class="lbl" style="color:${theme ? theme.brand : "inherit"};">Company Name</div>
+          <div class="sub" style="color:${theme ? theme.slogan : "inherit"};">Your Slogan Here</div>
+        </div>`;
+      }).join("");
       // Cached images may already be complete before onload can attach.
       el.querySelectorAll("img").forEach((img) => { if (img.complete) img.classList.add("img-loaded"); });
     }
@@ -676,14 +712,57 @@
       revealTargets.forEach((el) => el.classList.add("is-visible"));
     }
 
-    fetch("data/logos.json").then(r => r.json()).then(logos => {
+    // Trending Logo Templates: real "smart template" cards (industry + style
+    // pill, real extracted colors), same rendering the templates.html gallery
+    // uses — see js/template-card.js.
+    Promise.all([
+      import("./js/template-card.js"),
+      import("./js/card-theme.js"),
+      import("./js/project-store.js"),
+    ]).then(([tpl, cardTheme, store]) => {
+      tpl.loadTemplateData().then(({ categories, logos, categoryMeta, logoColors }) => {
+        // One pick per category, capped at 10, for variety across industries.
+        const picks = [];
+        const seenCats = new Set();
+        for (const l of logos) {
+          if (!seenCats.has(l.categoryId) && picks.length < 10) { seenCats.add(l.categoryId); picks.push(l); }
+        }
+        const trendingGrid = document.getElementById("trendingGrid");
+        function renderTrending() {
+          trendingGrid.innerHTML = picks.map((l) => tpl.templateCardHtml(l, {
+            categories, categoryMeta, logoColors, themeForId: cardTheme.themeForId, isFavorite: store.isFavorite,
+          })).join("");
+        }
+        renderTrending();
+        trendingGrid.addEventListener("click", (e) => {
+          const favBtn = e.target.closest("button[data-fav]");
+          if (!favBtn) return;
+          e.preventDefault();
+          store.toggleFavorite(favBtn.dataset.fav);
+          renderTrending();
+        });
+
+        const INDUSTRY_CHIP_IDS = ["business", "gaming", "technology", "food-restaurant", "fashion-beauty", "sports-fitness", "real-estate", "fashion-beauty", "sports-fitness"];
+        const chipCats = [...new Set(INDUSTRY_CHIP_IDS)].map((id) => categories.find((c) => c.id === id)).filter(Boolean);
+        document.getElementById("industryChipRow").innerHTML =
+          chipCats.map((c) => `<a class="chip" href="templates.html?cat=${c.id}">${c.icon ? c.icon + " " : ""}${c.name}</a>`).join("")
+          + `<a class="chip" href="logo-maker.html">More →</a>`;
+      });
+    });
+
+    Promise.all([
+      fetch("data/logos.json").then(r => r.json()),
+      import("./js/card-theme.js"),
+    ]).then(([logos, cardTheme]) => {
+      const themeForId = cardTheme.themeForId;
+
       // Hero: one pick per category for variety.
       const heroPicks = [];
       const seen = new Set();
       for (const l of logos) {
         if (!seen.has(l.categoryId) && heroPicks.length < 6) { seen.add(l.categoryId); heroPicks.push(l); }
       }
-      renderTileGrid("heroVisual", heroPicks);
+      renderTileGrid("heroVisual", heroPicks, themeForId);
 
       // Category showcases: 6 real logos from that specific category.
       function pickFromCategory(catId, count) {
@@ -693,9 +772,9 @@
         for (let i = 0; i < count && i * step < list.length; i++) picks.push(list[i * step]);
         return picks;
       }
-      renderTileGrid("esportsVisual", pickFromCategory("esports", 6));
-      renderTileGrid("gamingVisual", pickFromCategory("gaming", 6));
-      renderTileGrid("ffVisual", pickFromCategory("ff-logo", 6));
+      renderTileGrid("esportsVisual", pickFromCategory("esports", 6), themeForId);
+      renderTileGrid("gamingVisual", pickFromCategory("gaming", 6), themeForId);
+      renderTileGrid("ffVisual", pickFromCategory("ff-logo", 6), themeForId);
     });
 
     fetch("data/categories.json").then(r => r.json()).then(categories => {
@@ -722,48 +801,106 @@
 
     document.getElementById("yearNow").textContent = new Date().getFullYear();
 
-    // Comments (local-only demo, stored in this browser's localStorage).
-    const COMMENTS_KEY = "lm_home_comments";
-    const SEED_COMMENTS = [
-      { name: "Daniyal F.", role: "Freelance Marketer", text: "Clean templates and the category filters make it quick to find something on-brand for clients.", time: "2 weeks ago" },
-      { name: "Hira N.", role: "Fitness Coach", text: "Made a logo for my gym in one sitting. The icon library had exactly what I needed.", time: "1 month ago" },
-    ];
+    // Hero slider: merges the Logo / Esports / Gaming / FF showcases into one
+    // step-by-step carousel, with gentle auto-advance that pauses on interaction.
+    (function initHeroSlider() {
+      const slider = document.getElementById("heroSlider");
+      const slides = [...slider.children];
+      const prevBtn = document.getElementById("heroSlidePrev");
+      const nextBtn = document.getElementById("heroSlideNext");
+      const dotsWrap = document.getElementById("heroSlideDots");
+      dotsWrap.innerHTML = slides.map((_, i) => `<button type="button" data-i="${i}" aria-label="Go to slide ${i + 1}"></button>`).join("");
+      const dots = [...dotsWrap.children];
+      let index = 0;
+      let autoTimer;
 
-    function loadComments() {
-      try { return JSON.parse(localStorage.getItem(COMMENTS_KEY)) || SEED_COMMENTS; }
-      catch { return SEED_COMMENTS; }
-    }
-    function saveComments(list) { localStorage.setItem(COMMENTS_KEY, JSON.stringify(list)); }
+      function render() {
+        dots.forEach((d, i) => d.classList.toggle("active", i === index));
+      }
+      function goTo(i) {
+        index = (i + slides.length) % slides.length;
+        slider.scrollTo({ left: index * slider.clientWidth, behavior: "smooth" });
+        render();
+      }
+      function startAuto() {
+        stopAuto();
+        autoTimer = setInterval(() => goTo(index + 1), 6000);
+      }
+      function stopAuto() { clearInterval(autoTimer); }
 
-    function renderComments() {
-      const list = loadComments();
-      document.getElementById("commentList").innerHTML = list.map((c) => `
-        <div class="comment-item">
-          <div class="comment-avatar">${c.name.trim().charAt(0).toUpperCase() || "?"}</div>
-          <div class="comment-body">
-            <div class="comment-head">
-              <span class="comment-name">${c.name}</span>
-              ${c.role ? `<span class="comment-time">· ${c.role}</span>` : ""}
-              <span class="comment-time">· ${c.time}</span>
-            </div>
-            <div class="comment-text">${c.text}</div>
-          </div>
-        </div>
-      `).join("");
-    }
-    renderComments();
+      let scrollTimer;
+      slider.addEventListener("scroll", () => {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => { index = Math.round(slider.scrollLeft / slider.clientWidth); render(); }, 120);
+      });
+      prevBtn.addEventListener("click", () => { goTo(index - 1); startAuto(); });
+      nextBtn.addEventListener("click", () => { goTo(index + 1); startAuto(); });
+      dotsWrap.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-i]");
+        if (!btn) return;
+        goTo(Number(btn.dataset.i));
+        startAuto();
+      });
+      slider.addEventListener("mouseenter", stopAuto);
+      slider.addEventListener("mouseleave", startAuto);
 
-    document.getElementById("commentForm").addEventListener("submit", (e) => {
-      e.preventDefault();
-      const name = document.getElementById("commentName").value.trim();
-      const role = document.getElementById("commentRole").value.trim();
-      const text = document.getElementById("commentText").value.trim();
-      if (!name || !text) return;
-      const list = loadComments();
-      list.unshift({ name, role, text, time: "just now" });
-      saveComments(list);
-      renderComments();
-      e.target.reset();
+      render();
+      startAuto();
+    })();
+
+    // Reviews: real, server-backed (data/reviews.json via /api/reviews) —
+    // shared across all visitors, not just this browser.
+    import("./js/reviews-client.js").then(({ fetchReviews, submitReview, reviewCardHtml }) => {
+      const reviewList = document.getElementById("reviewList");
+      const reviewForm = document.getElementById("reviewForm");
+      const reviewFormMsg = document.getElementById("reviewFormMsg");
+      const reviewSubmitBtn = document.getElementById("reviewSubmitBtn");
+      const starsInput = document.getElementById("reviewStars");
+      let selectedRating = 0;
+
+      starsInput.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-value]");
+        if (!btn) return;
+        selectedRating = Number(btn.dataset.value);
+        [...starsInput.children].forEach((b) => b.classList.toggle("filled", Number(b.dataset.value) <= selectedRating));
+      });
+
+      async function loadReviews() {
+        try {
+          const { reviews } = await fetchReviews(1, 20);
+          reviewList.innerHTML = reviews.length
+            ? reviews.map(reviewCardHtml).join("")
+            : `<p class="reviews-empty">No reviews yet — be the first to share your experience!</p>`;
+        } catch {
+          reviewList.innerHTML = `<p class="reviews-empty">Couldn't load reviews right now.</p>`;
+        }
+      }
+      loadReviews();
+
+      reviewForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        reviewFormMsg.textContent = "";
+        const name = document.getElementById("reviewName").value.trim();
+        const text = document.getElementById("reviewText").value.trim();
+        const website = document.getElementById("reviewWebsite").value;
+        if (!selectedRating) { reviewFormMsg.textContent = "Please select a star rating."; return; }
+
+        reviewSubmitBtn.disabled = true;
+        try {
+          await submitReview({ name, rating: selectedRating, text, website });
+          reviewForm.reset();
+          selectedRating = 0;
+          [...starsInput.children].forEach((b) => b.classList.remove("filled"));
+          reviewFormMsg.textContent = "Thanks for your review!";
+          reviewFormMsg.classList.add("success");
+          loadReviews();
+        } catch (err) {
+          reviewFormMsg.textContent = err.message;
+          reviewFormMsg.classList.remove("success");
+        } finally {
+          reviewSubmitBtn.disabled = false;
+        }
+      });
     });
   </script>
 </body>
