@@ -1544,5 +1544,202 @@
         "tagline": "Ride the future of tech"
       }
     ]
+  },
+  "3d": {
+    "style": "Modern",
+    "keywords": [
+      "3d logo",
+      "3d branding",
+      "3d design",
+      "3d illustration",
+      "3d typography",
+      "depth logo",
+      "dynamic logo",
+      "3d vector",
+      "3d graphic"
+    ],
+    "description": "Explore dynamic 3D logos that add depth and realism to your brand identity.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "VoxelCraft",
+        "tagline": "Shape your brand in 3D"
+      },
+      {
+        "name": "DepthForge",
+        "tagline": "Forge depth into every logo"
+      },
+      {
+        "name": "TriSphere",
+        "tagline": "Three dimensions, endless impact"
+      },
+      {
+        "name": "PrismPulse",
+        "tagline": "Pulse your brand with prisms"
+      },
+      {
+        "name": "RenderRoot",
+        "tagline": "Rooted in realistic design"
+      }
+    ]
+  },
+  "arrows": {
+    "style": "Geometric",
+    "keywords": [
+      "arrow",
+      "direction",
+      "navigation",
+      "pointer",
+      "vector",
+      "minimal",
+      "sleek",
+      "dynamic",
+      "guide",
+      "signage"
+    ],
+    "description": "Geometric arrow logos deliver crisp, directional branding for modern businesses.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "Arrowify",
+        "tagline": "Point forward with confidence"
+      },
+      {
+        "name": "PointPath",
+        "tagline": "Navigate your brand's journey"
+      },
+      {
+        "name": "VectorArrow",
+        "tagline": "Sharp design, clear direction"
+      }
+    ]
+  },
+  "bar-pub": {
+    "style": "Badge",
+    "keywords": [
+      "bar logo",
+      "pub logo",
+      "brewery",
+      "tavern",
+      "cocktail",
+      "nightlife",
+      "craft beer",
+      "lounge",
+      "alehouse",
+      "hospitality"
+    ],
+    "description": "Dynamic badge‑style logos perfect for bars, pubs and craft beer venues, capturing lively atmosphere and brand identity.",
+    "previewTone": "warm",
+    "brandNameExamples": [
+      {
+        "name": "TapHouse",
+        "tagline": "Raise your glass today"
+      },
+      {
+        "name": "BrewBar",
+        "tagline": "Crafted drinks unforgettable nights"
+      },
+      {
+        "name": "NightLounge",
+        "tagline": "Sip relax enjoy repeat"
+      },
+      {
+        "name": "AleHaven",
+        "tagline": "Your neighborhood gathering spot"
+      },
+      {
+        "name": "PubPulse",
+        "tagline": "Feel the vibe drink up"
+      }
+    ]
+  },
+  "city-elements": {
+    "style": "Modern",
+    "keywords": [
+      "city logo",
+      "urban branding",
+      "metropolitan",
+      "skyline",
+      "cityscape",
+      "urban design",
+      "municipal",
+      "downtown",
+      "city services",
+      "urban planning"
+    ],
+    "description": "Sleek city and urban logos capture modern skylines, transit icons, and vibrant community spirit for municipalities and businesses.",
+    "previewTone": "dark",
+    "brandNameExamples": [
+      {
+        "name": "MetroPulse",
+        "tagline": "Connecting city life daily"
+      },
+      {
+        "name": "UrbanNest",
+        "tagline": "Your urban vibe hub"
+      },
+      {
+        "name": "CityScape",
+        "tagline": "Designing tomorrow's cityscape for you"
+      }
+    ]
+  },
+  "hairdressing-barbershop": {
+    "style": "Modern",
+    "keywords": [
+      "hair salon logo",
+      "barbershop branding",
+      "scissor icon",
+      "haircut logo",
+      "salon design",
+      "men grooming logo",
+      "beauty shop emblem",
+      "stylish haircut branding",
+      "modern hairdressing logo",
+      "professional salon mark"
+    ],
+    "description": "Sleek modern logos for hairdressing and barbershop brands that convey style and professionalism.",
+    "previewTone": "light",
+    "brandNameExamples": [
+      {
+        "name": "ClipCraft",
+        "tagline": "Sharp style, sharp cuts"
+      },
+      {
+        "name": "ShearGenius",
+        "tagline": "Mastering the art of hair"
+      }
+    ]
+  },
+  "seasons-weather": {
+    "style": "Badge",
+    "keywords": [
+      "season",
+      "weather",
+      "sun",
+      "rain",
+      "snow",
+      "storm",
+      "climate",
+      "temperature",
+      "forecast",
+      "nature"
+    ],
+    "description": "Explore vibrant season and weather logo templates perfect for climate, forecast, and nature-themed brands.",
+    "previewTone": "cool",
+    "brandNameExamples": [
+      {
+        "name": "SunShift",
+        "tagline": "Bright ideas for sunny brands"
+      },
+      {
+        "name": "RainRoot",
+        "tagline": "Deep growth in rainy markets"
+      },
+      {
+        "name": "SnowPeak",
+        "tagline": "Elevate your brand to peaks"
+      }
+    ]
   }
 }
