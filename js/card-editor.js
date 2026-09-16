@@ -1,6 +1,7 @@
 import { startCardProject, getCurrentCardProject, setCurrentCardProject, saveCurrentCard } from "./card-store.js";
 import { renderCardToCanvas } from "./render-card.js";
 import { FONTS } from "./icons.js";
+import { backgroundPanelHtml, wireBackgroundPanel } from "./background-panel.js";
 
 function qs(name) { return new URLSearchParams(window.location.search).get(name); }
 
@@ -22,6 +23,7 @@ const FIELD_LABELS = {
 };
 
 let project = null;
+let activeSide = "front"; // "front" | "back"
 let selectedId = null;
 let lastBoxes = {};
 let undoStack = [];
@@ -31,13 +33,31 @@ let categories = [];
 let logos = [];
 let pickerCat = null;
 let bgCategories = [];
-let bgPickerCat = null;
 let cardBackgrounds = {};
 let expandedFields = new Set();
 let resizeState = null;
 
+// Front-side data lives at the top level of `project` (unchanged shape, so
+// existing saved projects keep working); back-side data lives in
+// `project.back`. Every function below reads/writes through sideData() so
+// the exact same editing logic works for whichever side is active.
+function sideData() {
+  return activeSide === "back" ? project.back : project;
+}
+
+function setActiveSide(side) {
+  if (activeSide === side) return;
+  activeSide = side;
+  selectedId = null;
+  document.getElementById("frontSideTab").classList.toggle("on", side === "front");
+  document.getElementById("backSideTab").classList.toggle("on", side === "back");
+  document.getElementById("sideLabel").textContent = side === "back" ? "Back side" : "Front side";
+  renderPanel();
+  draw();
+}
+
 function elementById(id) {
-  return (project.elements || []).find((e) => e.id === id);
+  return (sideData().elements || []).find((e) => e.id === id);
 }
 
 function textDefaults(el) {
@@ -57,7 +77,7 @@ function commitEdit() {
 }
 function commitAction(fn) {
   const snap = snapshot();
-  fn(project);
+  fn(sideData());
   undoStack.push(snap);
   redoStack = [];
   persistAndDraw();
@@ -77,30 +97,42 @@ function redo() {
   renderPanel();
 }
 
-function drawSelectionHandle(ctx) {
-  if (!selectedId) return;
-  const el = elementById(selectedId);
-  if (!el || el.type !== "text") return;
-  const box = lastBoxes[selectedId];
-  if (!box) return;
-  const hx = box.x + box.w, hy = box.y + box.h;
-  ctx.save();
-  ctx.fillStyle = "#6C5CE7";
-  ctx.strokeStyle = "#ffffff";
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.arc(hx, hy, 8, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.stroke();
-  ctx.restore();
+// Positions the 4 corner buttons (delete/duplicate/rotate/resize) over the
+// selected element's box. Handles live inside #cardWrap alongside the canvas
+// so the shared CSS zoom transform scales both together automatically.
+function positionHandles() {
+  const wrap = document.getElementById("elHandles");
+  const el = selectedId && elementById(selectedId);
+  const box = selectedId && lastBoxes[selectedId];
+  if (!el || !box || (el.type !== "text" && el.type !== "icon" && el.type !== "image")) {
+    wrap.style.display = "none";
+    return;
+  }
+  wrap.style.display = "block";
+  const scaleX = canvas.clientWidth / canvas.width;
+  const scaleY = canvas.clientHeight / canvas.height;
+  const left = canvas.offsetLeft, top = canvas.offsetTop;
+  const pad = 10;
+  const corners = {
+    delete: { x: box.x - pad, y: box.y - pad },
+    duplicate: { x: box.x + box.w + pad, y: box.y - pad },
+    rotate: { x: box.x - pad, y: box.y + box.h + pad },
+    resize: { x: box.x + box.w + pad, y: box.y + box.h + pad },
+  };
+  for (const [action, pt] of Object.entries(corners)) {
+    const btn = wrap.querySelector(`[data-action="${action}"]`);
+    btn.style.left = (left + pt.x * scaleX) + "px";
+    btn.style.top = (top + pt.y * scaleY) + "px";
+  }
 }
 
 async function draw() {
   canvas.width = project.canvas?.width || 1050;
   canvas.height = project.canvas?.height || 600;
-  const { ctx, boxes } = await renderCardToCanvas(canvas, project, { selectedId });
+  const renderable = { canvas: project.canvas, background: sideData().background, elements: sideData().elements };
+  const { ctx, boxes } = await renderCardToCanvas(canvas, renderable, { selectedId });
   lastBoxes = boxes;
-  drawSelectionHandle(ctx);
+  positionHandles();
 }
 function persistAndDraw() {
   setCurrentCardProject(project);
@@ -135,7 +167,7 @@ function addTextElement() {
   renderPanel();
 }
 
-function deleteTextElement(id) {
+function deleteElement(id) {
   commitAction((p) => {
     p.elements = p.elements.filter((e) => e.id !== id);
     p.editableFields = p.editableFields.filter((f) => f !== id);
@@ -143,6 +175,27 @@ function deleteTextElement(id) {
   if (selectedId === id) selectedId = null;
   expandedFields.delete(id);
   renderPanel();
+}
+
+function duplicateElement(id) {
+  const src = elementById(id);
+  if (!src) return;
+  const newId = `${src.type}_${Date.now()}`;
+  commitAction((p) => {
+    const copy = JSON.parse(JSON.stringify(src));
+    copy.id = newId;
+    copy.x = (copy.x || 0) + 24;
+    copy.y = (copy.y || 0) + 24;
+    if (copy.type === "text") {
+      copy.custom = true;
+      copy.label = `${src.label || FIELD_LABELS[src.id] || "Text"} Copy`;
+      p.editableFields.push(newId);
+    }
+    p.elements.push(copy);
+  });
+  selectedId = newId;
+  renderPanel();
+  selectField(newId);
 }
 
 function logoPickerHtml() {
@@ -209,56 +262,13 @@ function removeLogoImage() {
   renderPanel();
 }
 
-function bgPickerHtml() {
-  const isImage = project.background?.type === "image";
-  return `
-    <div class="field">
-      <label>Background Image</label>
-      <div style="display:flex;gap:8px;">
-        <button type="button" class="btn btn-outline btn-sm" id="chooseBgBtn" style="flex:1;">🖼 Choose Photo Background</button>
-        ${isImage ? `<button type="button" class="btn btn-outline btn-sm" id="removeBgBtn" style="color:#dc2626;">Use Color</button>` : ""}
-      </div>
-      <div id="bgPicker" style="display:none;margin-top:10px;background:var(--bg);border-radius:10px;padding:10px;">
-        <select id="bgPickerCat" style="width:100%;margin-bottom:8px;background:#fff;border:1px solid var(--border);border-radius:8px;padding:7px;font-size:12.5px;">
-          ${bgCategories.map((c) => `<option value="${c}">${c.replace(/-/g, " ").replace(/\b\w/g, (m) => m.toUpperCase())}</option>`).join("")}
-        </select>
-        <div id="bgPickerGrid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-height:220px;overflow-y:auto;"></div>
-      </div>
-    </div>`;
-}
-
-function paintBgPickerGrid() {
-  const grid = document.getElementById("bgPickerGrid");
-  if (!grid) return;
-  const list = cardBackgrounds[bgPickerCat] || [];
-  grid.innerHTML = list.map((src) => `
-    <button type="button" data-bg-src="${src}" style="aspect-ratio:16/9;padding:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;background:#fff;">
-      <img src="${src}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
-    </button>`).join("");
-  grid.querySelectorAll("button[data-bg-src]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      applyBackgroundImage(btn.dataset.bgSrc);
-      document.getElementById("bgPicker").style.display = "none";
-    });
-  });
-}
-
-function applyBackgroundImage(src) {
-  commitAction((p) => {
-    p.background = { type: "image", src, color: p.background?.color || "#081A33" };
-    const bgShape = p.elements.find((e) => e.id === "bg_shape_1");
-    if (bgShape) bgShape.visible = false;
-  });
-  renderPanel();
-}
-
-function removeBackgroundImage() {
-  commitAction((p) => {
-    p.background = { type: "solid", color: p.background?.color || "#081A33" };
-    const bgShape = p.elements.find((e) => e.id === "bg_shape_1");
-    if (bgShape) bgShape.visible = true;
-  });
-  renderPanel();
+// Server-side Pexels proxy (see server.js) — the client only ever sends a
+// search term, never an API key.
+async function searchPhotosApi(query) {
+  const res = await fetch(`/api/image-search?q=${encodeURIComponent(query)}`);
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || `Search failed (${res.status})`);
+  return data.photos || [];
 }
 
 function textFieldHtml(id) {
@@ -333,19 +343,47 @@ function textFieldHtml(id) {
     </div>`;
 }
 
+function layersHtml() {
+  const fields = sideData().editableFields || [];
+  const rows = fields.map((id) => {
+    const el = elementById(id);
+    if (!el) return "";
+    const label = el.label || FIELD_LABELS[id] || id;
+    const visible = el.visible !== false;
+    return `
+      <div class="ced-layer">
+        <span>T&nbsp; ${label}</span>
+        <button type="button" data-layer-toggle="${id}" class="${visible ? "" : "off"}" title="${visible ? "Hide" : "Show"}">${visible ? "◉" : "○"}</button>
+      </div>`;
+  }).join("");
+  return `<div class="ced-title" style="padding-left:0;">Layers</div>${rows}`;
+}
+
+function cardSettingsHtml() {
+  const w = project.canvas?.width || 1050;
+  const h = project.canvas?.height || 600;
+  const inW = (w / 300).toFixed(1);
+  const inH = (h / 300).toFixed(1);
+  return `
+    <div class="ced-title" style="padding-left:0;">Card Settings</div>
+    <div class="row" style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--text-dim);margin:8px 0;"><span>Size</span><b style="color:var(--text);">${inW} × ${inH} in</b></div>
+    <div class="row" style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--text-dim);margin:8px 0;"><span>Orientation</span><b style="color:var(--text);">${project.orientation === "portrait" ? "Portrait" : "Landscape"}</b></div>`;
+}
+
 function renderPanel() {
-  const fields = project.editableFields || [];
+  const fields = sideData().editableFields || [];
   rightPanel.innerHTML = `
-    <h3>Edit Business Card</h3>
+    <h3>Edit Business Card — ${activeSide === "back" ? "Back Side" : "Front Side"}</h3>
     <button type="button" class="btn btn-primary btn-sm" id="addTextBtn" style="width:100%;margin-bottom:14px;">+ Add Text</button>
     ${logoPickerHtml()}
     ${fields.map(textFieldHtml).join("")}
-    <div class="field">
-      <label>Background Color</label>
-      <input type="color" id="bgColorInput" value="${project.background?.color || "#ffffff"}">
-    </div>
-    ${bgPickerHtml()}
-    <div style="font-size:11.5px;color:var(--text-faint);margin-top:6px;">✥ Drag text to reposition · drag the purple handle to resize · click to select.</div>
+    ${backgroundPanelHtml(sideData().background, { bgCategories })}
+    <div style="font-size:11.5px;color:var(--text-faint);margin:6px 0 16px;">✥ Drag text to reposition · drag the purple handle to resize · click to select.</div>
+    <div class="ced-line"></div>
+    ${cardSettingsHtml()}
+    <div class="ced-line"></div>
+    ${layersHtml()}
+    <div class="ced-note"><b>Ready-made template</b><br>Every text, color, logo and background is editable. Changes save automatically.</div>
   `;
 
   document.getElementById("addTextBtn").addEventListener("click", addTextElement);
@@ -376,7 +414,7 @@ function renderPanel() {
     });
   });
   rightPanel.querySelectorAll("[data-delete-text]").forEach((btn) => {
-    btn.addEventListener("click", () => deleteTextElement(btn.dataset.deleteText));
+    btn.addEventListener("click", () => deleteElement(btn.dataset.deleteText));
   });
   rightPanel.querySelectorAll('select[data-edit="font"]').forEach((sel) => {
     sel.addEventListener("change", () => commitAction(() => { elementById(sel.dataset.ref).fontFamily = sel.value; }));
@@ -464,43 +502,43 @@ function renderPanel() {
     range.addEventListener("change", commitEdit);
   });
 
-  const bgInput = document.getElementById("bgColorInput");
-  bgInput.addEventListener("focus", beginEdit);
-  bgInput.addEventListener("input", () => {
-    project.background.color = bgInput.value;
-    const bgShape = elementById("bg_shape_1");
-    if (bgShape) bgShape.color = bgInput.value;
-    persistAndDraw();
+  wireBackgroundPanel(rightPanel, () => sideData().background, {
+    // beginEdit() is idempotent (only captures the pre-edit snapshot once
+    // per session), so calling it on every change — instead of on a
+    // separate focus event, which this panel's mixed control types don't
+    // all have — still yields exactly one undo step per edit session.
+    onChange: (bg) => { beginEdit(); sideData().background = bg; persistAndDraw(); },
+    onCommit: commitEdit,
+    searchPhotos: searchPhotosApi,
+    cardBackgrounds,
   });
-  bgInput.addEventListener("change", commitEdit);
 
+  // Logo picker only renders on the front side (see renderPanel above).
   const chooseBtn = document.getElementById("chooseLogoBtn");
   const picker = document.getElementById("logoPicker");
-  chooseBtn.addEventListener("click", () => {
-    const open = picker.style.display !== "none";
-    picker.style.display = open ? "none" : "block";
-    if (!open) paintLogoPickerGrid();
+  if (chooseBtn) {
+    chooseBtn.addEventListener("click", () => {
+      const open = picker.style.display !== "none";
+      picker.style.display = open ? "none" : "block";
+      if (!open) paintLogoPickerGrid();
+    });
+    document.getElementById("removeLogoBtn")?.addEventListener("click", removeLogoImage);
+
+    const catSelect = document.getElementById("logoPickerCat");
+    if (pickerCat) catSelect.value = pickerCat;
+    pickerCat = catSelect.value;
+    catSelect.addEventListener("change", () => { pickerCat = catSelect.value; paintLogoPickerGrid(); });
+  }
+
+  rightPanel.querySelectorAll("[data-layer-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      commitAction((p) => {
+        const el = p.elements.find((e) => e.id === btn.dataset.layerToggle);
+        if (el) el.visible = el.visible === false;
+      });
+      renderPanel();
+    });
   });
-  document.getElementById("removeLogoBtn")?.addEventListener("click", removeLogoImage);
-
-  const catSelect = document.getElementById("logoPickerCat");
-  if (pickerCat) catSelect.value = pickerCat;
-  pickerCat = catSelect.value;
-  catSelect.addEventListener("change", () => { pickerCat = catSelect.value; paintLogoPickerGrid(); });
-
-  const chooseBgBtn = document.getElementById("chooseBgBtn");
-  const bgPicker = document.getElementById("bgPicker");
-  chooseBgBtn.addEventListener("click", () => {
-    const open = bgPicker.style.display !== "none";
-    bgPicker.style.display = open ? "none" : "block";
-    if (!open) paintBgPickerGrid();
-  });
-  document.getElementById("removeBgBtn")?.addEventListener("click", removeBackgroundImage);
-
-  const bgCatSelect = document.getElementById("bgPickerCat");
-  if (bgPickerCat) bgCatSelect.value = bgPickerCat;
-  bgPickerCat = bgCatSelect.value;
-  bgCatSelect.addEventListener("change", () => { bgPickerCat = bgCatSelect.value; paintBgPickerGrid(); });
 }
 
 function canvasPointFromEvent(e) {
@@ -515,31 +553,15 @@ function hitTest(point) {
   }
   return null;
 }
-function hitResizeHandle(point) {
-  if (!selectedId) return false;
-  const el = elementById(selectedId);
-  if (!el || el.type !== "text") return false;
-  const box = lastBoxes[selectedId];
-  if (!box) return false;
-  const dx = point.x - (box.x + box.w), dy = point.y - (box.y + box.h);
-  return Math.sqrt(dx * dx + dy * dy) <= 14;
-}
-
 let dragState = null;
+let rotateState = null;
 canvas.addEventListener("pointerdown", (e) => {
   // Without this, the browser's default mousedown focus-handling steals focus
   // back to <body> right after we programmatically focus the field input.
   e.preventDefault();
   const point = canvasPointFromEvent(e);
-  if (hitResizeHandle(point)) {
-    const el = elementById(selectedId);
-    beginEdit();
-    resizeState = { id: selectedId, startY: point.y, startFontSize: el.fontSize };
-    canvas.setPointerCapture(e.pointerId);
-    return;
-  }
   const hitId = hitTest(point);
-  if (!hitId) return;
+  if (!hitId) { selectedId = null; positionHandles(); return; }
   const el = elementById(hitId);
   beginEdit();
   dragState = { id: hitId, startX: point.x, startY: point.y, originX: el.x, originY: el.y };
@@ -547,16 +569,8 @@ canvas.addEventListener("pointerdown", (e) => {
   canvas.setPointerCapture(e.pointerId);
 });
 canvas.addEventListener("pointermove", (e) => {
-  const point = canvasPointFromEvent(e);
-  if (resizeState) {
-    const el = elementById(resizeState.id);
-    if (!el) return;
-    const delta = point.y - resizeState.startY;
-    el.fontSize = Math.max(8, Math.round(resizeState.startFontSize + delta));
-    persistAndDraw();
-    return;
-  }
   if (!dragState) return;
+  const point = canvasPointFromEvent(e);
   const el = elementById(dragState.id);
   if (!el) return;
   el.x = dragState.originX + (point.x - dragState.startX);
@@ -564,7 +578,6 @@ canvas.addEventListener("pointermove", (e) => {
   persistAndDraw();
 });
 function endDrag() {
-  if (resizeState) { resizeState = null; commitEdit(); return; }
   if (!dragState) return;
   dragState = null;
   commitEdit();
@@ -572,11 +585,92 @@ function endDrag() {
 canvas.addEventListener("pointerup", endDrag);
 canvas.addEventListener("pointercancel", endDrag);
 
+// Corner handles: delete / duplicate / rotate / resize for the selected
+// text or icon "sticker". Rotate + resize track drag via pointer capture on
+// the handle button itself; delete/duplicate are single clicks.
+const elHandles = document.getElementById("elHandles");
+elHandles.querySelector('[data-action="delete"]').addEventListener("click", () => {
+  if (selectedId) deleteElement(selectedId);
+});
+elHandles.querySelector('[data-action="duplicate"]').addEventListener("click", () => {
+  if (selectedId) duplicateElement(selectedId);
+});
+elHandles.querySelector('[data-action="resize"]').addEventListener("pointerdown", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  const el = elementById(selectedId);
+  if (!el) return;
+  beginEdit();
+  resizeState = { id: selectedId, startY: canvasPointFromEvent(e).y, startFontSize: el.fontSize, startSize: el.size, startWidth: el.width, startHeight: el.height };
+  e.currentTarget.setPointerCapture(e.pointerId);
+});
+elHandles.querySelector('[data-action="resize"]').addEventListener("pointermove", (e) => {
+  if (!resizeState) return;
+  const el = elementById(resizeState.id);
+  if (!el) return;
+  const delta = canvasPointFromEvent(e).y - resizeState.startY;
+  if (el.type === "icon") {
+    el.size = Math.max(8, Math.round(resizeState.startSize + delta));
+  } else if (el.type === "image") {
+    const factor = Math.max(0.2, (resizeState.startHeight + delta) / resizeState.startHeight);
+    el.width = Math.max(16, Math.round(resizeState.startWidth * factor));
+    el.height = Math.max(16, Math.round(resizeState.startHeight * factor));
+  } else {
+    el.fontSize = Math.max(8, Math.round(resizeState.startFontSize + delta));
+  }
+  persistAndDraw();
+});
+elHandles.querySelector('[data-action="resize"]').addEventListener("pointerup", () => {
+  if (!resizeState) return;
+  resizeState = null;
+  commitEdit();
+});
+elHandles.querySelector('[data-action="rotate"]').addEventListener("pointerdown", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  const el = elementById(selectedId);
+  const box = lastBoxes[selectedId];
+  if (!el || !box) return;
+  beginEdit();
+  const cx = box.x + box.w / 2, cy = box.y + box.h / 2;
+  const point = canvasPointFromEvent(e);
+  rotateState = { id: selectedId, cx, cy, startAngle: Math.atan2(point.y - cy, point.x - cx), startRotation: el.rotation || 0 };
+  e.currentTarget.setPointerCapture(e.pointerId);
+});
+elHandles.querySelector('[data-action="rotate"]').addEventListener("pointermove", (e) => {
+  if (!rotateState) return;
+  const el = elementById(rotateState.id);
+  if (!el) return;
+  const point = canvasPointFromEvent(e);
+  const angle = Math.atan2(point.y - rotateState.cy, point.x - rotateState.cx);
+  const deltaDeg = (angle - rotateState.startAngle) * (180 / Math.PI);
+  el.rotation = Math.round(rotateState.startRotation + deltaDeg);
+  persistAndDraw();
+});
+elHandles.querySelector('[data-action="rotate"]').addEventListener("pointerup", () => {
+  if (!rotateState) return;
+  rotateState = null;
+  commitEdit();
+});
+
+window.addEventListener("resize", positionHandles);
+
 document.getElementById("undoBtn").addEventListener("click", undo);
 document.getElementById("redoBtn").addEventListener("click", redo);
 
-document.getElementById("saveBtn").addEventListener("click", () => {
-  const thumb = canvas.toDataURL("image/png");
+document.getElementById("saveBtn").addEventListener("click", async () => {
+  // The saved thumbnail should always show the front side, even if the
+  // back side happens to be on screen when the user clicks Save.
+  let thumb;
+  if (activeSide === "back") {
+    const offscreen = document.createElement("canvas");
+    offscreen.width = project.canvas?.width || 1050;
+    offscreen.height = project.canvas?.height || 600;
+    await renderCardToCanvas(offscreen, { canvas: project.canvas, background: project.background, elements: project.elements }, {});
+    thumb = offscreen.toDataURL("image/png");
+  } else {
+    thumb = canvas.toDataURL("image/png");
+  }
   saveCurrentCard(thumb);
   const btn = document.getElementById("saveBtn");
   const original = btn.textContent;
@@ -585,11 +679,16 @@ document.getElementById("saveBtn").addEventListener("click", () => {
 });
 
 document.getElementById("downloadBtn").addEventListener("click", () => {
-  const name = (elementById("company")?.text || elementById("name")?.text || "business-card")
+  // Always name the file after the front side's identity, regardless of
+  // which side is currently shown on canvas (that's what actually exports).
+  const frontCompany = project.elements?.find((e) => e.id === "company")?.text;
+  const frontName = project.elements?.find((e) => e.id === "name")?.text;
+  const name = (frontCompany || frontName || "business-card")
     .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const suffix = activeSide === "back" ? "-back" : "";
   const a = document.createElement("a");
   a.href = canvas.toDataURL("image/png");
-  a.download = `${name || "business-card"}.png`;
+  a.download = `${name || "business-card"}${suffix}.png`;
   a.click();
 });
 
@@ -607,22 +706,25 @@ async function init() {
   pickerCat = categories[0]?.id || null;
   cardBackgrounds = bgData;
   bgCategories = Object.keys(bgData).sort();
-  bgPickerCat = bgCategories[0] || null;
 
   const templateId = qs("id");
   let template = cardData?.templates.find((t) => t.id === templateId);
+  let resolvedCat = cardData ? cardCat : null;
+  let siblingTemplates = cardData?.templates || null;
   if (!template) {
     // Fallback: cat param missing/wrong — search every category file for the id.
     for (const c of meta.categories) {
       const list = await fetch(`data/business-cards/${c.slug}.json`).then((r) => r.json());
       template = list.templates.find((t) => t.id === templateId);
-      if (template) break;
+      if (template) { resolvedCat = c.slug; siblingTemplates = list.templates; break; }
     }
   }
   if (!template) {
     const first = meta.categories[0];
     const list = await fetch(`data/business-cards/${first.slug}.json`).then((r) => r.json());
     template = list.templates[0];
+    resolvedCat = first.slug;
+    siblingTemplates = list.templates;
   }
 
   project = getCurrentCardProject();
@@ -633,6 +735,47 @@ async function init() {
   editorTitle.textContent = template.name;
   renderPanel();
   await draw();
+
+  // Left sidebar: template gallery (real sibling templates from this category).
+  const tplGrid = document.getElementById("tplThumbGrid");
+  tplGrid.innerHTML = siblingTemplates.slice(0, 12).map((t) => {
+    const isImage = t.background?.type === "image";
+    return `
+      <button type="button" class="ced-tpl${t.id === template.id ? " on" : ""}" style="background-image:${isImage ? `url('${t.background.src}')` : "none"};background-color:${t.theme?.primary || "#e9edf5"};" data-tpl-id="${t.id}" title="${t.name}">
+        <span>${t.name}</span>
+      </button>`;
+  }).join("");
+  tplGrid.querySelectorAll("[data-tpl-id]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      window.location.href = `card-editor.html?cat=${resolvedCat}&id=${btn.dataset.tplId}`;
+    });
+  });
+
+  // Left sidebar tool shortcuts: reuse the existing pickers already wired
+  // inside the right panel rather than duplicating their logic.
+  document.getElementById("frontSideTab").addEventListener("click", () => setActiveSide("front"));
+  document.getElementById("backSideTab").addEventListener("click", () => setActiveSide("back"));
+
+  document.getElementById("addTextToolBtn").addEventListener("click", addTextElement);
+  document.getElementById("chooseLogoToolBtn").addEventListener("click", () => {
+    document.getElementById("chooseLogoBtn").click();
+    document.getElementById("logoPicker").scrollIntoView({ block: "center", behavior: "smooth" });
+  });
+  document.getElementById("chooseBgToolBtn").addEventListener("click", () => {
+    rightPanel.querySelector(".bgp-root")?.scrollIntoView({ block: "center", behavior: "smooth" });
+  });
+
+  // Zoom controls (visual scale only — export always uses full resolution).
+  const cardWrap = document.getElementById("cardWrap");
+  const zoomLabel = document.getElementById("zoomLabel");
+  let zoom = 1;
+  function applyZoom() {
+    cardWrap.style.transform = `scale(${zoom})`;
+    zoomLabel.textContent = Math.round(zoom * 100) + "%";
+  }
+  document.getElementById("zoomInBtn").addEventListener("click", () => { zoom = Math.min(2, zoom + 0.1); applyZoom(); });
+  document.getElementById("zoomOutBtn").addEventListener("click", () => { zoom = Math.max(0.3, zoom - 0.1); applyZoom(); });
+  document.getElementById("zoomFitBtn").addEventListener("click", () => { zoom = 1; applyZoom(); });
 }
 
 init();

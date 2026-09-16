@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 5500;
 const ROOT = __dirname;
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const GROQ_MODEL = "openai/gpt-oss-120b";
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
 
 const TYPES = {
   ".html": "text/html",
@@ -246,6 +247,75 @@ function handleAiGenerate(req, res) {
   });
 }
 
+// ---- Live stock-photo search: proxies Pexels so the API key stays
+// server-side (the client only ever sends a search term). Used by editor
+// background pickers to show real, relevant photos beyond the pre-fetched
+// curated sets. ----
+const IMAGE_SEARCH_RATE_LIMIT = 30; // requests
+const IMAGE_SEARCH_RATE_WINDOW_MS = 60_000; // per minute
+const imageSearchHits = new Map();
+function isImageSearchRateLimited(ip) {
+  const now = Date.now();
+  const arr = (imageSearchHits.get(ip) || []).filter((t) => now - t < IMAGE_SEARCH_RATE_WINDOW_MS);
+  arr.push(now);
+  imageSearchHits.set(ip, arr);
+  return arr.length > IMAGE_SEARCH_RATE_LIMIT;
+}
+function callPexels(query, perPage) {
+  return new Promise((resolve, reject) => {
+    const reqPath = `/v1/search?query=${encodeURIComponent(query)}&per_page=${perPage}&orientation=landscape`;
+    const req = https.request({
+      hostname: "api.pexels.com",
+      path: reqPath,
+      method: "GET",
+      headers: { Authorization: PEXELS_API_KEY },
+      timeout: 15000,
+    }, (res) => {
+      let body = "";
+      res.on("data", (c) => (body += c));
+      res.on("end", () => {
+        if (res.statusCode !== 200) return reject(new Error(`Pexels ${res.statusCode}: ${body.slice(0, 200)}`));
+        try { resolve(JSON.parse(body)); } catch (e) { reject(e); }
+      });
+    });
+    req.on("error", reject);
+    req.on("timeout", () => req.destroy(new Error("Pexels request timed out")));
+    req.end();
+  });
+}
+function handleImageSearch(req, res, query) {
+  const ip = req.socket.remoteAddress || "unknown";
+  if (isImageSearchRateLimited(ip)) {
+    res.writeHead(429, { "Content-Type": "application/json" });
+    return res.end(JSON.stringify({ error: "Too many searches — please wait a minute and try again." }));
+  }
+  if (!PEXELS_API_KEY) {
+    res.writeHead(503, { "Content-Type": "application/json" });
+    return res.end(JSON.stringify({ error: "Photo search isn't configured yet on this server." }));
+  }
+  const q = String(query.get("q") || "").trim().slice(0, 100);
+  if (!q) {
+    res.writeHead(400, { "Content-Type": "application/json" });
+    return res.end(JSON.stringify({ error: "Missing search query." }));
+  }
+  callPexels(q, 24)
+    .then((data) => {
+      const photos = (data.photos || []).map((p) => ({
+        id: p.id,
+        thumb: p.src.medium,
+        full: p.src.large2x || p.src.large,
+        alt: p.alt || q,
+        photographer: p.photographer,
+      }));
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ photos }));
+    })
+    .catch((err) => {
+      res.writeHead(502, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: err.message }));
+    });
+}
+
 http
   .createServer((req, res) => {
     const [rawPath, rawQuery] = req.url.split("?");
@@ -259,6 +329,9 @@ http
     }
     if (req.method === "POST" && urlPath === "/api/reviews") {
       return handleReviewsPost(req, res);
+    }
+    if (req.method === "GET" && urlPath === "/api/image-search") {
+      return handleImageSearch(req, res, new URLSearchParams(rawQuery || ""));
     }
 
     let filePath = path.join(ROOT, urlPath === "/" ? "/index.html" : urlPath);

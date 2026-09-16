@@ -1,6 +1,14 @@
 import { startPresentationProject, getCurrentPresentationProject, setCurrentPresentationProject, saveCurrentPresentation } from "./presentation-store.js";
 import { renderCardToCanvas } from "./render-card.js";
 import { FONTS } from "./icons.js";
+import { backgroundPanelHtml, wireBackgroundPanel } from "./background-panel.js";
+
+async function searchPhotosApi(query) {
+  const res = await fetch(`/api/image-search?q=${encodeURIComponent(query)}`);
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || `Search failed (${res.status})`);
+  return data.photos || [];
+}
 
 function qs(name) { return new URLSearchParams(window.location.search).get(name); }
 
@@ -252,8 +260,16 @@ function renderPanel() {
   rightPanel.innerHTML = `
     <h3>Edit Slide ${activeSlideIndex + 1}</h3>
     ${fields.map(textFieldHtml).join("")}
+    ${backgroundPanelHtml(activeSlide().background, {})}
     <div style="font-size:11.5px;color:var(--text-faint);margin-top:6px;">✥ Drag text to reposition · drag the purple handle to resize · click to select.</div>
   `;
+
+  wireBackgroundPanel(rightPanel, () => activeSlide().background, {
+    onChange: (bg) => { beginEdit(); activeSlide().background = bg; persistAndDraw(); },
+    onCommit: commitEdit,
+    searchPhotos: searchPhotosApi,
+    cardBackgrounds: {},
+  });
 
   rightPanel.querySelectorAll("input[data-field]").forEach((input) => {
     input.addEventListener("focus", () => { selectedId = input.dataset.field; beginEdit(); draw(); });

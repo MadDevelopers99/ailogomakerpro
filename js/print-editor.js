@@ -1,6 +1,14 @@
 import { startPrintProject, getCurrentPrintProject, setCurrentPrintProject, saveCurrentPrint } from "./print-store.js";
 import { renderCardToCanvas } from "./render-card.js";
 import { FONTS } from "./icons.js";
+import { backgroundPanelHtml, wireBackgroundPanel } from "./background-panel.js";
+
+async function searchPhotosApi(query) {
+  const res = await fetch(`/api/image-search?q=${encodeURIComponent(query)}`);
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || `Search failed (${res.status})`);
+  return data.photos || [];
+}
 
 function qs(name) { return new URLSearchParams(window.location.search).get(name); }
 
@@ -221,58 +229,6 @@ function removeLogoImage() {
   renderPanel();
 }
 
-function bgPickerHtml() {
-  const isImage = project.background?.type === "image";
-  return `
-    <div class="field">
-      <label>Background Image</label>
-      <div style="display:flex;gap:8px;">
-        <button type="button" class="btn btn-outline btn-sm" id="chooseBgBtn" style="flex:1;">🖼 Choose Photo Background</button>
-        ${isImage ? `<button type="button" class="btn btn-outline btn-sm" id="removeBgBtn" style="color:#dc2626;">Use Color</button>` : ""}
-      </div>
-      <div id="bgPicker" style="display:none;margin-top:10px;background:var(--bg);border-radius:10px;padding:10px;">
-        <select id="bgPickerTheme" style="width:100%;margin-bottom:8px;background:#fff;border:1px solid var(--border);border-radius:8px;padding:7px;font-size:12.5px;">
-          ${bgThemes.map((t) => `<option value="${t}">${t.replace(/-/g, " ").replace(/\b\w/g, (m) => m.toUpperCase())}</option>`).join("")}
-        </select>
-        <div id="bgPickerGrid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-height:220px;overflow-y:auto;"></div>
-      </div>
-    </div>`;
-}
-
-function paintBgPickerGrid() {
-  const grid = document.getElementById("bgPickerGrid");
-  if (!grid) return;
-  const list = printBackgrounds[bgPickerTheme] || [];
-  grid.innerHTML = list.map((src) => `
-    <button type="button" data-bg-src="${src}" style="aspect-ratio:16/9;padding:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;background:#fff;">
-      <img src="${src}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
-    </button>`).join("");
-  grid.querySelectorAll("button[data-bg-src]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      applyBackgroundImage(btn.dataset.bgSrc);
-      document.getElementById("bgPicker").style.display = "none";
-    });
-  });
-}
-
-function applyBackgroundImage(src) {
-  commitAction((p) => {
-    p.background = { type: "image", src, color: p.background?.color || "#101010" };
-    const bgShape = p.elements.find((e) => e.id === "bg_shape_1");
-    if (bgShape) bgShape.visible = false;
-  });
-  renderPanel();
-}
-
-function removeBackgroundImage() {
-  commitAction((p) => {
-    p.background = { type: "solid", color: p.background?.color || "#101010" };
-    const bgShape = p.elements.find((e) => e.id === "bg_shape_1");
-    if (bgShape) bgShape.visible = true;
-  });
-  renderPanel();
-}
-
 function textFieldHtml(id) {
   const el = elementById(id);
   if (!el || el.type !== "text") return "";
@@ -352,11 +308,7 @@ function renderPanel() {
     <button type="button" class="btn btn-primary btn-sm" id="addTextBtn" style="width:100%;margin-bottom:14px;">+ Add Text</button>
     ${logoPickerHtml()}
     ${fields.map(textFieldHtml).join("")}
-    <div class="field">
-      <label>Background Color</label>
-      <input type="color" id="bgColorInput" value="${project.background?.color || "#ffffff"}">
-    </div>
-    ${bgPickerHtml()}
+    ${backgroundPanelHtml(project.background, { bgCategories: bgThemes })}
     <div style="font-size:11.5px;color:var(--text-faint);margin-top:6px;">✥ Drag text to reposition · drag the purple handle to resize · click to select.</div>
   `;
 
@@ -476,15 +428,12 @@ function renderPanel() {
     range.addEventListener("change", commitEdit);
   });
 
-  const bgInput = document.getElementById("bgColorInput");
-  bgInput.addEventListener("focus", beginEdit);
-  bgInput.addEventListener("input", () => {
-    project.background.color = bgInput.value;
-    const bgShape = elementById("bg_shape_1");
-    if (bgShape) bgShape.color = bgInput.value;
-    persistAndDraw();
+  wireBackgroundPanel(rightPanel, () => project.background, {
+    onChange: (bg) => { beginEdit(); project.background = bg; persistAndDraw(); },
+    onCommit: commitEdit,
+    searchPhotos: searchPhotosApi,
+    cardBackgrounds: printBackgrounds,
   });
-  bgInput.addEventListener("change", commitEdit);
 
   const chooseBtn = document.getElementById("chooseLogoBtn");
   const picker = document.getElementById("logoPicker");
@@ -501,19 +450,6 @@ function renderPanel() {
     catSelect.addEventListener("change", () => { pickerCat = catSelect.value; paintLogoPickerGrid(); });
   }
 
-  const chooseBgBtn = document.getElementById("chooseBgBtn");
-  const bgPicker = document.getElementById("bgPicker");
-  chooseBgBtn.addEventListener("click", () => {
-    const open = bgPicker.style.display !== "none";
-    bgPicker.style.display = open ? "none" : "block";
-    if (!open) paintBgPickerGrid();
-  });
-  document.getElementById("removeBgBtn")?.addEventListener("click", removeBackgroundImage);
-
-  const bgCatSelect = document.getElementById("bgPickerTheme");
-  if (bgPickerTheme) bgCatSelect.value = bgPickerTheme;
-  bgPickerTheme = bgCatSelect.value;
-  bgCatSelect.addEventListener("change", () => { bgPickerTheme = bgCatSelect.value; paintBgPickerGrid(); });
 }
 
 function canvasPointFromEvent(e) {

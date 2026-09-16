@@ -13,28 +13,168 @@
 <meta name="robots" content="noindex, follow">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  /* Business card editor GUI — ced- prefixed and self-contained so it can't
+     collide with the other editors' shared .editor-* classes in style.css. */
+  html, body { height: 100%; overflow: hidden; }
+  body { display: flex; flex-direction: column; }
+  .ced-top {
+    height: 30px; flex-shrink: 0; background: var(--primary); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; letter-spacing: .02em;
+  }
+  .ced-head {
+    height: 60px; flex-shrink: 0; background: #fff; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; padding: 0 18px; gap: 14px;
+  }
+  .ced-brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 15px; color: var(--text); white-space: nowrap; }
+  .ced-mark {
+    display: inline-grid; place-items: center; width: 28px; height: 28px;
+    background: var(--primary); color: #fff; border-radius: 8px; font-size: 15px;
+  }
+  .ced-file { font-weight: 700; font-size: 13px; color: var(--text-dim); }
+  .ced-sp { flex: 1; }
+  .ced-iconbtn {
+    width: 34px; height: 34px; border: 1px solid var(--border); background: #fff; border-radius: 8px;
+    display: grid; place-items: center; color: var(--text-dim); cursor: pointer;
+  }
+  .ced-iconbtn:hover { border-color: var(--primary); color: var(--primary); }
+  .ced-iconbtn svg { width: 16px; height: 16px; }
+  .ced-btn {
+    border: 1px solid var(--border); background: #fff; border-radius: 8px; padding: 9px 14px;
+    font-size: 12.5px; font-weight: 700; color: var(--text-dim); cursor: pointer;
+  }
+  .ced-btn:hover { border-color: var(--primary); color: var(--primary); }
+  .ced-btn.ced-blue { background: var(--primary); color: #fff; border-color: var(--primary); }
+  .ced-btn.ced-blue:hover { background: var(--primary-dark); }
+
+  .ced-app { flex: 1; min-height: 0; display: grid; grid-template-columns: 250px 1fr 300px; }
+  .ced-left, .ced-right { background: #fff; overflow-y: auto; }
+  .ced-left { border-right: 1px solid var(--border); padding-bottom: 20px; }
+  .ced-right { border-left: 1px solid var(--border); padding: 16px; }
+
+  .ced-title { font-size: 10.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--text-faint); padding: 16px 15px 8px; }
+  .ced-tool {
+    display: flex; align-items: center; gap: 10px; width: calc(100% - 18px); margin: 2px 9px;
+    padding: 9px 10px; border-radius: 8px; border: none; background: none; cursor: pointer;
+    font-size: 12.5px; font-weight: 600; color: var(--text-dim); text-align: left;
+  }
+  .ced-tool:hover { background: var(--primary-light); color: var(--primary); }
+  .ced-ico {
+    display: inline-grid; place-items: center; width: 26px; height: 26px; flex-shrink: 0;
+    background: var(--bg); border-radius: 7px; font-size: 12px; font-weight: 800;
+  }
+  .ced-line { height: 1px; background: var(--border); margin: 10px 0; }
+
+  .ced-tplgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 0 12px; }
+  .ced-tpl {
+    height: 66px; border: 1px solid var(--border); border-radius: 8px; padding: 0; cursor: pointer;
+    background-size: cover; background-position: center; position: relative; overflow: hidden;
+  }
+  .ced-tpl.on { border: 2px solid var(--primary); }
+  .ced-tpl span {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 4px 6px;
+    background: linear-gradient(0deg, rgba(0,0,0,.65), transparent);
+    color: #fff; font-size: 8.5px; font-weight: 800; letter-spacing: .02em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
+  .ced-workspace { min-width: 0; display: flex; flex-direction: column; background: var(--bg); }
+  .ced-bar { height: 46px; flex-shrink: 0; background: #fff; border-bottom: 1px solid var(--border); display: flex; align-items: center; padding: 0 14px; }
+  .ced-sidetabs { display: flex; gap: 4px; background: var(--bg); border-radius: 8px; padding: 3px; }
+  .ced-sidetab { border: none; background: none; border-radius: 6px; padding: 6px 14px; font-size: 12px; font-weight: 700; color: var(--text-dim); cursor: pointer; }
+  .ced-sidetab.on { background: #fff; color: var(--primary); box-shadow: 0 1px 3px rgba(16,18,30,.1); }
+  .ced-zoom { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+  .ced-zoom button {
+    border: 1px solid var(--border); background: #fff; border-radius: 6px; width: 26px; height: 26px;
+    font-size: 13px; color: var(--text-dim); cursor: pointer;
+  }
+  .ced-zoom button:hover { border-color: var(--primary); color: var(--primary); }
+  .ced-zoom span { font-size: 11.5px; color: var(--text-dim); min-width: 38px; text-align: center; }
+  .ced-stage { flex: 1; overflow: auto; display: flex; align-items: center; justify-content: center; padding: 30px; }
+  .ced-cardwrap { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; transition: transform .15s; }
+  .ced-label { text-transform: uppercase; letter-spacing: .08em; font-size: 9.5px; font-weight: 800; color: var(--text-faint); }
+  #cardCanvas { box-shadow: 0 22px 50px rgba(20,65,130,.16); border: 1px solid var(--border); border-radius: 4px; background: #fff; max-width: 620px; width: 100%; height: auto; touch-action: none; }
+
+  .ced-handle {
+    position: absolute; transform: translate(-50%, -50%); width: 26px; height: 26px; border-radius: 50%;
+    background: #fff; border: 1.5px solid var(--primary); color: var(--primary);
+    display: grid; place-items: center; font-size: 12px; cursor: pointer; z-index: 5;
+    box-shadow: 0 2px 6px rgba(20,65,130,.25); touch-action: none;
+  }
+  .ced-handle:hover { background: var(--primary); color: #fff; }
+  .ced-handle.ced-handle-resize, .ced-handle.ced-handle-rotate { cursor: grab; }
+  .ced-handle.ced-handle-delete:hover { background: #dc2626; border-color: #dc2626; }
+
+  .ced-layer {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 8px 10px; border: 1px solid var(--border); border-radius: 7px; margin-bottom: 6px; font-size: 11px;
+  }
+  .ced-layer button { border: none; background: none; cursor: pointer; color: var(--text-dim); font-size: 13px; padding: 0; }
+  .ced-layer button.off { color: var(--text-faint); opacity: .5; }
+  .ced-note { margin-top: 12px; background: var(--primary-light); border: 1px solid var(--border); border-radius: 8px; padding: 10px; font-size: 10.5px; line-height: 1.5; color: var(--text-dim); }
+
+  @media (max-width: 1100px) {
+    .ced-app { grid-template-columns: 210px 1fr; }
+    .ced-right { display: none; }
+  }
+  @media (max-width: 720px) {
+    .ced-left { display: none; }
+    .ced-file { display: none; }
+  }
+</style>
 </head>
 <body>
-  <div class="editor-shell">
-    <div class="editor-rightpanel" id="rightPanel"></div>
+  <div class="ced-top">✦ Business Card Maker · Professional editable templates · Print-ready export</div>
+  <header class="ced-head">
+    <a class="ced-brand" href="business-cards.html"><span class="ced-mark">✦</span>Logo Maker</a>
+    <div class="ced-file" id="editorTitle">Business Card</div>
+    <div class="ced-sp"></div>
+    <button class="ced-iconbtn" id="undoBtn" title="Undo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 010 10h-1"/></svg></button>
+    <button class="ced-iconbtn" id="redoBtn" title="Redo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h1"/></svg></button>
+    <button class="ced-btn" id="saveBtn">☁ Save</button>
+    <button class="ced-btn ced-blue" id="downloadBtn">⬇ Download PNG</button>
+  </header>
 
-    <div class="editor-canvasarea">
-      <div class="editor-topbar">
-        <div class="left">
-          <a class="back" href="business-cards.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Back</a>
-          <button class="icon-btn" id="undoBtn" title="Undo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 010 10h-1"/></svg></button>
-          <button class="icon-btn" id="redoBtn" title="Redo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h1"/></svg></button>
+  <div class="ced-app">
+    <aside class="ced-left">
+      <div class="ced-title">Add Elements</div>
+      <button type="button" class="ced-tool" id="addTextToolBtn"><span class="ced-ico">T</span>Text</button>
+      <button type="button" class="ced-tool" id="chooseLogoToolBtn"><span class="ced-ico">◇</span>Logo</button>
+      <button type="button" class="ced-tool" id="chooseBgToolBtn"><span class="ced-ico">▧</span>Background</button>
+      <div class="ced-line"></div>
+      <div class="ced-title">Business Card Templates</div>
+      <div class="ced-tplgrid" id="tplThumbGrid"></div>
+    </aside>
+
+    <section class="ced-workspace">
+      <div class="ced-bar">
+        <div class="ced-sidetabs">
+          <button type="button" class="ced-sidetab on" id="frontSideTab">Front Side</button>
+          <button type="button" class="ced-sidetab" id="backSideTab">Back Side</button>
         </div>
-        <div id="editorTitle" style="font-weight:700;font-size:14px;">Business Card</div>
-        <div class="right">
-          <button class="btn btn-outline btn-sm" id="saveBtn">Save</button>
-          <button class="btn btn-primary btn-sm" id="downloadBtn">⬇ Download PNG</button>
+        <div class="ced-zoom">
+          <button type="button" id="zoomOutBtn">−</button>
+          <span id="zoomLabel">100%</span>
+          <button type="button" id="zoomInBtn">+</button>
+          <button type="button" id="zoomFitBtn">Fit</button>
         </div>
       </div>
-      <div class="editor-canvas-center">
-        <canvas id="cardCanvas"></canvas>
+      <div class="ced-stage">
+        <div class="ced-cardwrap" id="cardWrap">
+          <div class="ced-label" id="sideLabel">Front side</div>
+          <canvas id="cardCanvas"></canvas>
+          <div class="ced-handles" id="elHandles" style="display:none;">
+            <button type="button" class="ced-handle ced-handle-delete" data-action="delete" title="Delete">🗑</button>
+            <button type="button" class="ced-handle ced-handle-duplicate" data-action="duplicate" title="Duplicate">⧉</button>
+            <button type="button" class="ced-handle ced-handle-rotate" data-action="rotate" title="Drag to rotate">↻</button>
+            <button type="button" class="ced-handle ced-handle-resize" data-action="resize" title="Drag to resize">⤡</button>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <aside class="ced-right" id="rightPanel"></aside>
   </div>
 
   <script type="module" src="js/card-editor.js"></script>

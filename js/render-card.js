@@ -117,6 +117,13 @@ function drawText(ctx, el) {
   else if (el.align === "right") x -= w;
   const box = { x, y: el.y - h * 0.8, w, h };
 
+  if (el.rotation) {
+    const cx = box.x + box.w / 2, cy = box.y + box.h / 2;
+    ctx.translate(cx, cy);
+    ctx.rotate((el.rotation * Math.PI) / 180);
+    ctx.translate(-cx, -cy);
+  }
+
   if (el.stroke?.enabled && el.stroke.width > 0) {
     ctx.lineJoin = "round";
     ctx.miterLimit = 2;
@@ -164,12 +171,151 @@ function drawBackgroundImage(ctx, img, w, h) {
   ctx.fillRect(0, 0, w, h);
 }
 
+// ---- Extended background styles: gradient, N-color split, texture pattern,
+// rounded corners, and a "3D"/glossy light overlay. Shared by every editor
+// that renders through renderCardToCanvas (business cards, social, print,
+// presentations, motion) — see js/background-panel.js for the picker UI. ----
+function drawGradientBg(ctx, bg, w, h) {
+  const stops = Array.isArray(bg.stops) && bg.stops.length >= 2 ? bg.stops : [bg.color || "#6C5CE7", bg.color2 || "#00CEC9"];
+  let grad;
+  if (bg.gradientType === "radial") {
+    grad = ctx.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, Math.max(w, h) * 0.75);
+  } else {
+    const angle = ((bg.angle ?? 135) * Math.PI) / 180;
+    const dx = Math.cos(angle) * w / 2, dy = Math.sin(angle) * h / 2;
+    grad = ctx.createLinearGradient(w / 2 - dx, h / 2 - dy, w / 2 + dx, h / 2 + dy);
+  }
+  stops.forEach((c, i) => grad.addColorStop(i / (stops.length - 1), c));
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+}
+
+function drawSplitBg(ctx, bg, w, h) {
+  const colors = Array.isArray(bg.splitColors) && bg.splitColors.length >= 2 ? bg.splitColors : ["#6C5CE7", "#00CEC9"];
+  const n = colors.length;
+  const style = bg.splitStyle || "diagonal";
+  ctx.save();
+  if (style === "vertical") {
+    const step = w / n;
+    colors.forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(Math.floor(i * step), 0, Math.ceil(step) + 1, h); });
+  } else if (style === "horizontal") {
+    const step = h / n;
+    colors.forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(0, Math.floor(i * step), w, Math.ceil(step) + 1); });
+  } else if (style === "triangle") {
+    ctx.fillStyle = colors[0]; ctx.fillRect(0, 0, w, h);
+    ctx.beginPath(); ctx.moveTo(w, 0); ctx.lineTo(w, h); ctx.lineTo(0, h); ctx.closePath();
+    ctx.fillStyle = colors[1] || colors[0]; ctx.fill();
+    if (colors[2]) {
+      ctx.beginPath(); ctx.moveTo(w, 0); ctx.lineTo(w, h * 0.55); ctx.lineTo(w * 0.45, 0); ctx.closePath();
+      ctx.fillStyle = colors[2]; ctx.fill();
+    }
+    if (colors[3]) {
+      ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(w * 0.35, 0); ctx.lineTo(0, h * 0.4); ctx.closePath();
+      ctx.fillStyle = colors[3]; ctx.fill();
+    }
+  } else {
+    // diagonal: evenly-spaced parallel bands cut at a consistent slope.
+    ctx.fillStyle = colors[0]; ctx.fillRect(0, 0, w, h);
+    const slope = h * 0.35;
+    for (let i = 1; i < n; i++) {
+      const cut = (w * i) / n;
+      ctx.save();
+      ctx.beginPath();
+      ctx.moveTo(cut + slope, 0); ctx.lineTo(w, 0); ctx.lineTo(w, h); ctx.lineTo(cut - slope, h);
+      ctx.closePath();
+      ctx.clip();
+      ctx.fillStyle = colors[i];
+      ctx.fillRect(0, 0, w, h);
+      ctx.restore();
+    }
+  }
+  ctx.restore();
+}
+
+function drawPatternBg(ctx, bg, w, h) {
+  ctx.save();
+  ctx.fillStyle = bg.patternBg || bg.color || "#F5F5F7";
+  ctx.fillRect(0, 0, w, h);
+  ctx.fillStyle = bg.patternColor || "rgba(0,0,0,0.10)";
+  ctx.strokeStyle = bg.patternColor || "rgba(0,0,0,0.10)";
+  const pattern = bg.pattern || "dots";
+  const size = 28;
+  if (pattern === "dots") {
+    for (let y = size / 2; y < h; y += size) for (let x = size / 2; x < w; x += size) { ctx.beginPath(); ctx.arc(x, y, 2.2, 0, Math.PI * 2); ctx.fill(); }
+  } else if (pattern === "grid") {
+    ctx.lineWidth = 1;
+    for (let x = 0; x < w; x += size) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke(); }
+    for (let y = 0; y < h; y += size) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke(); }
+  } else if (pattern === "lines") {
+    ctx.lineWidth = 2;
+    for (let x = -h; x < w; x += size) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x + h, h); ctx.stroke(); }
+  } else if (pattern === "waves") {
+    ctx.lineWidth = 2;
+    for (let y = size / 2; y < h + size; y += size) {
+      ctx.beginPath();
+      for (let x = 0; x <= w; x += 10) ctx.lineTo(x, y + Math.sin(x / 30) * 6);
+      ctx.stroke();
+    }
+  } else if (pattern === "noise") {
+    for (let i = 0; i < (w * h) / 45; i++) {
+      ctx.globalAlpha = Math.random() * 0.15;
+      ctx.fillRect(Math.random() * w, Math.random() * h, 1.4, 1.4);
+    }
+    ctx.globalAlpha = 1;
+  }
+  ctx.restore();
+}
+
+function drawBackground(ctx, bg, w, h, bgImage) {
+  if (!bg) { ctx.clearRect(0, 0, w, h); return; }
+  if (bg.type === "image" && bgImage) drawBackgroundImage(ctx, bgImage, w, h);
+  else if (bg.type === "gradient") drawGradientBg(ctx, bg, w, h);
+  else if (bg.type === "split") drawSplitBg(ctx, bg, w, h);
+  else if (bg.type === "pattern") drawPatternBg(ctx, bg, w, h);
+  else if (bg.type === "solid" || bg.color) { ctx.fillStyle = bg.color || "#ffffff"; ctx.fillRect(0, 0, w, h); }
+}
+
+function applyBackgroundEffect(ctx, bg, w, h) {
+  if (bg?.effect !== "3d") return;
+  const grad = ctx.createRadialGradient(w * 0.25, h * 0.2, 0, w * 0.25, h * 0.2, Math.max(w, h) * 0.9);
+  grad.addColorStop(0, "rgba(255,255,255,0.35)");
+  grad.addColorStop(0.5, "rgba(255,255,255,0.05)");
+  grad.addColorStop(1, "rgba(0,0,0,0.18)");
+  ctx.save();
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+  ctx.restore();
+}
+
+// Rounds the whole card's outer silhouette (background + every element drawn
+// on top of it) — must run last, after all other drawing for this frame.
+function applyCornerRadius(ctx, bg, w, h) {
+  const radius = bg?.cornerRadius;
+  if (!radius) return;
+  const r = Math.min(radius, w / 2, h / 2);
+  ctx.save();
+  ctx.globalCompositeOperation = "destination-in";
+  ctx.beginPath();
+  ctx.moveTo(r, 0);
+  ctx.arcTo(w, 0, w, h, r);
+  ctx.arcTo(w, h, 0, h, r);
+  ctx.arcTo(0, h, 0, 0, r);
+  ctx.arcTo(0, 0, w, 0, r);
+  ctx.closePath();
+  ctx.fill();
+  ctx.restore();
+}
+
 function drawIcon(ctx, el) {
+  const box = { x: el.x, y: el.y, w: el.size, h: el.size };
   const d = ICON_PATHS[el.icon];
-  if (!d) return;
+  if (!d) return box;
+  const cx = el.x + el.size / 2, cy = el.y + el.size / 2;
   ctx.save();
   ctx.globalAlpha = el.opacity ?? 1;
-  ctx.translate(el.x, el.y);
+  ctx.translate(cx, cy);
+  if (el.rotation) ctx.rotate((el.rotation * Math.PI) / 180);
+  ctx.translate(-el.size / 2, -el.size / 2);
   ctx.scale(el.size / 24, el.size / 24);
   ctx.strokeStyle = el.color;
   ctx.lineWidth = 1.8;
@@ -177,6 +323,7 @@ function drawIcon(ctx, el) {
   ctx.lineJoin = "round";
   ctx.stroke(new Path2D(d));
   ctx.restore();
+  return box;
 }
 
 // Entrance animation: given el.animation = {type, delay, duration}, returns a
@@ -226,12 +373,8 @@ export async function renderCardToCanvas(canvas, template, opts = {}) {
   if (bg && bg.type === "image" && bg.src) {
     bgImage = await loadImage(bg.src);
   }
-  if (bgImage) {
-    drawBackgroundImage(ctx, bgImage, NATIVE_W, NATIVE_H);
-  } else if (bg && bg.type === "solid") {
-    ctx.fillStyle = bg.color;
-    ctx.fillRect(0, 0, NATIVE_W, NATIVE_H);
-  }
+  drawBackground(ctx, bg, NATIVE_W, NATIVE_H, bgImage);
+  applyBackgroundEffect(ctx, bg, NATIVE_W, NATIVE_H);
 
   const visibleEls = (template.elements || []).filter((el) => el.visible !== false);
   const fontFamilies = new Set(["Poppins"]);
@@ -246,9 +389,11 @@ export async function renderCardToCanvas(canvas, template, opts = {}) {
     const el = animateElement(rawEl, opts.time);
     if (el.type === "shape") drawShape(ctx, el);
     else if (el.type === "text") boxes[el.id] = drawText(ctx, el);
-    else if (el.type === "icon") drawIcon(ctx, el);
+    else if (el.type === "icon") boxes[el.id] = drawIcon(ctx, el);
     else if (el.type === "image") { drawImage(ctx, el, images[i]); boxes[el.id] = { x: el.x, y: el.y, w: el.width, h: el.height }; }
   });
+
+  applyCornerRadius(ctx, bg, NATIVE_W, NATIVE_H);
 
   if (opts.selectedId && boxes[opts.selectedId]) {
     const b = boxes[opts.selectedId];
