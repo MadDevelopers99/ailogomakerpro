@@ -47,7 +47,7 @@
   "url": "https://ailogomakerpro.com/"
 }
 </script>
-<script type="application/ld+json">
+<script type="application/ld+json" id="appSchema">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
@@ -55,7 +55,7 @@
   "applicationCategory": "DesignApplication",
   "operatingSystem": "Web",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "description": "Free online logo maker with 17,000+ templates across 60 industries, a full customization editor, curved text, and instant download."<!--AGGREGATE_RATING-->
+  "description": "Free online logo maker with 17,000+ templates across 60 industries, a full customization editor, curved text, and instant download."
 }
 </script>
 <script type="application/ld+json">
@@ -850,7 +850,7 @@
 
     // Reviews: real, server-backed (data/reviews.json via /api/reviews) —
     // shared across all visitors, not just this browser.
-    import("./js/reviews-client.js").then(({ fetchReviews, submitReview, reviewCardHtml }) => {
+    import("./js/reviews-client.js").then(({ fetchReviews, submitReview, reviewCardHtml, injectReviewSchema }) => {
       const reviewList = document.getElementById("reviewList");
       const reviewForm = document.getElementById("reviewForm");
       const reviewFormMsg = document.getElementById("reviewFormMsg");
@@ -867,10 +867,11 @@
 
       async function loadReviews() {
         try {
-          const { reviews } = await fetchReviews(1, 20);
+          const { reviews, average, count } = await fetchReviews(1, 20);
           reviewList.innerHTML = reviews.length
             ? reviews.map(reviewCardHtml).join("")
             : `<p class="reviews-empty">No reviews yet — be the first to share your experience!</p>`;
+          injectReviewSchema({ average, count });
         } catch {
           reviewList.innerHTML = `<p class="reviews-empty">Couldn't load reviews right now.</p>`;
         }

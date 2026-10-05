@@ -15,7 +15,7 @@
 <link rel="canonical" href="/reviews.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script type="application/ld+json">
+<script type="application/ld+json" id="appSchema">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
@@ -23,7 +23,7 @@
   "applicationCategory": "DesignApplication",
   "operatingSystem": "Web",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "description": "Free online logo maker with 17,000+ templates across 60 industries."<!--AGGREGATE_RATING-->
+  "description": "Free online logo maker with 17,000+ templates across 60 industries."
 }
 </script>
 <style>
@@ -84,7 +84,7 @@
   </footer>
 
   <script type="module">
-    import { fetchReviews, submitReview, reviewCardHtml } from "./js/reviews-client.js";
+    import { fetchReviews, submitReview, reviewCardHtml, injectReviewSchema } from "./js/reviews-client.js";
 
     document.getElementById("yearNow").textContent = new Date().getFullYear();
 
@@ -106,7 +106,7 @@
 
     async function loadReviews(page) {
       try {
-        const { reviews, totalPages, total } = await fetchReviews(page, 20);
+        const { reviews, totalPages, total, average, count } = await fetchReviews(page, 20);
         currentPage = page;
         reviewList.innerHTML = reviews.length
           ? reviews.map(reviewCardHtml).join("")
@@ -118,6 +118,7 @@
           : total ? `<span>${total} review${total === 1 ? "" : "s"}</span>` : "";
         document.getElementById("prevPageBtn")?.addEventListener("click", () => loadReviews(page - 1));
         document.getElementById("nextPageBtn")?.addEventListener("click", () => loadReviews(page + 1));
+        injectReviewSchema({ average, count }, reviews);
       } catch {
         reviewList.innerHTML = `<p class="reviews-empty">Couldn't load reviews right now.</p>`;
       }

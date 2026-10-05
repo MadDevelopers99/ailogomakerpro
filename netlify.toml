@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+  command = ""
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/ai-generate"
+  to = "/.netlify/functions/ai-generate"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/reviews"
+  to = "/.netlify/functions/reviews"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/image-search"
+  to = "/.netlify/functions/image-search"
+  status = 200
+  force = true

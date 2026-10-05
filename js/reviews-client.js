@@ -56,3 +56,39 @@ export function reviewCardHtml(r) {
       </div>
     </div>`;
 }
+
+// Injects real AggregateRating (+ individual Review items, capped) into the
+// page's #appSchema JSON-LD block. Client-side so it works the same on any
+// static host (Netlify included) — Google executes page JS before indexing
+// structured data. Omitted entirely when there are zero reviews, since a
+// fabricated/zero-count rating is invalid per schema.org/Google guidance.
+//
+// `average`/`count` must come from the API's own stats (computed server-side
+// over ALL reviews, not just one fetched page) — averaging only a page's
+// worth of reviews would silently go wrong once there are more reviews than
+// that page holds. `reviews`, if given, only seeds the optional individual
+// Review list, which is fine to cap at a representative subset.
+export function injectReviewSchema({ average, count }, reviews = []) {
+  const tag = document.getElementById("appSchema");
+  if (!tag || !count) return;
+  let data;
+  try { data = JSON.parse(tag.textContent); } catch { return; }
+
+  data.aggregateRating = {
+    "@type": "AggregateRating",
+    ratingValue: average,
+    reviewCount: count,
+    bestRating: 5,
+    worstRating: 1,
+  };
+  if (reviews.length) {
+    data.review = reviews.slice(0, 20).map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.name },
+      reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+      reviewBody: r.text,
+      datePublished: new Date(r.createdAt).toISOString().slice(0, 10),
+    }));
+  }
+  tag.textContent = JSON.stringify(data);
+}
